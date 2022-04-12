@@ -54,7 +54,7 @@ export default function Home() {
             <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark">
             </Col>
             <Col xs={10} lg={9} className="px-0">
-              <h1 className="blue-pink brdr-tp-dark mb-5">
+              <h1 className="blue-pink brdr-tp-dark mb-5 pb-4">
               We modernize <span className="mask bg-dark-grey pe-1">enterprise systems for</span> businesses<span className="mask bg-dark-grey pe-1"> and</span> for people
               </h1>
               
