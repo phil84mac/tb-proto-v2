@@ -26,7 +26,7 @@ export default function Home() {
       <main>
         <Container className="brdr-lft brdr-rght">
           <Row id="home" className="">
-            <Col xs={2} sm={3} className="brdr-rght vh-20 z-0">
+            <Col xs={2} lg={3} className="brdr-rght vh-20 z-0">
               
             <Navbar className="px-xl-5 px-lg-4 px-md-3" fixed="top">
               <Navbar.Brand href="/#home" className="ps-1 ms-2">
@@ -43,16 +43,16 @@ export default function Home() {
               </Navbar.Brand>
             </Navbar>
             </Col>
-            <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 z-999">
+            <Col xs={10} lg={9} className="d-flex align-items-start justify-content-end pe-0 z-999">
              
                 <a href="/ourcompany"  className="btn btn-primary arrow mt-4 p-0">
                   OUR COMPANY
                 </a>
               
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght brdr-tp-dark">
+            <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark">
             </Col>
-            <Col xs={10} sm={9} className="px-0">
+            <Col xs={10} lg={9} className="px-0">
               <h1 className="blue-pink brdr-tp-dark mb-5">
               We modernize <span className="mask bg-dark-grey pe-1">enterprise systems for</span> businesses<span className="mask bg-dark-grey pe-1"> and</span> for people
               </h1>
@@ -61,13 +61,13 @@ export default function Home() {
                 <source src="./people.mp4" type='video/mp4' />
               </video>
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght vh-20">
+            <Col xs={2} lg={3} className="brdr-rght vh-20">
             </Col>
-            <Col xs={10} sm={9} className=" pe-0">
+            <Col xs={10} lg={9} className=" pe-0">
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght brdr-tp-dark">
+            <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark">
             </Col>
-            <Col xs={10} sm={9} className="brdr-tp-dark pe-0 py-5">
+            <Col xs={10} lg={9} className="brdr-tp-dark pe-0 py-5">
               <Row className="d-flex align-items-center py-4 w-100">
                 <Col className="px-0">
                 <h2>
@@ -79,9 +79,9 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght">
+            <Col xs={2} lg={3} className="brdr-rght">
             </Col>
-            <Col xs={10} sm={9} className="brdr-tp">
+            <Col xs={10} lg={9} className="brdr-tp">
               <Row>
                 <Col sm={4} className="px-0 brdr-rght">
                   
@@ -120,9 +120,9 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght brdr-tp-dark vh-20">
+            <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark vh-20">
             </Col>
-            <Col xs={10} sm={9} className="brdr-tp-dark">
+            <Col xs={10} lg={9} className="brdr-tp-dark">
             </Col>
           </Row>
         </Container>
