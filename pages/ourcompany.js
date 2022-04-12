@@ -39,8 +39,8 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 z-999">    
-                <a href="/"  className="btn btn-dark-bg arrow-start mt-4 p-0 pt-1">
+            <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
+                <a href="/"  className="btn btn-dark-bg arrow-start mt-4 p-0 ">
                   RETURN HOME
                 </a>  
             </Col>

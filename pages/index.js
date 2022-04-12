@@ -27,7 +27,6 @@ export default function Home() {
         <Container className="brdr-lft brdr-rght">
           <Row id="home" className="">
             <Col xs={2} lg={3} className="brdr-rght vh-20 z-0">
-              
               <Link href="/#home">
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
@@ -42,22 +41,19 @@ export default function Home() {
                   </Row>
                 </div>
               </Link>
-
             </Col>
-            <Col xs={10} lg={9} className="d-flex align-items-start justify-content-end pe-0 z-999">
-             
-                <a href="/ourcompany"  className="btn btn-primary arrow mt-4 p-0 pt-1">
+            <Col xs={10} lg={9} className="d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
+                <a href="/ourcompany"  className="btn btn-primary arrow mt-4 p-0">
                   OUR COMPANY
                 </a>
-              
             </Col>
-            <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark">
+            <hr className="w-full mb-0 dark" />
+            <Col xs={2} lg={3} className="brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
-              <h1 className="blue-pink brdr-tp-dark mb-5 pb-4">
+              <h1 className="blue-pink  mb-5 pb-4">
               We modernize <span className="mask bg-dark-grey pe-1">enterprise systems for</span> businesses<span className="mask bg-dark-grey pe-1"> and</span> for people
               </h1>
-              
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./people.mp4" type='video/mp4' />
               </video>
@@ -66,9 +62,10 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className=" pe-0">
             </Col>
-            <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark">
+            <hr className="w-full mb-0 dark" />
+            <Col xs={2} lg={3} className="brdr-rght">
             </Col>
-            <Col xs={10} lg={9} className="brdr-tp-dark pe-0 py-5">
+            <Col xs={10} lg={9} className="pe-0 py-5">
               <Row className="d-flex align-items-center py-4 w-100">
                 <Col className="px-0">
                 <h2>
@@ -84,8 +81,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="brdr-tp">
               <Row>
-                <Col sm={4} className="px-0 brdr-rght">
-                  
+                <Col sm={4} className="px-0 brdr-rght">  
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
@@ -94,7 +90,6 @@ export default function Home() {
                   <p className="mb-5 pe-3 pb-lg-4">
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
-                  
                 </Col>
                 <Col sm={4} className="px-0 brdr-rght">
                 <hr className="px-0 d-sm-none" />
@@ -121,9 +116,10 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="brdr-rght brdr-tp-dark vh-20">
+            <hr className="w-full mb-0 dark" />
+            <Col xs={2} lg={3} className="brdr-rght vh-20">
             </Col>
-            <Col xs={10} lg={9} className="brdr-tp-dark">
+            <Col xs={10} lg={9} className="">
             </Col>
           </Row>
         </Container>
