@@ -47,7 +47,7 @@ export default function Home() {
                   OUR COMPANY
                 </a>
             </Col>
-            <hr className="w-full mb-0 dark" />
+            <hr className="mb-0 dark" />
             <Col xs={2} lg={3} className="brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
@@ -62,11 +62,11 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className=" pe-0">
             </Col>
-            <hr className="w-full mb-0 dark" />
+            <hr className="mb-0 dark" />
             <Col xs={2} lg={3} className="brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="pe-0 py-5">
-              <Row className="d-flex align-items-center py-4 w-100">
+              <Row className="d-flex align-items-center py-3 w-100">
                 <Col className="px-0">
                 <h2>
                   Using a people-first approach means building intuitive technology that people actually use
@@ -116,7 +116,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <hr className="w-full mb-0 dark" />
+            <hr className="mb-0 dark" />
             <Col xs={2} lg={3} className="brdr-rght vh-20">
             </Col>
             <Col xs={10} lg={9} className="">

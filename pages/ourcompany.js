@@ -47,9 +47,12 @@ export default function Home() {
             <Col xs={2} sm={3} className="brdr-rght-op brdr-tp-op z-0">
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
-              <h1 className="blue-pink pe-3 pb-3">
-              About our company 
+              <h1 className="white pe-3 pb-5 mb-5">
+              <span className="mask blue-pink pe-1">Join the</span> future <span className="mask blue-pink">now</span> 
               </h1>
+              <p className="lead white brdr-tp-op brdr-bttm-op py-5 pe-3">
+              In a competitive business environment, successful companies put people first. At Thinking Big, <span className="mask blue-pink bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution. 
+              </p>
             </Col>
             <Col xs={2} sm={3} className="brdr-rght-op vh-100">
             </Col>

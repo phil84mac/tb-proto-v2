@@ -83,6 +83,10 @@ main {
   color: #eaeaea;
 }
 
+.bg-white {
+  color: #eaeaea;
+}
+
 .dark-grey {
  color: #212529!important;
 }
@@ -156,8 +160,8 @@ p {
 }
 
 p.lead {
-  font-size: calc(.45rem + 1vw)!important;
-  line-height: calc(.9rem + 1vw)!important;
+  font-size: calc(1rem + 1vw)!important;
+  line-height: calc(1.3rem + 1vw)!important;
 }
 
 .bold {
