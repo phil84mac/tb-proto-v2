@@ -126,6 +126,10 @@ hr, .hr {
   border-bottom: 1px solid #c4c4c4!important;
 }
 
+.pntr {
+  cursor: pointer!important;
+}
+
 
 /* Typography */
 

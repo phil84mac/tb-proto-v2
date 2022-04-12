@@ -28,24 +28,25 @@ export default function Home() {
           <Row id="home" className="">
             <Col xs={2} lg={3} className="brdr-rght vh-20 z-0">
               
-            <Navbar className="px-xl-5 px-lg-4 px-md-3" fixed="top">
-              <Navbar.Brand href="/#home" className="ps-1 ms-2">
-                <Row className="d-flex align-items-center">
-                  <Col>
+              <Link href="/#home">
+                <div className="mt-3 fixed pntr">
+                  <Row className="d-flex align-items-center">
+                  <Col lg={3} className="px-0">
                   <Image src="/TBlogo.svg" className="logo-blue-pink" alt="Thinking Big Logo"/>
                   </Col>
-                  <Col className="ps-0 d-none d-lg-block">
+                  <Col lg={9} className="d-none d-lg-block pe-0">
                   <h6 className="mt-2 dark-grey">
                     THINKING BIG
                   </h6>
                   </Col>
-                </Row>
-              </Navbar.Brand>
-            </Navbar>
+                  </Row>
+                </div>
+              </Link>
+
             </Col>
             <Col xs={10} lg={9} className="d-flex align-items-start justify-content-end pe-0 z-999">
              
-                <a href="/ourcompany"  className="btn btn-primary arrow mt-4 p-0">
+                <a href="/ourcompany"  className="btn btn-primary arrow mt-4 p-0 pt-1">
                   OUR COMPANY
                 </a>
               
