@@ -80,15 +80,15 @@ main {
  }
 
 .bg-dark-grey {
-  background-color: #171B1F;
+  background-color: #171B1F!important;
 }
 
 .white {
-  color: #eaeaea;
+  color: #eaeaea!important;
 }
 
 .bg-white {
-  color: #eaeaea;
+  color: #eaeaea!important;
 }
 
 .pink {
@@ -195,11 +195,23 @@ p.lead {
   line-height: calc(1.3rem + 1vw)!important;
 }
 
-.bold {
+.light {
+  font-weight: 200!important;
+}
+
+.regular {
+  font-weight: 300!important;
+}
+
+.regular {
+  font-weight: 400!important;
+}
+
+.semi-bold {
   font-weight: 500!important;
 }
 
-.black {
+.bold {
   font-weight: 600!important;
 }
 
@@ -213,7 +225,6 @@ p.lead {
 
 h1, .h1 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 700!important;
   font-size: calc(4rem + 1.5vw)!important;
   line-height: calc(4rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
@@ -221,7 +232,6 @@ h1, .h1 {
 
 h2, .h2 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 700!important;
   font-size: calc(2rem + 1.5vw)!important;
   line-height: calc(2rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
@@ -310,6 +320,13 @@ h6, .h6 {
   content: url("/r-arrow.svg");
   margin-left: 10px;
   display: inline-block;
+}
+
+.arrow-down-white:after {
+  content: url("/arrow-white.svg");
+  margin-left: 5px;
+  display: inline-block;
+  transform: rotate(90deg);
 }
 
 .arrow-down:after {

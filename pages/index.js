@@ -52,7 +52,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
-              <h1 className="dark-grey  mb-5 pb-4">
+              <h1 className="dark-grey heavy mb-5 pb-4">
               <span className="pink">We modernize</span> enterprise systems for <span className="pink">businesses</span> and <span className="pink">for people</span>
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
@@ -89,7 +89,7 @@ export default function Home() {
                   <h4 className="pe-3">
                     Innovative technology
                   </h4>
-                  <p className="mb-5 pe-3 pb-lg-4">
+                  <p className="mb-5 pe-3 pb-md-5">
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
                 </Col>
@@ -100,7 +100,7 @@ export default function Home() {
                   <h4 className="pe-3">
                     Designed for humans
                   </h4>
-                  <p className="mb-5 pe-3 pb-lg-4">
+                  <p className="mb-5 pe-3 pb-md-5">
                   With insights gained from a human-centered perspective, we design technology for everyone, from users to customers to your own employees.
                   </p>
                   
@@ -112,17 +112,26 @@ export default function Home() {
                   <h4 className="pe-3">
                   Aligned with how you work
                   </h4>
-                  <p className="mb-5 pe-3 pb-lg-4">
+                  <p className="mb-5 pe-3 pb-md-5">
                   By putting humans at the centre of the process, we create efficient solutions that match the work you do.
                   </p> 
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="brdr-tp brdr-rght vh-20">
+            <Col xs={2} lg={3} className="brdr-tp brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
+            <h3 className="h1 regular">
+            Using a people-first approach means building intuitive technology that people actually use.
+            </h3>
             </Col>
+            <Col xs={2} lg={3} className="brdr-tp brdr-rght vh-20">
+            </Col>
+            <Col xs={10} lg={9} className="px-0">
+            <hr className="my-0 " />
+            </Col>
+            
           </Row>
         </Container>
             
