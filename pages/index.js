@@ -52,7 +52,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="px-0">
               <h1 className="red-pink  mb-5 pb-4">
-              We modernize <span className="mask bg-dark-grey pe-1">enterprise systems for</span> businesses<span className="mask bg-dark-grey pe-1"> and</span> for people
+              We modernize <span className="mask bg-dark-grey pe-1">enterprise</span> <span className="mask bg-dark-grey pe-1">systems</span> <span className="mask bg-dark-grey pe-1">for</span> businesses<span className="mask bg-dark-grey pe-1"> and</span> for people
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./people.mp4" type='video/mp4' />
