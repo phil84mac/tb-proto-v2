@@ -40,7 +40,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
-                <a href="/"  className="btn btn-primary bg-yellow arrow-start mt-4 p-0 ">
+                <a href="/"  className="btn btn-primary bg-white arrow-start mt-4 p-0 ">
                   RETURN HOME
                 </a>  
             </Col>
@@ -51,7 +51,7 @@ export default function Home() {
               Join the <span className="white pe-1">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op py-3 pe-3">
-               In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution. *PLACEHOLDER*
+               This is placeholder text. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
               </p>
               
             </Col>      
@@ -60,22 +60,22 @@ export default function Home() {
             <Col xs={10} sm={9} className="brdr-tp-op">
             <Row className=" z-999">
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary large bg-white arrow-down p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
                   SERVICES
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary large bg-white arrow-down p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
                   OUR TEAM
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary large bg-white arrow-down p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
                   CAREERS
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary large bg-white arrow-down p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
                   ARTICLES
                 </a> 
                 </Col>

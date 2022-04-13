@@ -84,11 +84,11 @@ main {
 }
 
 .white {
-  color: #eaeaea!important;
+  color: #fff!important;
 }
 
 .bg-white {
-  color: #eaeaea!important;
+  color: #fff!important;
 }
 
 .pink {
@@ -203,7 +203,7 @@ p.lead {
   font-weight: 300!important;
 }
 
-.regular {
+.medium {
   font-weight: 400!important;
 }
 
