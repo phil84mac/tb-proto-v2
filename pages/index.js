@@ -48,7 +48,7 @@ export default function Home() {
                 </a>
             </Col>
             
-            <Col xs={2} lg={3} className="brdr-rght">
+            <Col xs={2} lg={3} className="brdr-tp brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
@@ -64,7 +64,7 @@ export default function Home() {
             <Col xs={10} lg={9} className=" pe-0">
             </Col>
             
-            <Col xs={2} lg={3} className="brdr-rght">
+            <Col xs={2} lg={3} className="brdr-tp brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
@@ -118,7 +118,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="brdr-rght vh-20">
+            <Col xs={2} lg={3} className="brdr-tp brdr-rght vh-20">
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />

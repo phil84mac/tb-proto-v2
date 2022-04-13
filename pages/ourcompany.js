@@ -44,7 +44,7 @@ export default function Home() {
                   RETURN HOME
                 </a>  
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght-op z-0">
+            <Col xs={2} sm={3} className="brdr-tp-op brdr-rght-op z-0">
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
               <h1 className="pink pe-3 pb-5 mb-5">
