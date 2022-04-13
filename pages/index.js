@@ -71,7 +71,7 @@ export default function Home() {
               <Row className="d-flex align-items-center py-5 w-100">
                 <Col className="">
                 <h2 className="h3">
-                In a competitive business environment, successful companies put people first. At <span className="bg-yellow">Thinking Big,</span> <span className="bg-green">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+                In a competitive business environment, successful companies put people first. At <span className="bg-pink">Thinking Big,</span> <span className="bg-green">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
                 <Col className="pe-0 pe-sm-2">
