@@ -60,22 +60,22 @@ export default function Home() {
             <Col xs={10} sm={9} className="brdr-tp-op">
             <Row className=" z-999">
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary bg-yellow arrow-down p-0 ">
+                <a href="/"  className="btn btn-primary large bg-pink arrow-down p-0 ">
                   SERVICES
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary bg-yellow arrow-down p-0 ">
+                <a href="/"  className="btn btn-primary large bg-pink arrow-down p-0 ">
                   OUR TEAM
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary bg-yellow arrow-down p-0 ">
+                <a href="/"  className="btn btn-primary large bg-pink arrow-down p-0 ">
                   CAREERS
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 py-3 brdr-bttm-op">
-                <a href="/"  className="btn btn-primary bg-yellow arrow-down p-0 ">
+                <a href="/"  className="btn btn-primary large bg-pink arrow-down p-0 ">
                   ARTICLES
                 </a> 
                 </Col>

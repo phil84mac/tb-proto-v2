@@ -295,6 +295,10 @@ h6, .h6 {
   border-radius: 0px!important;
 }
 
+.btn-primary.large {
+  font-size: 19px!important;
+}
+
 .btn-dark-bg {
   color: #eaeaea!important;
   background-color: transparent!important;
