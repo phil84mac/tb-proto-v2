@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col lg={3} className="px-0">
-                  <Image src="/TBlogo.svg" className="logo-blue-pink" alt="Thinking Big Logo"/>
+                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
                   <h6 className="mt-2 dark-grey">
@@ -51,7 +51,7 @@ export default function Home() {
             <Col xs={2} lg={3} className="brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
-              <h1 className="blue-pink  mb-5 pb-4">
+              <h1 className="red-pink  mb-5 pb-4">
               We modernize <span className="mask bg-dark-grey pe-1">enterprise systems for</span> businesses<span className="mask bg-dark-grey pe-1"> and</span> for people
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
@@ -68,8 +68,8 @@ export default function Home() {
             <Col xs={10} lg={9} className="pe-0 py-5">
               <Row className="d-flex align-items-center py-3 w-100">
                 <Col className="px-0">
-                <h2>
-                  Using a people-first approach means building intuitive technology that people actually use
+                <h2 className="h3">
+                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="mask red-pink bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
                 <Col>

@@ -28,7 +28,7 @@ export default function Home() {
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col lg={3} className="px-0">
-                  <Image src="/TBlogo.svg" className="logo-blue-pink" alt="Thinking Big Logo"/>
+                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
                   <h6 className="mt-2 white">
@@ -48,10 +48,10 @@ export default function Home() {
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
               <h1 className="white pe-3 pb-5 mb-5">
-              <span className="mask blue-pink pe-1">Join the</span> future <span className="mask blue-pink">now</span> 
+              <span className="mask red-pink pe-1">Join the</span> future <span className="mask red-pink pe-2">now</span> 
               </h1>
               <p className="lead white brdr-tp-op brdr-bttm-op py-5 pe-3">
-              In a competitive business environment, successful companies put people first. At Thinking Big, <span className="mask blue-pink bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution. 
+               In a competitive business environment, successful companies put people first. At Thinking Big, <span className="mask red-pink bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution. *PLACEHOLDER*
               </p>
             </Col>
             <Col xs={2} sm={3} className="brdr-rght-op vh-100">
