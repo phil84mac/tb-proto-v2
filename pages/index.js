@@ -72,7 +72,7 @@ export default function Home() {
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="mask red-pink bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
-                <Col>
+                <Col className="pe-0 pe-sm-2">
                 <object type="image/svg+xml" data="/HCD.svg" className="px-0 px-lg-4"/>
                 </Col>
               </Row>
