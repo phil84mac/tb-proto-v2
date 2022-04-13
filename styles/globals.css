@@ -4,7 +4,7 @@ html,
 body {
   padding: 0!important;
   margin: 0!important;
-  color: #212529; 
+  color: #171B1F; 
   font-family: 'IBM Plex Sans', sans-serif, 'IBM Plex Mono', monospace!important;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 .brdr-tp-dark {
-  border-top: 1px solid #212529;
+  border-top: 1px solid #171B1F;
 }
 
 .brdr-lft-op {
@@ -75,8 +75,12 @@ main {
   border-top: 1px solid #eaeaea;
 }
 
+.dark-grey {
+  color: #171B1F!important;
+ }
+
 .bg-dark-grey {
-  background-color: #212529;
+  background-color: #171B1F;
 }
 
 .white {
@@ -87,16 +91,12 @@ main {
   color: #eaeaea;
 }
 
-.dark-grey {
- color: #212529!important;
-}
-
 .pink {
-  color: #ED6E8C!important;
+  color: #EB436B!important;
  }
 
  .bg-pink {
-  background-color: #ED6E8C!important;
+  background-color: #EB436B!important;
   mix-blend-mode: multiply;
  }
 
@@ -110,11 +110,11 @@ main {
  }
 
  .yellow {
-  color: #EDE86E!important;
+  color: #FBFF44!important;
  }
 
  .bg-yellow {
-  background-color: #EDE86E!important;
+  background-color: #FBFF44!important;
   mix-blend-mode: multiply;
  }
 
@@ -163,7 +163,7 @@ hr, .hr {
 }
 
 hr.dark, .hr.dark {
-  border-top: 1px solid #212529!important;
+  border-top: 1px solid #171B1F!important;
   opacity: 1!important;
   background-color: transparent!important;
 }
@@ -269,7 +269,7 @@ h6, .h6 {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #171B1F;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -290,7 +290,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  color: #212529!important;
+  color: #171B1F!important;
   border: 0px!important;
   border-radius: 0px!important;
 }
@@ -306,14 +306,19 @@ h6, .h6 {
   content: url("/r-arrow.svg");
   margin-left: 10px;
   display: inline-block;
-  color: #212529;
+}
+
+.arrow-down:after {
+  content: url("/r-arrow.svg");
+  margin-left: 5px;
+  display: inline-block;
+  transform: rotate(90deg);
 }
 
 .arrow-start:before {
   content: url("/l-arrow.svg");
   margin-right: 10px;
   display: inline-block;
-  color: #eaeaea!important;
   transform: rotate(180deg);
 }
 
