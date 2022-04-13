@@ -40,18 +40,18 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
-                <a href="/"  className="btn btn-dark-bg arrow-start mt-4 p-0 ">
+                <a href="/"  className="btn btn-primary bg-yellow arrow-start mt-4 p-0 ">
                   RETURN HOME
                 </a>  
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght-op brdr-tp-op z-0">
+            <Col xs={2} sm={3} className="brdr-rght-op z-0">
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
-              <h1 className="white pe-3 pb-5 mb-5">
-              <span className="mask red-pink pe-1">Join the</span> future <span className="mask red-pink pe-2">now</span> 
+              <h1 className="pink pe-3 pb-5 mb-5">
+              Join the <span className="white pe-1">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op brdr-bttm-op py-5 pe-3">
-               In a competitive business environment, successful companies put people first. At Thinking Big, <span className="mask red-pink bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution. *PLACEHOLDER*
+               In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bg-green dark-grey bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution. *PLACEHOLDER*
               </p>
             </Col>
             <Col xs={2} sm={3} className="brdr-rght-op vh-100">

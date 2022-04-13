@@ -91,8 +91,39 @@ main {
  color: #212529!important;
 }
 
-.red-pink {
-  background: linear-gradient(129.71deg, #E56666 -22.28%, #FF7EDB 150.22%);
+.pink {
+  color: #ED6E8C!important;
+ }
+
+ .bg-pink {
+  background-color: #ED6E8C!important;
+  mix-blend-mode: multiply;
+ }
+
+ .green {
+  color: #41BDA7!important;
+ }
+
+ .bg-green {
+  background-color: #41BDA7!important;
+  mix-blend-mode: multiply;
+ }
+
+ .yellow {
+  color: #EDE86E!important;
+ }
+
+ .bg-yellow {
+  background-color: #EDE86E!important;
+  mix-blend-mode: multiply;
+ }
+
+.underline {
+  text-decoration: underline!important;
+}
+
+.blue-pink {
+  background: linear-gradient(129.71deg, #49C4EC -22.28%, #FF7EDB 150.22%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -207,8 +238,8 @@ h3, .h3{
 h4, .h4 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500!important;
-  font-size: calc(.6rem + 1.5vw)!important;
-  line-height: calc(.8rem + 1.5vw)!important;
+  font-size: calc(.5rem + 1.5vw)!important;
+  line-height: calc(.7rem + 1.5vw)!important;
   letter-spacing: -0.015em!important;
 }
 
@@ -260,7 +291,6 @@ h6, .h6 {
 
 .btn-primary {
   color: #212529!important;
-  background-color: #fff!important;
   border: 0px!important;
   border-radius: 0px!important;
 }
