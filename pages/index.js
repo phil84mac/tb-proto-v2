@@ -56,7 +56,7 @@ export default function Home() {
               <span className="">We modernize</span> enterprise systems for <span className="">business</span> and for <span className=" pe-2">people</span>
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
-                <source src="./sticky.mp4" type='video/mp4' />
+                <source src="./meeting.mp4" type='video/mp4' />
               </video>
             </Col>
             <Col xs={2} lg={3} className="brdr-rght vh-20">

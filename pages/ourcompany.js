@@ -48,7 +48,7 @@ export default function Home() {
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
               <h1 className="white pe-3 heavy pb-5 mb-5">
-              Join the <span className="pink pe-1">future</span> now 
+              Join the <span className="">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op py-3 pe-3">
               Technology evolves and the future does not wait. At <span className="bold">Thinking Big</span> we are committed to smart innovation that helps businesses thrive in an evolving technological landscape. Innovation transforms businesses. We guide that transformation.
