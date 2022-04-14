@@ -83,7 +83,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="brdr-tp">
               <Row className="dark-grey">
-                <Col sm={4} className="px-0 brdr-rght pb-md-4">  
+                <Col sm={4} className="px-0 brdr-rght ">  
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
@@ -93,7 +93,7 @@ export default function Home() {
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
                 </Col>
-                <Col sm={4} className="px-0 brdr-rght pb-md-4">
+                <Col sm={4} className="px-0 brdr-rght ">
                 <hr className="px-0 d-sm-none" />
                   <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
@@ -105,7 +105,7 @@ export default function Home() {
                   </p>
                   
                 </Col>
-                <Col sm={4} className="px-0 pb-md-4">
+                <Col sm={4} className="px-0 ">
                 <hr className="px-0 d-sm-none" />
                   <p className="mono mt-3">C.</p>
                   <hr className="px-0" />
@@ -117,6 +117,10 @@ export default function Home() {
                   </p> 
                 </Col>
               </Row>
+            </Col>
+            <Col xs={2} lg={3} className="brdr-rght vh-20">
+            </Col>
+            <Col xs={10} lg={9} className="brdr-tp pe-0">
             </Col>
             <Col xs={2} lg={3} className="brdr-tp brdr-rght">
             </Col>
