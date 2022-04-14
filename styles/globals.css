@@ -4,7 +4,7 @@ html,
 body {
   padding: 0!important;
   margin: 0!important;
-  color: #000!important; 
+  color: #000; 
   font-family: 'IBM Plex Sans', sans-serif, 'IBM Plex Mono', monospace!important;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 .brdr-tp-dark {
-  border-top: 1px solid #171B1F;
+  border-top: 1px solid #000;
 }
 
 .brdr-lft-op {
@@ -107,6 +107,10 @@ main {
  .bg-purple {
   background-color: #8337F1!important;
   mix-blend-mode: multiply;
+}
+
+.bg-trans {
+  background-color: transparent!important;
 }
 
  .green {
@@ -172,7 +176,7 @@ hr, .hr {
 }
 
 hr.dark, .hr.dark {
-  border-top: 1px solid #171B1F!important;
+  border-top: 1px solid #000!important;
   opacity: 1!important;
   background-color: transparent!important;
 }
@@ -288,7 +292,7 @@ h6, .h6 {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #171B1F;
+  color: #000;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -309,7 +313,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  color: #171B1F!important;
+  color: #000!important;
   border: 0px!important;
   border-radius: 0px!important;
 }

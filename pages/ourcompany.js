@@ -19,7 +19,7 @@ export default function Home() {
     </Head>
     <Header />
 
-    <main className="bg-dark-grey">
+    <main className="bg-purple">
       
         <Container className="brdr-lft-op brdr-rght-op px-0">
           <Row id="home" fluid className="w-100">
@@ -28,7 +28,7 @@ export default function Home() {
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col lg={3} className="px-0">
-                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
+                  <Image src="/TBlogo2.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
                   <h6 className="mt-2 white">
@@ -47,8 +47,8 @@ export default function Home() {
             <Col xs={2} sm={3} className="brdr-tp-op brdr-rght-op z-0">
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
-              <h1 className="purple pe-3 heavy pb-5 mb-5">
-              Join the <span className="white pe-1">future</span> now 
+              <h1 className="white pe-3 heavy pb-5 mb-5">
+              Join the <span className="dark-grey pe-1">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op py-3 pe-3">
                This is placeholder text. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
@@ -60,22 +60,22 @@ export default function Home() {
             <Col xs={10} sm={9} className="brdr-tp-op">
             <Row className=" z-999">
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   SERVICES
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   OUR TEAM
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   CAREERS
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   ARTICLES
                 </a> 
                 </Col>

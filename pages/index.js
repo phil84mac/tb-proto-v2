@@ -43,7 +43,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} lg={9} className="d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
-                <a href="/ourcompany"  className="btn btn-dark-bg bg-dark-grey white arrow-white mt-4 p-0">
+                <a href="/ourcompany"  className="btn btn-dark-bg bg-purple white arrow-white mt-4 p-0">
                   OUR COMPANY
                 </a>
             </Col>
