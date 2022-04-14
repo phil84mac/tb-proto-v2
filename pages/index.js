@@ -53,7 +53,7 @@ export default function Home() {
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
               <h1 className="dark-grey heavy mb-5 pb-4">
-              <span className="pink">We modernize</span> enterprise systems for <span className="pink">business</span> and <span className="pink pe-2">for people</span>
+              <span className="">We modernize</span> enterprise systems for <span className="">business</span> and for <span className=" pe-2">people</span>
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./sticky.mp4" type='video/mp4' />
@@ -123,7 +123,7 @@ export default function Home() {
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
             <h3 className="h1 medium">
-            Using a people-first approach means <span className="pink semi-bold">building intuitive technology</span> that people actually use
+            Using a people-first approach means <span className="semi-bold">building intuitive technology</span> that people actually use
             </h3>
             </Col>
             <Col xs={2} lg={3} className="brdr-tp brdr-rght vh-20">
