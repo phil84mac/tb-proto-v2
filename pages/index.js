@@ -71,7 +71,7 @@ export default function Home() {
               <Row className="d-flex align-items-center py-5 w-100">
                 <Col className="">
                 <h2 className="h3 dark-grey">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bg-yellow">Human-centpink Design</span> informs how we think and what we do, no matter what the solution.
+                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bg-yellow">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
                 <Col className="pe-0 pe-sm-2">
@@ -101,7 +101,7 @@ export default function Home() {
                     Designed for humans
                   </h4>
                   <p className="mb-5 pe-3 pb-md-5">
-                  With insights gained from a human-centepink perspective, we design technology for everyone, from users to customers to your own employees.
+                  With insights gained from a human-centred perspective, we design technology for everyone, from users to customers to your own employees.
                   </p>
                   
                 </Col>
