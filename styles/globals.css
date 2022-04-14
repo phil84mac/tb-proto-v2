@@ -4,7 +4,7 @@ html,
 body {
   padding: 0!important;
   margin: 0!important;
-  color: #171B1F; 
+  color: #000!important; 
   font-family: 'IBM Plex Sans', sans-serif, 'IBM Plex Mono', monospace!important;
 }
 
@@ -76,11 +76,11 @@ main {
 }
 
 .dark-grey {
-  color: #171B1F!important;
+  color: #000!important;
  }
 
 .bg-dark-grey {
-  background-color: #171B1F!important;
+  background-color: #000!important;
 }
 
 .white {
@@ -99,6 +99,15 @@ main {
   background-color: #EB436B!important;
   mix-blend-mode: multiply;
  }
+
+ .purple {
+   color: #8337F1!important;
+ }
+
+ .bg-purple {
+  background-color: #8337F1!important;
+  mix-blend-mode: multiply;
+}
 
  .green {
   color: #41BDA7!important;
@@ -311,13 +320,18 @@ h6, .h6 {
 
 .btn-dark-bg {
   color: #eaeaea!important;
-  background-color: transparent!important;
   border: 0px!important;
   border-radius: 0px!important;
 }
 
 .arrow:after {
   content: url("/r-arrow.svg");
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.arrow-white:after {
+  content: url("/arrow-white.svg");
   margin-left: 10px;
   display: inline-block;
 }

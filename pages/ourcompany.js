@@ -47,7 +47,7 @@ export default function Home() {
             <Col xs={2} sm={3} className="brdr-tp-op brdr-rght-op z-0">
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
-              <h1 className="pink pe-3 heavy pb-5 mb-5">
+              <h1 className="purple pe-3 heavy pb-5 mb-5">
               Join the <span className="white pe-1">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op py-3 pe-3">
@@ -60,22 +60,22 @@ export default function Home() {
             <Col xs={10} sm={9} className="brdr-tp-op">
             <Row className=" z-999">
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
                   SERVICES
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
                   OUR TEAM
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
                   CAREERS
                 </a> 
                 </Col>
                 <Col md={3} className="px-0 py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-dark-grey arrow-down-white p-0 ">
                   ARTICLES
                 </a> 
                 </Col>
