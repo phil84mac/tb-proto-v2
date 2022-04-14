@@ -4,7 +4,7 @@ html,
 body {
   padding: 0!important;
   margin: 0!important;
-  color: #000; 
+  color: #141414; 
   font-family: 'IBM Plex Sans', sans-serif, 'IBM Plex Mono', monospace!important;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 .brdr-tp-dark {
-  border-top: 1px solid #000;
+  border-top: 1px solid #141414;
 }
 
 .brdr-lft-op {
@@ -76,11 +76,11 @@ main {
 }
 
 .dark-grey {
-  color: #000!important;
+  color: #141414!important;
  }
 
 .bg-dark-grey {
-  background-color: #000!important;
+  background-color: #141414!important;
 }
 
 .white {
@@ -89,6 +89,15 @@ main {
 
 .bg-white {
   color: #fff!important;
+}
+
+.red {
+  color: #EB4355;
+}
+
+.bg-red {
+  background-color: #EB4355;
+  mix-blend-mode: multiply;
 }
 
 .pink {
@@ -123,12 +132,12 @@ main {
  }
 
  .yellow {
-  color: #FCFF57!important;
+  color: #FDF752!important;
  }
 
  .bg-yellow {
-  background-color: #FCFF57!important;
-  mix-blend-mode: multiply;
+  background-color: #FDF752!important;
+  mix-blend-mode: multiply!important;
  }
 
 .underline {
@@ -176,7 +185,7 @@ hr, .hr {
 }
 
 hr.dark, .hr.dark {
-  border-top: 1px solid #000!important;
+  border-top: 1px solid #141414!important;
   opacity: 1!important;
   background-color: transparent!important;
 }
@@ -292,7 +301,7 @@ h6, .h6 {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #000;
+  color: #141414;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -313,7 +322,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  color: #000!important;
+  color: #141414!important;
   border: 0px!important;
   border-radius: 0px!important;
 }

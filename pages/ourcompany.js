@@ -19,7 +19,7 @@ export default function Home() {
     </Head>
     <Header />
 
-    <main className="bg-purple">
+    <main className="bg-dark-grey">
       
         <Container className="brdr-lft-op brdr-rght-op px-0">
           <Row id="home" fluid className="w-100">
@@ -28,7 +28,7 @@ export default function Home() {
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col lg={3} className="px-0">
-                  <Image src="/TBlogo2.svg" className="" alt="Thinking Big Logo"/>
+                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
                   <h6 className="mt-2 white">
@@ -40,7 +40,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
-                <a href="/"  className="btn btn-primary bg-white arrow-start mt-4 p-0 ">
+                <a href="/"  className="btn btn-primary bg-yellow arrow-start mt-4 p-0 ">
                   RETURN HOME
                 </a>  
             </Col>
@@ -48,10 +48,10 @@ export default function Home() {
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
               <h1 className="white pe-3 heavy pb-5 mb-5">
-              Join the <span className="dark-grey pe-1">future</span> now 
+              Join the <span className="red pe-1">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op py-3 pe-3">
-               This is placeholder text. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+              Technology evolves and the future does not wait. At <span className="bold">Thinking Big</span> we are committed to smart innovation that helps businesses thrive in an evolving technological landscape. Innovation transforms businesses. We guide that transformation.
               </p>
               
             </Col>      

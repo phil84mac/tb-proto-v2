@@ -43,7 +43,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} lg={9} className="d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
-                <a href="/ourcompany"  className="btn btn-dark-bg bg-purple white arrow-white mt-4 p-0">
+                <a href="/ourcompany"  className="btn btn-primary dark-grey bg-yellow arrow mt-4 p-0">
                   OUR COMPANY
                 </a>
             </Col>
@@ -53,7 +53,7 @@ export default function Home() {
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
               <h1 className="dark-grey heavy mb-5 pb-4">
-              <span className="purple">We modernize</span> enterprise systems for <span className="purple">business</span> and <span className="purple pe-2">for people</span>
+              <span className="red">We modernize</span> enterprise systems for <span className="red">business</span> and <span className="red pe-2">for people</span>
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./people.mp4" type='video/mp4' />
@@ -71,7 +71,7 @@ export default function Home() {
               <Row className="d-flex align-items-center py-5 w-100">
                 <Col className="">
                 <h2 className="h3 dark-grey">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bg-purple white">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bg-yellow">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
                 <Col className="pe-0 pe-sm-2">
@@ -123,7 +123,7 @@ export default function Home() {
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
             <h3 className="h1 medium">
-            Using a people-first approach means <span className="purple">building intuitive technology</span> that people actually use
+            Using a people-first approach means <span className="red semi-bold">building intuitive technology</span> that people actually use
             </h3>
             </Col>
             <Col xs={2} lg={3} className="brdr-tp brdr-rght vh-20">
