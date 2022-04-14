@@ -101,11 +101,11 @@ main {
 }
 
 .pink {
-  color: #EB436B!important;
+  color: #ff007f!important;
  }
 
  .bg-pink {
-  background-color: #EB436B!important;
+  background-color: #ff007f!important;
   mix-blend-mode: multiply;
  }
 
