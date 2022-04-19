@@ -92,11 +92,11 @@ main {
 }
 
 .red {
-  color: #EB4355;
+  color: #FF2A50;
 }
 
 .bg-red {
-  background-color: #EB4355;
+  background-color: #FF2A50;
   mix-blend-mode: multiply;
 }
 

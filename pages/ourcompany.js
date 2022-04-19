@@ -60,7 +60,7 @@ export default function Home() {
             <Col xs={10} sm={9} className="brdr-tp-op">
             <Row className=" z-999">
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg red bg-trans arrow-down-white p-0 ">
                   SERVICES
                 </a> 
                 </Col>

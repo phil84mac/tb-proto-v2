@@ -70,8 +70,8 @@ export default function Home() {
             <hr className="my-0 dark" />
               <Row className="d-flex align-items-center py-5 w-100">
                 <Col className="">
-                <h2 className="h3 dark-grey">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bg-yellow">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+                <h2 className="h3 medium dark-grey">
+                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
                 <Col className="pe-0 pe-sm-2">
@@ -126,14 +126,27 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 dark" />
-            <h3 className="h1 medium">
+            <h3 className="h1 medium mb-5">
             Using a people-first approach means <span className="semi-bold">building intuitive technology</span> that people actually use
             </h3>
             </Col>
-            <Col xs={2} lg={3} className="brdr-tp brdr-rght vh-20">
+            <Col xs={2} lg={3} className="brdr-tp brdr-rght">
             </Col>
             <Col xs={10} lg={9} className="px-0">
             <hr className="my-0 " />
+              <Row className="d-flex align-items-center">
+                <Col sm={6} className="brdr-rght pe-0">
+                  <p className="mono">A.</p>
+                  <object type="image/svg+xml" data="/.svg" className="align-item-center p-5"/>
+                  <hr className="px-0" />
+                  <h4 className="pe-3">
+                  Align
+                  </h4>
+                  
+                </Col>
+                <Col sm={6}>
+                </Col>
+              </Row>
             </Col>
             
           </Row>
