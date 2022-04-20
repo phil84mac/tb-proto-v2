@@ -21,7 +21,7 @@ export default function Home() {
 
     <main className="bg-dark-grey">
       
-        <Container className="brdr-lft-op brdr-rght-op px-0">
+        <Container className="px-0 cntnr-brdr-op">
           <Row id="home" fluid className="w-100">
             <Col xs={2} sm={3} className="brdr-rght-op vh-20 z-0">
             <Link href="/#home">
@@ -60,7 +60,7 @@ export default function Home() {
             <Col xs={10} sm={9} className="brdr-tp-op">
             <Row className=" z-999">
                 <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
-                <a href="#"  className="btn btn-primary large btn-dark-bg red bg-trans arrow-down-white p-0 ">
+                <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   SERVICES
                 </a> 
                 </Col>
