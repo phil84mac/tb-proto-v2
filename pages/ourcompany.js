@@ -19,12 +19,12 @@ export default function Home() {
     </Head>
     <Header />
 
-    <main className="bg-dark-grey">
+    <main className="bg-dark-grey px-sm-4 px-lg-5">
       
-        <Container className="px-0 cntnr-brdr-op">
-          <Row id="home" fluid className="w-100">
-            <Col xs={2} sm={3} className="brdr-rght-op vh-20 z-0">
-            <Link href="/#home">
+        <Container fluid className="cntnr-brdr-op">
+          <Row id="company" fluid className="">
+            <Col xs={2} sm={3} className=" vh-20 z-0">
+            <Link href="#company">
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col lg={3} className="px-0">
@@ -39,14 +39,14 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col xs={10} sm={9} className="d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
+            <Col xs={10} sm={9} className="brdr-lft-op d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
                 <a href="/"  className="btn btn-primary bg-yellow arrow-start mt-4 p-0 ">
                   RETURN HOME
                 </a>  
             </Col>
-            <Col xs={2} sm={3} className="brdr-tp-op brdr-rght-op z-0">
+            <Col xs={2} sm={3} className="brdr-tp-op z-0">
             </Col>
-            <Col xs={10} sm={9} className="px-0 brdr-tp-op z-999">
+            <Col xs={10} sm={9} className="px-0 brdr-lft-op brdr-tp-op z-999">
               <h1 className="white pe-3 heavy pb-5 mb-5">
               Join the <span className="">future</span> now 
               </h1>
@@ -55,21 +55,21 @@ export default function Home() {
               </p>
               
             </Col>      
-            <Col xs={2} sm={3} className="brdr-rght-op vh-100">
+            <Col xs={2} sm={3} className=" vh-100">
             </Col>
-            <Col xs={10} sm={9} className="brdr-tp-op">
+            <Col xs={10} sm={9} className="brdr-lft-op brdr-tp-op">
             <Row className=" z-999">
-                <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
+                <Col md={3} className="px-0 py-3 brdr-rght-op-alt brdr-bttm-op">
                 <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   SERVICES
                 </a> 
                 </Col>
-                <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
+                <Col md={3} className="px-0 py-3 brdr-rght-op-alt brdr-bttm-op">
                 <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   OUR TEAM
                 </a> 
                 </Col>
-                <Col md={3} className="px-0 brdr-rght-op py-3 brdr-bttm-op">
+                <Col md={3} className="px-0 py-3 brdr-rght-op-alt brdr-bttm-op">
                 <a href="#"  className="btn btn-primary large btn-dark-bg bg-trans arrow-down-white p-0 ">
                   CAREERS
                 </a> 
@@ -81,9 +81,9 @@ export default function Home() {
                 </Col>
               </Row> 
             </Col>
-            <Col xs={2} sm={3} className="brdr-rght-op vh-100">
+            <Col xs={2} sm={3} className="vh-100">
             </Col>
-            <Col xs={10} sm={9} className=""> 
+            <Col xs={10} sm={9} className="brdr-lft-op"> 
             </Col>
           </Row>
         </Container>

@@ -18,8 +18,8 @@ body {
 }
 
 .cntnr-brdr-op {
-  border-left: 1px solid rgba(234, 234, 234, 0.3);
-  border-right: 1px solid rgba(234, 234, 234, 0.3);
+  border-left: 1px solid rgba(234, 234, 234, 0.3)!important;
+  border-right: 1px solid rgba(234, 234, 234, 0.3)!important;
 }
 
 .vh-30 {
@@ -55,6 +55,10 @@ body {
 }
 
 .brdr-rght-op {
+  border-right: 1px solid rgba(234, 234, 234, 0.3);
+}
+
+.brdr-rght-op-alt {
   border-right: 1px solid rgba(234, 234, 234, 0.3);
 }
 
@@ -192,7 +196,7 @@ hr.dark, .hr.dark {
 
 
 .card-visual {
-  height: 400px;
+  min-height: 350px;
 }
 
 
@@ -401,16 +405,16 @@ h6, .h6 {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(2.5rem + 1.5vw)!important;
-    line-height: calc(2.5rem + 1.5vw)!important;
+    font-size: calc(2.6rem + 1.5vw)!important;
+    line-height: calc(2.6rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(1rem + 1.5vw)!important;
-    line-height: calc(1.2rem + 1.5vw)!important;
+    font-size: calc(1.2rem + 1.5vw)!important;
+    line-height: calc(1.5rem + 1.5vw)!important;
   }
 
   h3, .h3{
@@ -422,13 +426,17 @@ h6, .h6 {
 
   h4, .h4 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(.6rem + 1.5vw)!important;
-    line-height: calc(.8rem + 1.5vw)!important;
+    font-size: 18px!important;
+    line-height: 20px!important;
     letter-spacing: -0.015em!important;
   }
 
 
   .brdr-rght {
+    border-right: none!important;
+  }
+
+  .brdr-rght-op {
     border-right: none!important;
   }
   
