@@ -53,7 +53,7 @@ export default function Home() {
             <Col xs={10} lg={9} className="brdr-lft px-0">
             <hr className="my-0 dark" />
               <h1 className="dark-grey heavy mb-5 pb-4">
-              <span className="">We modernize</span> enterprise systems for <span className="">business</span> and for <span className=" pe-2">people</span>
+              We modernize enterprise systems for business and for people
               </h1>
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./meeting.mp4" type='video/mp4' />
@@ -263,6 +263,10 @@ export default function Home() {
                   </p> 
                 </Col>
               </Row>
+            </Col>
+            <Col xs={2} lg={3} className="vh-20">
+            </Col>
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
           </Row>
         </Container>
