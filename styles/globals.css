@@ -18,8 +18,8 @@ body {
 }
 
 .cntnr-brdr-op {
-  border-left: 1px solid rgba(234, 234, 234, 0.3)!important;
-  border-right: 1px solid rgba(234, 234, 234, 0.3)!important;
+  border-left: 1px solid rgba(234, 234, 234, 0.2)!important;
+  border-right: 1px solid rgba(234, 234, 234, 0.2)!important;
 }
 
 .vh-30 {
@@ -51,23 +51,23 @@ body {
 }
 
 .brdr-lft-op {
-  border-left: 1px solid rgba(234, 234, 234, 0.3);
+  border-left: 1px solid rgba(234, 234, 234, 0.2);
 }
 
 .brdr-rght-op {
-  border-right: 1px solid rgba(234, 234, 234, 0.3);
+  border-right: 1px solid rgba(234, 234, 234, 0.2);
 }
 
 .brdr-rght-op-alt {
-  border-right: 1px solid rgba(234, 234, 234, 0.3);
+  border-right: 1px solid rgba(234, 234, 234, 0.2);
 }
 
 .brdr-tp-op {
-  border-top: 1px solid rgba(234, 234, 234, 0.3);
+  border-top: 1px solid rgba(234, 234, 234, 0.2);
 }
 
 .brdr-bttm-op {
-  border-bottom: 1px solid rgba(234, 234, 234, 0.3);
+  border-bottom: 1px solid rgba(234, 234, 234, 0.2);
 }
 
 .brdr-tp-white {
@@ -197,6 +197,11 @@ hr.dark, .hr.dark {
 
 .card-visual {
   min-height: 350px;
+}
+
+.yellow-bg-circle {
+  background-color:#FDF752;
+  border-radius:100%;
 }
 
 

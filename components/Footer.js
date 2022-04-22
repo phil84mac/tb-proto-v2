@@ -11,9 +11,20 @@ import Button from 'react-bootstrap/Button';
 export default function Footer() {
   return (
     <>
-      <footer className="bg-dark brdr-tp">
-        <Container>
+      <footer className="bg-dark-grey px-sm-4 px-lg-5"> 
+      <Container fluid className="cntnr-brdr-op vh-100">
           <Row>
+            <Col sm={6}>
+            </Col>
+            <Col sm={6}>
+            </Col>
+            <Col sm={12}>
+              <a>
+
+              </a>
+            </Col>
+            <Col>
+            </Col>
 
           </Row>
         </Container>

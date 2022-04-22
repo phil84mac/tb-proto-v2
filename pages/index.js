@@ -61,60 +61,54 @@ export default function Home() {
             </Col>
             <Col xs={2} lg={3} className="vh-20">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft pe-0">
+            <Col xs={10} lg={9} className="brdr-lft">
             </Col>
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft px-0">
-            <hr className="my-0 dark" />
-              <Row fluid className="d-flex align-items-center py-sm-5 me-0">
-                <Col sm={6} className="">
-                <h2 className="h3 medium dark-grey d-none d-sm-block">
+            <Col xs={10} lg={9} className="brdr-lft">
+              <Row fluid className="">
+              <hr className="my-0 dark" />
+                <Col sm={6} className="px-0 d-flex align-items-center brdr-rght">
+                <h2 className="h3 medium dark-grey d-none d-sm-block mb-0">
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 <h2 className="dark-grey medium d-block d-sm-none">
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
-                <Col sm={6} className="pe-0 pe-sm-2">
-                <object type="image/svg+xml" data="/HCD.svg" className="w-100 py-3 px-lg-4"/>
+                <Col sm={6} className="d-flex align-items-center py-3">
+                <object type="image/svg+xml" data="/HCD.svg" className=""/>
                 </Col>
-              </Row>
-            </Col>
-            <Col xs={2} lg={3} className="">
-            </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
-              <Row fluid className="dark-grey">
-                <Col sm={4} className="px-0 brdr-rght ">  
+                <hr className="my-0" />
+                <Col sm={4} className="brdr-rght px-0">  
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
                     Innovative technology
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-3 pe-3 pb-md-5">
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
                 </Col>
-                <Col sm={4} className="px-0 brdr-rght ">
+                <Col sm={4} className="brdr-rght px-0">
                 <hr className="px-0 d-sm-none" />
                   <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
                     Designed for humans
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-3 pe-3 ">
                   With insights gained from a human-centred perspective, we design technology for everyone, from users to customers to your own employees.
-                  </p>
-                  
+                  </p>           
                 </Col>
-                <Col sm={4} className="px-0 ">
+                <Col sm={4} className="px-0">
                 <hr className="px-0 d-sm-none" />
                   <p className="mono mt-3">C.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
                   Aligned with how you work
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-3 pe-3 pb-md-5">
                   By putting humans at the centre of the process, we create efficient solutions that match the work you do.
                   </p> 
                 </Col>
@@ -122,7 +116,7 @@ export default function Home() {
             </Col>
             <Col xs={2} lg={3} className="vh-20">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp pe-0">
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
@@ -137,9 +131,9 @@ export default function Home() {
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
               <Row className="">
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
-                  <Image fluid src="/align.svg" className="p-3"/>
-                </div>
+                  <div className="card-visual d-flex justify-content-center align-items-center">
+                    <Image fluid src="/align.svg" className="p-4"/>
+                  </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
@@ -152,7 +146,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm ">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                  <Image fluid src="/discover.svg" className="p-3"/>
+                  <Image fluid src="/discover.svg" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">B.</p>
@@ -166,7 +160,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                 <Image fluid src="/design.svg" className="p-3"/>
+                 <Image fluid src="/design.svg" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">C.</p>
@@ -180,7 +174,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/validate.svg" className="p-3"/>
+                <Image fluid src="/validate.svg" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">D.</p>
@@ -194,7 +188,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/roadmap.svg" className="p-3"/>
+                <Image fluid src="/roadmap.svg" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">E.</p>
@@ -208,7 +202,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/next-steps.svg" className="p-3"/>
+                <Image fluid src="/next-steps.svg" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">F.</p>
@@ -220,11 +214,55 @@ export default function Home() {
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
+                <Col sm={12} className="px-0">
+                <video className='w-full' autoPlay loop muted>
+                <source src="./tower.mp4" type='video/mp4' />
+              </video>
+                </Col>
               </Row>
             </Col>
             <Col xs={2} lg={3} className="vh-20">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft pe-0">
+            <Col xs={10} lg={9} className="brdr-lft">
+            </Col>
+            <Col xs={2} lg={3} className="brdr-tp">
+            </Col>
+            <Col xs={10} lg={9} className="brdr-lft">
+              <Row fluid className="">
+              <hr className="my-0 dark" />
+                <Col sm={12} className="px-0 pb-5 mb-5">
+                <h2 className="h1 bold mt-0 mb-5 pb-5 dark-grey">
+                Let us help your organization rethink what's possible
+                </h2>
+                </Col>
+                <hr className="my-0" />
+                <Col sm={4} className="brdr-rght px-0">  
+                  <h4 className="pe-3">
+                  Business moves quickly
+                  </h4>
+                  <p className="mb-3 pe-3 pb-md-5">
+                  In today's fast-paced business environment, it's vital to be able to adapt quickly. Thinking Big will help you modernize and reimagine your operations with speed and agility, to tackle your industry's toughest challenges. 
+                  </p>
+                </Col>
+                <Col sm={4} className="brdr-rght px-0">
+                <hr className="px-0 d-sm-none" />
+                  <h4 className="pe-3">
+                  We have innovative people, services and technologies
+                  </h4>
+                  <p className="mb-3 pe-3 pb-md-5">
+                  Whether you need mobile or software engineering, consulting, Cloud services, Artificial Intelligence or data gathering, we have the expertise to modernize your business.
+                  </p>           
+                </Col>
+                <Col sm={4} className="px-0">
+                <hr className="px-0 d-sm-none" />
+                  <h4 className="pe-3">
+                  Be ready for whatever the future brings
+                  </h4>
+                  <p className="mb-3 pe-3 pb-md-5">
+                  Organizations must adapt and innovate to meet the evolving needs of their customers while keeping up-to-date with the latest technology. Let us help you revitalize your business.
+                  </p> 
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
