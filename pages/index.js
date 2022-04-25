@@ -34,7 +34,7 @@ export default function Home() {
                   <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
-                  <h6 className="mt-2 dark-grey medium">
+                  <h6 className="mt-2 dark-grey medium ">
                     THINKING BIG
                   </h6>
                   </Col>
@@ -43,7 +43,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} lg={9} className="brdr-lft d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
-                <a href="/ourcompany"  className="btn btn-primary dark-grey bg-yellow arrow mt-4 p-0">
+                <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-4 p-0">
                   OUR COMPANY
                 </a>
             </Col>
@@ -214,6 +214,8 @@ export default function Home() {
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
+            <Col sm={12} className="vh-20">
+            </Col>
                 <Col sm={12} className="px-0">
                 <video className='w-full' autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
@@ -237,7 +239,7 @@ export default function Home() {
                 </Col>
                 <hr className="my-0" />
                 <Col sm={4} className="brdr-rght px-0">  
-                  <h4 className="pe-3">
+                  <h4 className="pe-3 mt-2">
                   Business moves quickly
                   </h4>
                   <p className="mb-3 pe-3 pb-md-5">
@@ -246,7 +248,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="brdr-rght px-0">
                 <hr className="px-0 d-sm-none" />
-                  <h4 className="pe-3">
+                  <h4 className="pe-3 mt-2">
                   We have innovative people, services and technologies
                   </h4>
                   <p className="mb-3 pe-3 pb-md-5">
@@ -255,7 +257,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="px-0">
                 <hr className="px-0 d-sm-none" />
-                  <h4 className="pe-3">
+                  <h4 className="pe-3 mt-2">
                   Be ready for whatever the future brings
                   </h4>
                   <p className="mb-3 pe-3 pb-md-5">
