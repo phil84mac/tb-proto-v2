@@ -70,20 +70,19 @@ export default function Footer() {
               <hr className="op d-none d-sm-block"/>
                 <h6 className="white regular mb-3">
                   CONTACT US
-                </h6>
-              
+                </h6>              
                 <form className="mb-4">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-muted">First and last name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and last name" />
+                  <label for="first-last-name" class="form-label text-muted text-uppercase">First and last name</label>
+                  <input class="form-control" id="first-last-name" placeholder="First and last name" />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-muted">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                  <label for="email" class="form-label text-muted text-uppercase">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label text-muted">Leave us a message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
+                  <textarea class="form-control" id="message" rows="4"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">
