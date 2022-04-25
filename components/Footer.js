@@ -21,7 +21,7 @@ export default function Footer() {
                   Our company
                 </a>
               <hr className="op"/>
-                <h6 className="white regular">
+                <h6 className="white semi-bold">
                   SOCIAL MEDIA
                 </h6>
 
@@ -48,7 +48,7 @@ export default function Footer() {
                   </li>
                 </ul>
               <hr className="op" />
-                <h6 className="white regular">
+                <h6 className="white semi-bold">
                   DOCUMENTS
                 </h6>
                 <ul className="px-0 mb-4">
@@ -68,14 +68,20 @@ export default function Footer() {
             <Col sm={6} className="white pt-3 pt-sm-5 brdr-bttm-op px-0 d-flex align-items-end">
               <div className="w-100">
               <hr className="op d-none d-sm-block"/>
-                <h6 className="white regular mb-3">
+                <h6 className="white semi-bold mb-3">
                   CONTACT US
                 </h6>              
                 <form className="mb-4">
-                <div class="mb-3">
-                  <label for="first-last-name" class="form-label text-muted text-uppercase">First and last name</label>
-                  <input class="form-control" id="first-last-name" placeholder="First and last name" />
-                </div>
+                <Row class="mb-3 d-flex">
+                  <Col md={6}>
+                  <label for="fname" class="form-label text-muted text-uppercase">First name</label>
+                  <input class="form-control" id="fname" placeholder="First name" />
+                  </Col>
+                  <Col md={6}>
+                  <label for="lname" class="form-label text-muted text-uppercase">Last name</label>
+                  <input class="form-control" id="lname" placeholder="Last name" />
+                  </Col>
+                </Row>
                 <div class="mb-3">
                   <label for="email" class="form-label text-muted text-uppercase">Email address</label>
                   <input type="email" class="form-control" id="email" placeholder="name@example.com" />
@@ -139,16 +145,20 @@ export default function Footer() {
               
                 <form className="mb-4">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-muted">First and last name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and last name" />
+                  <label for="fname" class="form-label text-muted text-uppercase">First name</label>
+                  <input class="form-control" id="fname" placeholder="First name" />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-muted">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                  <label for="lname" class="form-label text-muted text-uppercase">Last name</label>
+                  <input class="form-control" id="lname" placeholder="Last name" />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label text-muted">Leave us a message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="email" class="form-label text-muted text-uppercase">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
+                  <textarea class="form-control" id="message" rows="4"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">

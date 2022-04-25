@@ -69,11 +69,11 @@ export default function Home() {
               <Row fluid className="">
               <hr className="my-0 dark" />
                 <Col sm={6} className="px-0 d-flex align-items-center brdr-rght">
-                <h2 className="h3 medium dark-grey d-none d-sm-block mb-0">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+                <h2 className="h3 semi-bold dark-grey d-none d-sm-block mb-0">
+                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
-                <h2 className="dark-grey medium d-block d-sm-none">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="bold">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+                <h2 className="dark-grey semi-bold d-block d-sm-none">
+                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
                 <Col sm={6} className="d-flex align-items-center py-3">
@@ -122,8 +122,8 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h3 className="h2 medium">
-            Using a people-first approach means <span className="semi-bold">building intuitive technology</span> that people actually use. Here's how it works:
+            <h3 className="h2 semi-bold">
+            Using a people-first approach means <span className="heavy">building intuitive technology</span> that people actually use. Here's how it works:
             </h3>
             </Col>
             <Col xs={2} lg={3} className="brdr-tp">
