@@ -266,7 +266,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-20">
+            <Col xs={2} lg={3} className="vh-30">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
