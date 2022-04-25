@@ -65,9 +65,8 @@ export default function Footer() {
                 </ul>
               </div>
             </Col>
-            <Col sm={6} className="white pt-3 pt-sm-5 brdr-bttm-op px-0 d-flex align-items-end">
+            <Col sm={6} className="white pt-5 brdr-bttm-op px-0 d-flex align-items-end">
               <div className="w-100">
-              <hr className="op d-none d-sm-block"/>
                 <h6 className="white semi-bold mb-3">
                   CONTACT US
                 </h6>              
@@ -88,7 +87,7 @@ export default function Footer() {
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
-                  <textarea class="form-control" id="message" rows="4"></textarea>
+                  <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">
@@ -120,14 +119,6 @@ export default function Footer() {
                   </a>
                 </div>  
             </Col>
-            <Col sm={12} className="white py-4 px-0 d-block d-sm-none text-start">
-                  <p className="mono mb-2">
-                  © THINKING BIG 2022
-                  </p>
-                  <a href="#" className="mono dark-grey no-underline bg-red">
-                  hello@thinkingbig.net
-                  </a>
-            </Col>
           </Row>
         </div>
         <div className="d-block d-sm-none">
@@ -139,7 +130,7 @@ export default function Footer() {
             <Col sm={6} className="white pt-3 pt-5 px-0 d-flex align-items-end">
               <div className="w-100">
               <hr className="op d-none d-sm-block"/>
-                <h6 className="white regular mb-3">
+                <h6 className="white semi-bold mb-3">
                   CONTACT US
                 </h6>
               
@@ -158,7 +149,7 @@ export default function Footer() {
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
-                  <textarea class="form-control" id="message" rows="4"></textarea>
+                  <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">
@@ -174,7 +165,7 @@ export default function Footer() {
                   Our company
                 </a>
               <hr className="op"/>
-                <h6 className="white regular">
+                <h6 className="white semi-bold">
                   SOCIAL MEDIA
                 </h6>
 
@@ -201,7 +192,7 @@ export default function Footer() {
                   </li>
                 </ul>
               <hr className="op" />
-                <h6 className="white regular">
+                <h6 className="white semi-bold">
                   DOCUMENTS
                 </h6>
                 <ul className="px-0 mb-4">
@@ -231,17 +222,7 @@ export default function Footer() {
                 </div>
               </a>
             </Col>
-            <Col sm={12} className="white py-4 px-0 d-none d-sm-block">
-                <div className="d-flex align-items-center justify-content-between">   
-                  <p className="mono mb-xs-3 mb-sm-0">
-                  © THINKING BIG 2022
-                  </p>
-                  <a href="#" className="mono dark-grey no-underline bg-red">
-                  hello@thinkingbig.net
-                  </a>
-                </div>  
-            </Col>
-            <Col sm={12} className="white py-4 px-0 d-block d-sm-none text-start">
+            <Col sm={12} className="white py-4 px-0 mb-3 d-block d-sm-none text-start">
                   <p className="mono mb-2">
                   © THINKING BIG 2022
                   </p>

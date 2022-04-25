@@ -233,7 +233,7 @@ export default function Home() {
               <Row fluid className="">
               <hr className="my-0 dark" />
                 <Col sm={12} className="px-0 pb-5 mb-5">
-                <h2 className="h1 bold mt-0 mb-5 pb-5 dark-grey">
+                <h2 className="h1 heavy mt-0 mb-5 pb-5 dark-grey">
                 Let us help your organization rethink what's possible
                 </h2>
                 </Col>

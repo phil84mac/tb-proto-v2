@@ -40,7 +40,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col xs={10} sm={9} className="brdr-lft-op d-flex align-items-start justify-content-end pe-0 pt-1 z-999">    
-                <a href="/"  className="btn btn-primary bg-yellow arrow-start mt-4 p-0 ">
+                <a href="/"  className="dark-grey bg-yellow arrow-start mt-4 p-0 no-underline mono semi-bold">
                   RETURN HOME
                 </a>  
             </Col>
