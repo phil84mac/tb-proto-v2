@@ -266,9 +266,12 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-30">
+            <Col xs={2} lg={3} className="vh-30" >
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
+                <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-5 p-0 d-none">
+                  OUR COMPANY
+                </a>
             </Col>
           </Row>
         </Container>
