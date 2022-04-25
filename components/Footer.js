@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 export default function Footer() {
   return (
     <>
-      <footer className="bg-dark-grey px-sm-4 px-lg-5"> 
+      <footer className="bg-dark-grey px-sm-4 px-lg-5 brdr-tp-op"> 
       <Container fluid className="cntnr-brdr-op">
         <div className="d-none d-sm-block">
           <Row className="">
@@ -131,7 +131,35 @@ export default function Footer() {
             </Col>
             <Col xs={10} lg={9} className="brdr-lft-op">
             <Row className="d-flex">
-            <Col sm={6} className="white brdr-bttm-op brdr-rght-op pt-5 px-0 d-flex align-items-end">
+            <Col sm={6} className="white pt-3 pt-5 px-0 d-flex align-items-end">
+              <div className="w-100">
+              <hr className="op d-none d-sm-block"/>
+                <h6 className="white regular mb-3">
+                  CONTACT US
+                </h6>
+              
+                <form className="mb-4">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label text-muted">First and last name</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and last name" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label text-muted">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label text-muted">Leave us a message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div className="d-flex justify-content-end">
+                <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">
+                  Submit
+                </button>
+                </div>
+                </form>
+              </div>
+            </Col>
+            <Col sm={6} className="white brdr-bttm-op brdr-rght-op px-0 d-flex align-items-end">
               <div className="w-100">
                 <a href="/ourcompany" className="mono medium text-uppercase dark-grey no-underline bg-yellow arrow d-none">
                   Our company
@@ -181,34 +209,7 @@ export default function Footer() {
                 </ul>
               </div>
             </Col>
-            <Col sm={6} className="white pt-3 pt-sm-5 brdr-bttm-op px-0 d-flex align-items-end">
-              <div className="w-100">
-              <hr className="op d-none d-sm-block"/>
-                <h6 className="white regular mb-3">
-                  CONTACT US
-                </h6>
-              
-                <form className="mb-4">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-muted">First and last name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and last name" />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-muted">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label text-muted">Leave us a message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div className="d-flex justify-content-end">
-                <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">
-                  Submit
-                </button>
-                </div>
-                </form>
-              </div>
-            </Col>
+            
             <Col sm={12} className="z-999 px-0 bg-red pt-2 pt-sm-0 d-none">
               <a href="#" className="no-underline px-0">
                 <div className="py-sm-5">
