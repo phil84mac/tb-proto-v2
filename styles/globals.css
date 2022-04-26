@@ -333,7 +333,7 @@ h5, .h5 {
 h6, .h6 {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
-  font-size: 1rem!important;
+  font-size: .9rem!important;
 }
 
 /* Forms */
@@ -515,15 +515,15 @@ ul {
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(1.2rem + 1.5vw)!important;
-    line-height: calc(1.5rem + 1.5vw)!important;
+    font-size: calc(1.5rem + 1.5vw)!important;
+    line-height: calc(1.6rem + 1.5vw)!important;
   }
 
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(.8rem + 1.5vw)!important;
-    line-height: calc(.1rem + 1.5vw)!important;
+    font-size: calc(1.1rem + 1.5vw)!important;
+    line-height: calc(1.1rem + 1.5vw)!important;
   }
 
   h4, .h4 {
