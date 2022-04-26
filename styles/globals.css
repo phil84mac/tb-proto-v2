@@ -163,11 +163,11 @@ body {
  }
 
  .yellow {
-  color: #FDF752!important;
+  color: #FFF62A!important;
  }
 
  .bg-yellow {
-  background-color: #FDF752!important;
+  background-color: #FFF62A!important;
  }
 
 .underline {
@@ -231,7 +231,6 @@ hr.op, .hr.op {
   cursor: pointer!important;
 }
 
-
 .card-visual {
   min-height: 350px;
 }
@@ -241,6 +240,19 @@ hr.op, .hr.op {
   border-radius:100%;
 }
 
+svg {
+  display: inline-block!important;
+  position: fixed!important; /* make sure it stays put so we can see it! */
+  animation: rotate 1s linear infinite!important;
+  animation-play-state: paused!important;
+  animation-delay: calc(var(--scroll) * -1s)!important;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 /* Typography */
 

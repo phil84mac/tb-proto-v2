@@ -132,7 +132,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                   <div className="card-visual d-flex justify-content-center align-items-center">
-                    <Image fluid src="/align.svg" className="p-4"/>
+                    <Image fluid src="/align.svg" className="p-4 svg"/>
                   </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">A.</p>

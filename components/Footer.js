@@ -17,8 +17,8 @@ export default function Footer() {
           <Row className="">
             <Col sm={6} className="white brdr-bttm-op brdr-rght-op pt-5 px-0 d-flex align-items-end">
               <div className="w-100">
-                <a href="/ourcompany" className="mono medium text-uppercase dark-grey no-underline bg-yellow arrow d-none">
-                  Our company
+                <a href="/ourcompany" className="mono medium text-uppercase dark-grey no-underline bg-yellow arrow">
+                  ABOUT Our company
                 </a>
               <hr className="op"/>
                 <h6 className="white semi-bold">
