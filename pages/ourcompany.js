@@ -31,9 +31,9 @@ export default function Home() {
                   <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
-                  <h6 className="mt-2 white medium">
+                  <a className="mt-2 white medium no-underline">
                     THINKING BIG
-                  </h6>
+                  </a>
                   </Col>
                   </Row>
                 </div>

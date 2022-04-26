@@ -87,7 +87,7 @@ export default function Footer() {
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
-                  <textarea class="form-control" id="message" rows="4" ></textarea>
+                  <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">

@@ -389,6 +389,10 @@ h6, .h6 {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
+.btn:hover {
+  text-decoration: underline!important;
+}
+
 .btn-primary {
   color: #141414!important;
   border: 0px!important;
@@ -407,6 +411,10 @@ h6, .h6 {
 
 a, .a {
   font-weight: 400!important;
+}
+
+a:hover, .a:hover {
+  text-decoration: underline!important;
 }
 
 .arrow:after {
