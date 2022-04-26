@@ -80,7 +80,7 @@ export default function Home() {
                 <object type="image/svg+xml" data="/HCD.svg" className=""/>
                 </Col>
                 <hr className="my-0" />
-                <Col sm={4} className="brdr-rght px-0">  
+                <Col sm={4} className="brdr-rght px-0 dark-grey">  
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
@@ -90,7 +90,7 @@ export default function Home() {
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
                 </Col>
-                <Col sm={4} className="brdr-rght px-0">
+                <Col sm={4} className="brdr-rght px-0 dark-grey">
                 <hr className="px-0 d-sm-none" />
                   <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
@@ -101,7 +101,7 @@ export default function Home() {
                   With insights gained from a human-centred perspective, we design technology for everyone, from users to customers to your own employees.
                   </p>           
                 </Col>
-                <Col sm={4} className="px-0">
+                <Col sm={4} className="px-0 dark-grey">
                 <hr className="px-0 d-sm-none" />
                   <p className="mono mt-3">C.</p>
                   <hr className="px-0" />
@@ -122,14 +122,14 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h3 className="h2 semi-bold">
+            <h3 className="lead semi-bold dark-grey">
             Using a people-first approach means <span className="heavy">building intuitive technology</span> that people actually use. Here's how it works:
             </h3>
             </Col>
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
-              <Row className="">
+              <Row className="dark-grey">
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                   <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="/align.svg" className="p-4"/>
@@ -140,7 +140,7 @@ export default function Home() {
                   <h4 className="pe-3">
                   Align
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-3">
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
@@ -154,7 +154,7 @@ export default function Home() {
                   <h4 className="pe-3">
                   Discover
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-3">
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
@@ -168,7 +168,7 @@ export default function Home() {
                   <h4 className="pe-3">
                   Design
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-3">
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
@@ -182,7 +182,7 @@ export default function Home() {
                   <h4 className="pe-3">
                   Validate
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-3">
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
@@ -196,7 +196,7 @@ export default function Home() {
                   <h4 className="pe-3">
                   Roadmap
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-3">
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
@@ -210,7 +210,7 @@ export default function Home() {
                   <h4 className="pe-3">
                   Next steps
                   </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-3">
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
@@ -230,7 +230,7 @@ export default function Home() {
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft">
-              <Row fluid className="">
+              <Row fluid className="dark-grey">
               <hr className="my-0 dark" />
                 <Col sm={12} className="px-0 pb-5 mb-5">
                 <h2 className="h1 heavy mt-0 mb-5 pb-5 dark-grey">

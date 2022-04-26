@@ -85,7 +85,7 @@ export default function Footer() {
                   <label for="email" class="form-label text-muted text-uppercase">Email address</label>
                   <input type="email" class="form-control" id="email" placeholder="name@example.com" />
                 </div>
-                <div class="mb-3">
+                <div class="mb-4">
                   <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
                   <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>

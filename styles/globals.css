@@ -4,7 +4,7 @@ html,
 body {
   padding: 0!important;
   margin: 0!important;
-  color: #141414; 
+  color: #000; 
   font-family: 'IBM Plex Sans', sans-serif, 'IBM Plex Mono', monospace!important;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .brdr-tp-dark {
-  border-top: 1px solid #141414;
+  border-top: 1px solid #000;
 }
 
 .brdr-lft-op {
@@ -108,11 +108,11 @@ body {
 }
 
 .dark-grey {
-  color: #141414!important;
+  color: #000!important;
  }
 
 .bg-dark-grey {
-  background-color: #141414!important;
+  background-color: #000!important;
 }
 
 .white {
@@ -216,7 +216,7 @@ hr, .hr {
 }
 
 hr.dark, .hr.dark {
-  border-top: 1px solid #141414!important;
+  border-top: 1px solid #000!important;
   opacity: 1!important;
   background-color: transparent!important;
 }
@@ -259,9 +259,9 @@ p {
   font-weight: 400!important;
 }
 
-p.lead {
-  font-size: calc(1rem + 1vw)!important;
-  line-height: calc(1.3rem + 1vw)!important;
+.lead {
+  font-size: calc(3rem + 1vw)!important;
+  line-height: calc(3rem + 1vw)!important;
 }
 
 .light {
@@ -342,7 +342,7 @@ h6, .h6 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #141414;
+  color: #000;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #eaeaea!important;
@@ -369,7 +369,7 @@ h6, .h6 {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #141414;
+  color: #000;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -394,7 +394,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  color: #141414!important;
+  color: #000!important;
   border: 0px!important;
   border-radius: 0px!important;
 }
