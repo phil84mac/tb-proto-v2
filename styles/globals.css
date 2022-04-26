@@ -240,20 +240,6 @@ hr.op, .hr.op {
   border-radius:100%;
 }
 
-svg {
-  display: inline-block!important;
-  position: fixed!important; /* make sure it stays put so we can see it! */
-  animation: rotate 1s linear infinite!important;
-  animation-play-state: paused!important;
-  animation-delay: calc(var(--scroll) * -1s)!important;
-}
-
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* Typography */
 
 p {
@@ -269,6 +255,11 @@ p {
   font-size: .85rem!important;
   line-height: 1.2rem!important;
   font-weight: 400!important;
+}
+
+p.lead {
+  font-size: calc(1.1rem + 1vw)!important;
+  line-height: calc(1.3rem + 1vw)!important;
 }
 
 .lead {
