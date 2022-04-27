@@ -131,6 +131,14 @@ body {
   background-color: #c4c4c4!important;
 }
 
+.light-grey {
+  color: #c4c4c4!important;
+ }
+
+.bg-light-grey {
+  background-color: #eaeaea!important;
+}
+
 .white {
   color: #fff!important;
 }

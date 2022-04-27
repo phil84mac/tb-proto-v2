@@ -59,7 +59,7 @@ export default function Home() {
 
             <div className="d-none d-sm-block">
 
-              <h1 className="dark-grey heavy mb-5 pb-4 " >
+              <h1 className="dark-grey heavy mb-5 pb-4 mt-3" >
               Modernizing enterprise systems <br/> <span className="red">
               {/* Style will be inherited from the parent element */}
               <Typewriter
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
             <div className="d-sm-none">
 
-              <h1 className="dark-grey heavy mb-5 pb-4 " >
+              <h1 className="dark-grey mt-3 heavy mb-5 pb-4 " >
               Modernizing enterprise systems <br/> <span className="red">
               {/* Style will be inherited from the parent element */}
               <Typewriter
@@ -116,7 +116,7 @@ export default function Home() {
                 <h2 className="h3 semi-bold dark-grey d-none d-sm-block mb-0">
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
-                <h2 className="dark-grey semi-bold d-sm-none">
+                <h2 className="h3 mt-3 dark-grey semi-bold d-sm-none">
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
@@ -130,7 +130,7 @@ export default function Home() {
                   <h4 className="pe-3">
                     Innovative technology
                   </h4>
-                  <p className="mb-3 pe-3 pb-md-5">
+                  <p className="mb-4 mb-sm-3 pe-3 pb-md-5">
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
                 </Col>
@@ -141,7 +141,7 @@ export default function Home() {
                   <h4 className="pe-3">
                     Designed for humans
                   </h4>
-                  <p className="mb-3 pe-3 ">
+                  <p className="mb-4 mb-sm-3 pe-3 ">
                   With insights gained from a human-centred perspective, we design technology for everyone, from users to customers to your own employees.
                   </p>           
                 </Col>
@@ -152,13 +152,13 @@ export default function Home() {
                   <h4 className="pe-3">
                   Aligned with how you work
                   </h4>
-                  <p className="mb-3 pe-3 pb-md-5">
+                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
                   By putting humans at the centre of the process, we create efficient solutions that match the work you do.
                   </p> 
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-20">
+            <Col xs={2} lg={3} className="vh-30">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
@@ -166,7 +166,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h3 className="lead semi-bold dark-grey">
+            <h3 className="lead semi-bold dark-grey py-3">
             Using a people-first approach means <span className="heavy">building intuitive technology</span> that people actually use. Here's how it works:
             </h3>
             </Col>
@@ -176,7 +176,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                   <div className="card-visual d-flex justify-content-center align-items-center">
-                    <Image fluid src="/align.svg" className="p-4"/>
+                    <Image fluid src="/align.svg" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">A.</p>
@@ -230,7 +230,7 @@ export default function Home() {
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
-                <Col sm={6} className="brdr-rght brdr-bttm px-0">
+                <Col sm={6}  className="brdr-rght brdr-bttm px-0">
                 <div className="card-visual d-flex justify-content-center align-items-center">
                 <Image fluid src="/roadmap.svg" className="p-4"/>
                 </div>
@@ -262,7 +262,7 @@ export default function Home() {
 
                 <Col sm={12} className="brdr-bttm brdr-tp-dark py-2 px-0">
                 <h6 className="large mt-2 text-center">
-                  DEVELOPMENT PROCESS
+                  PROCESS
                 </h6>
                 </Col>
 
@@ -310,7 +310,7 @@ export default function Home() {
                 </p>
                 </Col>
 
-                <Col sm={12} className="vh-20">
+                <Col sm={12} className="vh-30">
                 </Col>
 
               </Row>
@@ -322,29 +322,28 @@ export default function Home() {
               <Row fluid className="dark-grey">
               <hr className="my-0 dark" />
                 <Col sm={12} className="px-0 pb-5 mb-5">
-                <h2 className="heavy mt-0 mb-xl-5 pb-xl-5 dark-grey">
+                <h2 className="heavy mt-4 mb-xl-4 pb-xl-5 dark-grey">
                 Let us help your organization rethink what's possible
                 </h2>
                 </Col>
                 <hr className="my-0" />
-                <Col sm={4} className="brdr-rght px-0">  
+                <Col sm={4} className="brdr-rght brdr-bttm px-0">  
                 <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3 mt-2">
                   Business moves quickly
                   </h4>
-                  <p className="mb-3 pe-3 pb-md-5">
+                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
                   In today's fast-paced business environment, it's vital to be able to adapt quickly. Thinking Big will help you modernize and reimagine your operations with speed and agility, to tackle your industry's toughest challenges. 
                   </p>
                 </Col>
-                <Col sm={4} className="brdr-rght px-0">
+                <Col sm={4} className="brdr-rght brdr-bttm px-0">
                 <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
-                <hr className="px-0 d-sm-none" />
                   <h4 className="pe-3 mt-2">
                   We have innovative people, services and technologies
                   </h4>
-                  <p className="mb-3 pe-3 pb-md-5">
+                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
                   Whether you need mobile or software engineering, consulting, Cloud services, Artificial Intelligence or data gathering, we have the expertise to modernize your business.
                   </p>           
                 </Col>
@@ -354,7 +353,7 @@ export default function Home() {
                   <h4 className="pe-3 mt-2">
                   Be ready for whatever the future brings
                   </h4>
-                  <p className="mb-3 pe-3 pb-md-5">
+                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
                   Organizations must adapt and innovate to meet the evolving needs of their customers while keeping up-to-date with the latest technology. Let us help you revitalize your business.
                   </p> 
                 </Col>

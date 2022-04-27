@@ -23,7 +23,7 @@ export default function Home() {
       
         <Container fluid className="cntnr-brdr-op">
           <Row id="company" fluid className="">
-            <Col xs={2} sm={3} className=" vh-20 z-0">
+            <Col xs={2} sm={3} className="vh-20 z-0">
             <Link href="#company">
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
@@ -47,8 +47,8 @@ export default function Home() {
             <Col xs={2} sm={3} className="brdr-tp-op z-0">
             </Col>
             <Col xs={10} sm={9} className="px-0 brdr-lft-op brdr-tp-op z-999">
-              <h1 className="white pe-3 heavy pb-5 mb-5">
-              Join the <span className="">future</span> now 
+              <h1 className="white pe-3 heavy pb-5 mb-5 mt-3">
+              Join the <span className="red">future</span> now 
               </h1>
               <p className="lead white brdr-tp-op py-3 pe-3">
               Technology evolves and the future does not wait. At <span className="bold">Thinking Big</span> we are committed to smart innovation that helps businesses thrive in an evolving technological landscape. Innovation transforms businesses. We guide that transformation.
