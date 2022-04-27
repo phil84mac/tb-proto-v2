@@ -90,8 +90,8 @@ export default function Footer() {
                   <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
-                <button className="btn btn-primary semi-bold bg-yellow dark-grey no-underline p-0" type="submit">
-                  Submit
+                <button className="btn btn-primary semi-bold bg-yellow dark-grey no-underline arrow p-0" type="submit">
+                  SEND
                 </button>
                 </div>
                 </form>
@@ -151,8 +151,8 @@ export default function Footer() {
                   <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
-                <button className="btn btn-primary medium bg-yellow dark-grey no-underline p-0" type="submit">
-                  Submit
+                <button className="btn btn-primary medium bg-yellow dark-grey no-underline arrow p-0" type="submit">
+                  SEND
                 </button>
                 </div>
                 </form>

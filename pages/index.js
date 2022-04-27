@@ -68,7 +68,7 @@ export default function Home() {
                 cursorStyle='_'
                 typeSpeed={110}
                 deleteSpeed={80}
-                delaySpeed={1000}
+                delaySpeed={1500}
                 words={['for business', 'for people']}
                 onLoop={(loopCount) =>
                   console.log(`Just completed loop ${loopCount}`)
@@ -89,7 +89,7 @@ export default function Home() {
                 cursorStyle='_'
                 typeSpeed={110}
                 deleteSpeed={80}
-                delaySpeed={1000}
+                delaySpeed={1500}
                 words={['for business', 'for people']}
                 onLoop={(loopCount) =>
                   console.log(`Just completed loop ${loopCount}`)
@@ -176,7 +176,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                   <div className="card-visual d-flex justify-content-center align-items-center">
-                    <Image fluid src="/align.svg" className="p-4 svg-rotate"/>
+                    <Image fluid src="/align.svg" className="p-4"/>
                   </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">A.</p>
@@ -190,7 +190,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm ">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                  <Image fluid src="/discover.svg" className="p-4 svg-stretch"/>
+                  <Image fluid src="/discover.svg" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">B.</p>
@@ -258,19 +258,64 @@ export default function Home() {
                   We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
                   </p>  
                 </Col>
-            <Col sm={12} className="vh-20">
-            </Col>
-                <Col sm={12} className="px-0">
-                <video className='w-full' autoPlay loop muted>
-                <source src="./tower.mp4" type='video/mp4' />
-              </video>
+
+
+                <Col sm={12} className="brdr-bttm brdr-tp-dark px-0">
+                <h6 className="mt-2 text-center">
+                  PROCESS OVERVIEW
+                </h6>
                 </Col>
+
+                
+                  <Col xs={4} sm={2} className="brdr-bttm p-2 d-flex align-items-center flex-column">
+                    <Image fluid src="/align.svg" className="hcd-icon mb-auto mt-3"/>
+                    <p className="small dark-grey mono text-center mt-4 mb-0">
+                      A. Align
+                    </p>
+                  </Col>
+                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm brdr-lft p-2 pe-1 d-flex align-items-center flex-column ">
+                    <Image fluid src="/discover.svg" className="hcd-icon mb-auto mt-3"/>
+                    <p className="small dark-grey mono text-center mt-4 mb-0 me-1">
+                      B. Discover
+                    </p>
+                  </Col>
+                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
+                    <Image fluid src="/design.svg" className="hcd-icon mb-auto mt-3"/>
+                    <p className="small dark-grey mono text-center mt-4 mb-0">
+                      C. Design
+                    </p>
+                  </Col>
+                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
+                    <Image fluid src="/validate.svg" className="hcd-icon mb-auto mt-3"/>
+                    <p className="small dark-grey mono text-center mt-4 mb-0">
+                      D. Validate
+                    </p>
+                  </Col>
+                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
+                    <Image fluid src="/roadmap.svg" className="hcd-icon mb-auto mt-3"/>
+                    <p className="small dark-grey mono text-center mt-4 mb-0">
+                      E. Roadmap
+                    </p>
+                  </Col>
+                  <Col xs={4} sm={2} className="brdr-bttm brdr-lft p-2 d-flex align-items-center flex-column">
+                    <Image fluid src="/next-steps.svg" className="hcd-icon mb-auto mt-3"/>
+                    <p className="small dark-grey mono text-center mt-4 mb-0">
+                      F. Next steps
+                    </p>
+                  </Col>
+
+                <Col sm={12} className="brdr-bttm px-0">
+                <p className="mono x-small mt-2 text-center text-muted medium mb-2">
+                  Repeat steps B-D until solution is validated by users
+                </p>
+                </Col>
+
+                <Col sm={12} className="vh-20">
+                </Col>
+
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-20">
-            </Col>
-            <Col xs={10} lg={9} className="brdr-lft">
-            </Col>
+
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft">
@@ -308,11 +353,21 @@ export default function Home() {
                   Organizations must adapt and innovate to meet the evolving needs of their customers while keeping up-to-date with the latest technology. Let us help you revitalize your business.
                   </p> 
                 </Col>
+
+                <Col sm={12} className="vh-20 brdr-tp">
+
+                </Col>
+
+                <Col sm={12} className="px-0">
+                <video className='w-full' autoPlay loop muted>
+                <source src="./tower.mp4" type='video/mp4' />
+              </video>
+                </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-30" >
+            <Col xs={2} lg={3} className="vh-20" >
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
+            <Col xs={10} lg={9} className="brdr-lft">
                 <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-5 p-0 d-none">
                   OUR COMPANY
                 </a>
