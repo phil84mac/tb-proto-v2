@@ -130,7 +130,7 @@ export default function Home() {
                   <h4 className="pe-3">
                     Innovative technology
                   </h4>
-                  <p className="mb-4 mb-sm-3 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-5">
                   We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
                   </p>
                 </Col>
@@ -141,7 +141,7 @@ export default function Home() {
                   <h4 className="pe-3">
                     Designed for humans
                   </h4>
-                  <p className="mb-4 mb-sm-3 pe-3 ">
+                  <p className="mb-5 mb-sm-5 pe-3 ">
                   With insights gained from a human-centred perspective, we design technology for everyone, from users to customers to your own employees.
                   </p>           
                 </Col>
@@ -152,13 +152,13 @@ export default function Home() {
                   <h4 className="pe-3">
                   Aligned with how you work
                   </h4>
-                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
+                  <p className="mb-5 pe-3 pb-md-5">
                   By putting humans at the centre of the process, we create efficient solutions that match the work you do.
                   </p> 
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-30">
+            <Col xs={2} lg={3} className="vh-20">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
@@ -310,7 +310,7 @@ export default function Home() {
                 </p>
                 </Col>
 
-                <Col sm={12} className="vh-30">
+                <Col sm={12} className="vh-20">
                 </Col>
 
               </Row>
