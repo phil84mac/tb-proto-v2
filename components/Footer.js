@@ -85,7 +85,7 @@ export default function Footer() {
                   <label for="email" class="form-label text-muted text-uppercase">Email address</label>
                   <input type="email" class="form-control" id="email" placeholder="name@example.com" />
                 </div>
-                <div class="mb-3">
+                <div class="mb-4">
                   <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
                   <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
@@ -129,9 +129,9 @@ export default function Footer() {
             <Row className="d-flex">
             <Col sm={6} className="white pt-3 pt-5 px-0 d-flex align-items-end">
               <div className="w-100">
-                <h2 className="white mb-3">
+                <h3> className="white mb-3">
                   Contact us
-                </h2>
+                </h3>
               
                 <form className="mb-4">
                 <div class="mb-3">
@@ -223,7 +223,7 @@ export default function Footer() {
                   <p className="mono white mb-2">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono white no-underline bg-red">
+                  <a href="#" className="mono dark-grey no-underline bg-red">
                   hello@thinkingbig.net
                   </a>
             </Col>

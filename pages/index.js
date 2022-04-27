@@ -65,8 +65,8 @@ export default function Home() {
                 loop
                 cursor
                 cursorStyle='_'
-                typeSpeed={100}
-                deleteSpeed={80}
+                typeSpeed={120}
+                deleteSpeed={100}
                 delaySpeed={1000}
                 words={['for business', 'for people']}
                 onLoop={(loopCount) =>
