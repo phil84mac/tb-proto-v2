@@ -260,53 +260,53 @@ export default function Home() {
                 </Col>
 
 
-                <Col sm={12} className="brdr-bttm brdr-tp-dark px-0">
-                <h6 className="mt-2 text-center">
-                  PROCESS OVERVIEW
+                <Col sm={12} className="brdr-bttm brdr-tp-dark py-2 px-0">
+                <h6 className="large mt-2 text-center">
+                  DEVELOPMENT PROCESS
                 </h6>
                 </Col>
 
                 
                   <Col xs={4} sm={2} className="brdr-bttm p-2 d-flex align-items-center flex-column">
                     <Image fluid src="/align.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="small dark-grey mono text-center mt-4 mb-0">
-                      A. Align
+                    <p className=" dark-grey text-center mt-4 mb-2">
+                      <span className="mono small">A.</span> <span className="heavy">Align</span>
                     </p>
                   </Col>
                   <Col xs={4} sm={2} className="brdr-lft brdr-bttm brdr-lft p-2 pe-1 d-flex align-items-center flex-column ">
                     <Image fluid src="/discover.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="small dark-grey mono text-center mt-4 mb-0 me-1">
-                      B. Discover
+                    <p className="dark-grey text-center mt-4 mb-2 me-1">
+                    <span className="mono small">B.</span> <span className="heavy">Discover</span>
                     </p>
                   </Col>
                   <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
                     <Image fluid src="/design.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="small dark-grey mono text-center mt-4 mb-0">
-                      C. Design
+                    <p className="dark-grey text-center mt-4 mb-2">
+                    <span className="mono small">C.</span> <span className="heavy">Design</span>
                     </p>
                   </Col>
                   <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
                     <Image fluid src="/validate.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="small dark-grey mono text-center mt-4 mb-0">
-                      D. Validate
+                    <p className="dark-grey text-center mt-4 mb-2">
+                    <span className="mono small">D.</span> <span className="heavy">Validate</span>
                     </p>
                   </Col>
                   <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
                     <Image fluid src="/roadmap.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="small dark-grey mono text-center mt-4 mb-0">
-                      E. Roadmap
+                    <p className="dark-grey text-center mt-4 mb-2">
+                    <span className="mono small">E.</span> <span className="heavy">Roadmap</span>
                     </p>
                   </Col>
                   <Col xs={4} sm={2} className="brdr-bttm brdr-lft p-2 d-flex align-items-center flex-column">
                     <Image fluid src="/next-steps.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="small dark-grey mono text-center mt-4 mb-0">
-                      F. Next steps
+                    <p className="dark-grey text-center mt-4 mb-2">
+                    <span className="mono small">F.</span> <span className="heavy">Next steps</span>
                     </p>
                   </Col>
 
-                <Col sm={12} className="brdr-bttm px-0">
-                <p className="mono x-small mt-2 text-center text-muted medium mb-2">
-                  Repeat steps B-D until solution is validated by users
+                <Col sm={12} className=" bg-red py-3">
+                <p className="mono small bold text-uppercase text-center white medium mb-0">
+                  Repeat steps B-D until solution is thoroughly validated by users
                 </p>
                 </Col>
 
@@ -328,6 +328,8 @@ export default function Home() {
                 </Col>
                 <hr className="my-0" />
                 <Col sm={4} className="brdr-rght px-0">  
+                <p className="mono mt-3">A.</p>
+                  <hr className="px-0" />
                   <h4 className="pe-3 mt-2">
                   Business moves quickly
                   </h4>
@@ -336,6 +338,8 @@ export default function Home() {
                   </p>
                 </Col>
                 <Col sm={4} className="brdr-rght px-0">
+                <p className="mono mt-3">B.</p>
+                  <hr className="px-0" />
                 <hr className="px-0 d-sm-none" />
                   <h4 className="pe-3 mt-2">
                   We have innovative people, services and technologies
@@ -345,7 +349,8 @@ export default function Home() {
                   </p>           
                 </Col>
                 <Col sm={4} className="px-0">
-                <hr className="px-0 d-sm-none" />
+                <p className="mono mt-3">C.</p>
+                  <hr className="px-0" />
                   <h4 className="pe-3 mt-2">
                   Be ready for whatever the future brings
                   </h4>
@@ -354,9 +359,7 @@ export default function Home() {
                   </p> 
                 </Col>
 
-                <Col sm={12} className="vh-20 brdr-tp">
 
-                </Col>
 
                 <Col sm={12} className="px-0">
                 <video className='w-full' autoPlay loop muted>
@@ -365,7 +368,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-20" >
+            <Col xs={2} lg={3} className="vh-15" >
             </Col>
             <Col xs={10} lg={9} className="brdr-lft">
                 <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-5 p-0 d-none">

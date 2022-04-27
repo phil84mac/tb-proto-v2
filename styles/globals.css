@@ -59,6 +59,10 @@ body {
   height: 20vh;
 }
 
+.vh-15 {
+  height: 15vh;
+}
+
 .vh-10 {
   height: 10vh;
 }
