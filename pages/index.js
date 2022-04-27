@@ -166,7 +166,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h3 className="lead semi-bold dark-grey py-3">
+            <h3 className="lead semi-bold dark-grey py-4">
             Using a people-first approach means <span className="heavy">building intuitive technology</span> that people actually use. Here's how it works:
             </h3>
             </Col>
