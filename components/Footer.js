@@ -223,7 +223,7 @@ export default function Footer() {
                   <p className="mono white mb-2">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono dark-grey no-underline bg-red">
+                  <a href="#" className="mono white no-underline bg-red">
                   hello@thinkingbig.net
                   </a>
             </Col>

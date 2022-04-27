@@ -12,11 +12,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useRouter } from 'next/router';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import Offcanvas from 'react-bootstrap/Offcanvas'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Typewriter } from 'react-simple-typewriter'
+
 
 export default function Home() {
+
+
   return (
-    <div>
+    <>
       <Head>
         <title>TB PROTO</title>
         <link rel="icon" href="/favicon.ico" />
@@ -50,11 +54,28 @@ export default function Home() {
             
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft px-0">
+            <Col xs={10} lg={9} className=" brdr-lft px-0">
             <hr className="my-0 dark" />
-              <h1 className="dark-grey heavy mb-5 pb-4">
-              We modernize enterprise systems for business and for people
+            <div className="">
+
+              <h1 className="dark-grey heavy mb-5 pb-4 " >
+              We modernize enterprise systems <span className="red">
+              {/* Style will be inherited from the parent element */}
+              <Typewriter
+                loop
+                cursor
+                cursorStyle='_'
+                typeSpeed={100}
+                deleteSpeed={80}
+                delaySpeed={1000}
+                words={['for business', 'for people']}
+                onLoop={(loopCount) =>
+                  console.log(`Just completed loop ${loopCount}`)
+                }
+              />
+            </span>
               </h1>
+            </div>
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./meeting.mp4" type='video/mp4' />
               </video>
@@ -132,7 +153,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
                   <div className="card-visual d-flex justify-content-center align-items-center">
-                    <Image fluid src="/align.svg" className="p-4 svg"/>
+                    <Image fluid src="/align.svg" className="p-4 svg-rotate"/>
                   </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">A.</p>
@@ -146,7 +167,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm ">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                  <Image fluid src="/discover.svg" className="p-4"/>
+                  <Image fluid src="/discover.svg" className="p-4 svg-stretch"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">B.</p>
@@ -202,7 +223,7 @@ export default function Home() {
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/next-steps.svg" className="p-4"/>
+                <Image fluid src="/next-steps.svg" className="p-4 svg-rotate"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">F.</p>
@@ -279,6 +300,6 @@ export default function Home() {
       </main>
 
       <Footer />
-    </div>
+    </>
   )
 }
