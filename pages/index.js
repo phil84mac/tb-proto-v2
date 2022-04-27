@@ -56,10 +56,11 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={9} className=" brdr-lft px-0">
             <hr className="my-0 dark" />
-            <div className="">
+
+            <div className="d-none d-sm-block">
 
               <h1 className="dark-grey heavy mb-5 pb-4 " >
-              We modernize <br/> enterprise systems <br/> <span className="red">
+              Modernizing enterprise systems <br/> <span className="red">
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 loop
@@ -75,6 +76,28 @@ export default function Home() {
               />
             </span>
               </h1>
+              
+            </div>
+            <div className="d-sm-none">
+
+              <h1 className="dark-grey heavy mb-5 pb-4 " >
+              Modernizing enterprise systems <br/> <span className="red">
+              {/* Style will be inherited from the parent element */}
+              <Typewriter
+                loop
+                cursor
+                cursorStyle='_'
+                typeSpeed={110}
+                deleteSpeed={80}
+                delaySpeed={1000}
+                words={['for business', 'for people']}
+                onLoop={(loopCount) =>
+                  console.log(`Just completed loop ${loopCount}`)
+                }
+              />
+            </span>
+              </h1>
+              
             </div>
               <video className='w-full mt-5' autoPlay loop muted>
                 <source src="./meeting.mp4" type='video/mp4' />
@@ -93,7 +116,7 @@ export default function Home() {
                 <h2 className="h3 semi-bold dark-grey d-none d-sm-block mb-0">
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
-                <h2 className="dark-grey semi-bold d-block d-sm-none">
+                <h2 className="dark-grey semi-bold d-sm-none">
                 In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
                 </h2>
                 </Col>
@@ -254,7 +277,7 @@ export default function Home() {
               <Row fluid className="dark-grey">
               <hr className="my-0 dark" />
                 <Col sm={12} className="px-0 pb-5 mb-5">
-                <h2 className="h1 heavy mt-0 mb-5 pb-5 dark-grey">
+                <h2 className="heavy mt-0 mb-xl-5 pb-xl-5 dark-grey">
                 Let us help your organization rethink what's possible
                 </h2>
                 </Col>
