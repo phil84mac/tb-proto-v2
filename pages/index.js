@@ -59,7 +59,7 @@ export default function Home() {
             <div className="">
 
               <h1 className="dark-grey heavy mb-5 pb-4 " >
-              We modernize enterprise systems <span className="red">
+              We modernize <br/> enterprise systems <br/> <span className="red">
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 loop

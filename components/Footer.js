@@ -17,7 +17,7 @@ export default function Footer() {
           <Row className="">
             <Col sm={6} className="dark-grey brdr-bttm-op brdr-rght-op pt-5 px-0 d-flex align-items-end">
               <div className="w-100">
-                <a href="/ourcompany" className="mono medium text-uppercase dark-grey no-underline bg-yellow arrow d-none">
+                <a href="/ourcompany" className="mono medium text-uppercase white arrow d-none">
                   ABOUT Our company
                 </a>
               <hr className="op"/>
@@ -160,7 +160,7 @@ export default function Footer() {
             </Col>
             <Col sm={6} className="white brdr-bttm-op brdr-rght-op px-0 d-flex align-items-end">
               <div className="w-100">
-                <a href="/ourcompany" className="mono medium text-uppercase dark-grey no-underline bg-yellow arrow d-none">
+                <a href="/ourcompany" className="mono medium text-uppercase white arrow d-none">
                   Our company
                 </a>
               <hr className="op"/>
@@ -170,22 +170,22 @@ export default function Footer() {
 
                 <ul className="px-0 mb-4">
                   <li className="mb-2">
-                    <a href="#" className="dark-grey no-underline bg-yellow mono">
+                    <a href="#" className="white mono">
                     Facebook
                     </a>
                   </li>
                   <li className="mb-2">
-                  <a href="#" className="dark-grey no-underline bg-yellow mono">
+                  <a href="#" className="white mono">
                   LinkedIn
                   </a>
                   </li>
                   <li className="mb-2">
-                  <a href="#" className="dark-grey no-underline bg-yellow mono">
+                  <a href="#" className="white mono">
                   Medium
                   </a>
                   </li>
                   <li className="mb-2">
-                  <a href="#" className="dark-grey no-underline bg-yellow mono">
+                  <a href="#" className="white mono">
                   Twitter
                   </a>
                   </li>
@@ -196,12 +196,12 @@ export default function Footer() {
                 </h6>
                 <ul className="px-0 mb-4">
                   <li className="mb-2 ">
-                    <a href="#" className="dark-grey no-underline bg-yellow mono">
+                    <a href="#" className="white mono">
                     Terms of use
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="dark-grey no-underline bg-yellow mono">
+                    <a href="#" className="white mono">
                     Privacy
                     </a>
                   </li>
@@ -223,7 +223,7 @@ export default function Footer() {
                   <p className="mono white mb-2">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono dark-grey no-underline bg-red">
+                  <a href="#" className="mono white">
                   hello@thinkingbig.net
                   </a>
             </Col>
