@@ -115,6 +115,14 @@ body {
   background-color: #000!important;
 }
 
+.grey {
+  color: #c4c4c4!important;
+ }
+
+.bg-grey {
+  background-color: #c4c4c4!important;
+}
+
 .white {
   color: #fff!important;
 }
@@ -264,6 +272,10 @@ p.lead {
   line-height: calc(1.3rem + 1vw)!important;
 }
 
+.large {
+  font-size: 18px!important;
+}
+
 .lead {
   font-size: calc(3rem + 1vw)!important;
   line-height: calc(3rem + 1vw)!important;
@@ -350,7 +362,10 @@ h6, .h6 {
   color: #000;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #eaeaea!important;
+  border-top: 1px solid #eaeaea!important;
+  border-bottom: 1px solid #eaeaea!important;
+  border-left: none!important;
+  border-right: none!important;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
