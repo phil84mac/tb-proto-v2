@@ -185,12 +185,12 @@ export default function Home() {
                   Align
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
+                  During Alignment, we meet with stakeholders to match expectations for the project. This means creating a shared understanding of the process ahead, the time commitments and resources. Using proven and repeatable methodologies, our Service Design experts will guide the journey from understanding the user to creating the solution.
                   </p>  
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm ">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                  <Image fluid src="/discover.svg" className="p-4"/>
+                  <Image fluid src="/discover.svg" className="p-4 pe-3"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">B.</p>
@@ -199,7 +199,7 @@ export default function Home() {
                   Discover
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
+                  With shared expectations, our Service Designers then look to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can  effect change that has a lasting impact.
                   </p>  
                 </Col>
                 <Col sm={6} className="brdr-rght brdr-bttm px-0">
@@ -213,7 +213,7 @@ export default function Home() {
                   Design
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
+                  The Design phase is all about collaborating with those most closely involved with the feature, tool, product or service that we’ll be transforming. The team generates lots of new ideas and we guide the process, designing solutions with the users instead of for them. Design is all about reimagining the user experience.
                   </p>  
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm">
@@ -227,7 +227,7 @@ export default function Home() {
                   Validate
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
+                  With our best ideas we make prototypes so we can test, measure and incrementally refine the concepts. Trying them out in the real world, with real users, helps us know what’s working and what’s not so we can adjust and try again. Without user input, we won't know if our solution is heading in the right direction. Or how to make it better. The Validate phase ends with a solution that’s been proven to work.
                   </p>  
                 </Col>
                 <Col sm={6}  className="brdr-rght brdr-bttm px-0">
@@ -241,7 +241,7 @@ export default function Home() {
                   Roadmap
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
+                  With our best solution, and a prototype that works for everyone, we gather the team to work out a timeline and milestones, and determine personnel and responsibilities. We also define what success will look like during implementation. The Roadmap charts a path forward towards getting the idea out into the world which was the goal from the start. 
                   </p>  
                 </Col>
                 <Col sm={6} className="px-0 brdr-bttm">
@@ -255,8 +255,8 @@ export default function Home() {
                   Next steps
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  We match expectations and gain a deep understanding of your unique business problem from all points of view. With these insights, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you to effect change that has a lasting impact.
-                  </p>  
+                  Finally, we close out the project, making sure the client understands and has access to all the artifacts from the work, from research to outcome, and a clear understanding of the solution. With everything packaged and communicated, stakeholders feel confident that they will implement a truly inclusive solution, one that works for the people who matter, those who use it. 
+                  </p>
                 </Col>
 
 
