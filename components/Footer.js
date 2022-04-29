@@ -21,7 +21,7 @@ export default function Footer() {
                   ABOUT Our company
                 </a>
               <hr className="op"/>
-                <h6 className="white medium">
+                <h6 className="text-muted medium">
                   SOCIAL MEDIA
                 </h6>
 
@@ -48,7 +48,7 @@ export default function Footer() {
                   </li>
                 </ul>
               <hr className="op" />
-                <h6 className="white medium">
+                <h6 className="text-muted medium">
                   DOCUMENTS
                 </h6>
                 <ul className="px-0 mb-4">

@@ -269,6 +269,9 @@ hr.op, .hr.op {
 }
 
 
+.video-margin-fix {
+  margin-bottom: -6px!important;
+}
 
 /* Typography */
 

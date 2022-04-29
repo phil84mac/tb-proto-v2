@@ -59,7 +59,7 @@ export default function Home() {
 
             <div className="d-none d-sm-block">
 
-              <h1 className="dark-grey heavy mb-5 pb-4 mt-3" >
+              <h1 className="dark-grey heavy mb-5 pb-5 mt-3" >
               Modernizing enterprise systems <br/> <span className="red">
               {/* Style will be inherited from the parent element */}
               <Typewriter
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
             <div className="d-sm-none">
 
-              <h1 className="dark-grey mt-3 heavy mb-5 pb-4 " >
+              <h1 className="dark-grey mt-3 heavy mb-5 pb-5 " >
               Modernizing enterprise systems <br/> <span className="red">
               {/* Style will be inherited from the parent element */}
               <Typewriter
@@ -99,13 +99,17 @@ export default function Home() {
               </h1>
               
             </div>
-              <video className='w-full mt-5' autoPlay loop muted>
+            </Col>
+            <Col xs={2} lg={3} className="brdr-tp">
+            </Col>
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp px-0">
+            <video className='w-full video-margin-fix' autoPlay loop muted>
                 <source src="./meeting.mp4" type='video/mp4' />
               </video>
             </Col>
-            <Col xs={2} lg={3} className="vh-20">
+            <Col xs={2} lg={3} className="vh-20 brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft">
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
@@ -158,7 +162,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-20">
+            <Col xs={2} lg={3} className="vh-20 brdr-tp">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
@@ -309,11 +313,11 @@ export default function Home() {
                   Repeat steps B-D until solution is thoroughly validated by users
                 </p>
                 </Col>
-
-                <Col sm={12} className="vh-20">
-                </Col>
-
               </Row>
+            </Col>
+            <Col xs={2} lg={3} className="vh-20 brdr-tp">
+            </Col>
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
             </Col>
 
             <Col xs={2} lg={3} className="brdr-tp">
@@ -357,19 +361,18 @@ export default function Home() {
                   Organizations must adapt and innovate to meet the evolving needs of their customers while keeping up-to-date with the latest technology. Let us help you revitalize your business.
                   </p> 
                 </Col>
-
-
-
-                <Col sm={12} className="px-0">
-                <video className='w-full' autoPlay loop muted>
-                <source src="./tower.mp4" type='video/mp4' />
-              </video>
-                </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-15" >
+            <Col xs={2} lg={3} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft">
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp px-0">
+            <video className='w-full video-margin-fix' autoPlay loop muted>
+                <source src="./tower.mp4" type='video/mp4' />
+              </video>
+            </Col>
+            <Col xs={2} lg={3} className="vh-15 brdr-tp" >
+            </Col>
+            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
                 <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-5 p-0 d-none">
                   OUR COMPANY
                 </a>
