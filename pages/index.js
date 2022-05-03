@@ -29,29 +29,7 @@ export default function Home() {
 
       <main className="px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
-          <Row id="home" fluid className="">
-            <Col xs={2} lg={3} className="vh-20 z-0">
-              <Link href="#home">
-                <div className="mt-3 fixed pntr">
-                  <Row className="d-flex align-items-center">
-                  <Col lg={3} className="px-0">
-                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
-                  </Col>
-                  <Col lg={9} className="d-none d-lg-block pe-0">
-                  <a href="#home" className="mt-2 dark-grey medium no-underline">
-                    THINKING BIG
-                  </a>
-                  </Col>
-                  </Row>
-                </div>
-              </Link>
-            </Col>
-            <Col xs={10} lg={9} className="brdr-lft d-flex align-items-start justify-content-end pt-1 pe-0 z-999">
-                <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-4 p-0">
-                  OUR COMPANY
-                </a>
-            </Col>
-            
+          <Row fluid className="">
             <Col xs={2} lg={3} className="brdr-tp">
             </Col>
             <Col xs={10} lg={9} className=" brdr-lft px-0">
@@ -61,7 +39,6 @@ export default function Home() {
 
               <h1 className="dark-grey heavy mb-5 pb-5 mt-3" >
               Modernizing enterprise systems <br/> <span className="red">
-              {/* Style will be inherited from the parent element */}
               <Typewriter
                 loop
                 cursor
@@ -82,7 +59,6 @@ export default function Home() {
 
               <h1 className="dark-grey mt-3 heavy mb-5 pb-5 " >
               Modernizing enterprise systems <br/> <span className="red">
-              {/* Style will be inherited from the parent element */}
               <Typewriter
                 loop
                 cursor
@@ -370,7 +346,7 @@ export default function Home() {
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
             </Col>
-            <Col xs={2} lg={3} className="vh-15 brdr-tp" >
+            <Col xs={2} lg={3} className="vh-20 brdr-tp" >
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
                 <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-5 p-0 d-none">

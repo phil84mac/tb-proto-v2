@@ -15,59 +15,103 @@ export default function Footer() {
       <Container fluid className="cntnr-brdr-op">
         <div className="d-none d-sm-block">
           <Row className="">
-            <Col sm={6} className="dark-grey brdr-bttm-op brdr-rght-op pt-5 px-0 d-flex align-items-end">
+            <Col sm={6} className="dark-grey brdr-bttm-op brdr-rght-op pt-5 d-flex align-items-end">
               <div className="w-100">
-                <a href="/ourcompany" className="mono medium text-uppercase white arrow d-none">
-                  ABOUT Our company
-                </a>
-              <hr className="op"/>
-                <h6 className="text-muted medium">
-                  SOCIAL MEDIA
-                </h6>
+                <Row>
+                  <Col sm={6} className="px-0">
+                  <hr className="op mt-0"/>
+                    <h6 className="text-muted medium">
+                      PAGES
+                    </h6>
+                    <ul className="px-0 mb-4">
+                      <li className="mb-2">
+                        <a href="#" className="white mono">
+                        Home
+                        </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Business
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Careers
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      About
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 5
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 6
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 7
+                      </a>
+                      </li>
+                    </ul>
+                  </Col>
+                  <Col className="brdr-lft-op px-0" sm={6}>
+                  <hr className="op mt-0"/>
+                    <h6 className="text-muted medium">
+                      SOCIAL MEDIA
+                    </h6>
 
-                <ul className="px-0 mb-4">
-                  <li className="mb-2">
-                    <a href="#" className="white mono">
-                    Facebook
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                  <a href="#" className="white mono">
-                  LinkedIn
-                  </a>
-                  </li>
-                  <li className="mb-2">
-                  <a href="#" className="white mono">
-                  Medium
-                  </a>
-                  </li>
-                  <li className="mb-2">
-                  <a href="#" className="white mono">
-                  Twitter
-                  </a>
-                  </li>
-                </ul>
-              <hr className="op" />
-                <h6 className="text-muted medium">
-                  DOCUMENTS
-                </h6>
-                <ul className="px-0 mb-4">
-                  <li className="mb-2 ">
-                    <a href="#" className="white mono">
-                    Terms of use
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="white mono">
-                    Privacy
-                    </a>
-                  </li>
-                </ul>
+                    <ul className="px-0 mb-4">
+                      <li className="mb-2">
+                        <a href="#" className="white mono">
+                        Facebook
+                        </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      LinkedIn
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Medium
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Twitter
+                      </a>
+                      </li>
+                    </ul>
+                  <hr className="op" />
+                    <h6 className="text-muted medium">
+                      DOCUMENTS
+                    </h6>
+                    <ul className="px-0 mb-4">
+                      <li className="mb-2 ">
+                        <a href="#" className="white mono">
+                        Terms of use
+                        </a>
+                      </li>
+                      <li className="mb-2">
+                        <a href="#" className="white mono">
+                        Privacy
+                        </a>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
               </div>
             </Col>
-            <Col sm={6} className="dark-grey pt-5 brdr-bttm-op px-0 d-flex align-items-end">
+            <Col sm={6} className="dark-grey pt-4 brdr-bttm-op px-0 d-flex align-items-end">
               <div className="w-100">
-                <h4 className="white medium mb-3">
+                <h4 className="white medium mb-3 mt-3">
                   Contact us
                 </h4>              
                 <form className="mb-4">
@@ -89,11 +133,19 @@ export default function Footer() {
                   <label for="message" class="form-label text-muted text-uppercase">Leave us a message</label>
                   <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
-                <div className="d-flex justify-content-end">
+
+                <div className="d-flex align-items-center justify-content-between">
+                <div className="form-check mb-0">
+                  <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label className="form-check-label text-muted" for="flexCheckDefault">
+                    Sign up for our newsletter?
+                  </label>
+                </div>
                 <button className="btn btn-primary semi-bold bg-yellow dark-grey no-underline arrow p-0" type="submit">
                   SEND
                 </button>
                 </div>
+                
                 </form>
               </div>
             </Col>
@@ -163,8 +215,49 @@ export default function Footer() {
                 <a href="/ourcompany" className="mono medium text-uppercase white arrow d-none">
                   Our company
                 </a>
+                <hr className="op mt-0"/>
+                    <h6 className="text-muted medium">
+                      PAGES
+                    </h6>
+                    <ul className="px-0 mb-4">
+                      <li className="mb-2">
+                        <a href="#" className="white mono">
+                        Page 1
+                        </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 2
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 3
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 4
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 5
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 6
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono">
+                      Page 7
+                      </a>
+                      </li>
+                    </ul>
               <hr className="op"/>
-                <h6 className="white medium">
+                <h6 className="text-muted medium">
                   SOCIAL MEDIA
                 </h6>
 
@@ -191,7 +284,7 @@ export default function Footer() {
                   </li>
                 </ul>
               <hr className="op" />
-                <h6 className="white medium">
+                <h6 className="text-muted medium">
                   DOCUMENTS
                 </h6>
                 <ul className="px-0 mb-4">

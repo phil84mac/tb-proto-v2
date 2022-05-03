@@ -17,9 +17,54 @@ import FormControl from 'react-bootstrap/FormControl';
 import Link from 'next/link';
 
 export default function Header() {
+
+
   return (
     <>
-  
+    <div className="px-sm-4 px-lg-5">
+      <Container fluid className="cntnr-brdr">
+          <Row>
+            <Col xs={2} lg={3} className="vh-20 z-0">
+              <Link href="/">
+                <div className="mt-3 fixed pntr">
+                  <Row className="d-flex align-items-center">
+                  <Col lg={3} className="px-0">
+                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
+                  </Col>
+                  <Col lg={9} className="d-none d-lg-block pe-0">
+                  <a href="/" className="mt-2 dark-grey medium no-underline">
+                    THINKING BIG
+                  </a>
+                  </Col>
+                  </Row>
+                </div>
+              </Link>
+            </Col>
+            <Col xs={10} lg={9} className="brdr-lft d-flex align-items-center justify-content-end pe-0 z-999">
+              <ul className="text-end mb-0">
+
+              <li className="mb-2 pb-1">
+                <a href="/business"  className="mono semi-bold dark-grey no-underline bg-yellow arrow p-0">
+                  BUSINESS
+                </a>
+              </li> 
+
+              <li className="mb-2 pb-1">
+                <a href="/careers"  className="mono semi-bold dark-grey no-underline bg-yellow arrow p-0">
+                  CAREERS
+                </a>
+              </li>
+
+              <li className="">
+                <a href="/about"  className="mono semi-bold dark-grey no-underline bg-yellow arrow p-0">
+                  ABOUT
+                </a>
+              </li>
+              </ul>
+            </Col>
+          </Row>
+      </Container>
+    </div>
     </>
   )
 }
