@@ -40,24 +40,24 @@ export default function Header() {
                 </div>
               </Link>
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft d-flex align-items-center justify-content-end pe-0 z-999">
-              <ul className="text-end mb-0">
+            <Col xs={10} lg={9} className="brdr-lft d-flex align-items-start pt-4 justify-content-end px-0 z-999">
+              <ul className="mt-2 px-0">
 
-              <li className="mb-2 pb-1">
-                <a href="/business"  className="mono semi-bold dark-grey no-underline bg-yellow arrow p-0">
-                  BUSINESS
+              <li className="d-inline me-3">
+                <a href="/careers"  className="mono semi-bold dark-grey no-underline bg-yellow p-0">
+                  CAREERS
                 </a>
               </li> 
 
-              <li className="mb-2 pb-1">
-                <a href="/careers"  className="mono semi-bold dark-grey no-underline bg-yellow arrow p-0">
-                  CAREERS
+              <li className="d-inline me-3">
+                <a href="/business"  className="mono semi-bold dark-grey no-underline bg-yellow p-0">
+                  BUSINESS
                 </a>
               </li>
 
-              <li className="">
-                <a href="/about"  className="mono semi-bold dark-grey no-underline bg-yellow arrow p-0">
-                  ABOUT
+              <li className="d-inline">
+                <a href="/about"  className="mono semi-bold dark-grey no-underline bg-yellow p-0">
+                  ABOUT US
                 </a>
               </li>
               </ul>

@@ -41,7 +41,7 @@ export default function Footer() {
                       </li>
                       <li className="mb-2">
                       <a href="#" className="white mono">
-                      About
+                      About Us
                       </a>
                       </li>
                       <li className="mb-2">
