@@ -30,113 +30,146 @@ export default function Home() {
       <main className="px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
-            <Col xs={2} lg={3} className="brdr-tp">
+            <Col xs={2} lg={2} xl={2} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className=" brdr-lft px-0">
+            <Col xs={10} lg={10} xl={8} className=" brdr-lft px-0">
             <hr className="my-0 dark" />
 
-            <div className="d-none d-sm-block">
+            <div className="d-none d-sm-block py-5 pe-5">
 
-              <h1 className="dark-grey heavy mb-5 pb-5 mt-3" >
-              Modernizing enterprise systems <br/> <span className="red">
-              <Typewriter
-                loop
-                cursor
-                cursorStyle='_'
-                typeSpeed={110}
-                deleteSpeed={80}
-                delaySpeed={1500}
-                words={['for business', 'for people']}
-                onLoop={(loopCount) =>
-                  console.log(`Just completed loop ${loopCount}`)
-                }
-              />
-            </span>
+              <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5" >
+                <span className="semi-bold bg-yellow pe-2"> 
+                  <Typewriter
+                    loop
+                    cursor
+                    cursorStyle='_'
+                    typeSpeed={110}
+                    deleteSpeed={80}
+                    delaySpeed={1500}
+                    words={['We design', 'We develop', 'We deliver']}
+                    onLoop={(loopCount) =>
+                      console.log(`Just completed loop ${loopCount}`)
+                    }
+                  />
+                </span><br/>
+                digital enterprise systems for your entire organization
               </h1>
               
             </div>
             <div className="d-sm-none">
 
-              <h1 className="dark-grey mt-3 heavy mb-5 pb-5 " >
-              Modernizing enterprise systems <br/> <span className="red">
-              <Typewriter
-                loop
-                cursor
-                cursorStyle='_'
-                typeSpeed={110}
-                deleteSpeed={80}
-                delaySpeed={1500}
-                words={['for business', 'for people']}
-                onLoop={(loopCount) =>
-                  console.log(`Just completed loop ${loopCount}`)
-                }
-              />
-            </span>
+            <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5" >
+                <span className="semi-bold bg-yellow pe-2"> 
+                  <Typewriter
+                    loop
+                    cursor
+                    cursorStyle='_'
+                    typeSpeed={110}
+                    deleteSpeed={80}
+                    delaySpeed={1500}
+                    words={['We design', 'We develop', 'We deliver']}
+                    onLoop={(loopCount) =>
+                      console.log(`Just completed loop ${loopCount}`)
+                    }
+                  />
+                </span><br/>
+                digital enterprise systems for your entire organization
               </h1>
+              
               
             </div>
             </Col>
-            <Col xs={2} lg={3} className="brdr-tp">
+            <Col xs={2} xl={2} className="brdr-lft brdr-tp-dark d-none d-xl-block">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp px-0">
-            <video className='w-full video-margin-fix' autoPlay loop muted>
-                <source src="./meeting.mp4" type='video/mp4' />
+            <Col xs={2} lg={2} xl={2} className="brdr-tp">
+            </Col>
+            <Col xl={2} className="brdr-tp brdr-lft d-none d-xl-block">
+            </Col>
+            <Col xs={10} lg={10} xl={8} className="brdr-lft brdr-tp brdr-bttm px-0">
+              <video className='w-full video-margin-fix' autoPlay loop muted>
+                <source src="./interior.mp4" type='video/mp4' />
               </video>
             </Col>
-            <Col xs={2} lg={3} className="vh-20 brdr-tp">
+          
+            <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
+            <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
-            <Col xs={2} lg={3} className="brdr-tp">
+            <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft">
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            
+            <Col xs={10} lg={8} className="">
               <Row fluid className="">
               <hr className="my-0 dark" />
-                <Col sm={6} className="px-0 d-flex align-items-center brdr-rght">
-                <h2 className="h3 semi-bold dark-grey d-none d-sm-block mb-0">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
+
+                <h2 className="regular dark-grey px-0 py-5 mb-5">
+                Our people, skills and technology <span className="">power the most modern enterprise systems</span> in Canada.
                 </h2>
-                <h2 className="h3 mt-3 dark-grey semi-bold d-sm-none">
-                In a competitive business environment, successful companies put people first. At Thinking Big, <span className="heavy">Human-centred Design</span> informs how we think and what we do, no matter what the solution.
-                </h2>
-                </Col>
-                <Col sm={6} className="d-flex align-items-center py-3">
-                <object type="image/svg+xml" data="/HCD.svg" className=""/>
-                </Col>
+
+
                 <hr className="my-0" />
-                <Col sm={4} className="brdr-rght px-0 dark-grey">  
-                  <p className="mono mt-3">A.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3">
-                    Innovative technology
-                  </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
-                  We deliver innovative, modern and scalable software that will strengthen your organization and prime it for the future.
+                <Col sm={6} className="brdr-rght ps-0 dark-grey pe-3">  
+                  <p className="h4 medium mb-4">
+                    Veterans Affairs Canada
                   </p>
+                  <p className="h4 medium mb-4">
+                    Treasury Board of Canada Secretariat
+                  </p>
+                  <p className="h4 medium mb-4">
+                    Department of National Defence
+                  </p>
+                  <p className="h4 medium mb-4">
+                    National Defence and Canadian Armed Forces Ombudsman
+                  </p>
+                  <p className="h4 medium mb-4">
+                    Office of the Veterans Ombudsman
+                  </p>
+                  <p className="h4 medium mb-4">
+                    Canadian Digital Service
+                  </p>
+                  <p className="h4 medium mb-4">
+                    Canadian Revenue Agency
+                  </p>
+                  <p className="h4 medium mb-4">
+                  Employment and Social Development Canada
+                  </p>
+                  
                 </Col>
-                <Col sm={4} className="brdr-rght px-0 dark-grey">
-                <hr className="px-0 d-sm-none" />
-                  <p className="mono mt-3">B.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3">
-                    Designed for humans
-                  </h4>
-                  <p className="mb-5 mb-sm-5 pe-3 ">
-                  With insights gained from a human-centred perspective, we design technology for everyone, from users to customers to your own employees.
-                  </p>           
-                </Col>
-                <Col sm={4} className="px-0 dark-grey">
-                <hr className="px-0 d-sm-none" />
-                  <p className="mono mt-3">C.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3">
-                  Aligned with how you work
-                  </h4>
-                  <p className="mb-5 pe-3 pb-md-5">
-                  By putting humans at the centre of the process, we create efficient solutions that match the work you do.
+                <Col sm={6} className="ps-0 dark-grey pe-3">
+                  <p className="h4 medium mb-4">
+                  Defense Research Development Canada
+                  </p>
+                  <p className="h4 medium mb-4">
+                  Office of the Correctional Investigator
+                  </p>
+                  <p className="h4 medium mb-4">
+                  Government of Prince Edward Island
+                  </p>
+                  <p className="h4 medium mb-4">
+                  Government of New Brunswick
+                  </p>
+                  <p className="h4 medium mb-4">
+                  PEI Fisher's Association
+                  </p>
+                  <p className="h4 medium mb-4">
+                  Farm Credit Canada
                   </p> 
+                  <p className="h4 medium mb-4">
+                  Maritime Electric
+                  </p> 
+                  <p className="h4 medium mb-4">
+                  American Laywer Magazine (ALM Media)
+                  </p>        
                 </Col>
               </Row>
+            </Col>
+            <Col xs={2} lg={4} className="brdr-tp brdr-lft">
             </Col>
             <Col xs={2} lg={3} className="vh-20 brdr-tp">
             </Col>

@@ -24,7 +24,7 @@ export default function Header() {
     <div className="px-sm-4 px-lg-5">
       <Container fluid className="cntnr-brdr">
           <Row>
-            <Col xs={2} lg={3} className="vh-20 z-0">
+            <Col xs={2} xl={2} className="z-0 mb-3">
               <Link href="/">
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
@@ -32,34 +32,44 @@ export default function Header() {
                   <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
-                  <a href="/" className="mt-2 dark-grey medium no-underline">
-                    THINKING BIG
-                  </a>
+                    <a href="/" className="mt-2 dark-grey medium no-underline">
+                      THINKING BIG
+                    </a>
                   </Col>
                   </Row>
                 </div>
               </Link>
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft d-flex align-items-start pt-4 justify-content-end px-0 z-999">
-              <ul className="mt-2 px-0">
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+
+            <Col xs={2} className="brdr-lft d-flex align-items-start pt-4 justify-content-end px-0 z-999 pb-3">
+              <ul className="mt-2 px-0 uppercase">
 
               <li className="d-inline me-3">
-                <a href="/careers"  className="mono semi-bold dark-grey no-underline bg-yellow p-0">
-                  CAREERS
+                <a href="/"  className="mono medium dark-grey no-underline bg-yellow p-0 ">
+                  Home
                 </a>
               </li> 
 
               <li className="d-inline me-3">
-                <a href="/business"  className="mono semi-bold dark-grey no-underline bg-yellow p-0">
-                  BUSINESS
+                <a href="/"  className="mono medium dark-grey no-underline p-0">
+                  Careers
                 </a>
-              </li>
+              </li> 
 
-              <li className="d-inline">
-                <a href="/about"  className="mono semi-bold dark-grey no-underline bg-yellow p-0">
-                  ABOUT US
+              <li className="d-inline me-">
+                <a href="/"  className="mono medium dark-grey no-underline p-0">
+                  Contact
                 </a>
-              </li>
+              </li> 
+
               </ul>
             </Col>
           </Row>
