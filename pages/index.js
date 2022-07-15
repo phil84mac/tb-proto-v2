@@ -30,9 +30,9 @@ export default function Home() {
       <main className="px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
-            <Col xs={2} lg={2} xl={2} className="brdr-tp">
+            <Col xs={2} lg={2} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={10} xl={8} className=" brdr-lft px-0">
+            <Col xs={10} lg={8} className=" brdr-lft px-0">
             <hr className="my-0 dark" />
 
             <div className="d-none d-sm-block py-5 pe-5">
@@ -79,13 +79,13 @@ export default function Home() {
               
             </div>
             </Col>
-            <Col xs={2} xl={2} className="brdr-lft brdr-tp-dark d-none d-xl-block bg-black">
+            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block bg-black">
             </Col>
-            <Col xs={2} lg={2} xl={2} className="brdr-tp bg-yellow">
+            <Col xs={2} lg={2} className="brdr-tp bg-yellow">
             </Col>
-            <Col xl={2} className="brdr-tp brdr-lft d-none d-xl-block bg-red">
+            <Col xl={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block bg-red">
             </Col>
-            <Col xs={10} lg={10} xl={8} className="brdr-lft brdr-tp brdr-bttm px-0">
+            <Col xs={10} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
               <video className='w-full video-margin-fix' autoPlay loop muted>
                 <source src="./interior.mp4" type='video/mp4' />
               </video>

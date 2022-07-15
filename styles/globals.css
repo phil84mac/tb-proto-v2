@@ -343,15 +343,15 @@ p.lead {
 
 h1, .h1 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: calc(5rem + 1.5vw)!important;
-  line-height: calc(5rem + 1.5vw)!important;
+  font-size: calc(4.5rem + 1.5vw)!important;
+  line-height: calc(4.5rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
 }
 
 h2, .h2 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: calc(3.6rem + 1.5vw)!important;
-  line-height: calc(3.6rem + 1.5vw)!important;
+  font-size: calc(3.3rem + 1.5vw)!important;
+  line-height: calc(3.3rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
 }
 
@@ -364,8 +364,8 @@ h3, .h3{
 
 h4, .h4 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.6rem!important;
-  line-height: 1.8rem!important;
+  font-size: 1.4rem!important;
+  line-height: 1.6rem!important;
   letter-spacing: -0.015em!important;
 }
 
