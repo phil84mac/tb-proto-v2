@@ -108,8 +108,8 @@ export default function Home() {
               <Row fluid className="">
               <hr className="my-0 dark" />
 
-                <h2 className="regular dark-grey px-0 py-5 mb-5">
-                Our <span className="red">people</span>, <span className="red">skills</span> and <span className="red">technology</span> power the most modern enterprise systems in Canada.
+                <h2 className="light dark-grey px-0 py-5 mb-0 bg-light-grey">
+                Our <span className="red medium">people</span>, <span className="red medium">skills</span> and <span className="red medium">technology</span> power the most modern enterprise systems in Canada.
                 </h2>
                 <hr className="my-0 d-lg-none" />
                 <Image fluid src="/iso.png" className="d-lg-none"/>
@@ -188,6 +188,19 @@ export default function Home() {
                <Image fluid src="/iso.png" className="d-none d-lg-block"/>
               </div>
             </Col>
+            <Col xs={2}  className="vh-30 brdr-tp">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+
             <Col xs={2} lg={3} className="vh-20 brdr-tp">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft brdr-tp">
