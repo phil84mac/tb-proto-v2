@@ -104,15 +104,15 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
             
-            <Col xs={10} lg={8} className="">
+            <Col xs={12} lg={8} className="">
               <Row fluid className="">
               <hr className="my-0 dark" />
 
                 <h2 className="regular dark-grey px-0 py-5 mb-5">
-                Our people, skills and technology <span className="">power the most modern enterprise systems</span> in Canada.
+                Our <span className="red">people</span>, <span className="red">skills</span> and <span className="red">technology</span> power the most modern enterprise systems in Canada.
                 </h2>
-
-
+                <hr className="my-0 d-lg-none" />
+                <Image fluid src="/iso.png" className="d-lg-none"/>
                 <hr className="my-0" />
                 <Col sm={6} className="brdr-rght ps-0 dark-grey pe-3">  
                   <p className="h4 medium mb-4">
@@ -169,7 +169,10 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={4} className="brdr-tp brdr-lft">
+            <Col xs={12} lg={4} className="brdr-tp brdr-lft p-0 d-flex align-items-center">
+              <div className="">
+               <Image fluid src="/iso.png" className="d-none d-lg-block"/>
+              </div>
             </Col>
             <Col xs={2} lg={3} className="vh-20 brdr-tp">
             </Col>
