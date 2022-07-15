@@ -109,7 +109,7 @@ export default function Home() {
               <hr className="my-0 dark" />
 
                 <h2 className="light dark-grey px-0 py-5 mb-0 bg-light-grey">
-                Our <span className="red medium">people</span>, <span className="red medium">skills</span> and <span className="red medium">technology</span> power the most modern enterprise systems in Canada.
+                Our <span className="red medium">people</span>, <span className="red medium">skills</span> and <span className="red medium">technology</span> support the most modern enterprise systems in Canada.
                 </h2>
                 <hr className="my-0 d-lg-none" />
                 <Image fluid src="/iso.png" className="d-lg-none"/>
