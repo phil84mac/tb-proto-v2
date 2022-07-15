@@ -79,11 +79,11 @@ export default function Home() {
               
             </div>
             </Col>
-            <Col xs={2} xl={2} className="brdr-lft brdr-tp-dark d-none d-xl-block">
+            <Col xs={2} xl={2} className="brdr-lft brdr-tp-dark d-none d-xl-block bg-black">
             </Col>
-            <Col xs={2} lg={2} xl={2} className="brdr-tp">
+            <Col xs={2} lg={2} xl={2} className="brdr-tp bg-yellow">
             </Col>
-            <Col xl={2} className="brdr-tp brdr-lft d-none d-xl-block">
+            <Col xl={2} className="brdr-tp brdr-lft d-none d-xl-block bg-red">
             </Col>
             <Col xs={10} lg={10} xl={8} className="brdr-lft brdr-tp brdr-bttm px-0">
               <video className='w-full video-margin-fix' autoPlay loop muted>
@@ -114,55 +114,69 @@ export default function Home() {
                 <hr className="my-0 d-lg-none" />
                 <Image fluid src="/iso.png" className="d-lg-none"/>
                 <hr className="my-0" />
-                <Col sm={6} className="brdr-rght ps-0 dark-grey pe-3">  
+                <Col sm={6} className="brdr-rght ps-0 dark-grey pe-0">  
                   <p className="h4 medium mb-4">
                     Veterans Affairs Canada
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                     Treasury Board of Canada Secretariat
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                     Department of National Defence
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                     National Defence and Canadian Armed Forces Ombudsman
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                     Office of the Veterans Ombudsman
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                     Canadian Digital Service
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                     Canadian Revenue Agency
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   Employment and Social Development Canada
                   </p>
-                  
+                  <hr className="my-0 d-lg-none" />
                 </Col>
-                <Col sm={6} className="ps-0 dark-grey pe-3">
+                <Col sm={6} className="ps-0 dark-grey pe-0">
                   <p className="h4 medium mb-4">
                   Defense Research Development Canada
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   Office of the Correctional Investigator
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   Government of Prince Edward Island
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   Government of New Brunswick
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   PEI Fisher's Association
                   </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   Farm Credit Canada
-                  </p> 
+                  </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   Maritime Electric
-                  </p> 
+                  </p>
+                  <hr className="my-0" />
                   <p className="h4 medium mb-4">
                   American Laywer Magazine (ALM Media)
                   </p>        
