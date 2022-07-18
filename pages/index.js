@@ -104,86 +104,86 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
             
-            <Col xs={12} lg={8} className="">
+            <Col xs={12} lg={8} xl={6} className="">
               <Row fluid className="">
               <hr className="my-0 dark" />
 
                 <h2 className="light dark-grey px-0 py-5 mb-0 bg-x-light-grey">
-                Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the most modern enterprise systems in Canada.
+                Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
                 <hr className="my-0 d-lg-none" />
                 <Image fluid src="/iso.png" className="d-lg-none"/>
                 <hr className="my-0" />
                 <Col sm={6} className="ps-0 dark-grey pe-0">  
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     Veterans Affairs Canada
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     Treasury Board of Canada Secretariat
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     Department of National Defence
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     National Defence and Canadian Armed Forces Ombudsman
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     Office of the Veterans Ombudsman
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     Canadian Digital Service
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                     Canadian Revenue Agency
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Employment and Social Development Canada
                   </p>
                   <hr className="my-0 d-lg-none" />
                 </Col>
                 <Col sm={6} className="brdr-lft ps-0 dark-grey pe-0">
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Defense Research Development Canada
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Office of the Correctional Investigator
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Government of Prince Edward Island
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Government of New Brunswick
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   PEI Fisher's Association
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Farm Credit Canada
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   Maritime Electric
                   </p>
                   <hr className="my-0" />
-                  <p className="h4 medium mb-4">
+                  <p className="h4 medium my-3">
                   American Laywer Magazine (ALM Media)
                   </p>        
                 </Col>
               </Row>
             </Col>
-            <Col xs={12} lg={4} className="brdr-tp brdr-lft p-0 d-flex align-items-center">
+            <Col xs={12} lg={4} xl={6} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
               <div className="">
                <Image fluid src="/iso.png" className="d-none d-lg-block"/>
               </div>
