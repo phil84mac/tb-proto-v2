@@ -103,6 +103,12 @@ export default function Home() {
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
+
+            <Col xs={12} lg={4} xl={6} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
+              <div className="">
+               <Image fluid src="/iso.png" className="d-none d-lg-block"/>
+              </div>
+            </Col>
             
             <Col xs={12} lg={8} xl={6} className="">
               <Row fluid className="">
@@ -183,11 +189,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={12} lg={4} xl={6} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
-              <div className="">
-               <Image fluid src="/iso.png" className="d-none d-lg-block"/>
-              </div>
-            </Col>
+            
             <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
