@@ -83,9 +83,9 @@ export default function Home() {
             </Col>
             <Col xs={2} lg={2} className="brdr-tp bg-yellow">
             </Col>
-            <Col xl={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block bg-red">
+            <Col xs={2} lg={2} className="brdr-tp brdr-lft bg-red">
             </Col>
-            <Col xs={10} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
+            <Col xs={8} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
               <video className='w-full video-margin-fix' autoPlay loop muted>
                 <source src="./interior.mp4" type='video/mp4' />
               </video>
@@ -103,14 +103,18 @@ export default function Home() {
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
-
-            <Col xs={12} lg={4} xl={6} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
+            
+            
+            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
               <div className="">
                <Image fluid src="/iso.png" className="d-none d-lg-block"/>
               </div>
             </Col>
-            
-            <Col xs={12} lg={8} xl={6} className="">
+            <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
+            </Col>
+            <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
+            </Col>
+            <Col xs={10} lg={6} xl={8} className="brdr-lft">
               <Row fluid className="">
               <hr className="my-0 dark" />
 
@@ -118,7 +122,7 @@ export default function Home() {
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
                 <hr className="my-0 d-lg-none" />
-                <Image fluid src="/iso.png" className="d-lg-none"/>
+                <Image fluid src="/iso.png" className="d-lg-none brdr-lft"/>
                 <hr className="my-0" />
                 <Col sm={6} className="ps-0 dark-grey pe-0">  
                   <p className="h4 medium my-3">
@@ -152,7 +156,7 @@ export default function Home() {
                   <p className="h4 medium my-3">
                   Employment and Social Development Canada
                   </p>
-                  <hr className="my-0 d-lg-none" />
+                  <hr className="my-0 d-sm-none" />
                 </Col>
                 <Col sm={6} className="brdr-lft ps-0 dark-grey pe-0">
                   <p className="h4 medium my-3">
@@ -190,6 +194,8 @@ export default function Home() {
               </Row>
             </Col>
             
+
+
             <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
@@ -203,221 +209,258 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={2} lg={3} className="vh-20 brdr-tp">
+            <Col xs={2} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
-            </Col>
-            <Col xs={2} lg={3} className="brdr-tp">
-            </Col>
-            <Col xs={10} lg={9} className="brdr-lft px-0">
+            <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h3 className="lead semi-bold dark-grey py-4">
-            Using a people-first approach means <span className="heavy">building intuitive technology</span> that people actually use. Here's how it works:
+            <h3 className="lead light dark-grey py-4">       
+            <span className="red">1. From collaboration to insights</span> / <br /><span className="bg-yellow semi-bold">we design</span> intuitive enterprise systems for people
             </h3>
             </Col>
-            <Col xs={2} lg={3} className="brdr-tp">
+            <Col xs={2} className="brdr-lft brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
+
+            <Col xs={2} className="brdr-tp d-none d-lg-block">
+            </Col>
+            <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
-                <Col sm={6} className="brdr-rght brdr-bttm px-0">
+                <Col sm={4} className="brdr-rght px-0">
                   <div className="card-visual d-flex justify-content-center align-items-center">
-                    <Image fluid src="/align.svg" className="p-4 "/>
+                    <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
-                  Align
+                  Expectation matching
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  During Alignment, we meet with stakeholders to match expectations for the project. This means creating a shared understanding of the process ahead, the time commitments and resources. Using proven and repeatable methodologies, our Service Design experts will guide the journey from understanding the user to creating the solution.
+                  To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
                   </p>  
                 </Col>
-                <Col sm={6} className="px-0 brdr-bttm ">
+                <Col sm={4} className="px-0">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                  <Image fluid src="/discover.svg" className="p-4 pe-3"/>
+                  <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
-                  Discover
+                  Research
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  With shared expectations, our Service Designers then look to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can  effect change that has a lasting impact.
-                  </p>  
+                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
                 </Col>
-                <Col sm={6} className="brdr-rght brdr-bttm px-0">
+                <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual d-flex justify-content-center align-items-center">
-                 <Image fluid src="/design.svg" className="p-4"/>
+                 <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
                   <p className="mono mt-3">C.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
-                  Design
+                  Design and prototyping
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  The Design phase is all about collaborating with those most closely involved with the feature, tool, product or service that we’ll be transforming. The team generates lots of new ideas and we guide the process, designing solutions with the users instead of for them. Design is all about reimagining the user experience.
+                  Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
                   </p>  
-                </Col>
-                <Col sm={6} className="px-0 brdr-bttm">
-                <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/validate.svg" className="p-4"/>
-                </div>
-                  <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">D.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3">
-                  Validate
-                  </h4>
-                  <p className="mb-5 pe-3 pb-md-3">
-                  With our best ideas we make prototypes so we can test, measure and incrementally refine the concepts. Trying them out in the real world, with real users, helps us know what’s working and what’s not so we can adjust and try again. Without user input, we won't know if our solution is heading in the right direction. Or how to make it better. The Validate phase ends with a solution that’s been proven to work.
-                  </p>  
-                </Col>
-                <Col sm={6}  className="brdr-rght brdr-bttm px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/roadmap.svg" className="p-4"/>
-                </div>
-                  <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">E.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3">
-                  Roadmap
-                  </h4>
-                  <p className="mb-5 pe-3 pb-md-3">
-                  With our best solution, and a prototype that works for everyone, we gather the team to work out a timeline and milestones, and determine personnel and responsibilities. We also define what success will look like during implementation. The Roadmap charts a path forward towards getting the idea out into the world which was the goal from the start. 
-                  </p>  
-                </Col>
-                <Col sm={6} className="px-0 brdr-bttm">
-                <div className="card-visual d-flex justify-content-center align-items-center">
-                <Image fluid src="/next-steps.svg" className="p-4 svg-rotate"/>
-                </div>
-                  <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">F.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3">
-                  Next steps
-                  </h4>
-                  <p className="mb-5 pe-3 pb-md-3">
-                  Finally, we close out the project, making sure the client understands and has access to all the artifacts from the work, from research to outcome, and a clear understanding of the solution. With everything packaged and communicated, stakeholders feel confident that they will implement a truly inclusive solution, one that works for the people who matter, those who use it. 
-                  </p>
-                </Col>
-
-
-                <Col sm={12} className="brdr-bttm brdr-tp-dark py-2 px-0">
-                <h6 className="large mt-2 text-center">
-                  PROCESS
-                </h6>
-                </Col>
-
-                
-                  <Col xs={4} sm={2} className="brdr-bttm p-2 d-flex align-items-center flex-column">
-                    <Image fluid src="/align.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className=" dark-grey text-center mt-4 mb-2">
-                      <span className="mono small">A.</span> <span className="heavy">Align</span>
-                    </p>
-                  </Col>
-                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm brdr-lft p-2 pe-1 d-flex align-items-center flex-column ">
-                    <Image fluid src="/discover.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="dark-grey text-center mt-4 mb-2 me-1">
-                    <span className="mono small">B.</span> <span className="heavy">Discover</span>
-                    </p>
-                  </Col>
-                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
-                    <Image fluid src="/design.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="dark-grey text-center mt-4 mb-2">
-                    <span className="mono small">C.</span> <span className="heavy">Design</span>
-                    </p>
-                  </Col>
-                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
-                    <Image fluid src="/validate.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="dark-grey text-center mt-4 mb-2">
-                    <span className="mono small">D.</span> <span className="heavy">Validate</span>
-                    </p>
-                  </Col>
-                  <Col xs={4} sm={2} className="brdr-lft brdr-bttm p-2 d-flex align-items-center flex-column">
-                    <Image fluid src="/roadmap.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="dark-grey text-center mt-4 mb-2">
-                    <span className="mono small">E.</span> <span className="heavy">Roadmap</span>
-                    </p>
-                  </Col>
-                  <Col xs={4} sm={2} className="brdr-bttm brdr-lft p-2 d-flex align-items-center flex-column">
-                    <Image fluid src="/next-steps.svg" className="hcd-icon mb-auto mt-3"/>
-                    <p className="dark-grey text-center mt-4 mb-2">
-                    <span className="mono small">F.</span> <span className="heavy">Next steps</span>
-                    </p>
-                  </Col>
-
-                <Col sm={12} className=" bg-red py-3">
-                <p className="mono small bold text-uppercase text-center white medium mb-0">
-                  Repeat steps B-D until solution is thoroughly validated by users
-                </p>
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="vh-20 brdr-tp">
+            <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
+            
+
+            <Col xs={2}  className="vh-30 brdr-tp">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={2} lg={3} className="brdr-tp">
+            <Col xs={2} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft">
-              <Row fluid className="dark-grey">
-              <hr className="my-0 dark" />
-                <Col sm={12} className="px-0 pb-5 mb-5">
-                <h2 className="heavy mt-4 mb-xl-4 pb-xl-5 dark-grey">
-                Let us help your organization rethink what's possible
-                </h2>
-                </Col>
-                <hr className="my-0" />
-                <Col sm={4} className="brdr-rght brdr-bttm px-0">  
-                <p className="mono mt-3">A.</p>
+            <Col xs={10} lg={8} className="brdr-lft px-0">
+            <hr className="my-0 dark" />
+            <h3 className="lead light dark-grey py-4">       
+            <span className="red">2. From insights to code</span> / <br /><span className="bg-yellow semi-bold">we develop</span> innovative products
+            </h3>
+            </Col>
+            <Col xs={2} className="brdr-lft brdr-tp">
+            </Col>
+
+            <Col xs={2} className="brdr-tp d-none d-lg-block">
+            </Col>
+            <Col xs={10} lg={8} className="brdr-lft brdr-tp">
+              <Row className="dark-grey">
+                <Col sm={4} className="brdr-rght px-0">
+                  <div className="card-visual d-flex justify-content-center align-items-center">
+                    <Image fluid src="" className="p-4 "/>
+                  </div>
+                  <hr className="px-0 mt-0" />
+                  <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 mt-2">
-                  Business moves quickly
+                  <h4 className="pe-3">
+                  Business Services
                   </h4>
-                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
-                  In today's fast-paced business environment, it's vital to be able to adapt quickly. Thinking Big will help you modernize and reimagine your operations with speed and agility, to tackle your industry's toughest challenges. 
-                  </p>
-                </Col>
-                <Col sm={4} className="brdr-rght brdr-bttm px-0">
-                <p className="mono mt-3">B.</p>
-                  <hr className="px-0" />
-                  <h4 className="pe-3 mt-2">
-                  We have innovative people, services and technologies
-                  </h4>
-                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
-                  Whether you need mobile or software engineering, consulting, Cloud services, Artificial Intelligence or data gathering, we have the expertise to modernize your business.
-                  </p>           
+                  <p className="mb-5 pe-3 pb-md-3">
+                  With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
+                  </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <p className="mono mt-3">C.</p>
+                <div className="card-visual d-flex justify-content-center align-items-center">
+                  <Image fluid src="" className="p-4 pe-3"/>
+                </div>
+                  <hr className="px-0 mt-0" />
+                  <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 mt-2">
-                  Be ready for whatever the future brings
+                  <h4 className="pe-3">
+                  System architecture design
                   </h4>
-                  <p className="mb-5 mb-sm-3 pe-3 pb-md-5">
-                  Organizations must adapt and innovate to meet the evolving needs of their customers while keeping up-to-date with the latest technology. Let us help you revitalize your business.
-                  </p> 
+                  <p className="mb-5 pe-3 pb-md-3">
+                  By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
+                  </p>
+                </Col>
+                <Col sm={4} className="brdr-lft px-0">
+                <div className="card-visual d-flex justify-content-center align-items-center">
+                 <Image fluid src="" className="p-4"/>
+                </div>
+                  <hr className="px-0 mt-0" />
+                  <p className="mono mt-3">C.</p>
+                  <hr className="px-0" />
+                  <h4 className="pe-3">
+                  Software Engineering
+                  </h4>
+                  <p className="mb-5 pe-3 pb-md-3">
+                  Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behavior-Driven Development encourages communication and aligns the business and the technical sides of a project.
+                  </p>  
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={3} className="brdr-tp">
+            <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp px-0">
+
+            <Col xs={2}  className="vh-30 brdr-tp">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+
+            <Col xs={2} className="brdr-tp">
+            </Col>
+            <Col xs={10} lg={8} className="brdr-lft px-0">
+            <hr className="my-0 dark" />
+            <h3 className="lead light dark-grey py-4">       
+            <span className="red">1. From collaboration to insights</span> / <br /><span className="bg-yellow semi-bold">we design</span> intuitive enterprise systems for people
+            </h3>
+            </Col>
+            <Col xs={2} className="brdr-lft brdr-tp">
+            </Col>
+
+            <Col xs={2} className="brdr-tp d-none d-lg-block">
+            </Col>
+            <Col xs={10} lg={8} className="brdr-lft brdr-tp">
+              <Row className="dark-grey">
+                <Col sm={4} className="brdr-rght px-0">
+                  <div className="card-visual d-flex justify-content-center align-items-center">
+                    <Image fluid src="" className="p-4 "/>
+                  </div>
+                  <hr className="px-0 mt-0" />
+                  <p className="mono mt-3">A.</p>
+                  <hr className="px-0" />
+                  <h4 className="pe-3">
+                  Expectation matching
+                  </h4>
+                  <p className="mb-5 pe-3 pb-md-3">
+                  To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
+                  </p>  
+                </Col>
+                <Col sm={4} className="px-0">
+                <div className="card-visual d-flex justify-content-center align-items-center">
+                  <Image fluid src="" className="p-4 pe-3"/>
+                </div>
+                  <hr className="px-0 mt-0" />
+                  <p className="mono mt-3">B.</p>
+                  <hr className="px-0" />
+                  <h4 className="pe-3">
+                  Research
+                  </h4>
+                  <p className="mb-5 pe-3 pb-md-3">
+                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
+                </Col>
+                <Col sm={4} className="brdr-lft px-0">
+                <div className="card-visual d-flex justify-content-center align-items-center">
+                 <Image fluid src="" className="p-4"/>
+                </div>
+                  <hr className="px-0 mt-0" />
+                  <p className="mono mt-3">C.</p>
+                  <hr className="px-0" />
+                  <h4 className="pe-3">
+                  Design and prototyping
+                  </h4>
+                  <p className="mb-5 pe-3 pb-md-3">
+                  Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
+                  </p>  
+                </Col>
+              </Row>
+            </Col>
+            <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
+            </Col>
+
+            <Col xs={2}  className="vh-30 brdr-tp">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+
+            <Col xs={12} lg={8} className=" brdr-tp-dark py-5">
+                <h2 className="h1 light dark-grey mb-5">
+                It's our business to help your business rethink what's possible
+                </h2>
+
+            </Col>
+
+            <Col lg={4} className="brdr-tp-dark brdr-lft d-none d-lg-block bg-black">
+            </Col>
+            <Col xs={12} className="brdr-lft brdr-tp px-0">
             <video className='w-full video-margin-fix' autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
             </Col>
-            <Col xs={2} lg={3} className="vh-20 brdr-tp" >
+
+            <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft brdr-tp">
-                <a href="/ourcompany"  className="mono semi-bold dark-grey no-underline bg-yellow arrow mt-5 p-0 d-none">
-                  OUR COMPANY
-                </a>
+            <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+ 
           </Row>
         </Container>
             
