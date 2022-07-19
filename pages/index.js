@@ -214,7 +214,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">1. From collaboration to insights</span> / <br /><span className="bg-yellow semi-bold">we design</span> intuitive enterprise systems for people
+            <span className="red">1. From collaboration to insights</span> / <br /><span className="bg-yellow-multiply semi-bold">we design</span> intuitive enterprise systems for people
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -289,7 +289,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">2. From insights to code</span> / <br /><span className="bg-yellow semi-bold">we develop</span> innovative products
+            <span className="red">2. From insights to code</span> / <br /><span className="bg-yellow-multiply semi-bold">we develop</span> innovative products
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -364,7 +364,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">3. From code to implementation</span> / <br /><span className="bg-yellow semi-bold">we deliver</span> and maintain modern, scalable software
+            <span className="red">3. From code to implementation</span> / <br /><span className="bg-yellow-multiply semi-bold">we deliver</span> and maintain modern, scalable software
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">

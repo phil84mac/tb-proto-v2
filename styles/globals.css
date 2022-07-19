@@ -214,6 +214,11 @@ body {
   background-color: #FFF62A!important;
  }
 
+ .bg-yellow-multiply {
+  background-color: #FFF62A!important;
+  mix-blend-mode: multiply;
+ }
+
 
  /* HRs */
 
@@ -314,8 +319,8 @@ p.lead {
 }
 
 .lead {
-  font-size: calc(3rem + 1vw)!important;
-  line-height: calc(3.5rem + 1vw)!important;
+  font-size: calc(3.7rem + 1vw)!important;
+  line-height: calc(4.2rem + 1vw)!important;
 }
 
 .light {
@@ -540,6 +545,8 @@ a:hover, .a:hover {
     line-height: calc(4.3rem + 1.5vw)!important;
   }
 
+  
+
 }
 
 /* laptop */
@@ -590,12 +597,7 @@ a:hover, .a:hover {
     letter-spacing: -0.045em!important;
   }
 
-  h2, .h2 {
-    font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(2.8rem + 1.5vw)!important;
-    line-height: calc(3rem + 1.5vw)!important;
-  }
 
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -612,8 +614,8 @@ a:hover, .a:hover {
   }
 
   .lead {
-    font-size: calc(2.2rem + 1vw)!important;
-    line-height: calc(2.7rem + 1vw)!important;
+    font-size: calc(2.7rem + 1vw)!important;
+    line-height: calc(3.2rem + 1vw)!important;
   }
 
 
