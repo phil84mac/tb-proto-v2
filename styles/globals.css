@@ -212,7 +212,6 @@ body {
 
  .bg-yellow {
   background-color: #FFF62A!important;
-  mix-blend-mode: multiply;
  }
 
 
@@ -361,7 +360,7 @@ h1, .h1 {
 h2, .h2 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: calc(3.3rem + 1.5vw)!important;
-  line-height: calc(3.3rem + 1.5vw)!important;
+  line-height: calc(3.6rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
 }
 
@@ -538,7 +537,7 @@ a:hover, .a:hover {
     font-family: 'IBM Plex Sans', sans-serif;
 
     font-size: calc(4rem + 1.5vw)!important;
-    line-height: calc(4rem + 1.5vw)!important;
+    line-height: calc(4.3rem + 1.5vw)!important;
   }
 
 }
@@ -595,7 +594,7 @@ a:hover, .a:hover {
     font-family: 'IBM Plex Sans', sans-serif;
 
     font-size: calc(2.8rem + 1.5vw)!important;
-    line-height: calc(2.8rem + 1.5vw)!important;
+    line-height: calc(3rem + 1.5vw)!important;
   }
 
   h3, .h3{

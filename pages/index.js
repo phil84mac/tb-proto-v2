@@ -364,7 +364,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">1. From collaboration to insights</span> / <br /><span className="bg-yellow semi-bold">we design</span> intuitive enterprise systems for people
+            <span className="red">3. From code to implementation</span> / <br /><span className="bg-yellow semi-bold">we deliver</span> and maintain modern, scalable software
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -382,10 +382,10 @@ export default function Home() {
                   <p className="mono mt-3">A.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
-                  Expectation matching
+                  Automated testing
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
+                  Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
@@ -396,11 +396,12 @@ export default function Home() {
                   <p className="mono mt-3">B.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
-                  Research
+                  Deployment
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
-                </Col>
+                  Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
+                  </p>
+                  </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
@@ -409,10 +410,10 @@ export default function Home() {
                   <p className="mono mt-3">C.</p>
                   <hr className="px-0" />
                   <h4 className="pe-3">
-                  Design and prototyping
+                  Maintenance and feature enhancement
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
-                  Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
+                  After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
                   </p>  
                 </Col>
               </Row>
@@ -434,7 +435,7 @@ export default function Home() {
             </Col>
 
             <Col xs={12} lg={8} className=" brdr-tp-dark py-5">
-                <h2 className="h1 light dark-grey mb-5">
+                <h2 className="h1 light dark-grey my-5">
                 It's our business to help your business rethink what's possible
                 </h2>
 
