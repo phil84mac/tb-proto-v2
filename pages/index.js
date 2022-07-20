@@ -115,7 +115,7 @@ export default function Home() {
                 <hr className="my-0 d-lg-none" />
                 <Image fluid src="/iso.png" className="d-lg-none"/>
                 <hr className="my-0" />
-                <Col sm={6} className="ps-0 dark-grey pe-0 ">  
+                <Col sm={6} className="ps-0 brdr-rght dark-grey pe-0 ">  
                   <p className="medium my-3">
                     Veterans Affairs Canada
                   </p>
@@ -141,7 +141,7 @@ export default function Home() {
                   Employment and Social Development Canada
                   </p>
                 </Col>
-                <Col sm={6} className="brdr-lft ps-0 dark-grey pe-0">
+                <Col sm={6} className="ps-0 dark-grey pe-0">
                   <p className="medium my-3">
                   Defense Research Development Canada
                   </p>
