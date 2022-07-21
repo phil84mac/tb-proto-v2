@@ -104,82 +104,78 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
             
-            <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
+            <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={8} className="brdr-lft">
-              <Row fluid className="d-flex">
-              <hr className="my-0 dark" />
-                <h2 className="light dark-grey px-0 py-5 mb-0 ">
+            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0">
+                <h2 className="light dark-grey ps-0 pe-3 py-5 mb-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
-                <hr className="my-0 d-lg-none" />
-                <Image fluid src="/iso.png" className="d-lg-none"/>
-                <hr className="my-0" />
-                <Col sm={6} className="ps-0 brdr-rght dark-grey pe-0 ">  
-                  <p className="medium my-3">
-                    Veterans Affairs Canada
-                  </p>
-                  <p className="medium my-3">
-                    Treasury Board of Canada Secretariat
-                  </p>
-                  <p className="medium my-3">
-                    Department of National Defence
-                  </p>
-                  <p className="medium my-3">
-                    National Defence and Canadian Armed Forces Ombudsman
-                  </p>
-                  <p className="medium my-3">
-                    Office of the Veterans Ombudsman
-                  </p>
-                  <p className="medium my-3">
-                    Canadian Digital Service
-                  </p>
-                  <p className="medium my-3">
-                    Canadian Revenue Agency
-                  </p>
-                  <p className="medium my-3">
-                  Employment and Social Development Canada
-                  </p>
-                </Col>
-                <Col sm={6} className="ps-0 dark-grey pe-0">
-                  <p className="medium my-3">
-                  Defense Research Development Canada
-                  </p>
-                  <p className="medium my-3">
-                  Office of the Correctional Investigator
-                  </p>
-                  <p className="medium my-3">
-                  Government of Prince Edward Island
-                  </p>
-                  <p className="medium my-3">
-                  Government of New Brunswick
-                  </p>
-                  <p className="medium my-3">
-                  PEI Fisher's Association
-                  </p>
-                  <p className="medium my-3">
-                  Farm Credit Canada
-                  </p>
-                  <p className="medium my-3">
-                  Maritime Electric
-                  </p>
-                  <p className="medium my-3">
-                  American Laywer Magazine (ALM Media)
-                  </p>        
-                </Col>
-              </Row>
+                <Image fluid src="/iso.png" className="d-lg-none brdr-tp"/> 
+                <hr className="mb-auto" />
+                <Row className="w-full brdr-tp mx-0">
+                  <Col sm={6} className="dark-grey ps-0">
+                    <p className="medium my-2">
+                      Veterans Affairs Canada
+                    </p>
+                    <p className="medium my-2">
+                      Treasury Board of Canada Secretariat
+                    </p>
+                    <p className="medium my-2">
+                      Department of National Defence
+                    </p>
+                    <p className="medium my-2">
+                      National Defence and Canadian Armed Forces Ombudsman
+                    </p>
+                    <p className="medium my-2">
+                      Office of the Veterans Ombudsman
+                    </p>
+                    <p className="medium my-2">
+                      Canadian Digital Service
+                    </p>
+                    <p className="medium my-2">
+                      Canadian Revenue Agency
+                    </p>
+                    <p className="medium my-2">
+                    Employment and Social Development Canada
+                    </p>
+                  </Col>
+                  <Col sm={6} className="dark-grey ps-0 brdr-lft">
+                    <p className="medium my-2">
+                    Defense Research Development Canada
+                    </p>
+                    <p className="medium my-2">
+                    Office of the Correctional Investigator
+                    </p>
+                    <p className="medium my-2">
+                    Government of Prince Edward Island
+                    </p>
+                    <p className="medium my-2">
+                    Government of New Brunswick
+                    </p>
+                    <p className="medium my-2">
+                    PEI Fisher's Association
+                    </p>
+                    <p className="medium my-2">
+                    Farm Credit Canada
+                    </p>
+                    <p className="medium my-2">
+                    Maritime Electric
+                    </p>
+                    <p className="medium">
+                    American Laywer Magazine (ALM Media)
+                    </p>        
+                  </Col>
+                </Row>  
             </Col>
 
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
             <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
-              <div className="">
+              <div className="" >
                <Image fluid src="/iso.png" className="d-none d-lg-block"/>
               </div>
             </Col>
             
-
-
             <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
@@ -198,7 +194,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">1. From collaboration to insights</span> / <br /><span className="bg-yellow-multiply semi-bold">we design</span> intuitive enterprise systems for people
+            <span className="red regular">1. From collaboration to insights</span> / <br /><span className="bg-yellow-multiply semi-bold">we design</span> intuitive enterprise systems for people
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -273,7 +269,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">2. From insights to code</span> / <br /><span className="bg-yellow-multiply semi-bold">we develop</span> innovative products
+            <span className="red regular">2. From insights to code</span> / <br /><span className="bg-yellow-multiply semi-bold">we develop</span> innovative products
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -348,7 +344,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red">3. From code to implementation</span> / <br /><span className="bg-yellow-multiply semi-bold">we deliver</span> and maintain modern, scalable software
+            <span className="red regular">3. From code to implementation</span> / <br /><span className="bg-yellow-multiply semi-bold">we deliver</span> and maintain modern, scalable software
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -427,12 +423,12 @@ export default function Home() {
             <Col lg={4} className="brdr-tp-dark brdr-lft d-none d-lg-block bg-black">
             </Col>
             <Col xs={12} className="brdr-lft brdr-tp px-0">
-            <video className='w-full video-margin-fix' autoPlay loop muted>
+              <video className="w-full video-margin-fix" autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
             </Col>
 
-            <Col xs={2}  className="vh-30 brdr-tp">
+            <Col xs={2}  className="vh-10 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>

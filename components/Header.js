@@ -24,7 +24,7 @@ export default function Header() {
     <div className="px-sm-4 px-lg-5 xl-pad">
       <Container fluid className="cntnr-brdr">
           <Row>
-            <Col xs={2} className="z-0 mb-3">
+            <Col xs={2} className="z-999 mb-3">
               <Link href="/">
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
