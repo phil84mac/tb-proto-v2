@@ -414,7 +414,7 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={12} lg={8} className=" brdr-tp-dark py-5">
+            <Col xs={12} lg={8} className=" brdr-tp-dark py-5 px-0">
                 <h2 className="h1 light dark-grey my-5">
                 It's our business to help your business rethink what's possible
                 </h2>

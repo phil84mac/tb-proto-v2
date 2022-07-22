@@ -24,16 +24,16 @@ export default function Header() {
     <div className="px-sm-4 px-lg-5 xl-pad">
       <Container fluid className="cntnr-brdr">
           <Row>
-            <Col xs={2} className="z-999 mb-3">
+            <Col xs={2} className="z-999">
               <Link href="/">
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col lg={3} className="px-0">
-                  <Image src="/TBlogo.svg" className="" alt="Thinking Big Logo"/>
+                  <Image fluid src="/tb-logo-v2.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col lg={9} className="d-none d-lg-block pe-0">
-                    <a href="/" className="mt-2 dark-grey medium no-underline">
-                      THINKING BIG
+                    <a href="/" className="mt-2 dark-grey medium mono uppercase no-underline">
+                      Thinking Big
                     </a>
                   </Col>
                   </Row>
