@@ -218,6 +218,10 @@ body {
   mix-blend-mode: multiply;
  }
 
+ .op-5 {
+  opacity: .5;
+ }
+
 
  /* HRs */
 

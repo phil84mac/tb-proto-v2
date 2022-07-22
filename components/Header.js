@@ -26,12 +26,12 @@ export default function Header() {
           <Row>
             <Col xs={2} className="z-999">
               <Link href="/">
-                <div className="mt-3 fixed pntr">
+                <div className="mt-2 fixed pntr">
                   <Row className="d-flex align-items-center">
-                  <Col lg={3} className="px-0">
+                  <Col xs={10} md={4} className="px-0">
                   <Image fluid src="/tb-logo-v2.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
-                  <Col lg={9} className="d-none d-lg-block pe-0">
+                  <Col md={8} className="d-none d-md-block pe-0">
                     <a href="/" className="mt-2 dark-grey medium mono uppercase no-underline">
                       Thinking Big
                     </a>
