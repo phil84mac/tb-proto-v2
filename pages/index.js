@@ -110,7 +110,7 @@ export default function Home() {
                 <h2 className="light dark-grey ps-0 pe-3 py-5 mb-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
-                <Image fluid src="/iso.png" className="d-lg-none brdr-tp"/> 
+                <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-tp"/> 
                 <hr className="mb-auto" />
                 <Row className="w-full brdr-tp mx-0">
                   <Col sm={6} className="dark-grey ps-0">
@@ -170,9 +170,9 @@ export default function Home() {
 
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 d-flex align-items-center justify-content-center">
+            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center">
               <div className="" >
-               <Image fluid src="/iso.png" className="d-none d-lg-block"/>
+               <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block"/>
               </div>
             </Col>
             

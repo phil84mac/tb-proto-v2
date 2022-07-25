@@ -26,12 +26,12 @@ export default function Header() {
           <Row>
             <Col xs={2} className="z-999">
               <Link href="/">
-                <div className="mt-2 fixed pntr">
+                <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center">
-                  <Col xs={10} md={4} className="px-0">
+                  <Col xs={8} md={3} className="px-0">
                   <Image fluid src="/tb-logo-v2.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
-                  <Col md={8} className="d-none d-md-block pe-0">
+                  <Col md={9} className="d-none d-md-block pe-0">
                     <a href="/" className="mt-2 dark-grey medium mono uppercase no-underline">
                       Thinking Big
                     </a>
@@ -50,22 +50,16 @@ export default function Header() {
             </Col>
 
             <Col xs={2} className="brdr-lft d-flex align-items-start pt-4 justify-content-end px-0 z-999 pb-3">
-              <ul className="mt-2 px-0 uppercase">
+              <ul className="mt-1 px-0 uppercase">
 
-              <li className="d-inline me-3">
-                <a href="/"  className="mono medium dark-grey no-underline bg-yellow p-0 ">
-                  Home
-                </a>
-              </li> 
-
-              <li className="d-inline me-3">
-                <a href="/"  className="mono medium dark-grey no-underline p-0">
+              <li className="d-inline me-4 pe-2 pt-0">
+                <a href="/"  className="mono no-underline medium dark-grey link pt-0">
                   Careers
                 </a>
               </li> 
 
-              <li className="d-inline me-">
-                <a href="/"  className="mono medium dark-grey no-underline p-0">
+              <li className="d-inline pt-0">
+                <a href="#contact"  className="mono no-underline medium dark-grey arrow-down pe-0 pt-0">
                   Contact
                 </a>
               </li> 
