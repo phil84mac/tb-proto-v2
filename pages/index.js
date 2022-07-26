@@ -193,7 +193,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey pt-4 pb-3">       
+            <p className="medium uppercase mono dark-grey pt-3 pb-2">       
             <span className="red">1. From collaboration to insights</span> /
             </p>
             <hr className="my-0" />
@@ -209,7 +209,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
-                  <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                  <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0" />
@@ -223,7 +223,7 @@ export default function Home() {
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                <div className="card-visual d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                   <hr className="px-0 mt-0" />
@@ -236,7 +236,7 @@ export default function Home() {
                   With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
@@ -272,7 +272,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey pt-4 pb-3">       
+            <p className="medium uppercase mono dark-grey pt-3 pb-2">       
             <span className="red">2. From insights to code</span> /
             </p>
             <hr className="my-0" />
@@ -288,13 +288,13 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
-                  <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                  <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">A.</p>
+                  <p className="medium uppercase mono red mt-3">A.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Business Services
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -302,13 +302,13 @@ export default function Home() {
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                <div className="card-visual d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">B.</p>
+                  <p className="medium uppercase mono red mt-3">B.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   System architecture design
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -316,13 +316,13 @@ export default function Home() {
                   </p>
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">C.</p>
+                  <p className="medium uppercase mono red mt-3">C.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Software Engineering
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -351,8 +351,12 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
+            <p className="medium uppercase mono dark-grey pt-3 pb-2">       
+            <span className="red">3. From code to implementation</span> /
+            </p>
+            <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red regular">3. From code to implementation</span> / <br /><span className="bg-yellow-multiply semi-bold">we deliver</span> and maintain modern, scalable software
+            <span className="bg-yellow-multiply semi-bold">We deliver</span> and maintain modern, scalable software
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -363,13 +367,13 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
-                  <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                  <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">A.</p>
+                  <p className="medium uppercase mono red mt-3">A.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Automated testing
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -377,13 +381,13 @@ export default function Home() {
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                <div className="card-visual d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">B.</p>
+                  <p className="medium uppercase mono red mt-3">B.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Deployment
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -391,13 +395,13 @@ export default function Home() {
                   </p>
                   </Col>
                 <Col sm={4} className="brdr-lft px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center bg-dark">
+                <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">C.</p>
+                  <p className="medium uppercase mono red mt-3">C.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Maintenance and feature enhancement
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
