@@ -49,22 +49,14 @@ export default function Header() {
             <Col xs={2}  className=" brdr-lft">
             </Col>
 
-            <Col xs={2} className="brdr-lft d-flex align-items-start pt-4 justify-content-end px-0 z-999 pb-3">
-              <ul className="mt-1 px-0 uppercase">
 
-              <li className="d-inline me-4 pe-2 pt-0">
-                <a href="/"  className="mono no-underline medium dark-grey link pt-0">
+            <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase">
+                <a href="/"  className="mono no-underline medium dark-grey link py-2 me-4 nowrap">
                   Careers
                 </a>
-              </li> 
-
-              <li className="d-inline pt-0">
-                <a href="#contact"  className="mono no-underline medium dark-grey arrow-down pe-0 pt-0">
+                <a href="#contact"  className="mono no-underline medium dark-grey arrow-down py-2 nowrap">
                   Contact
                 </a>
-              </li> 
-
-              </ul>
             </Col>
           </Row>
       </Container>

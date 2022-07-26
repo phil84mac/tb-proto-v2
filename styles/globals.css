@@ -274,10 +274,6 @@ hr.op, .hr.op {
   min-height: 350px;
 }
 
-.hcd-icon {
-  height: 120px!important;
-}
-
 .video-margin-fix {
   margin-bottom: -7px!important;
 }
@@ -538,6 +534,15 @@ a:hover, .a:hover {
   margin-right: 10px;
   display: inline-block;
   transform: rotate(180deg);
+}
+
+image.modern-illo {
+  object-fit: fill!important;
+  font-family: 'IBM Plex Mono', monospace!important;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 
