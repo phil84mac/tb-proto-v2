@@ -170,7 +170,7 @@ export default function Home() {
 
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-light-grey">
+            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-x-light-grey">
               <div className="w-100" >
                <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block w-100"/>
               </div>
