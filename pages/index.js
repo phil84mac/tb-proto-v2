@@ -107,7 +107,7 @@ export default function Home() {
             <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
             <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0">
-                <h2 className="light dark-grey ps-0 pe-3 py-5 mb-5">
+                <h2 className="light dark-grey ps-0 pe-3 pt-3 pb-5 mb-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
                 <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-tp w-full bg-light-grey mb-0"/> 
@@ -171,8 +171,8 @@ export default function Home() {
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
             <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-light-grey">
-              <div className="" >
-               <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block"/>
+              <div className="w-100" >
+               <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block w-100"/>
               </div>
             </Col>
             
@@ -420,7 +420,10 @@ export default function Home() {
                 </h2>
             </Col>
 
-            <Col lg={4} className="brdr-tp-dark brdr-lft d-none d-lg-block bg-black">
+            <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
+              <div className="w-100" >
+               <Image fluid src="/tb-logo-outline.svg" className="d-none d-lg-block w-100 p-5"/>
+              </div>
             </Col>
             <Col xs={12} className="brdr-lft brdr-tp px-0">
               <video className="w-full video-margin-fix" autoPlay loop muted>

@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <>
-    <div className="px-sm-4 px-lg-5 xl-pad">
+    <div className="px-sm-4 px-lg-5 xl-pad" id="home">
       <Container fluid className="cntnr-brdr">
           <Row>
             <Col xs={2} className="z-999">

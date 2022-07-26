@@ -175,12 +175,11 @@ body {
 }
 
 .pink {
-  color: #f62681!important;
+  color: #FFAAB9!important;
  }
 
  .bg-pink {
-  background-color: #f62681!important;
-  mix-blend-mode: multiply;
+  background-color: #FFAAB9!important;
  }
 
  .purple {
@@ -515,7 +514,7 @@ a:hover, .a:hover {
 .arrow-down:after {
   content: url("/arrow-down.svg");
   position: relative;
-  top: 1px;
+  top: 2px;
   margin-left: 3px;
   display: inline-block;
 }
@@ -523,10 +522,9 @@ a:hover, .a:hover {
 .link:after {
   content: url("/link.svg");
   position: relative;
-  top: 1px;
+  top: 2px;
   margin-left: 5px;
   display: inline-block;
-  padding-top: 0px!important;
 }
 
 .arrow-start:before {

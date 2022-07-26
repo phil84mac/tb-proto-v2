@@ -23,78 +23,24 @@ export default function Footer() {
                     <h6 className="text-muted medium">
                       PAGES
                     </h6>
-                    <ul className="px-0 mb-4">
+                    <ul className="px-0 mb-4 uppercase">
                       <li className="mb-2">
-                        <a href="#" className="white mono">
+                        <a href="#home" className="white mono">
                         Home
                         </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Business
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
+                      <a href="#" className="white mono link">
                       Careers
                       </a>
                       </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      About Us
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 5
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 6
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 7
-                      </a>
-                      </li>
                     </ul>
-                  </Col>
-                  <Col className="brdr-lft-op px-0" sm={6}>
-                  <hr className="op mt-0"/>
-                    <h6 className="text-muted medium">
-                      SOCIAL MEDIA
-                    </h6>
-
-                    <ul className="px-0 mb-4">
-                      <li className="mb-2">
-                        <a href="#" className="white mono">
-                        Facebook
-                        </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      LinkedIn
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Medium
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Twitter
-                      </a>
-                      </li>
-                    </ul>
-                  <hr className="op" />
+                    <hr className="op" />
                     <h6 className="text-muted medium">
                       DOCUMENTS
                     </h6>
-                    <ul className="px-0 mb-4">
-                      <li className="mb-2 ">
+                    <ul className="px-0 mb-4 uppercase">
+                      <li className="mb-2">
                         <a href="#" className="white mono">
                         Terms of use
                         </a>
@@ -104,6 +50,36 @@ export default function Footer() {
                         Privacy
                         </a>
                       </li>
+                    </ul>
+                  </Col>
+                  <Col className="brdr-lft-op px-0" sm={6}>
+                  <hr className="op mt-0"/>
+                    <h6 className="text-muted medium">
+                      SOCIAL MEDIA
+                    </h6>
+
+                    <ul className="px-0 mb-4 uppercase">
+                      <li className="mb-2">
+                        <a href="#" className="white mono link">
+                        Facebook
+                        </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono link">
+                      LinkedIn
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono link">
+                      Medium
+                      </a>
+                      </li>
+                      <li className="mb-2">
+                      <a href="#" className="white mono link">
+                      Twitter
+                      </a>
+                      </li>
+
                     </ul>
                   </Col>
                 </Row>
@@ -221,38 +197,13 @@ export default function Footer() {
                     </h6>
                     <ul className="px-0 mb-4">
                       <li className="mb-2">
-                        <a href="#" className="white mono">
-                        Page 1
+                        <a href="#home" className="white mono">
+                        Home
                         </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 2
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 3
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 4
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 5
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 6
-                      </a>
-                      </li>
-                      <li className="mb-2">
-                      <a href="#" className="white mono">
-                      Page 7
+                      <a href="#" className="white mono link">
+                      Careers
                       </a>
                       </li>
                     </ul>
