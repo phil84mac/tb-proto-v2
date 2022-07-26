@@ -23,7 +23,7 @@ export default function Footer() {
                     <h6 className="text-muted medium">
                       PAGES
                     </h6>
-                    <ul className="px-0 mb-4 uppercase">
+                    <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
                         <a href="#home" className="white mono">
                         Home
@@ -39,7 +39,7 @@ export default function Footer() {
                     <h6 className="text-muted medium">
                       DOCUMENTS
                     </h6>
-                    <ul className="px-0 mb-4 uppercase">
+                    <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
                         <a href="#" className="white mono">
                         Terms of use
@@ -58,7 +58,7 @@ export default function Footer() {
                       SOCIAL MEDIA
                     </h6>
 
-                    <ul className="px-0 mb-4 uppercase">
+                    <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
                         <a href="#" className="white mono link">
                         Facebook
@@ -195,7 +195,7 @@ export default function Footer() {
                     <h6 className="text-muted medium">
                       PAGES
                     </h6>
-                    <ul className="px-0 mb-4">
+                    <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
                         <a href="#home" className="white mono">
                         Home
@@ -207,38 +207,11 @@ export default function Footer() {
                       </a>
                       </li>
                     </ul>
-              <hr className="op"/>
-                <h6 className="text-muted medium">
-                  SOCIAL MEDIA
-                </h6>
-
-                <ul className="px-0 mb-4">
-                  <li className="mb-2">
-                    <a href="#" className="white mono">
-                    Facebook
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                  <a href="#" className="white mono">
-                  LinkedIn
-                  </a>
-                  </li>
-                  <li className="mb-2">
-                  <a href="#" className="white mono">
-                  Medium
-                  </a>
-                  </li>
-                  <li className="mb-2">
-                  <a href="#" className="white mono">
-                  Twitter
-                  </a>
-                  </li>
-                </ul>
               <hr className="op" />
                 <h6 className="text-muted medium">
                   DOCUMENTS
                 </h6>
-                <ul className="px-0 mb-4">
+                <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2 ">
                     <a href="#" className="white mono">
                     Terms of use
@@ -250,6 +223,34 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
+              <hr className="op"/>
+                <h6 className="text-muted medium">
+                  SOCIAL MEDIA
+                </h6>
+
+                <ul className="px-0 mb-4 uppercase no-underline">
+                  <li className="mb-2">
+                    <a href="#" className="white mono link">
+                    Facebook
+                    </a>
+                  </li>
+                  <li className="mb-2">
+                  <a href="#" className="white mono link ">
+                  LinkedIn
+                  </a>
+                  </li>
+                  <li className="mb-2">
+                  <a href="#" className="white mono link">
+                  Medium
+                  </a>
+                  </li>
+                  <li className="mb-2">
+                  <a href="#" className="white mono link">
+                  Twitter
+                  </a>
+                  </li>
+                </ul>
+              
               </div>
             </Col>
             

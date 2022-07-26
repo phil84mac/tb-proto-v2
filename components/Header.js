@@ -27,7 +27,7 @@ export default function Header() {
             <Col xs={2} className="z-999">
               <Link href="/">
                 <div className="mt-3 fixed pntr">
-                  <Row className="d-flex align-items-center">
+                  <Row className="d-flex align-items-center ps-3 ps-md-0">
                   <Col xs={8} md={3} className="px-0">
                   <Image fluid src="/tb-logo-v2.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
