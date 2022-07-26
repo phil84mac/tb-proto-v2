@@ -193,8 +193,12 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
+            <p className="medium uppercase mono dark-grey pt-4 pb-3">       
+            <span className="red">1. From collaboration to insights</span> /
+            </p>
+            <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red regular">1. From collaboration to insights</span> / <br /><span className="bg-yellow-multiply semi-bold">we design</span> intuitive enterprise systems for people
+            <span className="bg-yellow-multiply semi-bold">We design</span> intuitive enterprise systems for people
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">
@@ -209,9 +213,9 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">A.</p>
+                  <p className="red semi-bold mono mt-3">A.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Expectation matching
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -223,9 +227,9 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">B.</p>
+                  <p className="red medium mono mt-3">B.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Research
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -236,9 +240,9 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0" />
-                  <p className="mono mt-3">C.</p>
+                  <p className="red medium mono mt-3">C.</p>
                   <hr className="px-0" />
-                  <h4 className="pe-3 medium">
+                  <h4 className="pe-3 medium mb-3">
                   Design and prototyping
                   </h4>
                   <p className="mb-5 pe-3 pb-md-3">
@@ -268,8 +272,12 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
+            <p className="medium uppercase mono dark-grey pt-4 pb-3">       
+            <span className="red">2. From insights to code</span> /
+            </p>
+            <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
-            <span className="red regular">2. From insights to code</span> / <br /><span className="bg-yellow-multiply semi-bold">we develop</span> innovative products
+            <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products
             </h3>
             </Col>
             <Col xs={2} className="brdr-lft brdr-tp">

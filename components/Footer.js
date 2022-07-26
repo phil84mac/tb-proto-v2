@@ -142,7 +142,7 @@ export default function Footer() {
                   <p className="white mono mb-xs-3 mb-sm-0">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono white ">
+                  <a href="#" className="mono white underline">
                   hello@thinkingbig.net
                   </a>
                 </div>  
@@ -268,7 +268,7 @@ export default function Footer() {
                   <p className="mono white mb-2">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono white">
+                  <a href="#" className="mono white underline">
                   hello@thinkingbig.net
                   </a>
             </Col>
