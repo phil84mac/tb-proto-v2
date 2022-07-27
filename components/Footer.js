@@ -124,7 +124,7 @@ export default function Footer() {
                     Sign up for our newsletter?
                   </label>
                 </div>
-                <button className="btn btn-primary medium bg-blue white no-underline arrow p-0" type="submit">
+                <button className="btn btn-primary medium bg-pink white no-underline arrow p-0" type="submit">
                   SUBMIT
                 </button>
                 </div>
