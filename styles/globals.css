@@ -183,11 +183,11 @@ body {
 }
 
 .pink {
-  color: #D73088!important;
+  color: #FFAAB9!important;
  }
 
  .bg-pink {
-  background-color: #D73088!important;
+  background-color: #FFAAB9!important;
  }
 
  .purple {
@@ -217,20 +217,20 @@ body {
  }
 
  .bg-yellow {
-  background-color: #FBEE51!important;
+  background-color: #FFF473!important;
  }
 
  .bg-yellow-multiply {
-  background-color: #FBEE51!important;
+  background-color: #FFF473!important;
   mix-blend-mode: multiply;
  }
 
  .blue {
-  color: #9EC8E5!important;
+  color: #A4D2FB!important;
  }
 
  .bg-blue {
-  background-color: #9EC8E5!important;
+  background-color: #A4D2FB!important;
  }
 
  .op-5 {
@@ -287,7 +287,6 @@ hr.op, .hr.op {
 
 .card-visual {
   min-height: 30vh;
-  background-color: #9EC8E5;
 }
 
 .video-margin-fix {

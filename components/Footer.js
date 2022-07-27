@@ -19,13 +19,11 @@ export default function Footer() {
               
               <div className="w-100">
                 <Row className="">
-                  <Col sm={4} className="footer-min px-0">
-                  <div className="w-100" >
-                  <Image fluid src="/tb-logo-outline.svg" className="footer-logo mt-4"/>
-                  </div>
+                  <Col sm={4} className="footer-min px-0 ">
+                  <Image fluid src="/tb-logo-outline.svg" className="footer-logo mt-4 d-none"/>
                   </Col>
-                  <Col sm={4} className="brdr-lft px-0"></Col>
-                  <Col sm={4} className="brdr-lft px-0"></Col>
+                  <Col sm={4} className="brdr-lft px-0 "></Col>
+                  <Col sm={4} className="brdr-lft px-0 "></Col>
 
                   <Col sm={4} className="px-0">
                   <hr className=" mt-0"/>
@@ -126,7 +124,7 @@ export default function Footer() {
                     Sign up for our newsletter?
                   </label>
                 </div>
-                <button className="btn btn-primary semi-bol d bg-blue white no-underline arrow p-0" type="submit">
+                <button className="btn btn-primary medium bg-blue white no-underline arrow p-0" type="submit">
                   SUBMIT
                 </button>
                 </div>
@@ -134,8 +132,9 @@ export default function Footer() {
                 </form>
               </div>
             </Col>
-            <Col xs={2}  className="px-0 py-4">
-                <p className="dark-grey mono regular mb-0">
+            <Col xs={2}  className="px-0 py-3 d-flex align-items-center nowrap">
+                <Image fluid src="/tb-logo-outline.svg" className="footer-logo me-3"/>
+                <p className="dark-grey mono light mb-0">
                   © THINKING BIG 2022
                   </p>
             </Col>
@@ -147,8 +146,8 @@ export default function Footer() {
             </Col>
             <Col xs={2}  className=" brdr-lft">
             </Col>
-            <Col xs={2}  className=" brdr-lft py-4 px-0 text-end">
-                 <a href="#" className="mono red medium underline">
+            <Col xs={2}  className=" brdr-lft py-4 px-0 d-flex align-items-center justify-content-end">
+                 <a href="#" className="mono red regular underline">
                   hello@thinkingbig.net
                 </a>
             </Col>

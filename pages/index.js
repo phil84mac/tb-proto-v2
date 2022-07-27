@@ -79,7 +79,7 @@ export default function Home() {
               
             </div>
             </Col>
-            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block ">
+            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block">
             </Col>
             <Col xs={2} lg={2} className="brdr-tp bg-blue">
             </Col>
@@ -406,8 +406,8 @@ export default function Home() {
             </Col>
 
             <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
-              <div className="w-100" >
-               <Image fluid src="/tb-logo-outline.svg" className="d-none d-lg-block w-100 p-5"/>
+              <div className="w-75" >
+               <Image fluid src="/tb-light.svg" className="d-none d-lg-block w-100 p-5"/>
               </div>
             </Col>
             <Col xs={12} className="brdr-lft brdr-tp px-0">
