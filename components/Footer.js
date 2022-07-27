@@ -11,71 +11,71 @@ import Button from 'react-bootstrap/Button';
 export default function Footer() {
   return (
     <>
-      <footer className="bg-dark-grey px-sm-4 px-lg-5 brdr-tp-op"> 
-      <Container fluid className="cntnr-brdr-op">
+      <footer className=" px-sm-4 px-lg-5 brdr-tp"> 
+      <Container fluid className="cntnr-brdr">
         <div className="d-none d-sm-block">
           <Row className="">
-            <Col sm={6} className="dark-grey brdr-bttm-op brdr-rght-op pt-5 d-flex align-items-end">
+            <Col sm={6} className="dark-grey brdr-bttm brdr-rght pt-5 d-flex align-items-end">
               <div className="w-100">
                 <Row>
                   <Col sm={6} className="px-0">
-                  <hr className="op mt-0"/>
+                  <hr className=" mt-0"/>
                     <h6 className="text-muted medium">
                       PAGES
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
-                        <a href="#home" className="white mono">
+                        <a href="#home" className="dark-grey mono">
                         Home
                         </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono link">
+                      <a href="#" className="dark-grey mono link">
                       Careers
                       </a>
                       </li>
                     </ul>
-                    <hr className="op" />
+                    <hr className="" />
                     <h6 className="text-muted medium">
                       DOCUMENTS
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
-                        <a href="#" className="white mono">
+                        <a href="#" className="dark-grey mono">
                         Terms of use
                         </a>
                       </li>
                       <li className="mb-2">
-                        <a href="#" className="white mono">
+                        <a href="#" className="dark-grey mono">
                         Privacy
                         </a>
                       </li>
                     </ul>
                   </Col>
-                  <Col className="brdr-lft-op px-0" sm={6}>
-                  <hr className="op mt-0"/>
+                  <Col className="brdr-lft px-0" sm={6}>
+                  <hr className=" mt-0"/>
                     <h6 className="text-muted medium">
                       SOCIAL MEDIA
                     </h6>
 
                     <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
-                        <a href="#" className="white mono link">
+                        <a href="#" className="dark-grey mono link">
                         Facebook
                         </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono link">
+                      <a href="#" className="dark-grey mono link">
                       LinkedIn
                       </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono link">
+                      <a href="#" className="dark-grey mono link">
                       Medium
                       </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono link">
+                      <a href="#" className="dark-grey mono link">
                       Twitter
                       </a>
                       </li>
@@ -85,9 +85,9 @@ export default function Footer() {
                 </Row>
               </div>
             </Col>
-            <Col sm={6} className="dark-grey pt-4 brdr-bttm-op px-0 d-flex align-items-end">
+            <Col sm={6} className="dark-grey pt-4 brdr-bttm px-0 d-flex align-items-end brdr-tp-dark">
               <div id="contact" className="w-100">
-                <h4 className="white h3 regular mb-3 mt-3">
+                <h4 className="dark-grey h3 regular mb-3 mt-3">
                   Contact us
                 </h4>              
                 <form className="mb-4">
@@ -113,12 +113,12 @@ export default function Footer() {
                 <div className="d-flex align-items-center justify-content-between">
                 <div className="form-check mb-0">
                   <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                  <label className="form-check-label text-muted" for="flexCheckDefault">
+                  <label className="form-check-label" for="flexCheckDefault">
                     Sign up for our newsletter?
                   </label>
                 </div>
                 <button className="btn btn-primary semi-bold bg-yellow dark-grey no-underline arrow p-0" type="submit">
-                  SEND
+                  SEND MESSAGE
                 </button>
                 </div>
                 
@@ -139,10 +139,10 @@ export default function Footer() {
             </Col>
             <Col sm={12} className="dark-grey py-4 px-0 d-none d-sm-block">
                 <div className="d-flex align-items-center justify-content-between">   
-                  <p className="white mono mb-xs-3 mb-sm-0">
+                  <p className="dark-grey mono mb-xs-3 mb-sm-0">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono white underline">
+                  <a href="#" className="mono red underline">
                   hello@thinkingbig.net
                   </a>
                 </div>  
@@ -153,11 +153,11 @@ export default function Footer() {
         <Row>
             <Col xs={2} lg={3} className="">
             </Col>
-            <Col xs={10} lg={9} className="brdr-lft-op">
+            <Col xs={10} lg={9} className="brdr-lft">
             <Row className="d-flex">
-            <Col sm={6} className="white pt-3 pt-5 px-0 d-flex align-items-end">
+            <Col sm={6} className="dark-grey pt-3 pt-5 px-0 d-flex align-items-end">
               <div className="w-100">
-                <h3 className="white mb-3">
+                <h3 className="dark-grey mb-3">
                   Contact us
                 </h3>
               
@@ -180,72 +180,72 @@ export default function Footer() {
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline arrow p-0" type="submit">
-                  SEND
+                  SEND MESSAGE
                 </button>
                 </div>
                 </form>
               </div>
             </Col>
-            <Col sm={6} className="white brdr-bttm-op brdr-rght-op px-0 d-flex align-items-end">
+            <Col sm={6} className="dark-grey brdr-bttm brdr-rght px-0 d-flex align-items-end">
               <div className="w-100">
-                <a href="/ourcompany" className="mono medium text-uppercase white arrow d-none">
+                <a href="/ourcompany" className="mono medium text-uppercase dark-grey arrow d-none">
                   Our company
                 </a>
-                <hr className="op mt-0"/>
+                <hr className=" mt-0"/>
                     <h6 className="text-muted medium">
                       PAGES
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
-                        <a href="#home" className="white mono">
+                        <a href="#home" className="dark-grey mono">
                         Home
                         </a>
                       </li>
                       <li className="mb-2">
-                      <a href="#" className="white mono link">
+                      <a href="#" className="dark-grey mono link">
                       Careers
                       </a>
                       </li>
                     </ul>
-              <hr className="op" />
+              <hr className="" />
                 <h6 className="text-muted medium">
                   DOCUMENTS
                 </h6>
                 <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2 ">
-                    <a href="#" className="white mono">
+                    <a href="#" className="dark-grey mono">
                     Terms of use
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="white mono">
+                    <a href="#" className="dark-grey mono">
                     Privacy
                     </a>
                   </li>
                 </ul>
-              <hr className="op"/>
+              <hr className=""/>
                 <h6 className="text-muted medium">
                   SOCIAL MEDIA
                 </h6>
 
                 <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2">
-                    <a href="#" className="white mono link">
+                    <a href="#" className="dark-grey mono link">
                     Facebook
                     </a>
                   </li>
                   <li className="mb-2">
-                  <a href="#" className="white mono link ">
+                  <a href="#" className="dark-grey mono link ">
                   LinkedIn
                   </a>
                   </li>
                   <li className="mb-2">
-                  <a href="#" className="white mono link">
+                  <a href="#" className="dark-grey mono link">
                   Medium
                   </a>
                   </li>
                   <li className="mb-2">
-                  <a href="#" className="white mono link">
+                  <a href="#" className="dark-grey mono link">
                   Twitter
                   </a>
                   </li>
@@ -265,10 +265,10 @@ export default function Footer() {
               </a>
             </Col>
             <Col sm={12} className="dark-grey py-4 px-0 mb-3 d-block d-sm-none text-start">
-                  <p className="mono white mb-2">
+                  <p className="mono dark-grey mb-2">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono white underline">
+                  <a href="#" className="mono red underline">
                   hello@thinkingbig.net
                   </a>
             </Col>

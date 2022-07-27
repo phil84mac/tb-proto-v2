@@ -175,11 +175,11 @@ body {
 }
 
 .pink {
-  color: #FFAAB9!important;
+  color: #D73088!important;
  }
 
  .bg-pink {
-  background-color: #FFAAB9!important;
+  background-color: #D73088!important;
  }
 
  .purple {
@@ -205,16 +205,20 @@ body {
  }
 
  .yellow {
-  color: #FBEB5C!important;
+  color: #FBEE51!important;
  }
 
  .bg-yellow {
-  background-color: #FBEB5C!important;
+  background-color: #FBEE51!important;
  }
 
  .bg-yellow-multiply {
-  background-color: #FBEB5C!important;
+  background-color: #FBEE51!important;
   mix-blend-mode: multiply;
+ }
+
+ .bg-blue {
+  background-color: #9EC8E5;
  }
 
  .op-5 {
@@ -274,7 +278,7 @@ hr.op, .hr.op {
 }
 
 .video-margin-fix {
-  margin-bottom: -7px!important;
+  margin-bottom: -6.5px!important;
 }
 
 ul {
@@ -406,7 +410,7 @@ h6, .h6 {
   color: #000;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #eaeaea!important;
+  border: 1px solid #9EC8E5!important;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -417,7 +421,6 @@ h6, .h6 {
 .form-label {
   margin-bottom: 0.5rem;
   font-size: 14px!important;
-  color: #eaeaea;
 }
 
 

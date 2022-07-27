@@ -79,9 +79,9 @@ export default function Home() {
               
             </div>
             </Col>
-            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block bg-black">
+            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block ">
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp bg-yellow">
+            <Col xs={2} lg={2} className="brdr-tp bg-blue">
             </Col>
             <Col xs={2} lg={2} className="brdr-tp brdr-lft bg-red">
             </Col>
@@ -170,7 +170,7 @@ export default function Home() {
 
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-x-light-grey">
+            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-blue">
               <div className="w-100" >
                <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block w-100"/>
               </div>
@@ -193,7 +193,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey pt-3 pb-2">       
+            <p className="medium uppercase mono dark-grey py-3 mb-0">       
             <span className="red">1. From collaboration to insights</span> /
             </p>
             <hr className="my-0" />
@@ -212,9 +212,9 @@ export default function Home() {
                   <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
+                  <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">A.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="red semi-bold mono mt-3">A.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Expectation matching
                   </h4>
@@ -226,9 +226,9 @@ export default function Home() {
                 <div className="card-visual d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
+                <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">B.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="red medium mono mt-3">B.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Research
                   </h4>
@@ -239,9 +239,9 @@ export default function Home() {
                 <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
+                  <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">C.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="red medium mono mt-3">C.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Design and prototyping
                   </h4>
@@ -272,7 +272,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey pt-3 pb-2">       
+            <p className="medium uppercase mono dark-grey py-3 mb-0">       
             <span className="red">2. From insights to code</span> /
             </p>
             <hr className="my-0" />
@@ -291,9 +291,9 @@ export default function Home() {
                   <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
+                  <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">A.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="medium uppercase mono red mt-3">A.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Business Services
                   </h4>
@@ -305,9 +305,9 @@ export default function Home() {
                 <div className="card-visual d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
+                <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">B.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="medium uppercase mono red mt-3">B.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   System architecture design
                   </h4>
@@ -319,9 +319,9 @@ export default function Home() {
                 <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
+                <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">C.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="medium uppercase mono red mt-3">C.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Software Engineering
                   </h4>
@@ -351,7 +351,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey pt-3 pb-2">       
+            <p className="medium uppercase mono dark-grey py-3 mb-0">       
             <span className="red">3. From code to implementation</span> /
             </p>
             <hr className="my-0" />
@@ -370,9 +370,9 @@ export default function Home() {
                   <div className="card-visual d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
+                  <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">A.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="medium uppercase mono red mt-3">A.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Automated testing
                   </h4>
@@ -384,9 +384,9 @@ export default function Home() {
                 <div className="card-visual d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
+                <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">B.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="medium uppercase mono red mt-3">B.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Deployment
                   </h4>
@@ -398,9 +398,9 @@ export default function Home() {
                 <div className="card-visual d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
+                <hr className="px-0 mt-0 mb-0" />
+                  <p className="red semi-bold py-3 mono my-0">C.</p>
                   <hr className="px-0 mt-0" />
-                  <p className="medium uppercase mono red mt-3">C.</p>
-                  <hr className="px-0" />
                   <h4 className="pe-3 medium mb-3">
                   Maintenance and feature enhancement
                   </h4>
