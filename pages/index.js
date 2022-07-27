@@ -193,9 +193,9 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey py-3 mb-0">       
-            <span className="red">1. From collaboration to insights</span> /
-            </p>
+            <h4 className="medium uppercase mono dark-grey py-3 mb-0">       
+            <span className="blue">1. From collaboration to insights</span> /
+            </h4>
             <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
             <span className="bg-yellow-multiply semi-bold">We design</span> intuitive enterprise systems for people
@@ -272,9 +272,9 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey py-3 mb-0">       
-            <span className="red">2. From insights to code</span> /
-            </p>
+            <h4 className="medium uppercase mono dark-grey py-3 mb-0">       
+            <span className="blue">2. From insights to code</span> /
+            </h4>
             <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
             <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products
@@ -351,9 +351,9 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <p className="medium uppercase mono dark-grey py-3 mb-0">       
-            <span className="red">3. From code to implementation</span> /
-            </p>
+            <h4 className="medium uppercase mono dark-grey py-3 mb-0">       
+            <span className="blue">3. From code to implementation</span> /
+            </h4>
             <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
             <span className="bg-yellow-multiply semi-bold">We deliver</span> and maintain modern, scalable software
