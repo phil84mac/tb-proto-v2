@@ -15,17 +15,26 @@ export default function Footer() {
       <Container fluid className="cntnr-brdr">
         <div className="d-none d-sm-block">
           <Row className="">
-            <Col sm={6} className="dark-grey brdr-bttm brdr-rght pt-5 d-flex align-items-end">
+            <Col sm={6} className="dark-grey brdr-bttm brdr-rght d-flex align-items-end">
+              
               <div className="w-100">
-                <Row>
-                  <Col sm={6} className="px-0">
+                <Row className="">
+                  <Col sm={4} className="footer-min px-0">
+                  <div className="w-100" >
+                  <Image fluid src="/tb-logo-outline.svg" className="footer-logo mt-4"/>
+                  </div>
+                  </Col>
+                  <Col sm={4} className="brdr-lft px-0"></Col>
+                  <Col sm={4} className="brdr-lft px-0"></Col>
+
+                  <Col sm={4} className="px-0">
                   <hr className=" mt-0"/>
-                    <h6 className="text-muted medium">
+                    <h6 className="text-muted medium pb-1">
                       PAGES
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline medium">
                       <li className="mb-2">
-                        <a href="#home" className="dark-grey mono medium">
+                        <a href="#home" className="dark-grey mono medium arrow-up">
                         Home
                         </a>
                       </li>
@@ -35,29 +44,12 @@ export default function Footer() {
                       </a>
                       </li>
                     </ul>
-                    <hr className="" />
-                    <h6 className="text-muted medium">
-                      DOCUMENTS
-                    </h6>
-                    <ul className="px-0 mb-4 uppercase no-underline">
-                      <li className="mb-2">
-                        <a href="#" className="dark-grey mono medium">
-                        Terms of use
-                        </a>
-                      </li>
-                      <li className="mb-2">
-                        <a href="#" className="dark-grey mono medium">
-                        Privacy
-                        </a>
-                      </li>
-                    </ul>
-                  </Col>
-                  <Col className="brdr-lft px-0" sm={6}>
+                    </Col>
+                  <Col className="brdr-lft px-0" sm={4}>
                   <hr className=" mt-0"/>
-                    <h6 className="text-muted medium">
+                    <h6 className="text-muted medium pb-1">
                       SOCIAL MEDIA
                     </h6>
-
                     <ul className="px-0 mb-4 uppercase no-underline">
                       <li className="mb-2">
                         <a href="#" className="dark-grey mono medium link">
@@ -79,29 +71,46 @@ export default function Footer() {
                       Twitter
                       </a>
                       </li>
-
+                    </ul>
+                  </Col>
+                  <Col sm={4} className="brdr-lft px-0">
+                    <hr className="mt-0" />
+                    <h6 className="text-muted medium pb-1">
+                      DOCUMENTS
+                    </h6>
+                    <ul className="px-0 mb-4 uppercase no-underline">
+                      <li className="mb-2">
+                        <a href="#" className="dark-grey mono medium">
+                        Terms of use
+                        </a>
+                      </li>
+                      <li className="mb-2">
+                        <a href="#" className="dark-grey mono medium">
+                        Privacy
+                        </a>
+                      </li>
                     </ul>
                   </Col>
                 </Row>
               </div>
             </Col>
-            <Col sm={6} className="dark-grey pt-4 brdr-bttm px-0 d-flex align-items-end brdr-tp-dark">
+            <Col sm={6} className="dark-grey brdr-bttm px-0 d-flex align-items-end ">
               <div id="contact" className="w-100">
-                <h4 className="dark-grey h3 medium mb-3 mt-3">
+                <h4 className="dark-grey h3 medium mb-4 mt-0">
                   Contact us
                 </h4>              
                 <form className="mb-4">
-                <Row class="mb-3 d-flex">
-                  <Col md={6}>
+                <Row class="mb-4 d-flex">
+                  <Col md={6} className="pe-1">
                   <label for="fname" class="form-label text-muted text-uppercase">First name</label>
                   <input class="form-control" id="fname" placeholder="First name" />
                   </Col>
-                  <Col md={6}>
+                  <Col md={6} className="ps-1">
                   <label for="lname" class="form-label text-muted text-uppercase">Last name</label>
                   <input class="form-control" id="lname" placeholder="Last name" />
                   </Col>
                 </Row>
-                <div class="mb-3">
+                <div class="mb-3 pb-1">
                   <label for="email" class="form-label text-muted text-uppercase">Email address</label>
                   <input type="email" class="form-control" id="email" placeholder="name@example.com" />
                 </div>
@@ -118,34 +127,30 @@ export default function Footer() {
                   </label>
                 </div>
                 <button className="btn btn-primary semi-bol d bg-blue white no-underline arrow p-0" type="submit">
-                  SEND
+                  SUBMIT
                 </button>
                 </div>
                 
                 </form>
               </div>
             </Col>
-            <Col sm={12} className="z-999 px-0 bg-red pt-2 pt-sm-0 d-none">
-              <a href="#" className="no-underline px-0">
-                <div className="py-sm-5">
-                <p className="h1 dark-grey text-end bold arrow-dark-large d-none d-sm-block">
-                  Our company
-                </p>
-                <p className="mono py-3 dark-grey arrow semi-bold text-center d-block d-sm-none">
-                  OUR COMPANY
-                </p>
-                </div>
-              </a>
-            </Col>
-            <Col sm={12} className="dark-grey py-4 px-0 d-none d-sm-block">
-                <div className="d-flex align-items-center justify-content-between">   
-                  <p className="dark-grey mono regular mb-xs-3 mb-sm-0">
+            <Col xs={2}  className="px-0 py-4">
+                <p className="dark-grey mono regular mb-0">
                   © THINKING BIG 2022
                   </p>
-                  <a href="#" className="mono red medium underline">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft">
+            </Col>
+            <Col xs={2}  className=" brdr-lft py-4 px-0 text-end">
+                 <a href="#" className="mono red medium underline">
                   hello@thinkingbig.net
-                  </a>
-                </div>  
+                </a>
             </Col>
           </Row>
         </div>
@@ -180,7 +185,7 @@ export default function Footer() {
                 </div>
                 <div className="d-flex justify-content-end">
                 <button className="btn btn-primary medium bg-yellow dark-grey no-underline arrow p-0" type="submit">
-                  SEND MESSAGE
+                  SUBMIT
                 </button>
                 </div>
                 </form>
@@ -254,16 +259,6 @@ export default function Footer() {
               </div>
             </Col>
             
-            <Col sm={12} className="z-999 px-0 bg-red pt-2 pt-sm-0 d-none">
-              <a href="#" className="no-underline px-0">
-                <div className="py-sm-5">
-
-                <p className="mono py-3 dark-grey arrow semi-bold text-end">
-                  OUR COMPANY
-                </p>
-                </div>
-              </a>
-            </Col>
             <Col sm={12} className="dark-grey py-4 px-0 mb-3 d-block d-sm-none text-start">
                   <p className="mono dark-grey regular mb-2">
                   © THINKING BIG 2022

@@ -113,7 +113,7 @@ export default function Home() {
                 <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-tp w-full bg-light-grey mb-0"/> 
                 <hr className="mb-auto mt-0" />
                 <Row className="w-full brdr-tp mx-0">
-                  <Col sm={6} className="dark-grey ps-0">
+                  <Col md={6} className="dark-grey ps-0">
                     <p className="medium my-2">
                       Veterans Affairs Canada
                     </p>
@@ -139,7 +139,7 @@ export default function Home() {
                     Employment and Social Development Canada
                     </p>
                   </Col>
-                  <Col sm={6} className="dark-grey ps-0 brdr-lft">
+                  <Col md={6} className="dark-grey ps-0 brdr-lft">
                     <p className="medium my-2">
                     Defense Research Development Canada
                     </p>
@@ -193,8 +193,8 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h4 className="medium uppercase mono dark-grey py-3 mb-0">       
-            <span className="blue">1. From collaboration to insights</span> /
+            <h4 className="medium mono py-3 mb-0">       
+            <span className="red">1. From collaboration to insights</span> /
             </h4>
             <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
@@ -213,11 +213,8 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">A.</p>
+                  <p className="red semi-bold py-3 mono my-0">A. Expectation matching</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Expectation matching
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
                   </p>  
@@ -227,11 +224,8 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">B.</p>
+                  <p className="red semi-bold py-3 mono my-0">B. Research</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Research
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
                 </Col>
@@ -240,11 +234,8 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">C.</p>
+                  <p className="red semi-bold py-3 mono my-0">C. Design and prototyping</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Design and prototyping
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
                   </p>  
@@ -272,8 +263,8 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h4 className="medium uppercase mono dark-grey py-3 mb-0">       
-            <span className="blue">2. From insights to code</span> /
+            <h4 className="medium mono py-3 mb-0">       
+            <span className="red">2. From insights to code</span> /
             </h4>
             <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
@@ -292,11 +283,8 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">A.</p>
+                  <p className="red semi-bold py-3 mono my-0">A. Business services</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Business Services
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
                   </p>  
@@ -306,11 +294,8 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">B.</p>
+                  <p className="red semi-bold py-3 mono my-0">B. System architecture design</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  System architecture design
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
                   </p>
@@ -320,11 +305,8 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">C.</p>
+                  <p className="red semi-bold py-3 mono my-0">C. Software engineering</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Software Engineering
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behavior-Driven Development encourages communication and aligns the business and the technical sides of a project.
                   </p>  
@@ -351,8 +333,8 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h4 className="medium uppercase mono dark-grey py-3 mb-0">       
-            <span className="blue">3. From code to implementation</span> /
+            <h4 className="medium mono py-3 mb-0">       
+            <span className="red">3. From code to implementation</span> /
             </h4>
             <hr className="my-0" />
             <h3 className="lead light dark-grey py-4">       
@@ -371,11 +353,8 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">A.</p>
+                  <p className="red semi-bold py-3 mono my-0">A. Automated testing</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Automated testing
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
                   </p>  
@@ -385,11 +364,8 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">B.</p>
+                  <p className="red semi-bold py-3 mono my-0">B. Deployment</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Deployment
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
                   </p>
@@ -399,11 +375,8 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">C.</p>
+                  <p className="red semi-bold py-3 mono my-0">C. Maintenance and feature enhancement</p>
                   <hr className="px-0 mt-0" />
-                  <h4 className="pe-3 medium mb-3">
-                  Maintenance and feature enhancement
-                  </h4>
                   <p className="mb-5 pe-3 pb-md-3">
                   After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
                   </p>  
@@ -443,18 +416,7 @@ export default function Home() {
               </video>
             </Col>
 
-            <Col xs={2}  className="vh-10 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
+            
  
           </Row>
         </Container>

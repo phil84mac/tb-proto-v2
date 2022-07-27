@@ -128,6 +128,14 @@ body {
   height: 100%!important;
 }
 
+.footer-logo {
+  width: 55px!important;
+}
+
+.footer-min {
+  min-height: 32vh;
+}
+
 /* colours */
 
 .dark-grey {
@@ -167,11 +175,11 @@ body {
 }
 
 .red {
-  color: #FF2A50;
+  color: #FF2A50!important;
 }
 
 .bg-red {
-  background-color: #FF2A50;
+  background-color: #FF2A50!important;
 }
 
 .pink {
@@ -278,7 +286,8 @@ hr.op, .hr.op {
 }
 
 .card-visual {
-  min-height: 250px;
+  min-height: 30vh;
+  background-color: #9EC8E5;
 }
 
 .video-margin-fix {
@@ -529,6 +538,15 @@ a:hover, .a:hover {
   top: 2px;
   margin-left: 3px;
   display: inline-block;
+}
+
+.arrow-up:after {
+  content: url("/arrow-down.svg");
+  position: relative;
+  top: -2px;
+  margin-left: 3px;
+  display: inline-block;
+  transform: rotate(180deg);
 }
 
 .link:after {
