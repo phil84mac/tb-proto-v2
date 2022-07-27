@@ -422,7 +422,7 @@ h6, .h6 {
   color: #000;
   background-color: #fff;
   background-clip: padding-box;
-  border: 2px solid #9EC8E5!important;
+  border: 2px solid #FFAAB9!important;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -433,6 +433,7 @@ h6, .h6 {
 .form-label {
   margin-bottom: 0.5rem;
   font-size: 14px!important;
+  font-weight: 300!important;
 }
 
 

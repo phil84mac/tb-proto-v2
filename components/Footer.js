@@ -27,7 +27,7 @@ export default function Footer() {
 
                   <Col sm={4} className="px-0">
                   <hr className=" mt-0"/>
-                    <h6 className="text-muted medium pb-1">
+                    <h6 className="text-muted regular pb-1">
                       PAGES
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline medium">
@@ -45,7 +45,7 @@ export default function Footer() {
                     </Col>
                   <Col className="brdr-lft px-0" sm={4}>
                   <hr className=" mt-0"/>
-                    <h6 className="text-muted medium pb-1">
+                    <h6 className="text-muted regular pb-1">
                       SOCIAL MEDIA
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline">
@@ -73,7 +73,7 @@ export default function Footer() {
                   </Col>
                   <Col sm={4} className="brdr-lft px-0">
                     <hr className="mt-0" />
-                    <h6 className="text-muted medium pb-1">
+                    <h6 className="text-muted regular pb-1">
                       DOCUMENTS
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline">
@@ -134,7 +134,7 @@ export default function Footer() {
             </Col>
             <Col xs={2}  className="px-0 py-3 d-flex align-items-center nowrap">
                 <Image fluid src="/tb-logo-outline.svg" className="footer-logo me-3"/>
-                <p className="dark-grey mono light mb-0">
+                <p className="dark-grey mono regular mb-0">
                   © THINKING BIG 2022
                   </p>
             </Col>
@@ -196,7 +196,7 @@ export default function Footer() {
                   Our company
                 </a>
                 <hr className=" mt-0"/>
-                    <h6 className="text-muted medium">
+                    <h6 className="text-muted regular">
                       PAGES
                     </h6>
                     <ul className="px-0 mb-4 uppercase no-underline">
@@ -212,7 +212,7 @@ export default function Footer() {
                       </li>
                     </ul>
               <hr className="" />
-                <h6 className="text-muted medium">
+                <h6 className="text-muted regular">
                   DOCUMENTS
                 </h6>
                 <ul className="px-0 mb-4 uppercase no-underline">
@@ -228,7 +228,7 @@ export default function Footer() {
                   </li>
                 </ul>
               <hr className=""/>
-                <h6 className="text-muted medium">
+                <h6 className="text-muted regular">
                   SOCIAL MEDIA
                 </h6>
 

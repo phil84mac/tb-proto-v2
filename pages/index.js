@@ -81,7 +81,7 @@ export default function Home() {
             </Col>
             <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block">
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp bg-blue">
+            <Col xs={2} lg={2} className="brdr-tp bg-pink">
             </Col>
             <Col xs={2} lg={2} className="brdr-tp brdr-lft bg-red">
             </Col>
