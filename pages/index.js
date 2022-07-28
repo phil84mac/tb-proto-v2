@@ -375,7 +375,7 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <h5 className="regular py-3 my-0">Maintenance and feature enhancement</h5>
+                  <h5 className="regular py-3 my-0">Maintenance and features</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.

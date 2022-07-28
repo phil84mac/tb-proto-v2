@@ -443,7 +443,23 @@
 <circle r="1.31784" transform="matrix(3.75718e-05 -1 -0.866007 0.500033 279.521 510.874)" fill="black" stroke="white" stroke-linejoin="round"/>
 <path d="M301.304 472.943L296.986 470.372L278.638 480.966L278.637 502.151L282.796 504.421L296.825 491.458L301.304 472.943Z" fill="#D9D9D9" stroke="black" stroke-linejoin="round"/>
 <rect x="-0.433022" y="0.750016" width="20.8965" height="20.8965" transform="matrix(-0.866007 0.500033 -3.76314e-05 1 300.786 472.446)" fill="white" stroke="black" stroke-linejoin="round"/>
-<path d="M283 484.5L277.955 481.525" stroke="black"/>
+<path d="M283 483.5L277.955 480.525" stroke="black"/>
+<path d="M260.048 484.042L259.983 484.131" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 504L259.983 504.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 494L259.983 494.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 514L259.983 514.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 489L259.983 489.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 509L259.983 509.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 499L259.983 499.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M260.048 519L259.983 519.088" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M271.816 464.036L271.861 463.936" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M289.1 454.057L289.144 453.957" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M280.44 459.057L280.484 458.957" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M297.76 449.057L297.805 448.957" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M276.11 461.557L276.154 461.457" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M293.43 451.557L293.475 451.457" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M284.77 456.557L284.814 456.457" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path d="M302.091 446.557L302.135 446.457" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
 <path d="M270.119 469.969L262.453 465.88" stroke="black"/>
 <path d="M264.193 479.42L256.213 475.332" stroke="black"/>
 </g>
