@@ -233,6 +233,10 @@ body {
   background-color: #A4D2FB!important;
  }
 
+ .bg-grad {
+  background: linear-gradient(150deg, #FFAAB9 0%, #A4D2FB 100%);
+ }
+
  .op-5 {
   opacity: .5;
  }

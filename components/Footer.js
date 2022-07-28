@@ -147,7 +147,7 @@ export default function Footer() {
             <Col xs={2}  className=" brdr-lft">
             </Col>
             <Col xs={2}  className=" brdr-lft py-4 px-0 d-flex align-items-center justify-content-end">
-                 <a href="#" className="mono red regular underline">
+                 <a href="#" className="mono red medium underline">
                   hello@thinkingbig.net
                 </a>
             </Col>
