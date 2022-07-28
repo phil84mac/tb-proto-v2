@@ -79,7 +79,7 @@ export default function Home() {
               
             </div>
             </Col>
-            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block">
+            <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block bg-blue">
             </Col>
             <Col xs={2} lg={2} className="brdr-tp bg-pink">
             </Col>
@@ -170,7 +170,7 @@ export default function Home() {
 
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-pink">
+            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-blue">
               <div className="w-100" >
                <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block w-100"/>
               </div>
