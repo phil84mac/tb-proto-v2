@@ -213,15 +213,15 @@ body {
  }
 
  .yellow {
-  color: #FBEE51!important;
+  color: #FBEB5C!important;
  }
 
  .bg-yellow {
-  background-color: #FFF473!important;
+  background-color: #FBEB5C!important;
  }
 
  .bg-yellow-multiply {
-  background-color: #FFF473!important;
+  background-color: #FBEB5C!important;
   mix-blend-mode: multiply;
  }
 
