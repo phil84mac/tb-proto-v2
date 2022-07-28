@@ -81,7 +81,7 @@ export default function Home() {
             </Col>
             <Col xs={2} lg={2} className="brdr-lft brdr-tp-dark d-none d-lg-block bg-blue">
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp bg-grad">
+            <Col xs={2} lg={2} className="brdr-tp bg-pink">
             </Col>
             <Col xs={2} lg={2} className="brdr-tp brdr-lft bg-red">
             </Col>
@@ -170,7 +170,7 @@ export default function Home() {
 
             <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-grad">
+            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center bg-pink">
               <div className="w-100" >
                <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block w-100"/>
               </div>
@@ -405,7 +405,7 @@ export default function Home() {
                 </h2>
             </Col>
 
-            <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft bg-grad">
+            <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
               <div className="w-75" >
                <Image fluid src="/tb-light.svg" className="d-none d-lg-block w-100 p-5"/>
               </div>

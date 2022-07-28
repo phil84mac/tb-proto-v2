@@ -226,15 +226,15 @@ body {
  }
 
  .blue {
-  color: #A4D2FB!important;
+  color: #2AB2FF!important;
  }
 
  .bg-blue {
-  background-color: #A4D2FB!important;
+  background-color: #2AB2FF!important;
  }
 
  .bg-grad {
-  background: linear-gradient(150deg, #FFAAB9 0%, #A4D2FB 100%);
+  background: linear-gradient(150deg, #FFAAB9 0%, #2AB2FF 100%);
  }
 
  .op-5 {
