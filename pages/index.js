@@ -193,7 +193,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h4 className="medium mono py-3 mb-0">       
+            <h4 className="regular py-3 mb-0">       
             <span className="red">1. From collaboration to insights</span> /
             </h4>
             <hr className="my-0" />
@@ -213,7 +213,7 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">A. Expectation matching</p>
+                  <h5 className=" regular py-3 my-0">Expectation matching</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
@@ -224,7 +224,7 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">B. Research</p>
+                  <h5 className=" regular py-3 my-0">Research</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
@@ -234,7 +234,7 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">C. Design and prototyping</p>
+                  <h5 className=" regular py-3 my-0">Design and prototyping</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
@@ -263,7 +263,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h4 className="medium mono py-3 mb-0">       
+            <h4 className="regular py-3 mb-0">       
             <span className="red">2. From insights to code</span> /
             </h4>
             <hr className="my-0" />
@@ -283,7 +283,7 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">A. Business services</p>
+                  <h5 className="regular py-3 my-0">Business services</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
@@ -294,7 +294,7 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">B. System architecture design</p>
+                  <h5 className="regular py-3 my-0">System architecture design</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
@@ -305,7 +305,7 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">C. Software engineering</p>
+                  <h5 className="regular py-3 my-0">Software engineering</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behavior-Driven Development encourages communication and aligns the business and the technical sides of a project.
@@ -333,7 +333,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft px-0">
             <hr className="my-0 dark" />
-            <h4 className="medium mono py-3 mb-0">       
+            <h4 className="regular py-3 mb-0">       
             <span className="red">3. From code to implementation</span> /
             </h4>
             <hr className="my-0" />
@@ -353,7 +353,7 @@ export default function Home() {
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">A. Automated testing</p>
+                  <h5 className="regular py-3 my-0">Automated testing</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
@@ -364,7 +364,7 @@ export default function Home() {
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">B. Deployment</p>
+                  <h5 className="regular py-3 my-0">Deployment</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
@@ -375,7 +375,7 @@ export default function Home() {
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
-                  <p className="red semi-bold py-3 mono my-0">C. Maintenance and feature enhancement</p>
+                  <h5 className="regular py-3 my-0">Maintenance and feature enhancement</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
