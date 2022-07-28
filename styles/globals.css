@@ -450,7 +450,6 @@ h6, .h6 {
   display: inline-block;
 
   line-height: 1.5;
-  color: #000;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -475,7 +474,6 @@ h6, .h6 {
 }
 
 .btn-primary {
-  color: #000!important;
   border: 0px!important;
   border-radius: 0px!important;
 }

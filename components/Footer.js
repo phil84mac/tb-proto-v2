@@ -183,7 +183,7 @@ export default function Footer() {
                   <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
-                <button className="btn btn-primary medium bg-yellow dark-grey no-underline arrow p-0" type="submit">
+                <button className="btn btn-primary medium bg-yellow white no-underline arrow p-0" type="submit">
                   SUBMIT
                 </button>
                 </div>
