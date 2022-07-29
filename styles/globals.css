@@ -234,7 +234,7 @@ body {
  }
 
  .bg-grad {
-  background: linear-gradient(150deg, #FFAAB9 0%, #2AB2FF 100%);
+  background: linear-gradient(150deg, #FF2A50 0%, #2AB2FF 100%);
  }
 
  .op-5 {
@@ -365,6 +365,10 @@ p.lead {
   font-weight: 700!important;
 }
 
+#mono {
+  font-family: 'IBM Plex Mono', monospace!important;
+}
+
 .mono {
   font-family: 'IBM Plex Mono', monospace!important;
 }
@@ -426,7 +430,7 @@ h6, .h6 {
   color: #000;
   background-color: #fff;
   background-clip: padding-box;
-  border: 2px solid #2AB2FF!important;
+  border: 1px solid #2AB2FF!important;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
