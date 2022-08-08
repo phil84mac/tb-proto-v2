@@ -73,6 +73,35 @@ body {
   border-top: 1px solid #eaeaea;
 }
 
+.brdr-lft-blue {
+  border-left: 1px solid #2AB2FF;
+}
+
+.brdr-rght-blue {
+  border-right: 1px solid #2AB2FF;
+}
+
+.brdr-tp-blue {
+  border-top: 1px solid #2AB2FF;
+}
+
+.brdr-bttm-blue {
+  border-bottom: 1px solid #2AB2FF;
+}
+
+.brdr-blue {
+  border: 1px solid #2AB2FF;
+}
+
+.brdr-red {
+  border: 1px solid #FF2A50;
+}
+
+.brdr-yellow {
+  border: 1px solid #FBEB5C;
+}
+
+
 /* containers */
 
 .vh-80 {
@@ -291,6 +320,8 @@ hr.op, .hr.op {
 
 .card-visual {
   min-height: 30vh;
+  border: 1px solid #2AB2FF;
+  margin: 0px -1px;
 }
 
 .video-margin-fix {
