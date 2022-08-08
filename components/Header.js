@@ -33,7 +33,7 @@ export default function Header() {
                   </Col>
                   <Col md={9} className="d-none d-md-block pe-0">
                     <a href="/" className="mt-2 dark-grey medium mono uppercase no-underline">
-                      Thinking Big
+                      Thinking/Big
                     </a>
                   </Col>
                   </Row>
