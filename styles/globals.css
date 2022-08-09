@@ -335,10 +335,22 @@ hr.op, .hr.op {
   cursor: pointer!important;
 }
 
-.card-visual {
+.card-visual-1 {
   min-height: 30vh;
   border: 1px solid #2AB2FF;
-  margin: 0px 1px 0px 1px;
+  margin: 0px -1px 0px 0px;
+}
+
+.card-visual-2 {
+  min-height: 30vh;
+  border: 1px solid #2AB2FF;
+  margin: 0px -1px 0px -1px;
+}
+
+.card-visual-3 {
+  min-height: 30vh;
+  border: 1px solid #2AB2FF;
+  margin: 0px 0px 0px -1px;
 }
 
 .video-margin-fix {

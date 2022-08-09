@@ -175,7 +175,7 @@ export default function Home() {
                 </Row>  
             </Col>
 
-            <Col lg={6} xl={4} className="brdr-tp-dark brdr-lft p-0 m-0 d-none d-lg-block ">
+            <Col lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-none d-lg-block ">
 
               <div className="w-100" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
@@ -215,7 +215,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
-                  <div className="card-visual d-flex justify-content-center align-items-center">
+                  <div className="card-visual-1 d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
@@ -226,7 +226,7 @@ export default function Home() {
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
+                <div className="card-visual-2 d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
@@ -236,7 +236,7 @@ export default function Home() {
                   With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
+                <div className="card-visual-3 d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
                   <hr className="px-0 mt-0 mb-0" />
@@ -285,7 +285,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
-                  <div className="card-visual d-flex justify-content-center align-items-center">
+                  <div className="card-visual-1 d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
@@ -296,7 +296,7 @@ export default function Home() {
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
+                <div className="card-visual-2 d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
@@ -307,7 +307,7 @@ export default function Home() {
                   </p>
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
+                <div className="card-visual-3 d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
@@ -355,7 +355,7 @@ export default function Home() {
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
-                  <div className="card-visual d-flex justify-content-center align-items-center">
+                  <div className="card-visual-1 d-flex justify-content-center align-items-center">
                     <Image fluid src="" className="p-4 "/>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
@@ -366,7 +366,7 @@ export default function Home() {
                   </p>  
                 </Col>
                 <Col sm={4} className="px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
+                <div className="card-visual-2 d-flex justify-content-center align-items-center">
                   <Image fluid src="" className="p-4 pe-3"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
@@ -377,7 +377,7 @@ export default function Home() {
                   </p>
                   </Col>
                 <Col sm={4} className="brdr-lft px-0">
-                <div className="card-visual d-flex justify-content-center align-items-center">
+                <div className="card-visual-3 d-flex justify-content-center align-items-center">
                  <Image fluid src="" className="p-4"/>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
