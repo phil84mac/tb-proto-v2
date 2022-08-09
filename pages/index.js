@@ -81,11 +81,11 @@ export default function Home() {
 
             <Col xs={2} lg={2} className="brdr-lft brdr-tp d-none d-lg-block">
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp d-lg-none">
+            <Col xs={2} lg={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={12} className="brdr-blue px-0 d-flex align-items-center justify-content-center p-5">
-              <div className="w-40 p-lg-5" >
-               <Image fluid src="/tb-light.svg" className="w-100 p-lg-5"/>
+            <Col xs={10} lg={12} className="brdr-blue px-0 d-flex align-items-center justify-content-center">
+              <div className="w-100" >
+               <Image fluid src="/tb-light-2.svg" className="w-100"/>
               </div>
             </Col>
 
@@ -175,8 +175,7 @@ export default function Home() {
                 </Row>  
             </Col>
 
-            <Col lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-none d-lg-block ">
-
+            <Col lg={6} xl={4} className="brdr-lft brdr-tp p-0 m-0 d-none d-lg-block">
               <div className="w-100" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
               </div>
