@@ -81,15 +81,14 @@ export default function Home() {
 
             <Col xs={2} lg={2} className="brdr-lft brdr-tp d-none d-lg-block">
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp">
+            <Col xs={2} lg={2} className="brdr-tp d-lg-none">
             </Col>
-            <Col xs={10} lg={8} className="brdr-blue px-0 d-flex align-items-center justify-content-center">
-              <div className="w-50 p-5" >
-               <Image fluid src="/tb-light.svg" className="w-100 p-5"/>
+            <Col xs={10} lg={12} className="brdr-blue px-0 d-flex align-items-center justify-content-center p-5">
+              <div className="w-40 p-lg-5" >
+               <Image fluid src="/tb-light.svg" className="w-100 p-lg-5"/>
               </div>
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp d-none d-lg-block">
-            </Col>
+
 
             {/*
             <Col xs={8} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
@@ -118,7 +117,7 @@ export default function Home() {
                 <h2 className="light dark-grey ps-0 pe-3 pt-3 pb-5 mb-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
-                <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-tp w-full bg-pink mb-0"/> 
+                <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-blue w-full mb-0"/> 
                 <hr className="mb-auto mt-0" />
                 <Row className="w-full brdr-tp mx-0">
                   <Col md={6} className="dark-grey ps-0">
@@ -176,11 +175,10 @@ export default function Home() {
                 </Row>  
             </Col>
 
-            <Col xs={2} className="brdr-tp brdr-lft d-lg-none">
-            </Col>
-            <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center py-1 brdr-blue">
+            <Col lg={6} xl={4} className="brdr-tp-dark brdr-lft p-0 m-0 d-none d-lg-block ">
+
               <div className="w-100" >
-                <object type="image/svg+xml" data="/modern-enterprise.svg">svg-animation</object>
+                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
               </div>
             </Col>
             

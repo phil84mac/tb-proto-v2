@@ -50,7 +50,7 @@ export default function Header() {
             </Col>
 
 
-            <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase">
+            <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase fixed">
                 <a href="/"  className="mono no-underline medium dark-grey link py-2 me-4 nowrap">
                   Careers
                 </a>

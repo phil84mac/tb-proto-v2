@@ -148,6 +148,11 @@ body {
   height: 10vh;
 }
 
+.w-40 {
+  width: 40%!important;
+  height: auto!important;
+}
+
 .w-full {
   width: 100%!important;
   height: auto!important;
@@ -285,6 +290,18 @@ hr.dark, .hr.dark {
   background-color: transparent!important;
 }
 
+hr.blue, .hr.blue {
+  border-top: 1px solid #2AB2FF!important;
+  opacity: 1!important;
+  background-color: transparent!important;
+}
+
+hr.red, .hr.red {
+  border-top: 1px solid #FF2A50!important;
+  opacity: 1!important;
+  background-color: transparent!important;
+}
+
 hr.op, .hr.op {
   border-top: 1px solid #eaeaea!important;
   opacity: .2!important;
@@ -321,7 +338,7 @@ hr.op, .hr.op {
 .card-visual {
   min-height: 30vh;
   border: 1px solid #2AB2FF;
-  margin: 0px -1px;
+  margin: 0px 1px 0px 1px;
 }
 
 .video-margin-fix {
