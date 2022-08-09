@@ -180,7 +180,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={6} xl={4} className="brdr-tp brdr-lft p-0 m-0 d-flex align-items-center justify-content-center py-1 brdr-blue">
               <div className="w-100" >
-               <Image fluid src="/modern-enterprise.svg" className="d-none d-lg-block w-100"/>
+                <object type="image/svg+xml" data="/modern-enterprise.svg">svg-animation</object>
               </div>
             </Col>
             
