@@ -23,7 +23,7 @@ export default function Header() {
     <>
     <div className="px-sm-4 px-lg-5 xl-pad" id="home">
       <Container fluid className="cntnr-brdr">
-          <Row>
+          <Row className="h-top-nav">
             <Col xs={2} className="z-999">
               <Link href="/">
                 <div className="mt-3 fixed pntr">
@@ -51,12 +51,14 @@ export default function Header() {
 
 
             <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase fixed">
+              <div className="fixed mt-2">
                 <a href="/"  className="mono no-underline medium dark-grey link py-2 me-4 nowrap">
                   Careers
                 </a>
                 <a href="#contact"  className="mono no-underline medium dark-grey arrow-down py-2 nowrap">
                   Contact
                 </a>
+              </div>
             </Col>
           </Row>
       </Container>

@@ -98,7 +98,7 @@ export default function Home() {
             </Col>
                   */}
           
-            <Col xs={2}  className="vh-30 brdr-tp">
+            <Col xs={2}  className="vh-40 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -175,13 +175,13 @@ export default function Home() {
                 </Row>  
             </Col>
 
-            <Col lg={6} xl={4} className="brdr-lft brdr-tp p-0 m-0 d-none d-lg-block">
+            <Col lg={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-lg-block">
               <div className="w-100" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
               </div>
             </Col>
             
-            <Col xs={2}  className="vh-30 brdr-tp">
+            <Col xs={2}  className="vh-40 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -251,7 +251,7 @@ export default function Home() {
             </Col>
             
 
-            <Col xs={2}  className="vh-30 brdr-tp">
+            <Col xs={2}  className="vh-40 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -321,7 +321,7 @@ export default function Home() {
             <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
             </Col>
 
-            <Col xs={2}  className="vh-30 brdr-tp">
+            <Col xs={2}  className="vh-40 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -412,10 +412,24 @@ export default function Home() {
 
             <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
               <div className="w-75" >
-               <Image fluid src="/tb-light.svg" className="d-none d-lg-block w-100 p-5"/>
+               <Image fluid src="/tb-light.svg" className="w-100 p-5"/>
               </div>
             </Col>
-            <Col xs={12} className="brdr-lft brdr-tp px-0">
+
+            <Col xs={2}  className="vh-40 brdr-tp">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+            <Col xs={2}  className="brdr-tp brdr-lft">
+            </Col>
+
+            <Col xs={12} className="brdr-lft brdr-tp d-none">
               <video className="w-full video-margin-fix" autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
