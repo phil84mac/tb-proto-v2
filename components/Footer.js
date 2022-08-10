@@ -42,7 +42,7 @@ export default function Footer() {
                       </li>
                     </ul>
                     </Col>
-                  <Col className="brdr-lft px-0" sm={4}>
+                  <Col className="brdr-lft px-0 mb-4 pb-1" sm={4}>
                   <hr className=" mt-0"/>
                     <h6 className="text-muted regular pb-1">
                       SOCIAL MEDIA
@@ -133,7 +133,7 @@ export default function Footer() {
             </Col>
             <Col xs={2}  className="px-0 py-3 d-flex align-items-center nowrap">
                 <Image fluid src="/tb-logo-outline.svg" className="footer-logo me-3"/>
-                <p className="dark-grey mono regular mb-0">
+                <p className="dark-grey mono regular mb-0 z-999">
                   © THINKING BIG 2022
                   </p>
             </Col>

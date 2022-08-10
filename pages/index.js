@@ -208,7 +208,7 @@ export default function Home() {
             <Col xs={2} className="brdr-lft brdr-tp">
             </Col>
 
-            <Col xs={2} className="brdr-tp d-none d-lg-block">
+            <Col xs={2} className=" d-none d-lg-block">
             </Col>
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
@@ -246,7 +246,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
+            <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
             </Col>
             
 
@@ -278,7 +278,7 @@ export default function Home() {
             <Col xs={2} className="brdr-lft brdr-tp">
             </Col>
 
-            <Col xs={2} className="brdr-tp d-none d-lg-block">
+            <Col xs={2} className=" d-none d-lg-block">
             </Col>
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
@@ -317,7 +317,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
+            <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
             </Col>
 
             <Col xs={2}  className="vh-40 brdr-tp">
@@ -348,7 +348,7 @@ export default function Home() {
             <Col xs={2} className="brdr-lft brdr-tp">
             </Col>
 
-            <Col xs={2} className="brdr-tp d-none d-lg-block">
+            <Col xs={2} className=" d-none d-lg-block">
             </Col>
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
@@ -387,10 +387,10 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={2} className="brdr-tp brdr-lft d-none d-lg-block">
+            <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
             </Col>
 
-            <Col xs={2}  className="vh-30 brdr-tp">
+            <Col xs={2}  className="vh-40 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
