@@ -32,7 +32,7 @@ export default function Home() {
           <Row fluid className="">
             <Col xs={2} lg={2} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={8} className=" brdr-lft px-0 bg-stripes">
+            <Col xs={10} lg={8} className="brdr-lft px-0 bg-stripes">
             <hr className="my-0" />
 
             <div className="d-none d-sm-block py-5 pe-5">
@@ -83,7 +83,7 @@ export default function Home() {
             </Col>
             <Col xs={2} lg={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={12} className="brdr-blue px-0 d-flex align-items-center justify-content-center">
+            <Col xs={10} lg={12} className="brdr-tp bg-stripes-2 px-0 d-flex align-items-center justify-content-center">
               <div className="w-100" >
                <Image fluid src="/tb-light-2.svg" className="w-100"/>
               </div>
@@ -416,17 +416,11 @@ export default function Home() {
               </div>
             </Col>
 
-            
-
             <Col xs={12} className="brdr-lft brdr-tp px-0 ">
               <video className="w-full video-margin-fix" autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
-            </Col>
-
-            
-
-            
+            </Col>          
  
           </Row>
         </Container>
