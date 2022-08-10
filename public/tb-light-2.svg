@@ -1,16 +1,12 @@
 <svg width="341" height="233" viewBox="0 0 341 233" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2020_8565)">
-<rect width="341" height="233" fill="white"/>
 <g style="mix-blend-mode:hard-light" opacity="0.8" filter="url(#filter0_f_2020_8565)">
 <path d="M259.719 195.343C266.648 187.61 269.285 179.531 269.266 170.205C269.376 142.438 285.751 114.57 285.751 114.57C290.242 105.36 292.374 95.1175 291.946 84.8162C291.518 74.5149 288.544 64.4983 283.306 55.7199C278.068 46.9415 270.741 39.6937 262.023 34.6665C253.305 29.6393 243.485 27 233.5 27C223.515 27 213.695 29.6393 204.977 34.6665C196.259 39.6937 188.932 46.9415 183.694 55.7199C178.456 64.4983 175.482 74.5149 175.054 84.8162C174.626 95.1175 176.758 105.36 181.249 114.57C181.249 114.57 197.618 142.445 197.734 170.205C197.717 179.532 200.356 187.611 207.287 195.343" fill="#FBEB5C"/>
 </g>
-<g style="mix-blend-mode:hard-light" opacity="0.8" filter="url(#filter1_f_2020_8565)">
-<path d="M259.719 195.343C266.648 187.61 269.285 179.531 269.266 170.205C269.376 142.438 285.751 114.57 285.751 114.57C290.242 105.36 292.374 95.1175 291.946 84.8162C291.518 74.5149 288.544 64.4983 283.306 55.7199C278.068 46.9415 270.741 39.6937 262.023 34.6665C253.305 29.6393 243.485 27 233.5 27C223.515 27 213.695 29.6393 204.977 34.6665C196.259 39.6937 188.932 46.9415 183.694 55.7199C178.456 64.4983 175.482 74.5149 175.054 84.8162C174.626 95.1175 176.758 105.36 181.249 114.57C181.249 114.57 197.618 142.445 197.734 170.205C197.717 179.532 200.356 187.611 207.287 195.343" fill="#FBEB5C"/>
-</g>
-<g style="mix-blend-mode:hard-light" opacity="0.4" filter="url(#filter2_f_2020_8565)">
+<g style="mix-blend-mode:hard-light" opacity="0.4" filter="url(#filter1_f_2020_8565)">
 <path d="M196.719 195.343C203.648 187.61 206.285 179.531 206.266 170.205C206.376 142.438 222.751 114.57 222.751 114.57C227.242 105.36 229.374 95.1175 228.946 84.8162C228.518 74.5149 225.544 64.4983 220.306 55.7199C215.068 46.9415 207.741 39.6937 199.023 34.6665C190.305 29.6393 180.485 27 170.5 27C160.515 27 150.695 29.6393 141.977 34.6665C133.259 39.6937 125.932 46.9415 120.694 55.7199C115.456 64.4983 112.482 74.5149 112.054 84.8162C111.626 95.1175 113.758 105.36 118.249 114.57C118.249 114.57 134.618 142.445 134.734 170.205C134.717 179.532 137.356 187.611 144.287 195.343" fill="#FF2A50"/>
 </g>
-<g style="mix-blend-mode:hard-light" opacity="0.3" filter="url(#filter3_f_2020_8565)">
+<g style="mix-blend-mode:hard-light" opacity="0.3" filter="url(#filter2_f_2020_8565)">
 <path d="M132.719 195.343C139.648 187.61 142.285 179.531 142.266 170.205C142.376 142.438 158.751 114.57 158.751 114.57C163.242 105.36 165.374 95.1175 164.946 84.8162C164.518 74.5149 161.544 64.4983 156.306 55.7199C151.068 46.9415 143.741 39.6937 135.023 34.6665C126.305 29.6393 116.485 27 106.5 27C96.5145 27 86.6953 29.6393 77.9772 34.6665C69.259 39.6937 61.9322 46.9415 56.6943 55.7199C51.4564 64.4983 48.4819 74.5149 48.0538 84.8162C47.6257 95.1175 49.7584 105.36 54.2488 114.57C54.2488 114.57 70.6177 142.445 70.7343 170.205C70.7168 179.532 73.3563 187.611 80.287 195.343" fill="#2AB2FF"/>
 </g>
 <g style="mix-blend-mode:multiply">
@@ -122,17 +118,12 @@
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="35" result="effect1_foregroundBlur_2020_8565"/>
 </filter>
-<filter id="filter1_f_2020_8565" x="105" y="-43" width="257" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_f_2020_8565" x="42" y="-43" width="257" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="35" result="effect1_foregroundBlur_2020_8565"/>
 </filter>
-<filter id="filter2_f_2020_8565" x="42" y="-43" width="257" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="35" result="effect1_foregroundBlur_2020_8565"/>
-</filter>
-<filter id="filter3_f_2020_8565" x="-22" y="-43" width="257" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_f_2020_8565" x="-22" y="-43" width="257" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="35" result="effect1_foregroundBlur_2020_8565"/>
