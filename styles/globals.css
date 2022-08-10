@@ -105,7 +105,7 @@ body {
   background:
     linear-gradient(#eaeaea 0 0) calc(1*99.8%/4),
     linear-gradient(#eaeaea 0 0) calc(2*100%/4),
-    linear-gradient(#eaeaea 0 0) calc(3*100.1%/4);
+    linear-gradient(#eaeaea 0 0) calc(3*100.15%/4);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
@@ -706,9 +706,33 @@ image.modern-illo {
 
 }
 
+/* custom */
+
+@media screen and (max-width: 1199px){
+
+.bg-stripes {
+  background:
+    linear-gradient(#eaeaea 0 0) calc(1*100%/5),
+    linear-gradient(#eaeaea 0 0) calc(2*100%/5),
+    linear-gradient(#eaeaea 0 0) calc(3*100%/5),
+    linear-gradient(#eaeaea 0 0) calc(4*100%/5);
+  background-size:1px 100%; 
+  background-repeat:no-repeat;
+}
+
+}
+
 /* laptop */
 
 @media screen and (max-width: 1024px){
+
+  h1, .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-size: calc(4.2rem + 1.5vw)!important;
+    line-height: calc(4.2rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
 
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -720,24 +744,6 @@ image.modern-illo {
 
 }
 
-
-/* Custom */
-
-@media screen and (max-width: 991px){
-
-  .bg-stripes {
-    background:
-      linear-gradient(#eaeaea 0 0) calc(1*100%/5),
-      linear-gradient(#eaeaea 0 0) calc(2*100%/5),
-      linear-gradient(#eaeaea 0 0) calc(3*100%/5),
-      linear-gradient(#eaeaea 0 0) calc(4*100%/5);
-    background-size:1px 100%; 
-    background-repeat:no-repeat;
-  }
-
-}
-
-
 /* tablet */
 
 @media screen and (max-width: 768px){
@@ -745,8 +751,8 @@ image.modern-illo {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(3.5rem + 1.5vw)!important;
-    line-height: calc(3.5rem + 1.5vw)!important;
+    font-size: calc(3.9rem + 1.5vw)!important;
+    line-height: calc(3.9rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
