@@ -118,7 +118,7 @@ export default function Home() {
                 </h2>
                 <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-blue w-full mb-0"/> 
                 <hr className="mb-auto mt-0" />
-                <Row className="w-full brdr-tp mx-0">
+                <Row className="w-full brdr-tp mx-0 bg-white">
                   <Col md={6} className="dark-grey ps-0">
                     <p className="medium my-2">
                       Veterans Affairs Canada
