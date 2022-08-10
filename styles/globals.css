@@ -121,6 +121,17 @@ body {
   background-repeat:no-repeat;
 }
 
+
+.bg-stripes-3 {
+  background:
+    linear-gradient(#eaeaea 0 0) calc(1*99.8%/4),
+    linear-gradient(#eaeaea 0 0) calc(2*100%/4),
+    linear-gradient(#eaeaea 0 0) calc(3*100.15%/4);
+  background-size:1px 100%; 
+  background-repeat:no-repeat;
+}
+
+
 .multiply {
   mix-blend-mode: multiply;
 }
@@ -720,6 +731,14 @@ image.modern-illo {
   background-repeat:no-repeat;
 }
 
+.bg-stripes-3 {
+  background:
+    linear-gradient(#eaeaea 0 0) calc(1*100%/3),
+    linear-gradient(#eaeaea 0 0) calc(2*100%/3);
+  background-size:1px 100%; 
+  background-repeat:no-repeat;
+}
+
 }
 
 /* laptop */
@@ -741,6 +760,16 @@ image.modern-illo {
     line-height: calc(1rem + 1.5vw)!important;
     letter-spacing: -0.015em!important;
   }
+
+  .bg-stripes-3 {
+    background:
+    linear-gradient(#eaeaea 0 0) calc(1*100%/5),
+    linear-gradient(#eaeaea 0 0) calc(2*100%/5),
+    linear-gradient(#eaeaea 0 0) calc(3*100%/5),
+    linear-gradient(#eaeaea 0 0) calc(4*100%/5);
+  background-size:1px 100%; 
+  background-repeat:no-repeat;
+}
 
 }
 

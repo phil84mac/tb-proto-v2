@@ -112,7 +112,7 @@ export default function Home() {
             
             <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0 bg-stripes">
+            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0 bg-stripes-3">
                 <h2 className="light dark-grey ps-0 pe-3 pt-3 pb-5 mb-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
