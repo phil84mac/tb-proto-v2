@@ -93,6 +93,7 @@ export default function Footer() {
             </Col>
             <Col sm={6} className="dark-grey brdr-bttm px-0 d-flex align-items-end ">
               <div id="contact" className="w-100">
+              <hr className="mt-0 d-none" />
                 <h4 className="dark-grey h3 medium mb-4 mt-4">
                   Contact us
                 </h4>              

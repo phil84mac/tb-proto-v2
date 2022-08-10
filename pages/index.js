@@ -419,7 +419,7 @@ export default function Home() {
               <video className="w-full video-margin-fix" autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
-            </Col>          
+            </Col>       
  
           </Row>
         </Container>
