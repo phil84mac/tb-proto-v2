@@ -11,8 +11,8 @@ import Button from 'react-bootstrap/Button';
 export default function Footer() {
   return (
     <>
-      <footer className=" px-sm-4 px-lg-5 brdr-tp"> 
-      <Container fluid className="cntnr-brdr">
+      <footer className=" px-sm-4 px-lg-5 "> 
+      <Container fluid className="cntnr-brdr brdr-tp">
         <div className="d-none d-sm-block">
           <Row className="">
             <Col sm={6} className="dark-grey brdr-bttm brdr-rght d-flex align-items-end">
@@ -20,7 +20,6 @@ export default function Footer() {
               <div className="w-100">
                 <Row className="">
                   <Col sm={4} className="footer-min px-0 ">
-                  <Image fluid src="/tb-logo-outline.svg" className="footer-logo mt-4 d-none"/>
                   </Col>
                   <Col sm={4} className="brdr-lft px-0 "></Col>
                   <Col sm={4} className="brdr-lft px-0 "></Col>

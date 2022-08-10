@@ -101,6 +101,15 @@ body {
   border: 1px solid #FBEB5C;
 }
 
+.bg-stripes {
+  background:
+    linear-gradient(#eaeaea 0 0) calc(1*99.8%/4),
+    linear-gradient(#eaeaea 0 0) calc(2*100%/4),
+    linear-gradient(#eaeaea 0 0) calc(3*100.1%/4);
+  background-size:1px 100%; 
+  background-repeat:no-repeat;
+}
+
 
 /* containers */
 
@@ -696,6 +705,24 @@ image.modern-illo {
 
 }
 
+
+/* Custom */
+
+@media screen and (max-width: 991px){
+
+  .bg-stripes {
+    background:
+      linear-gradient(#eaeaea 0 0) calc(1*100%/5),
+      linear-gradient(#eaeaea 0 0) calc(2*100%/5),
+      linear-gradient(#eaeaea 0 0) calc(3*100%/5),
+      linear-gradient(#eaeaea 0 0) calc(4*100%/5);
+    background-size:1px 100%; 
+    background-repeat:no-repeat;
+  }
+
+}
+
+
 /* tablet */
 
 @media screen and (max-width: 768px){
@@ -715,6 +742,7 @@ image.modern-illo {
     font-size: calc(.8rem + 1.5vw)!important;
     line-height: calc(1rem + 1.5vw)!important;
   }
+
 
 }
 
@@ -759,5 +787,6 @@ image.modern-illo {
   .brdr-rght-op {
     border-right: none!important;
   }
+
   
 }

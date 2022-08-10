@@ -32,13 +32,13 @@ export default function Home() {
           <Row fluid className="">
             <Col xs={2} lg={2} className="brdr-tp">
             </Col>
-            <Col xs={10} lg={8} className=" brdr-lft px-0">
-            <hr className="my-0 dark" />
+            <Col xs={10} lg={8} className=" brdr-lft px-0 bg-stripes">
+            <hr className="my-0" />
 
             <div className="d-none d-sm-block py-5 pe-5">
 
               <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5" >
-                <span className="semi-bold bg-yellow pe-2"> 
+                <span className="semi-bold bg-yellow-multiply pe-2"> 
                   <Typewriter
                     loop
                     cursor
@@ -113,7 +113,7 @@ export default function Home() {
             
             <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0">
+            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0 bg-stripes">
                 <h2 className="light dark-grey ps-0 pe-3 pt-3 pb-5 mb-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
@@ -416,24 +416,15 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col xs={2}  className="vh-40 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
+            
 
-            <Col xs={12} className="brdr-lft brdr-tp d-none">
+            <Col xs={12} className="brdr-lft brdr-tp px-0 ">
               <video className="w-full video-margin-fix" autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
             </Col>
+
+            
 
             
  
