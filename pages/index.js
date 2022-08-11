@@ -84,10 +84,9 @@ export default function Home() {
 
             <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 px-0 d-flex align-items-center justify-content-center">
               <div className="w-100" >
-               <Image fluid src="/tb-light-2.svg" className="w-100"/>
+              <object type="image/svg+xml" data="/tb-light-2.svg" className="w-100">svg-animation</object>
               </div>
             </Col>
-
 
             {/*
             <Col xs={8} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
