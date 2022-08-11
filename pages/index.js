@@ -410,7 +410,7 @@ export default function Home() {
 
             <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
               <div className="w-75" >
-               <Image fluid src="/tb-light.svg" className="w-100 p-3"/>
+               <Image fluid src="/tb-light.svg" className="w-100 p-3 p-xl-5"/>
               </div>
             </Col>
 
