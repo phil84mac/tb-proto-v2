@@ -142,14 +142,24 @@ body {
 
 /* containers */
 
+.vh-95 {
+  height: 95vh;
+}
 
+.vh-90 {
+  height: 90vh;
+}
 
 .vh-80 {
-  height: 70vh;
+  height: 80vh;
 }
 
 .vh-70 {
   height: 70vh;
+}
+
+.vh-65 {
+  height: 65vh;
 }
 
 .vh-60 {
@@ -163,6 +173,11 @@ body {
 .vh-40 {
   height: 40vh;
 }
+
+.vh-35 {
+  height: 35vh;
+}
+
 
 .vh-30 {
   height: 30vh;
@@ -356,10 +371,23 @@ hr.op, .hr.op {
 
 /* utilities and specs */
 
-.modern-enterprise {
-
+.carousel-control-next-icon {
+    background-image: url("/arrow-down.svg")!important;
+    transform: rotate(-90deg);
 }
 
+.carousel-control-prev-icon {
+    background-image: url("/arrow-down.svg")!important;
+    transform: rotate(90deg);
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: none!important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #FF2A50!important;
+}
 
 .hero-specs {
   margin-bottom: -7px!important;
@@ -452,8 +480,8 @@ p.lead {
 }
 
 .lead {
-  font-size: calc(3.5rem + 1vw)!important;
-  line-height: calc(3.75rem + 1vw)!important;
+  font-size: calc(3.8rem + 1vw)!important;
+  line-height: calc(4rem + 1vw)!important;
 }
 
 .light {
