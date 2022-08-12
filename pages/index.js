@@ -82,9 +82,9 @@ export default function Home() {
             <Col xs={2} xl={2} className="brdr-lft brdr-tp d-none d-xl-block">
             </Col>
 
-            <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 px-0 d-flex align-items-center justify-content-center">
+            <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">
               <div className="w-100" >
-              <object type="image/svg+xml" data="/tb-light-2.svg" className="w-100">svg-animation</object>
+              <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
             </Col>
 
@@ -96,7 +96,7 @@ export default function Home() {
             </Col>
                   */}
           
-            <Col xs={2}  className="vh-40 brdr-tp">
+            <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -111,75 +111,79 @@ export default function Home() {
             
             <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark d-flex align-items-start flex-column px-0 bg-stripes-3">
-                <h2 className="light dark-grey ps-0 pe-3 pt-3 pb-5 mb-5">
+            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
+                <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-xl-5 pb-xl-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
-                <Image fluid src="/modern-enterprise.svg" className="d-lg-none brdr-blue w-full mb-0"/> 
-                <hr className="mb-auto mt-0" />
-                <Row className="w-full brdr-tp mx-0 bg-white">
-                  <Col md={6} className="dark-grey ps-0">
-                    <p className="medium my-2">
-                      Veterans Affairs Canada
-                    </p>
-                    <p className="medium my-2">
-                      Treasury Board of Canada Secretariat
-                    </p>
-                    <p className="medium my-2">
-                      Department of National Defence
-                    </p>
-                    <p className="medium my-2">
-                      National Defence and Canadian Armed Forces Ombudsman
-                    </p>
-                    <p className="medium my-2">
-                      Office of the Veterans Ombudsman
-                    </p>
-                    <p className="medium my-2">
-                      Canadian Digital Service
-                    </p>
-                    <p className="medium my-2">
-                      Canadian Revenue Agency
-                    </p>
-                    <p className="medium my-2">
-                    Employment and Social Development Canada
-                    </p>
+                
+                <hr className=""/>
+              <div className="w-100 d-lg-none" >
+                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
+              </div>
+              <hr className="d-lg-none"/>
+                <Row className="w-full">
+                  <Col xl={6} className="">
+                  <p className="medium mb-3">
+                    Veterans Affairs Canada
+                  </p>
+                  <p className="medium my-3">
+                    Treasury Board of Canada Secretariat
+                  </p>
+                  <p className="medium my-3">
+                    Department of National Defence
+                  </p>
+                  <p className="medium my-3">
+                    National Defence and Canadian Armed Forces Ombudsman
+                  </p>
+                  <p className="medium my-3">
+                    Office of the Veterans Ombudsman
+                  </p>
+                  <p className="medium my-3">
+                    Canadian Digital Service
+                  </p>
+                  <p className="medium my-3">
+                    Canadian Revenue Agency
+                  </p>
+                  <p className="medium my-3">
+                  Employment and Social Development Canada
+                  </p>
                   </Col>
-                  <Col md={6} className="dark-grey ps-0 brdr-lft">
-                    <p className="medium my-2">
-                    Defense Research Development Canada
-                    </p>
-                    <p className="medium my-2">
-                    Office of the Correctional Investigator
-                    </p>
-                    <p className="medium my-2">
-                    Government of Prince Edward Island
-                    </p>
-                    <p className="medium my-2">
-                    Government of New Brunswick
-                    </p>
-                    <p className="medium my-2">
-                    PEI Fisher's Association
-                    </p>
-                    <p className="medium my-2">
-                    Farm Credit Canada
-                    </p>
-                    <p className="medium my-2">
-                    Maritime Electric
-                    </p>
-                    <p className="medium">
-                    American Laywer Magazine (ALM Media)
-                    </p>        
+                  <Col xl={6}>
+                  <p className="medium mb-3">
+                  Defense Research Development Canada
+                  </p>
+                  <p className="medium my-3">
+                  Office of the Correctional Investigator
+                  </p>
+                  <p className="medium my-3">
+                  Government of Prince Edward Island
+                  </p>
+                  <p className="medium my-3">
+                  Government of New Brunswick
+                  </p>
+                  <p className="medium my-3">
+                  PEI Fisher's Association
+                  </p>
+                  <p className="medium my-3">
+                  Farm Credit Canada
+                  </p>
+                  <p className="medium my-3">
+                  Maritime Electric
+                  </p>
+                  <p className="medium my-3">
+                  American Laywer Magazine (ALM Media)
+                  </p>   
                   </Col>
-                </Row>  
+                </Row>
             </Col>
 
             <Col lg={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-lg-block">
               <div className="w-100" >
-                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
+                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 mt-lg-5 mt-xl-0 pt-lg-5 pt-xl-0">svg-animation</object>
               </div>
             </Col>
             
-            <Col xs={2}  className="vh-40 brdr-tp">
+            <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -249,7 +253,7 @@ export default function Home() {
             </Col>
             
 
-            <Col xs={2}  className="vh-40 brdr-tp">
+            <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -319,7 +323,7 @@ export default function Home() {
             <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
             </Col>
 
-            <Col xs={2}  className="vh-40 brdr-tp">
+            <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -389,7 +393,7 @@ export default function Home() {
             <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
             </Col>
 
-            <Col xs={2}  className="vh-40 brdr-tp">
+            <Col xs={2}  className="vh-30 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
@@ -402,15 +406,16 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={12} lg={8} className=" brdr-tp-dark py-5 px-0">
+            <Col xs={12} lg={8} className="d-flex align-items-center brdr-tp-dark px-0">
                 <h2 className="h1 light dark-grey my-5">
                 It's our business to help your business rethink what's possible
                 </h2>
             </Col>
 
             <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
+              <hr className="dark" />
               <div className="w-75" >
-               <Image fluid src="/tb-light.svg" className="w-100 p-3 p-xl-5"/>
+               <Image fluid src="/tb-light.svg" className="w-100 p-4 p-xl-5"/>
               </div>
             </Col>
 

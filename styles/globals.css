@@ -13,6 +13,9 @@ body {
 }
 
 
+
+
+
 /* borders */
 
 .cntnr-brdr {
@@ -204,12 +207,14 @@ body {
 }
 
 .footer-min {
-  min-height: 40vh;
+  min-height: 35vh;
 }
 
 .h-top-nav {
   height: 90px;
 }
+
+
 
 /* colours */
 
@@ -349,7 +354,16 @@ hr.op, .hr.op {
   background-color: transparent!important;
 }
 
-/* utilities and details */
+/* utilities and specs */
+
+.modern-enterprise {
+
+}
+
+
+.hero-specs {
+  margin-bottom: -7px!important;
+}
 
 .fixed {
   position: fixed;
