@@ -419,17 +419,17 @@ hr.op, .hr.op {
 }
 
 .card-visual-1 {
-  height: 35vh;
+  height: 30vh;
 
 }
 
 .card-visual-2 {
-  height: 35vh;
+  height: 30vh;
 
 }
 
 .card-visual-3 {
-  height: 35vh;
+  height: 30vh;
 
 }
 
@@ -844,6 +844,14 @@ image.modern-illo {
 
     font-size: calc(3.5rem + 1.5vw)!important;
     line-height: calc(3.5rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
+
+  h2, .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-size: calc(2.8rem + 1.5vw)!important;
+    line-height: calc(3.2rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 

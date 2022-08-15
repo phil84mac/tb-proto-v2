@@ -119,8 +119,8 @@ export default function Home() {
             
             <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
             </Col>
-            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
-                <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-xl-5 pb-xl-5">
+            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark brdr-lft px-0 bg-stripes-3">
+                <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-5 mb-xl-5 pb-xl-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>
                 
@@ -204,7 +204,7 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={12} className="d-none d-xl-block brdr-tp">
+            <Col xs={12} className="d-none d-xxl-block brdr-tp">
             <Carousel variant="dark" className="vh-100">
               <Carousel.Item interval={60000} className="">
                 <Row className="">
@@ -388,7 +388,7 @@ export default function Home() {
             </Carousel>
             </Col>
 
-        <Col xs={12} className="d-xl-none">
+        <Col xs={12} className="d-xxl-none">
           <Row>
             <Col xs={2} className="brdr-tp">
             </Col>
@@ -411,7 +411,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                    <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-4">svg-animation</object>
+                    <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-5">svg-animation</object>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Expectation matching</h5>
@@ -419,6 +419,7 @@ export default function Home() {
                   <p className="mb-5 pe-3 pb-md-3">
                   To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
                   </p>  
+                  <hr className="d-md-none" />
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
@@ -428,7 +429,9 @@ export default function Home() {
                   <h5 className=" regular py-3 my-0">Research</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
+                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.
+                  </p>
+                  <hr className="d-md-none" />  
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
@@ -488,7 +491,8 @@ export default function Home() {
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
                   With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
-                  </p>  
+                  </p>
+                  <hr className="d-md-none" />    
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
@@ -500,6 +504,7 @@ export default function Home() {
                   <p className="mb-5 pe-3 pb-md-3">
                   By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
                   </p>
+                  <hr className="d-md-none" />  
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
@@ -559,6 +564,7 @@ export default function Home() {
                   <p className="mb-5 pe-3 pb-md-3">
                   Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
                   </p>  
+                  <hr className="d-md-none" />  
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
@@ -570,6 +576,7 @@ export default function Home() {
                   <p className="mb-5 pe-3 pb-md-3">
                   Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
                   </p>
+                  <hr className="d-md-none" />  
                   </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
@@ -602,15 +609,15 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={12} lg={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
+            <Col xs={12} lg={8} xl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
                 <h2 className="h1 light dark-grey my-5">
                 It's our business to help your business rethink what's possible
                 </h2>
             </Col>
 
-            <Col lg={6} className="brdr-tp-dark px-0">
+            <Col lg={4} xl={6} className="brdr-tp-dark px-0">
               <div className="w-100" >
-                <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100 mt-lg-5 mt-xl-0 pt-lg-5 pt-xl-0">svg-animation</object>
+                <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
               </div>
             </Col>
 
