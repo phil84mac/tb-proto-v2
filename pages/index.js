@@ -229,7 +229,7 @@ export default function Home() {
                     <Row className="dark-grey">
                       <Col sm={4} className="brdr-rght px-0 vh-70">
                         <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                            <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-5">svg-animation</object>
+                            <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>
@@ -276,7 +276,7 @@ export default function Home() {
                   </h4>
                   <hr className="my-0" />
                   <h3 className="lead light dark-grey py-4">       
-                  <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products tested by humans
+                  <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products validated by people
                   </h3>
                   </Col>
                   <Col xs={2} className="brdr-lft">
@@ -411,7 +411,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                    <Image fluid src="" className="p-4 "/>
+                    <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-4">svg-animation</object>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Expectation matching</h5>
