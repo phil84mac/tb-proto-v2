@@ -208,7 +208,7 @@ export default function Home() {
             <Carousel variant="dark" className="vh-100">
               <Carousel.Item interval={60000} className="">
                 <Row className="">
-                  <Col xs={2} className="vh-35">
+                  <Col xs={2} className="vh-30">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
                   <hr className="my-0 dark" />
@@ -228,8 +228,8 @@ export default function Home() {
                   <Col xs={10} lg={8} className="brdr-lft brdr-tp">
                     <Row className="dark-grey">
                       <Col sm={4} className="brdr-rght px-0 vh-65">
-                        <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                          <Image fluid src="" className="p-4 "/>
+                        <div className="vh-35 d-flex justify-content-center align-items-center">
+                            <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>
@@ -239,7 +239,7 @@ export default function Home() {
                         </p>  
                       </Col>
                       <Col sm={4} className="px-0 vh-65">
-                      <div className="card-visual-2 d-flex justify-content-center align-items-center">
+                      <div className="vh-35 d-flex justify-content-center align-items-center">
                         <Image fluid src="" className="p-4 pe-3"/>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
@@ -249,7 +249,7 @@ export default function Home() {
                         With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
                       </Col>
                       <Col sm={4} className="brdr-lft px-0 vh-65">
-                      <div className="card-visual-3 d-flex justify-content-center align-items-center">
+                      <div className="vh-35 d-flex justify-content-center align-items-center">
                       <Image fluid src="" className="p-4"/>
                       </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -267,7 +267,7 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item interval={30000}>
                 <Row>
-                  <Col xs={2} className="vh-35">
+                  <Col xs={2} className="vh-30">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
                   <hr className="my-0 dark" />
@@ -287,7 +287,7 @@ export default function Home() {
                   <Col xs={10} lg={8} className="brdr-lft brdr-tp">
                     <Row className="dark-grey">
                       <Col sm={4} className="brdr-rght px-0 vh-65">
-                        <div className="card-visual-1 d-flex justify-content-center align-items-center">
+                        <div className="vh-35 d-flex justify-content-center align-items-center">
                           <Image fluid src="" className="p-4 "/>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -298,7 +298,7 @@ export default function Home() {
                         </p>  
                       </Col>
                       <Col sm={4} className="px-0 vh-65">
-                      <div className="card-visual-2 d-flex justify-content-center align-items-center">
+                      <div className="vh-35 d-flex justify-content-center align-items-center">
                         <Image fluid src="" className="p-4 pe-3"/>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
@@ -309,7 +309,7 @@ export default function Home() {
                         </p>
                       </Col>
                       <Col sm={4} className="brdr-lft px-0 vh-65">
-                      <div className="card-visual-3 d-flex justify-content-center align-items-center">
+                      <div className="vh-35 d-flex justify-content-center align-items-center">
                       <Image fluid src="" className="p-4"/>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
@@ -327,7 +327,7 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item interval={30000}>
                 <Row>
-                  <Col xs={2} className="vh-35">
+                  <Col xs={2} className="vh-30">
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft px-0">
                     <hr className="my-0 dark" />
@@ -347,7 +347,7 @@ export default function Home() {
                     <Col xs={10} lg={8} className="brdr-lft brdr-tp">
                       <Row className="dark-grey ">
                         <Col sm={4} className="brdr-rght px-0 vh-65">
-                          <div className="card-visual-1 d-flex justify-content-center align-items-center">
+                          <div className="vh-35 d-flex justify-content-center align-items-center">
                             <Image fluid src="" className="p-4 "/>
                           </div>
                           <hr className="px-0 mt-0 mb-0" />
@@ -358,7 +358,7 @@ export default function Home() {
                           </p>  
                         </Col>
                         <Col sm={4} className="px-0 vh-65">
-                        <div className="card-visual-2 d-flex justify-content-center align-items-center">
+                        <div className="vh-35 d-flex justify-content-center align-items-center">
                           <Image fluid src="" className="p-4 pe-3"/>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -369,7 +369,7 @@ export default function Home() {
                           </p>
                           </Col>
                         <Col sm={4} className="brdr-lft px-0 vh-65">
-                        <div className="card-visual-3 d-flex justify-content-center align-items-center">
+                        <div className="vh-35 d-flex justify-content-center align-items-center">
                         <Image fluid src="" className="p-4"/>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -602,20 +602,19 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={12} lg={8} className="d-flex align-items-center brdr-tp-dark px-0">
+            <Col xs={12} lg={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
                 <h2 className="h1 light dark-grey my-5">
                 It's our business to help your business rethink what's possible
                 </h2>
             </Col>
 
-            <Col lg={4} className="brdr-tp-dark d-flex align-items-center justify-content-center brdr-lft">
-              <hr className="dark" />
-              <div className="w-75" >
-               <Image fluid src="/tb-light.svg" className="w-100 p-4 p-xl-5"/>
+            <Col lg={6} className="brdr-tp-dark px-0">
+              <div className="w-100" >
+                <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100 mt-lg-5 mt-xl-0 pt-lg-5 pt-xl-0">svg-animation</object>
               </div>
             </Col>
 
-            <Col xs={12} className="brdr-lft brdr-tp px-0 ">
+            <Col xs={12} className="brdr-lft brdr-tp px-0 d-none">
               <video className="w-full video-margin-fix" autoPlay loop muted>
                 <source src="./tower.mp4" type='video/mp4' />
               </video>
