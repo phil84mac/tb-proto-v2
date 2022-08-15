@@ -419,21 +419,18 @@ hr.op, .hr.op {
 }
 
 .card-visual-1 {
-  height: 30vh;
-  border: 1px solid #2AB2FF;
-  margin: 0px -1px 0px 0px;
+  height: 35vh;
+
 }
 
 .card-visual-2 {
-  height: 30vh;
-  border: 1px solid #2AB2FF;
-  margin: 0px -1px 0px -1px;
+  height: 35vh;
+
 }
 
 .card-visual-3 {
-  height: 30vh;
-  border: 1px solid #2AB2FF;
-  margin: 0px 0px 0px -1px;
+  height: 35vh;
+
 }
 
 .video-margin-fix {

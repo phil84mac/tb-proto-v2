@@ -227,9 +227,9 @@ export default function Home() {
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft brdr-tp">
                     <Row className="dark-grey">
-                      <Col sm={4} className="brdr-rght px-0 vh-65">
-                        <div className="vh-35 d-flex justify-content-center align-items-center">
-                            <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-3">svg-animation</object>
+                      <Col sm={4} className="brdr-rght px-0 vh-70">
+                        <div className="card-visual-1 d-flex justify-content-center align-items-center">
+                            <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-5">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>
@@ -238,8 +238,8 @@ export default function Home() {
                         To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
                         </p>  
                       </Col>
-                      <Col sm={4} className="px-0 vh-65">
-                      <div className="vh-35 d-flex justify-content-center align-items-center">
+                      <Col sm={4} className="px-0 vh-70">
+                      <div className="card-visual-2 d-flex justify-content-center align-items-center">
                         <Image fluid src="" className="p-4 pe-3"/>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
@@ -248,8 +248,8 @@ export default function Home() {
                         <p className="mb-5 pe-3 pb-md-3">
                         With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
                       </Col>
-                      <Col sm={4} className="brdr-lft px-0 vh-65">
-                      <div className="vh-35 d-flex justify-content-center align-items-center">
+                      <Col sm={4} className="brdr-lft px-0 vh-70">
+                      <div className="card-visual-3 d-flex justify-content-center align-items-center">
                       <Image fluid src="" className="p-4"/>
                       </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -286,8 +286,8 @@ export default function Home() {
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft brdr-tp">
                     <Row className="dark-grey">
-                      <Col sm={4} className="brdr-rght px-0 vh-65">
-                        <div className="vh-35 d-flex justify-content-center align-items-center">
+                      <Col sm={4} className="brdr-rght px-0 vh-70">
+                        <div className="card-visual-1 d-flex justify-content-center align-items-center">
                           <Image fluid src="" className="p-4 "/>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -297,8 +297,8 @@ export default function Home() {
                         With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
                         </p>  
                       </Col>
-                      <Col sm={4} className="px-0 vh-65">
-                      <div className="vh-35 d-flex justify-content-center align-items-center">
+                      <Col sm={4} className="px-0 vh-70">
+                      <div className="card-visual-2 d-flex justify-content-center align-items-center">
                         <Image fluid src="" className="p-4 pe-3"/>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
@@ -308,8 +308,8 @@ export default function Home() {
                         By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
                         </p>
                       </Col>
-                      <Col sm={4} className="brdr-lft px-0 vh-65">
-                      <div className="vh-35 d-flex justify-content-center align-items-center">
+                      <Col sm={4} className="brdr-lft px-0 vh-70">
+                      <div className="card-visual-3 d-flex justify-content-center align-items-center">
                       <Image fluid src="" className="p-4"/>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
@@ -346,8 +346,8 @@ export default function Home() {
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft brdr-tp">
                       <Row className="dark-grey ">
-                        <Col sm={4} className="brdr-rght px-0 vh-65">
-                          <div className="vh-35 d-flex justify-content-center align-items-center">
+                        <Col sm={4} className="brdr-rght px-0 vh-70">
+                          <div className="card-visual-1 d-flex justify-content-center align-items-center">
                             <Image fluid src="" className="p-4 "/>
                           </div>
                           <hr className="px-0 mt-0 mb-0" />
@@ -357,8 +357,8 @@ export default function Home() {
                           Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
                           </p>  
                         </Col>
-                        <Col sm={4} className="px-0 vh-65">
-                        <div className="vh-35 d-flex justify-content-center align-items-center">
+                        <Col sm={4} className="px-0 vh-70">
+                        <div className="card-visual-2 d-flex justify-content-center align-items-center">
                           <Image fluid src="" className="p-4 pe-3"/>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
@@ -368,8 +368,8 @@ export default function Home() {
                           Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
                           </p>
                           </Col>
-                        <Col sm={4} className="brdr-lft px-0 vh-65">
-                        <div className="vh-35 d-flex justify-content-center align-items-center">
+                        <Col sm={4} className="brdr-lft px-0 vh-70">
+                        <div className="card-visual-3 d-flex justify-content-center align-items-center">
                         <Image fluid src="" className="p-4"/>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
