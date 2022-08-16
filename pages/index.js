@@ -250,7 +250,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="brdr-lft px-0 vh-70">
                       <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                        <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-4">svg-animation</object>
+                        <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                       </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Design and prototyping</h5>
@@ -423,7 +423,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                <object type="image/svg+xml" data="/box-fit.svg" className="h-100">svg-animation</object>
+                <object type="image/svg+xml" data="/magnify.svg" className="h-100">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Research</h5>
