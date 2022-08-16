@@ -29,11 +29,11 @@ export default function Header() {
                 <div className="mt-3 fixed pntr">
                   <Row className="d-flex align-items-center ps-3 ps-md-0">
                   <Col xs={8} md={3} className="px-0">
-                  <Image fluid src="/tb-logo-v3.svg" className="multiply" alt="Thinking Big Logo"/>
+                  <Image fluid src="/tb-logo-v3.svg" className="" alt="Thinking Big Logo"/>
                   </Col>
                   <Col md={9} className="d-none d-md-block pe-0">
                     <a href="/" className="mt-2 dark-grey medium mono uppercase no-underline">
-                      Think/ng/Big
+                      THINKING/BIG
                     </a>
                   </Col>
                   </Row>

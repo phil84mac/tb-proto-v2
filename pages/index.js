@@ -205,8 +205,8 @@ export default function Home() {
             </Col>
 
             <Col xs={12} className="d-none d-xxl-block brdr-tp">
-            <Carousel variant="dark" className="vh-100">
-              <Carousel.Item interval={60000} className="">
+            <Carousel variant="dark" slide={false} interval={null} className="vh-100">
+              <Carousel.Item className="">
                 <Row className="">
                   <Col xs={2} className="vh-30">
                   </Col>
@@ -229,7 +229,7 @@ export default function Home() {
                     <Row className="dark-grey">
                       <Col sm={4} className="brdr-rght px-0 vh-70">
                         <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                            <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-3">svg-animation</object>
+                            <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>
@@ -240,7 +240,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="px-0 vh-70">
                       <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                        <Image fluid src="" className="p-4 pe-3"/>
+                        <object type="image/svg+xml" data="/magnify.svg" className="h-100">svg-animation</object>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Research</h5>
@@ -250,7 +250,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="brdr-lft px-0 vh-70">
                       <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                      <Image fluid src="" className="p-4"/>
+                        <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-4">svg-animation</object>
                       </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Design and prototyping</h5>
@@ -265,7 +265,7 @@ export default function Home() {
                   </Col>
                 </Row>
               </Carousel.Item>
-              <Carousel.Item interval={30000}>
+              <Carousel.Item>
                 <Row>
                   <Col xs={2} className="vh-30">
                   </Col>
@@ -325,7 +325,7 @@ export default function Home() {
                   </Col>
                 </Row>    
               </Carousel.Item>
-              <Carousel.Item interval={30000}>
+              <Carousel.Item>
                 <Row>
                   <Col xs={2} className="vh-30">
                     </Col>
@@ -411,7 +411,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                    <object type="image/svg+xml" data="/box-fit.svg" className="h-100 p-5">svg-animation</object>
+                    <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Expectation matching</h5>
@@ -423,7 +423,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                  <Image fluid src="" className="p-4 pe-3"/>
+                <object type="image/svg+xml" data="/box-fit.svg" className="h-100">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Research</h5>
