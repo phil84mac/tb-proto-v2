@@ -94,7 +94,7 @@ export default function Footer() {
             <Col sm={6} className="dark-grey brdr-bttm px-0 d-flex align-items-end ">
               <div id="contact" className="w-100">
               <hr className="mt-0 d-none" />
-                <h4 className="dark-grey h3 medium mb-4 mt-4">
+                <h4 className="dark-grey h3 medium mb-4 pb-2 mt-4">
                   Contact us
                 </h4>              
                 <form className="mb-4">
@@ -133,9 +133,9 @@ export default function Footer() {
               </div>
             </Col>
             <Col xs={2}  className="px-0 py-3 d-flex align-items-center nowrap">
-                <Image fluid src="/tb-logo-outline.svg" className="footer-logo me-3"/>
+                <Image fluid src="/tb-logo-v3.svg" className="footer-logo pe-1 me-2 d-none"/>
                 <p className="dark-grey mono regular mb-0 z-999">
-                  © THINKING BIG 2022
+                  © THINKING/BIG 2022
                   </p>
             </Col>
             <Col xs={2}  className=" brdr-lft">
