@@ -609,13 +609,13 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={12} lg={8} xl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
-                <h2 className="h1 light dark-grey my-5">
+            <Col xs={12} md={8} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
+                <h2 className="h1 light dark-grey my-5 ">
                 It's our business to help your business rethink what's possible
                 </h2>
             </Col>
 
-            <Col lg={4} xl={6} className="brdr-tp-dark px-0">
+            <Col md={4} xxl={6} className="brdr-tp-dark px-0">
               <div className="w-100" >
                 <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
               </div>

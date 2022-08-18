@@ -1,11 +1,11 @@
 <svg width="73" height="83" viewBox="0 0 73 83" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g style="mix-blend-mode:multiply">
-<rect x="0.865988" y="0.499935" width="39.5032" height="39.5032" transform="matrix(4.37114e-08 1 0.865988 -0.500065 36.7022 41.3808)" stroke="#FF2A50" stroke-width="2"/>
+<rect x="1.29898" y="0.749902" width="38.5032" height="38.5032" transform="matrix(4.37114e-08 1 0.865988 -0.500065 36.9187 41.3227)" stroke="#FF2A50" stroke-width="3"/>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect x="-0.865988" y="0.499935" width="39.5032" height="39.5032" transform="matrix(-4.37114e-08 1 -0.865988 -0.500065 35.8337 43.1127)" stroke="#2AB2FF" stroke-width="2"/>
+<rect x="-1.29898" y="0.749902" width="38.5032" height="38.5032" transform="matrix(-4.37114e-08 1 -0.865988 -0.500065 35.6172 43.9207)" stroke="#2AB2FF" stroke-width="3"/>
 </g>
 <g style="mix-blend-mode:multiply">
-<rect y="0.999935" width="39.5032" height="39.5032" transform="matrix(0.866044 0.499967 -0.866044 0.499967 37.1351 0.5)" stroke="#FFE100" stroke-width="2"/>
+<rect y="1.4999" width="38.5032" height="38.5032" transform="matrix(0.866044 0.499967 -0.866044 0.499967 37.5681 0.75)" stroke="#FFE100" stroke-width="3"/>
 </g>
 </svg>

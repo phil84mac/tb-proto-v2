@@ -13,7 +13,7 @@ export default function Footer() {
     <>
       <footer className=" px-sm-4 px-lg-5 "> 
       <Container fluid className="cntnr-brdr brdr-tp">
-        <div className="d-none d-sm-block">
+        <div className="d-none d-md-block">
           <Row className="">
             <Col sm={6} className="dark-grey brdr-bttm brdr-rght d-flex align-items-end">
               
@@ -83,7 +83,7 @@ export default function Footer() {
                       </li>
                       <li className="mb-2">
                         <a href="#" className="dark-grey mono medium">
-                        Privacy
+                        Privacy policy
                         </a>
                       </li>
                     </ul>
@@ -94,7 +94,7 @@ export default function Footer() {
             <Col sm={6} className="dark-grey brdr-bttm px-0 d-flex align-items-end ">
               <div id="contact" className="w-100">
               <hr className="mt-0 d-none" />
-                <h4 className="dark-grey h3 medium mb-4 pb-2 mt-4">
+                <h4 className="dark-grey h3 regular mb-3">
                   Contact us
                 </h4>              
                 <form className="mb-4">
@@ -153,13 +153,13 @@ export default function Footer() {
             </Col>
           </Row>
         </div>
-        <div className="d-block d-sm-none">
+        <div className="d-block d-md-none">
         <Row>
             <Col xs={2} lg={3} className="">
             </Col>
             <Col xs={10} lg={9} className="brdr-lft">
             <Row className="d-flex">
-            <Col sm={6} className="dark-grey pt-3 pt-5 px-0 d-flex align-items-end">
+            <Col md={6} className="dark-grey pt-3 pt-5 px-0 d-flex align-items-end">
               <div className="w-100">
                 <h3 className="dark-grey mb-3">
                   Contact us
@@ -190,7 +190,7 @@ export default function Footer() {
                 </form>
               </div>
             </Col>
-            <Col sm={6} className="dark-grey brdr-bttm brdr-rght px-0 d-flex align-items-end">
+            <Col md={6} className="dark-grey brdr-bttm brdr-rght px-0 d-flex align-items-end">
               <div className="w-100">
                 <a href="/ourcompany" className="mono medium text-uppercase dark-grey arrow d-none">
                   Our company
@@ -223,7 +223,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-2">
                     <a href="#" className="dark-grey mono medium">
-                    Privacy
+                    Privacy Policy
                     </a>
                   </li>
                 </ul>
@@ -258,7 +258,7 @@ export default function Footer() {
               </div>
             </Col>
             
-            <Col sm={12} className="dark-grey py-4 px-0 mb-3 d-block d-sm-none text-start">
+            <Col md={12} className="dark-grey py-4 px-0 mb-3 d-block d-md-none text-start">
                   <p className="mono dark-grey regular mb-2">
                   © THINKING BIG 2022
                   </p>
