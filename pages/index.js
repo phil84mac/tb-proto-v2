@@ -288,7 +288,7 @@ export default function Home() {
                     <Row className="dark-grey">
                       <Col sm={4} className="brdr-rght px-0 vh-70">
                         <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                          <Image fluid src="" className="p-4 "/>
+                        <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className="regular py-3 my-0">Business services</h5>
@@ -299,7 +299,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="px-0 vh-70">
                       <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                        <Image fluid src="" className="p-4 pe-3"/>
+                      <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
                         <h5 className="regular py-3 my-0">System architecture design</h5>
@@ -310,7 +310,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="brdr-lft px-0 vh-70">
                       <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                      <Image fluid src="" className="p-4"/>
+                      <object type="image/svg+xml" data="/engineering.svg" className="h-100 ">svg-animation</object>
                       </div>
                       <hr className="px-0 mt-0 mb-0" />
                         <h5 className="regular py-3 my-0">Software engineering</h5>
@@ -348,7 +348,7 @@ export default function Home() {
                       <Row className="dark-grey ">
                         <Col sm={4} className="brdr-rght px-0 vh-70">
                           <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                            <Image fluid src="" className="p-4 "/>
+                          <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                           </div>
                           <hr className="px-0 mt-0 mb-0" />
                           <h5 className="regular py-3 my-0">Automated testing</h5>
@@ -359,7 +359,7 @@ export default function Home() {
                         </Col>
                         <Col sm={4} className="px-0 vh-70">
                         <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                          <Image fluid src="" className="p-4 pe-3"/>
+                        <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                           <h5 className="regular py-3 my-0">Deployment</h5>
@@ -370,7 +370,7 @@ export default function Home() {
                           </Col>
                         <Col sm={4} className="brdr-lft px-0 vh-70">
                         <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                        <Image fluid src="" className="p-4"/>
+                        <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                         </div>
                         <hr className="px-0 mt-0 mb-0" />
                           <h5 className="regular py-3 my-0">Maintenance and features</h5>
@@ -435,7 +435,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                 <Image fluid src="" className="p-4"/>
+                <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Design and prototyping</h5>
@@ -484,7 +484,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                    <Image fluid src="" className="p-4 "/>
+                  <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Business services</h5>
@@ -496,7 +496,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                  <Image fluid src="" className="p-4 pe-3"/>
+                <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">System architecture design</h5>
@@ -508,7 +508,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                 <Image fluid src="" className="p-4"/>
+                <object type="image/svg+xml" data="/engineering.svg" className="h-100 p-4">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Software engineering</h5>
@@ -556,7 +556,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col sm={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                    <Image fluid src="" className="p-4 "/>
+                  <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Automated testing</h5>
@@ -568,7 +568,7 @@ export default function Home() {
                 </Col>
                 <Col sm={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                  <Image fluid src="" className="p-4 pe-3"/>
+                <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Deployment</h5>
@@ -580,7 +580,7 @@ export default function Home() {
                   </Col>
                 <Col sm={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                 <Image fluid src="" className="p-4"/>
+                <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Maintenance and features</h5>
