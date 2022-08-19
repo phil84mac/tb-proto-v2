@@ -133,7 +133,7 @@ export default function Footer() {
               </div>
             </Col>
             <Col xs={2}  className="px-0 py-3 d-flex align-items-center nowrap">
-                <Image fluid src="/tb-logo-v3.svg" className="footer-logo pe-1 me-2 d-none"/>
+                <Image fluid src="/tb-logo-inverse.svg" className="footer-logo pe-1 me-2"/>
                 <p className="dark-grey mono regular mb-0 z-999">
                   © THINKING/BIG 2022
                   </p>
