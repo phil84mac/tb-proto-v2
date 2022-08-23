@@ -38,6 +38,7 @@ export default function Home() {
       <main className="px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
+            
             <Col xs={2} xl={2} className="brdr-tp">
             </Col>
             <Col xs={10} xl={8} className="brdr-lft px-0 bg-stripes">
@@ -45,7 +46,7 @@ export default function Home() {
 
             <div className="d-none d-sm-block py-5 pe-5">
 
-              <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5" >
+              <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5 pb-lg-3" >
                 <span className="semi-bold bg-yellow-multiply pe-2"> 
                   <Typewriter
                     loop
@@ -95,14 +96,8 @@ export default function Home() {
               <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
             </Col>
-
-            {/*
-            <Col xs={8} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
-              <video className='w-full video-margin-fix' autoPlay loop muted>
-                <source src="./interior.mp4" type='video/mp4' />
-              </video>
-            </Col>
-                  */}
+                  
+                  {/*
           
             <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
@@ -608,6 +603,7 @@ export default function Home() {
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
+            
 
             <Col xs={12} md={8} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
                 <h2 className="h1 light dark-grey my-5 ">
@@ -620,12 +616,8 @@ export default function Home() {
                 <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
               </div>
             </Col>
-
-            <Col xs={12} className="brdr-lft brdr-tp px-0 d-none">
-              <video className="w-full video-margin-fix" autoPlay loop muted>
-                <source src="./tower.mp4" type='video/mp4' />
-              </video>
-            </Col>       
+            */}
+     
  
           </Row>
         </Container>

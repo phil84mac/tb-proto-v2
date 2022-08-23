@@ -52,7 +52,7 @@ export default function Header() {
 
             <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase fixed">
               <div className="fixed mt-2">
-                <a href="/"  className="mono no-underline medium dark-grey link py-2 me-4 nowrap">
+                <a href="https://www.linkedin.com/company/thinking-big-inc/jobs/"  className="mono no-underline medium dark-grey link py-2 me-4 nowrap">
                   Careers
                 </a>
                 <a href="#contact"  className="mono no-underline medium dark-grey arrow-down py-2 nowrap">
