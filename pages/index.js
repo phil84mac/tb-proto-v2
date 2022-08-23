@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TB PROTO</title>
+        <title>THINKING/BIG</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
