@@ -28,7 +28,7 @@ export default function Header() {
               <Link href="/">
                 <div className="fixed pntr">
                   <Row className="align-items-center">
-                  <Col xs={8} md={3} className="px-0">
+                  <Col md={3} className="px-0">
                   <Image fluid src="/tb-logo-inverse.svg" className="header-logo" alt="Thinking Big Logo"/>
                   </Col>
                   <Col md={9} className="d-none d-md-block pe-0">

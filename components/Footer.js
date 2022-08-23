@@ -15,8 +15,8 @@ export default function Footer() {
       <Container fluid className="cntnr-brdr brdr-tp">
 
           <Row className="">
-            <Col xs={12} className="dark-grey brdr-bttm d-flex align-items-end bg-stripes-2 vh-50 px-0">
-              <div className="w-100 mb-4">
+            <Col xs={12} className="dark-grey brdr-bttm d-flex align-items-end bg-stripes-2 vh-40 px-0">
+              <div className="w-100 mb-3">
               <hr className="mt-0 d-none" />
               <h6 className="text-muted regular pb-1">
                 CONTACT
@@ -30,7 +30,7 @@ export default function Footer() {
                 <a href="mailto:hello@thinkingbig.net" className="mono dark-grey uppercase medium link">
                   hello@thinkingbig.net
                 </a>
-              <h6 className="text-muted regular pb-1 mt-5">
+              <h6 className="text-muted regular pb-1 mt-4 pt-2">
                 SOCIAL MEDIA
               </h6>
               <ul className="px-0 uppercase no-underline mb-3">
@@ -64,8 +64,8 @@ export default function Footer() {
             </Col>
 
             <Col xs={12}  className="px-0 py-3 d-flex align-items-center nowrap bg-stripes-2">
-                <Image fluid src="/tb-logo-inverse.svg" className="footer-logo pe-1 me-2"/>
-                <p className="dark-grey mono medium mb-0 z-999">
+                <Image fluid src="/tb-logo-inverse.svg" className="footer-logo"/>
+                <p className="dark-grey mono medium ms-3 mb-0 z-999">
                   © THINKING/BIG 2022
                   </p>
             </Col>
