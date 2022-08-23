@@ -44,7 +44,7 @@ export default function Home() {
             <Col xs={10} xl={8} className="brdr-lft px-0 bg-stripes">
             <hr className="my-0" />
 
-            <div className="d-none d-sm-block py-5 pe-5">
+            <div className="d-none d-sm-block py-5 pe-5 mb-xl-3">
 
               <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5 pb-lg-3" >
                 <span className="semi-bold bg-yellow-multiply pe-2"> 

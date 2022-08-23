@@ -21,13 +21,13 @@ export default function Footer() {
               <h6 className="text-muted regular pb-1">
                 CONTACT
               </h6>        
-                <p className="">
+                <p className="medium">
                   310-172 Great George St
                 </p> 
-                <p className=" ">
+                <p className="medium">
                   Charlottetown PEI
                 </p>   
-                <a href="mailto:hello@thinkingbig.net" className="mono red medium underline link">
+                <a href="mailto:hello@thinkingbig.net" className="mono dark-grey uppercase medium link">
                   hello@thinkingbig.net
                 </a>
               <h6 className="text-muted regular pb-1 mt-5">
@@ -65,7 +65,7 @@ export default function Footer() {
 
             <Col xs={12}  className="px-0 py-3 d-flex align-items-center nowrap bg-stripes-2">
                 <Image fluid src="/tb-logo-inverse.svg" className="footer-logo pe-1 me-2"/>
-                <p className="dark-grey mono regular mb-0 z-999">
+                <p className="dark-grey mono medium mb-0 z-999">
                   © THINKING/BIG 2022
                   </p>
             </Col>

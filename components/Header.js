@@ -26,7 +26,7 @@ export default function Header() {
           <Row className="h-top-nav ">
             <Col xs={2} className="z-999">
               <Link href="/">
-                <div className="mt-3 fixed pntr">
+                <div className="mt-4 fixed pntr">
                   <Row className="d-flex align-items-center">
                   <Col xs={8} md={3} className="px-0">
                   <Image fluid src="/tb-logo-inverse.svg" className="header-logo" alt="Thinking Big Logo"/>
@@ -52,7 +52,7 @@ export default function Header() {
 
             <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 fixed">
               <div className="fixed mt-2">
-              <a href="mailto:hello@thinkingbig.net" className="mono red medium underline link">
+              <a href="mailto:hello@thinkingbig.net" className="mono dark-grey medium uppercase link">
                   hello@thinkingbig.net
                 </a>
               </div>
