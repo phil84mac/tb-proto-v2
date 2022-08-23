@@ -23,16 +23,16 @@ export default function Header() {
     <>
     <div className="px-sm-4 px-lg-5" id="home">
       <Container fluid className="cntnr-brdr">
-          <Row className="h-top-nav">
+          <Row className="h-top-nav ">
             <Col xs={2} className="z-999">
               <Link href="/">
                 <div className="mt-3 fixed pntr">
-                  <Row className="d-flex align-items-center  ps-md-0">
+                  <Row className="d-flex align-items-center">
                   <Col xs={8} md={3} className="px-0">
-                  <Image fluid src="/tb-logo-v3.svg" className="" alt="Thinking Big Logo"/>
+                  <Image fluid src="/tb-logo-inverse.svg" className="header-logo" alt="Thinking Big Logo"/>
                   </Col>
                   <Col md={9} className="d-none d-md-block pe-0">
-                    <a href="/" className="mt-2 dark-grey medium mono uppercase no-underline">
+                    <a href="/" className=" dark-grey medium mono uppercase no-underline">
                       Thinking/Big
                     </a>
                   </Col>
@@ -50,13 +50,10 @@ export default function Header() {
             </Col>
 
 
-            <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase fixed">
+            <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 fixed">
               <div className="fixed mt-2">
-                <a href="https://www.linkedin.com/company/thinking-big-inc/jobs/"  className="mono no-underline medium dark-grey link py-2 me-4 nowrap">
-                  Careers
-                </a>
-                <a href="#contact"  className="mono no-underline medium dark-grey arrow-down py-2 nowrap">
-                  Contact
+              <a href="mailto:hello@thinkingbig.net" className="mono red medium underline link">
+                  hello@thinkingbig.net
                 </a>
               </div>
             </Col>
