@@ -33,8 +33,8 @@ export default function Header() {
             </Col>
             <Col xs={2} className="brdr-lft d-flex align-items-start py-4 justify-content-end px-0 z-999 uppercase fixed">
               <div className="fixed mt-2">
-                <a href="#contact"  className="mono no-underline medium dark-grey arrow-down py-2 nowrap">
-                  Contact
+                <a href="#contact"  className="mono no-underline medium dark-grey py-2 nowrap">
+                  HELLO@THINKINGBIG.NET
                 </a>
               </div>
             </Col>
