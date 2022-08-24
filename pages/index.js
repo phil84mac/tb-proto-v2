@@ -187,6 +187,7 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
+            {/* 123 part large screens */}
             <Col xs={12} className="d-none d-xxl-block brdr-tp">
             <Carousel variant="dark" slide={false} interval={null} className="vh-100">
               <Carousel.Item className="">
@@ -371,9 +372,10 @@ export default function Home() {
             </Carousel>
             </Col>
 
+
+        {/* 123 part laptop and below */}
         <Col xs={12} className="d-xxl-none">
           <Row>
-
             <Col xs={12} className="px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
@@ -412,7 +414,7 @@ export default function Home() {
                 </Col>
                 <Col md={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                <object type="image/svg+xml" data="/proto.svg" className="h-100 p-4">svg-animation</object>
+                <object type="image/svg+xml" data="/proto.svg" className="h-100">svg-animation</object>
                 </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Design and prototyping</h5>
@@ -452,7 +454,7 @@ export default function Home() {
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
-                  <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
+                  <object type="image/svg+xml" data="/.svg" className="h-100">svg-animation</object>
                   </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Business services</h5>
@@ -464,7 +466,7 @@ export default function Home() {
                 </Col>
                 <Col md={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
-                <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
+                <object type="image/svg+xml" data="/.svg" className="h-100">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">System architecture design</h5>
@@ -476,7 +478,7 @@ export default function Home() {
                 </Col>
                 <Col md={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                <object type="image/svg+xml" data="/engineering.svg" className="h-100 p-4">svg-animation</object>
+                <object type="image/svg+xml" data="/engineering.svg" className="h-100">svg-animation</object>
                 </div>
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Software engineering</h5>
@@ -567,12 +569,12 @@ export default function Home() {
         </Col>
         <Col xs={2}  className="brdr-tp brdr-lft">
         </Col>
-          <Col xs={12} md={8} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
+          <Col xs={12} xl={6} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
               <h2 className="h1 light dark-grey my-5 ">
               It's our business to help your business rethink what's possible
               </h2>
           </Col>
-          <Col md={4} xxl={6} className="brdr-tp-dark px-0">
+          <Col xl={6} xxl={6} className="brdr-tp-dark px-0">
             <div className="w-100" >
               <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
             </div>
