@@ -14,14 +14,19 @@ export default function Footer() {
             <Col xs={12} className="dark-grey brdr-tp bg-stripes-2 d-flex align-items-end px-0 vh-70">              
               <div className="w-100">
               <hr className=" mt-0"/>
-                <h6 className="text-muted regular">
-                  CONTACT INFO
+                <h6 className="text-muted mb-2 regular">
+                  ADDRESS
                 </h6>
-                <ul className="px-0 mb-4 uppercase no-underline">
-                  <li className="mb-2">
-                  <a href="mailto:hello@thinkingbig.net" className="mono link dark-grey uppercase medium">
-                    hello@thinkingbig.net
-                  </a>
+                <ul className="px-0 mb-4 mt-3 no-underline">
+                  <li>
+                    <p className="dark-grey">
+                      310-176 Great George St
+                    </p>
+                  </li>
+                  <li >
+                    <p className="dark-grey">
+                      Charlottetown
+                    </p>
                   </li>
                 </ul>
                   
