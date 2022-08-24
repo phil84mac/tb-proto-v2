@@ -265,14 +265,23 @@ hr.op, .hr.op {
 
 /* utilities and specs */
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 4rem!important;
+  height: 4rem!important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
 .carousel-control-next-icon {
-    background-image: url("/arrow-down.svg")!important;
-    transform: rotate(-90deg);
+    background-image: url("/circle-arrow.svg")!important;
+    transform: rotate(0deg);
 }
 
 .carousel-control-prev-icon {
-    background-image: url("/arrow-down.svg")!important;
-    transform: rotate(90deg);
+    background-image: url("/circle-arrow.svg")!important;
+    transform: rotate(180deg);
 }
 
 .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {

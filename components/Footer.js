@@ -25,7 +25,7 @@ export default function Footer() {
                   </li>
                   <li >
                     <p className="dark-grey">
-                      Charlottetown
+                      Charlottetown, PE, Canada
                     </p>
                   </li>
                 </ul>
