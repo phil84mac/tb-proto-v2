@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TB PROTO</title>
+        <title>THINKING/BIG</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
@@ -42,7 +42,7 @@ export default function Home() {
             <Col xs={10} xl={8} className="brdr-lft px-0 bg-stripes">
             <hr className="my-0" />
             <div className="d-none d-sm-block py-5 pe-5">
-              <h1 className="dark-grey light mb-5 pb-5 pt-5 mt-3 pe-5" >
+              <h1 className="dark-grey light mb-5 pb-cl-5 pt-5 mt-3 pe-5" >
                 <span className="semi-bold bg-yellow-multiply pe-2"> 
                   <Typewriter
                     loop
@@ -103,16 +103,13 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
             
-            <Col xs={2} className="brdr-tp brdr-rght d-lg-none">
-            </Col>
-            <Col xs={10} lg={6} xl={8} className="brdr-tp-dark brdr-lft px-0 bg-stripes-3">
+            <Col xs={12} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-2">
                 <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-5 mb-xl-5 pb-xl-5">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
-                </h2>
-                
+                </h2>          
                 <hr className=""/>
               <div className="w-100 d-lg-none" >
-                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
+                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
               </div>
               <hr className="d-lg-none"/>
                 <Row className="w-full">
@@ -376,9 +373,8 @@ export default function Home() {
 
         <Col xs={12} className="d-xxl-none">
           <Row>
-            <Col xs={2} className="brdr-tp">
-            </Col>
-            <Col xs={10} lg={8} className="brdr-lft px-0">
+
+            <Col xs={12} className="px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
             <span className="red">1. From collaboration to insights</span> /
@@ -388,12 +384,7 @@ export default function Home() {
             <span className="bg-yellow-multiply semi-bold">We design</span> intuitive enterprise systems for people
             </h3>
             </Col>
-            <Col xs={2} className="brdr-lft brdr-tp">
-            </Col>
-
-            <Col xs={2} className=" d-none d-lg-block">
-            </Col>
-            <Col xs={10} lg={8} className="brdr-lft brdr-tp">
+            <Col xs={12} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
@@ -432,10 +423,7 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
-            </Col>
             
-
             <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
@@ -449,9 +437,7 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={2} className="brdr-tp">
-            </Col>
-            <Col xs={10} lg={8} className="brdr-lft px-0">
+            <Col xs={12} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
             <span className="red">2. From insights to code</span> /
@@ -461,12 +447,8 @@ export default function Home() {
             <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products
             </h3>
             </Col>
-            <Col xs={2} className="brdr-lft brdr-tp">
-            </Col>
 
-            <Col xs={2} className=" d-none d-lg-block">
-            </Col>
-            <Col xs={10} lg={8} className="brdr-lft brdr-tp">
+            <Col xs={12} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
@@ -505,8 +487,6 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
-            </Col>
 
             <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
@@ -521,9 +501,7 @@ export default function Home() {
             <Col xs={2}  className="brdr-tp brdr-lft">
             </Col>
 
-            <Col xs={2} className="brdr-tp">
-            </Col>
-            <Col xs={10} lg={8} className="brdr-lft px-0">
+            <Col xs={12} className="brdr-lft px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
             <span className="red">3. From code to implementation</span> /
@@ -533,12 +511,8 @@ export default function Home() {
             <span className="bg-yellow-multiply semi-bold">We deliver</span> and maintain modern, scalable software
             </h3>
             </Col>
-            <Col xs={2} className="brdr-lft brdr-tp">
-            </Col>
 
-            <Col xs={2} className=" d-none d-lg-block">
-            </Col>
-            <Col xs={10} lg={8} className="brdr-lft brdr-tp">
+            <Col xs={12} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">

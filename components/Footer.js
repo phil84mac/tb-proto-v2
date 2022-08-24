@@ -15,7 +15,7 @@ export default function Footer() {
       <Container fluid className="cntnr-brdr brdr-tp">
 
         {/* TABLET + DESKTOP */}
-        <div className="d-none d-md-block">
+        <div className="d-none d-lg-block">
           <Row className="">
             <Col sm={6} className="dark-grey brdr-bttm brdr-rght d-flex align-items-end">              
               <div className="w-100">
@@ -99,7 +99,7 @@ export default function Footer() {
             <Col sm={6} className="dark-grey brdr-bttm px-0 d-flex align-items-end ">
               <div id="contact" className="w-100">
               <hr className="mt-0 d-none" />
-                <h4 className="dark-grey h3 regular mb-3">
+                <h4 className="dark-grey h3 regular mb-4">
                   Contact us
                 </h4>              
                 <form className="mb-4">
@@ -150,7 +150,7 @@ export default function Footer() {
             <Col xs={2}  className=" brdr-lft">
             </Col>
             <Col xs={2}  className=" brdr-lft py-4 px-0 d-flex align-items-center justify-content-end">
-              <a href="mailto:hello@thinkingbig.net" className="mono link dark-grey uppercase medium">
+              <a href="mailto:hello@thinkingbig.net" className="mono link dark-grey uppercase medium nowrap">
               hello@thinkingbig.net
               </a>
             </Col>
@@ -158,11 +158,10 @@ export default function Footer() {
         </div>
 
         {/* MOBILE */}
-        <div className="d-block d-md-none">
+        <div className="d-lg-none">
         <Row className="px-0">
-            <Col xs={2} className="">
-            </Col>
-            <Col xs={10} className="brdr-lft px-0 bg-stripes">
+
+            <Col xs={12} className="px-0 bg-stripes-2">
               <div className="w-100">
 
                 <h3 className="dark-grey mb-3 mt-5 medium">
