@@ -34,7 +34,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
       <main className="px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
@@ -42,10 +41,8 @@ export default function Home() {
             </Col>
             <Col xs={10} xl={8} className="brdr-lft px-0 bg-stripes">
             <hr className="my-0" />
-
             <div className="d-none d-sm-block py-5 pe-5">
-
-              <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5" >
+              <h1 className="dark-grey light mb-5 pb-5 pt-5 mt-3 pe-5" >
                 <span className="semi-bold bg-yellow-multiply pe-2"> 
                   <Typewriter
                     loop
@@ -61,12 +58,10 @@ export default function Home() {
                   />
                 </span><br/>
                 digital enterprise systems for your entire organization
-              </h1>
-              
+              </h1>  
             </div>
             <div className="d-sm-none">
-
-            <h1 className="dark-grey light mb-5 pt-5 mt-3 pe-5" >
+            <h1 className="dark-grey light mb-5 pb-5 pt-5 mt-3 pe-5" >
                 <span className="semi-bold bg-yellow pe-2"> 
                   <Typewriter
                     loop
@@ -83,7 +78,6 @@ export default function Home() {
                 </span><br/>
                 digital enterprise systems for your entire organization
               </h1>
-              
             </div>
             </Col>
 
@@ -96,14 +90,6 @@ export default function Home() {
               </div>
             </Col>
 
-            {/*
-            <Col xs={8} lg={8} className="brdr-lft brdr-tp brdr-bttm px-0">
-              <video className='w-full video-margin-fix' autoPlay loop muted>
-                <source src="./interior.mp4" type='video/mp4' />
-              </video>
-            </Col>
-                  */}
-          
             <Col xs={2}  className="vh-20 brdr-tp">
             </Col>
             <Col xs={2}  className="brdr-tp brdr-lft">
@@ -216,7 +202,7 @@ export default function Home() {
                   <span className="red">1. From collaboration to insights</span> /
                   </h4>
                   <hr className="my-0" />
-                  <h3 className="lead light dark-grey py-4">       
+                  <h3 className="lead light dark-grey py-4 pe-xxl-5">       
                   <span className="bg-yellow-multiply semi-bold">We design</span> intuitive enterprise systems for people
                   </h3>
                   </Col>
@@ -250,7 +236,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="brdr-lft px-0 vh-70">
                       <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                        <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
+                        <object type="image/svg+xml" data="/proto.svg" className="h-100">svg-animation</object>
                       </div>
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Design and prototyping</h5>
@@ -275,7 +261,7 @@ export default function Home() {
                   <span className="red">2. From insights to code</span> /
                   </h4>
                   <hr className="my-0" />
-                  <h3 className="lead light dark-grey py-4">       
+                  <h3 className="lead light dark-grey py-4 pe-xxl-5">       
                   <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products validated by people
                   </h3>
                   </Col>
@@ -335,7 +321,7 @@ export default function Home() {
                     <span className="red">3. From code to implementation</span> /
                     </h4>
                     <hr className="my-0" />
-                    <h3 className="lead light dark-grey py-4">       
+                    <h3 className="lead light dark-grey py-4 pe-xxl-5">       
                     <span className="bg-yellow-multiply semi-bold">We deliver</span> and maintain modern, scalable software
                     </h3>
                     </Col>
@@ -409,7 +395,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
-                <Col sm={4} className="brdr-rght px-0">
+                <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
                     <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
                   </div>
@@ -421,7 +407,7 @@ export default function Home() {
                   </p>  
                   <hr className="d-md-none" />
                 </Col>
-                <Col sm={4} className="px-0">
+                <Col md={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
                 <object type="image/svg+xml" data="/magnify.svg" className="h-100">svg-animation</object>
                 </div>
@@ -433,9 +419,9 @@ export default function Home() {
                   </p>
                   <hr className="d-md-none" />  
                 </Col>
-                <Col sm={4} className="brdr-lft px-0">
+                <Col md={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
-                <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
+                <object type="image/svg+xml" data="/proto.svg" className="h-100 p-4">svg-animation</object>
                 </div>
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Design and prototyping</h5>
@@ -482,7 +468,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
-                <Col sm={4} className="brdr-rght px-0">
+                <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
                   <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                   </div>
@@ -494,7 +480,7 @@ export default function Home() {
                   </p>
                   <hr className="d-md-none" />    
                 </Col>
-                <Col sm={4} className="px-0">
+                <Col md={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
                 <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
@@ -506,7 +492,7 @@ export default function Home() {
                   </p>
                   <hr className="d-md-none" />  
                 </Col>
-                <Col sm={4} className="brdr-lft px-0">
+                <Col md={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
                 <object type="image/svg+xml" data="/engineering.svg" className="h-100 p-4">svg-animation</object>
                 </div>
@@ -554,7 +540,7 @@ export default function Home() {
             </Col>
             <Col xs={10} lg={8} className="brdr-lft brdr-tp">
               <Row className="dark-grey">
-                <Col sm={4} className="brdr-rght px-0">
+                <Col md={4} className="brdr-rght px-0">
                   <div className="card-visual-1 d-flex justify-content-center align-items-center">
                   <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                   </div>
@@ -566,7 +552,7 @@ export default function Home() {
                   </p>  
                   <hr className="d-md-none" />  
                 </Col>
-                <Col sm={4} className="px-0">
+                <Col md={4} className="px-0">
                 <div className="card-visual-2 d-flex justify-content-center align-items-center">
                 <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
@@ -578,7 +564,7 @@ export default function Home() {
                   </p>
                   <hr className="d-md-none" />  
                   </Col>
-                <Col sm={4} className="brdr-lft px-0">
+                <Col md={4} className="brdr-lft px-0">
                 <div className="card-visual-3 d-flex justify-content-center align-items-center">
                 <object type="image/svg+xml" data="/.svg" className="h-100 p-4">svg-animation</object>
                 </div>
@@ -595,43 +581,31 @@ export default function Home() {
             </Col>
           </Row>
         </Col>
-
-            <Col xs={2}  className="vh-30 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-
-            <Col xs={12} md={8} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
-                <h2 className="h1 light dark-grey my-5 ">
-                It's our business to help your business rethink what's possible
-                </h2>
-            </Col>
-
-            <Col md={4} xxl={6} className="brdr-tp-dark px-0">
-              <div className="w-100" >
-                <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
-              </div>
-            </Col>
-
-            <Col xs={12} className="brdr-lft brdr-tp px-0 d-none">
-              <video className="w-full video-margin-fix" autoPlay loop muted>
-                <source src="./tower.mp4" type='video/mp4' />
-              </video>
-            </Col>       
- 
-          </Row>
+        <Col xs={2}  className="vh-30 brdr-tp">
+        </Col>
+        <Col xs={2}  className="brdr-tp brdr-lft">
+        </Col>
+        <Col xs={2}  className="brdr-tp brdr-lft">
+        </Col>
+        <Col xs={2}  className="brdr-tp brdr-lft">
+        </Col>
+        <Col xs={2}  className="brdr-tp brdr-lft">
+        </Col>
+        <Col xs={2}  className="brdr-tp brdr-lft">
+        </Col>
+          <Col xs={12} md={8} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
+              <h2 className="h1 light dark-grey my-5 ">
+              It's our business to help your business rethink what's possible
+              </h2>
+          </Col>
+          <Col md={4} xxl={6} className="brdr-tp-dark px-0">
+            <div className="w-100" >
+              <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
+            </div>
+          </Col>   
+        </Row>
         </Container>
-            
       </main>
-
       <Footer />
     </>
   )

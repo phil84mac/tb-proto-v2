@@ -14,8 +14,6 @@ body {
 
 
 
-
-
 /* borders */
 
 .cntnr-brdr {
@@ -56,54 +54,6 @@ body {
   border-left: 1px solid rgba(234, 234, 234, 0.2);
 }
 
-.brdr-rght-op {
-  border-right: 1px solid rgba(234, 234, 234, 0.2);
-}
-
-.brdr-rght-op-alt {
-  border-right: 1px solid rgba(234, 234, 234, 0.2);
-}
-
-.brdr-tp-op {
-  border-top: 1px solid rgba(234, 234, 234, 0.2);
-}
-
-.brdr-bttm-op {
-  border-bottom: 1px solid rgba(234, 234, 234, 0.2);
-}
-
-.brdr-tp-white {
-  border-top: 1px solid #eaeaea;
-}
-
-.brdr-lft-blue {
-  border-left: 1px solid #2AB2FF;
-}
-
-.brdr-rght-blue {
-  border-right: 1px solid #2AB2FF;
-}
-
-.brdr-tp-blue {
-  border-top: 1px solid #2AB2FF;
-}
-
-.brdr-bttm-blue {
-  border-bottom: 1px solid #2AB2FF;
-}
-
-.brdr-blue {
-  border: 1px solid #2AB2FF;
-}
-
-.brdr-red {
-  border: 1px solid #FF2A50;
-}
-
-.brdr-yellow {
-  border: 1px solid #FBEB5C;
-}
-
 .bg-stripes {
   background:
     linear-gradient(#eaeaea 0 0) calc(1*99.8%/4),
@@ -124,7 +74,6 @@ body {
   background-repeat:no-repeat;
 }
 
-
 .bg-stripes-3 {
   background:
     linear-gradient(#eaeaea 0 0) calc(1*99.8%/4),
@@ -134,11 +83,9 @@ body {
   background-repeat:no-repeat;
 }
 
-
 .multiply {
   mix-blend-mode: multiply;
 }
-
 
 /* containers */
 
@@ -178,7 +125,6 @@ body {
   height: 35vh;
 }
 
-
 .vh-30 {
   height: 30vh;
 }
@@ -217,30 +163,11 @@ body {
   height: 100%!important;
 }
 
-.footer-logo {
-  width: 30px!important;
-}
-
-.footer-min {
-  min-height: 46vh;
-}
-
-.h-top-nav {
-  height: 90px;
-
-}
-
-
-
 /* colours */
 
 .dark-grey {
   color: #000!important;
  }
-
-.bg-dark-grey {
-  background-color: #000!important;
-}
 
 .grey {
   color: #c4c4c4!important;
@@ -253,14 +180,6 @@ body {
 .light-grey {
   color: #c4c4c4!important;
  }
-
-.bg-light-grey {
-  background-color: #eaeaea!important;
-}
-
-.bg-x-light-grey {
-  background-color: #f2f2f2!important;
-}
 
 .white {
   color: #fff!important;
@@ -276,23 +195,6 @@ body {
 
 .bg-red {
   background-color: #FF2A50!important;
-}
-
-.pink {
-  color: #FFAAB9!important;
- }
-
- .bg-pink {
-  background-color: #FFAAB9!important;
- }
-
- .purple {
-   color: #8337F1!important;
- }
-
- .bg-purple {
-  background-color: #8337F1!important;
-  mix-blend-mode: multiply;
 }
 
 .bg-trans {
@@ -328,15 +230,6 @@ body {
  .bg-blue {
   background-color: #2AB2FF!important;
  }
-
- .bg-grad {
-  background: linear-gradient(150deg, #FF2A50 0%, #2AB2FF 100%);
- }
-
- .op-5 {
-  opacity: .5;
- }
-
 
  /* HRs */
 
@@ -394,6 +287,22 @@ hr.op, .hr.op {
   margin-bottom: -7px!important;
 }
 
+.footer-logo {
+  width: 45px!important;
+}
+
+.header-logo {
+  width: 45px!important;
+}
+
+.footer-min {
+  min-height: 46vh;
+}
+
+.h-top-nav {
+  height: 90px;
+}
+
 .fixed {
   position: fixed;
 }
@@ -421,17 +330,14 @@ hr.op, .hr.op {
 
 .card-visual-1 {
   height: 30vh;
-
 }
 
 .card-visual-2 {
   height: 30vh;
-
 }
 
 .card-visual-3 {
   height: 30vh;
-
 }
 
 .video-margin-fix {
@@ -647,12 +553,9 @@ h6, .h6 {
 }
 
 a, .a {
-
   font-size: 16px!important;
   text-decoration: none!important;
 }
-
-
 
 a:hover, .a:hover {
   text-decoration: underline!important;
@@ -736,46 +639,62 @@ image.modern-illo {
 
 /* large screens */
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 2000px){
 
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-
-    font-size: calc(6rem + 1.5vw)!important;
-    line-height: calc(6rem + 1.5vw)!important;
+    font-size: calc(7.5rem + 1.5vw)!important;
+    line-height: calc(7.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: calc(6rem + 1.5vw)!important;
+    line-height: calc(6rem + 1.5vw)!important;
+  }
 
+}
+
+
+@media screen and (max-width: 1600px){
+
+  h1, .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-size: calc(5rem + 1.5vw)!important;
+    line-height: calc(5rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
+
+  h2, .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: calc(4rem + 1.5vw)!important;
-    line-height: calc(4.3rem + 1.5vw)!important;
+    line-height: calc(4rem + 1.5vw)!important;
   }
 
   .footer-min {
     min-height: 46vh;
   }
 
-  
+  .lead {
+    font-size: calc(3rem + 1vw)!important;
+    line-height: calc(3.2rem + 1vw)!important;
+  }
 
 }
 
 /* custom */
 
-@media screen and (max-width: 1399px){
-
-
-  
+@media screen and (max-width: 1400px){
 
   .footer-min {
     min-height: 23vh;
   }
   
-  }
+}
   
-
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1200px){
 
 .bg-stripes {
   background:
@@ -840,17 +759,28 @@ image.modern-illo {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(3.9rem + 1.5vw)!important;
-    line-height: calc(3.9rem + 1.5vw)!important;
+    font-size: calc(3.5rem + 1.5vw)!important;
+    line-height: calc(3.7rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
+  h2, .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-size: calc(2.8rem + 1.5vw)!important;
+    line-height: calc(3.5rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
 
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: calc(1.5rem + 1.5vw)!important;
+    line-height: calc(1.5rem + 1.5vw)!important;
+  }
 
-    font-size: calc(.8rem + 1.5vw)!important;
-    line-height: calc(1rem + 1.5vw)!important;
+  .lead {
+    font-size: calc(3rem + 1vw)!important;
+    line-height: calc(3.2rem + 1vw)!important;
   }
 
 
@@ -864,7 +794,7 @@ image.modern-illo {
     font-family: 'IBM Plex Sans', sans-serif;
 
     font-size: calc(3.5rem + 1.5vw)!important;
-    line-height: calc(3.5rem + 1.5vw)!important;
+    line-height: calc(3.7rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -876,13 +806,10 @@ image.modern-illo {
     letter-spacing: -0.045em!important;
   }
 
-
-
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
-
-    font-size: calc(1.1rem + 1.5vw)!important;
-    line-height: calc(1.1rem + 1.5vw)!important;
+    font-size: calc(1.5rem + 1.5vw)!important;
+    line-height: calc(1.5rem + 1.5vw)!important;
   }
 
   h4, .h4 {
@@ -896,7 +823,6 @@ image.modern-illo {
     font-size: calc(2.7rem + 1vw)!important;
     line-height: calc(3.2rem + 1vw)!important;
   }
-
 
   .brdr-rght {
     border-right: none!important;
