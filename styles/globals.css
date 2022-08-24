@@ -810,6 +810,14 @@ image.modern-illo {
     line-height: calc(3.2rem + 1vw)!important;
   }
 
+  .brdr-lft {
+    border-left: none!important;
+  }
+
+  .brdr-rght {
+    border-right: none!important;
+  }
+
 
 }
 

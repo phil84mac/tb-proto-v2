@@ -2,17 +2,9 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import React, { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
-import Navbar from 'react-bootstrap/Navbar';
-import { useRouter } from 'next/router';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Typewriter } from 'react-simple-typewriter';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -42,7 +34,7 @@ export default function Home() {
             <Col xs={10} xl={8} className="brdr-lft px-0 bg-stripes">
             <hr className="my-0" />
             <div className="d-none d-sm-block py-5 pe-5">
-              <h1 className="dark-grey light mb-5 pb-cl-5 pt-5 mt-3 pe-5" >
+              <h1 className="dark-grey light mb-5 pb-xl-5 pt-5 mt-3 pe-5" >
                 <span className="semi-bold bg-yellow-multiply pe-2"> 
                   <Typewriter
                     loop
@@ -90,17 +82,7 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col xs={2}  className="vh-20 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
             
             <Col xs={12} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-2">
@@ -174,17 +156,7 @@ export default function Home() {
               </div>
             </Col>
             
-            <Col xs={2}  className="vh-20 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
 
             {/* 123 part large screens */}
@@ -426,17 +398,7 @@ export default function Home() {
               </Row>
             </Col>
             
-            <Col xs={2}  className="vh-20 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
 
             <Col xs={12} className="brdr-lft px-0">
@@ -490,17 +452,7 @@ export default function Home() {
               </Row>
             </Col>
 
-            <Col xs={2}  className="vh-20 brdr-tp">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
-            </Col>
-            <Col xs={2}  className="brdr-tp brdr-lft">
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
 
             <Col xs={12} className="brdr-lft px-0">
@@ -557,24 +509,14 @@ export default function Home() {
             </Col>
           </Row>
         </Col>
-        <Col xs={2}  className="vh-30 brdr-tp">
+        <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
         </Col>
-        <Col xs={2}  className="brdr-tp brdr-lft">
-        </Col>
-        <Col xs={2}  className="brdr-tp brdr-lft">
-        </Col>
-        <Col xs={2}  className="brdr-tp brdr-lft">
-        </Col>
-        <Col xs={2}  className="brdr-tp brdr-lft">
-        </Col>
-        <Col xs={2}  className="brdr-tp brdr-lft">
-        </Col>
-          <Col xs={12} xl={6} xxl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
+          <Col xs={12} xl={6} className="d-flex align-items-center brdr-rght brdr-tp-dark px-0">
               <h2 className="h1 light dark-grey my-5 ">
               It's our business to help your business rethink what's possible
               </h2>
           </Col>
-          <Col xl={6} xxl={6} className="brdr-tp-dark px-0">
+          <Col xl={6} className="brdr-tp-dark px-0">
             <div className="w-100" >
               <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
             </div>

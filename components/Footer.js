@@ -1,12 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import { useRouter } from 'next/router';
-import Button from 'react-bootstrap/Button';
 
 export default function Footer() {
   return (
@@ -14,7 +10,7 @@ export default function Footer() {
       <footer className=" px-sm-4 px-lg-5 "> 
       <Container fluid className="cntnr-brdr brdr-tp">
 
-        {/* TABLET + DESKTOP */}
+        {/* TABLET + LARGE SCREENS */}
         <div className="d-none d-lg-block">
           <Row className="">
             <Col sm={6} className="dark-grey brdr-bttm brdr-rght d-flex align-items-end">              
@@ -163,11 +159,11 @@ export default function Footer() {
 
             <Col xs={12} className="px-0 bg-stripes-2">
               <div className="w-100">
-
-                <h3 className="dark-grey mb-3 mt-5 medium">
+                <div className="bg-white">
+                <h3 className="dark-grey pb-3 pt-5 medium">
                   Contact us
                 </h3>
-                <form className="mb-4">
+                <form className="pb-4">
                 <div class="mb-3">
                   <label for="fname" class="form-label text-muted text-uppercase">First name</label>
                   <input class="form-control" id="fname" placeholder="First name" />
@@ -190,7 +186,7 @@ export default function Footer() {
                 </button>
                 </div>
                 </form>
-              
+                </div>
                 <hr className=" mt-0"/>
                 <h6 className="text-muted regular">
                   CONTACT INFO
