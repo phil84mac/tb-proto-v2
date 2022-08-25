@@ -296,7 +296,7 @@ hr.op, .hr.op {
   --bs-modal-inner-border-radius: 0!important;
   --bs-modal-header-padding-x: 1rem;
   --bs-modal-header-padding-y: 1rem;
-  --bs-modal-header-padding: 1rem 1rem 1rem 0rem!important;
+  --bs-modal-header-padding: 0rem 1rem 0rem 0rem!important;
   --bs-modal-header-border-color: var(--bs-border-color);
   --bs-modal-header-border-width: 1px;
   --bs-modal-title-line-height: 1.5;
@@ -421,18 +421,31 @@ hr.op, .hr.op {
   margin-bottom: -6.5px!important;
 }
 
+/* type */
+
 ul {
   list-style: none!important;
 }
 
-/* type */
+ul.dots {
+  list-style:circle!important;
+}
+
+li {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: .95rem!important;
+  letter-spacing: .01rem;
+  font-weight: 300!important;
+  line-height: 1.4rem!important;
+  margin-bottom: 5px!important;
+}
 
 p {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: .95rem!important;
   letter-spacing: .01rem;
   font-weight: 300!important;
-  line-height: 1.3rem!important;
+  line-height: 1.4rem!important;
   margin-bottom: 10px!important;
 }
 
@@ -589,7 +602,6 @@ h6, .h6 {
   font-size: 16px!important;
   border-radius: 0px!important;
   display: inline-block;
-
   line-height: 1.5;
   text-align: center;
   text-decoration: none;
