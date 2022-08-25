@@ -29,12 +29,11 @@ export default function Home() {
       <main className="px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
-            <Col xs={2} xl={2} className="brdr-tp">
+            <Col xs={2} xl={2} className="">
             </Col>
-            <Col xs={10} xl={8} className="brdr-lft px-0 bg-stripes">
-            <hr className="my-0" />
+            <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes pt-5 pb-4">
             <div className="d-none d-sm-block py-5 pe-5">
-              <h1 className="dark-grey light mb-5 pb-xl-5 pt-5 mt-3 pe-5" >
+              <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-5 pe-3 pe-xl-5">
                 <span className="semi-bold bg-yellow-multiply pe-2"> 
                   <Typewriter
                     loop
@@ -73,7 +72,7 @@ export default function Home() {
             </div>
             </Col>
 
-            <Col xs={2} xl={2} className="brdr-lft brdr-tp d-none d-xl-block">
+            <Col xs={2} xl={2} className="brdr-lft d-none d-xl-block">
             </Col>
 
             <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">

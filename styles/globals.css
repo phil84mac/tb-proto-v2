@@ -30,6 +30,10 @@ body {
   border-left: 1px solid #eaeaea;
 }
 
+.brdr-lft-mob {
+  border-left: 1px solid #eaeaea;
+}
+
 .brdr-rght {
   border-right: 1px solid #eaeaea;
 }
@@ -66,10 +70,10 @@ body {
 .bg-stripes-2 {
   background:
     linear-gradient(#eaeaea 0 0) calc(1*100%/6),
-    linear-gradient(#eaeaea 0 0) calc(2*100.1%/6),
-    linear-gradient(#eaeaea 0 0) calc(3*100.1%/6),
-    linear-gradient(#eaeaea 0 0) calc(4*100.1%/6),
-    linear-gradient(#eaeaea 0 0) calc(5*100.075%/6);
+    linear-gradient(#eaeaea 0 0) calc(2*100%/6),
+    linear-gradient(#eaeaea 0 0) calc(3*100%/6),
+    linear-gradient(#eaeaea 0 0) calc(4*100%/6),
+    linear-gradient(#eaeaea 0 0) calc(5*100%/6);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
@@ -78,7 +82,7 @@ body {
   background:
     linear-gradient(#eaeaea 0 0) calc(1*99.8%/4),
     linear-gradient(#eaeaea 0 0) calc(2*100%/4),
-    linear-gradient(#eaeaea 0 0) calc(3*100.15%/4);
+    linear-gradient(#eaeaea 0 0) calc(3*100.1%/4);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
@@ -298,14 +302,15 @@ hr.op, .hr.op {
 
 .hero-specs {
   margin-bottom: -7px!important;
+  margin-right: -2px!important;
 }
 
 .footer-logo {
-  width: 45px!important;
+  width: 42px!important;
 }
 
 .header-logo {
-  width: 45px!important;
+  width: 42px!important;
 }
 
 .footer-min {

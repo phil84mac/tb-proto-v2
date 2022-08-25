@@ -14,29 +14,21 @@ export default function Header() {
 
   return (
     <>
-    <div className="px-sm-4 px-lg-5" id="home">
-      <Container fluid className="cntnr-brdr">
-          <Row className="h-top-nav">
-            <Col xs={2} className="z-999 d-flex align-items-center px-0">
-              <Link href="/">
-                <div className="fixed pntr align-items-center">
+    <div className="px-sm-4 px-lg-5 fixed w-100" id="home">
+      <Container fluid className="cntnr-brdr py-3">
+          <Row className="">
+            <Col xs={12} className="z-999 d-flex align-items-center justify-content-between px-0">
+        
+              <div className="pntr d-flex align-items-center">
+                <Link href="/">
                   <Image fluid src="/tb-logo-inverse.svg" className="header-logo multiply" alt="Thinking Big Logo"/>
-                    <a href="/" className="dark-grey medium mono ms-2 ps-1 uppercase no-underline">
-                      Thinking/Big
-                    </a>
-                </div>
-              </Link>
-            </Col>
-            <Col xs={2}  className=" brdr-lft">
-            </Col>
-            <Col xs={2}  className=" brdr-lft">
-            </Col>
-            <Col xs={2}  className=" brdr-lft">
-            </Col>
-            <Col xs={2}  className=" brdr-lft">
-            </Col>
-            <Col xs={2} className="brdr-lft d-flex align-items-center mb-1 justify-content-end px-0 z-999 uppercase fixed">
-              <div className="fixed mt-1">
+                </Link>
+                  <a href="/" className="dark-grey medium mono ms-2 ps-1 uppercase no-underline d-none d-md-block">
+                    Thinking/Big
+                  </a>
+              </div>
+                
+              <div className="d-flex align-items-center">
                 <a href="#contact"  className="mono no-underline medium dark-grey link py-2 nowrap me-3">
                   HELLO@THINKINGBIG.NET
                 </a>
