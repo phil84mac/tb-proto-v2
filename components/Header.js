@@ -6,15 +6,11 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Link from 'next/link';
 import Button from 'react-bootstrap/Button';
-import Overlay from 'react-bootstrap/Overlay';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 export default function Header() {
 
-  const [show, setShow] = useState(false);
-  const target = useRef(null);
-
-
+  const [tooltipText, setTooltipText] = useState('Copy Email');
 
   return (
     <>
@@ -45,14 +41,17 @@ export default function Header() {
                   HELLO@THINKINGBIG.NET
                 </a>
                 <OverlayTrigger 
-                  placement='bottom'
+                  placement='auto'
                   overlay={
                     <Tooltip>
-                      Copy Email
+                      { tooltipText }
                     </Tooltip>
                   }
                 >
-                <Button className="bg-trans p-0" onClick={() =>  navigator.clipboard.writeText('hello@thinkingbig.net')}>
+                <Button className="bg-trans p-0" onClick={() => {
+                        setTooltipText('Copied!');
+                        navigator.clipboard.writeText('hello@thinkingbig.net');
+                      }}>
                     <Image fluid src="/circle-copy.svg" className="pntr copy-btn"/>
                 </Button>
                 </OverlayTrigger>
