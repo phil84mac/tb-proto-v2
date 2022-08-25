@@ -34,6 +34,10 @@ body {
   border-left: 1px solid #eaeaea;
 }
 
+.brdr-rght-lg {
+  border-right: 1px solid #eaeaea;
+}
+
 .brdr-rght {
   border-right: 1px solid #eaeaea;
 }
@@ -105,6 +109,10 @@ body {
   height: 80vh;
 }
 
+.vh-75 {
+  height: 75vh;
+}
+
 .vh-70 {
   height: 70vh;
 }
@@ -119,6 +127,10 @@ body {
 
 .vh-50 {
   height: 50vh;
+}
+
+.vh-45 {
+  height: 45vh;
 }
 
 .vh-40 {
@@ -268,6 +280,11 @@ hr.op, .hr.op {
 }
 
 /* utilities and specs */
+
+
+.pad-rght {
+  padding-right: 25%;
+}
 
 .copy-btn {
   width: 44px!important;
@@ -764,10 +781,11 @@ image.modern-illo {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(4.2rem + 1.5vw)!important;
-    line-height: calc(4.2rem + 1.5vw)!important;
+    font-size: calc(5rem + 1.5vw)!important;
+    line-height: calc(5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
+
 
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -802,16 +820,16 @@ image.modern-illo {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(3.5rem + 1.5vw)!important;
-    line-height: calc(3.7rem + 1.5vw)!important;
+    font-size: calc(4.5rem + 1.5vw)!important;
+    line-height: calc(4.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(2.8rem + 1.5vw)!important;
-    line-height: calc(3rem + 1.5vw)!important;
+    font-size: calc(3.5rem + 1.5vw)!important;
+    line-height: calc(3.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -828,6 +846,10 @@ image.modern-illo {
 
   .brdr-lft {
     border-left: none!important;
+  }
+
+  .brdr-rght-lg {
+    border-right: none!important;
   }
 
   .bg-stripes-3 {
