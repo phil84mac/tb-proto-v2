@@ -278,10 +278,6 @@ hr.op, .hr.op {
   background-size: 100% 100%;
 }
 
-.carousel-control-next, .carousel-control-prev {
-  opacity: 1!important;
-}
-
 .carousel-control-next-icon {
     background-image: url("/circle-arrow.svg")!important;
     transform: rotate(0deg);

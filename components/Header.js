@@ -41,14 +41,14 @@ export default function Header() {
                   HELLO@THINKINGBIG.NET
                 </a>
                 <OverlayTrigger 
-                  placement='auto'
+                  placement='bottom-end'
                   overlay={
                     <Tooltip>
                       { tooltipText }
                     </Tooltip>
                   }
                 >
-                <Button className="bg-trans p-0" onClick={() => {
+                <Button className="bg-trans p-0 m-0" onClick={() => {
                         setTooltipText('Copied!');
                         navigator.clipboard.writeText('hello@thinkingbig.net');
                       }}>

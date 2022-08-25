@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -84,7 +85,9 @@ export default function Footer() {
                 <p className="mono my-0 text-muted medium">
                 © THINKING/BIG 2022
                 </p>
-                <Image fluid src="/tb-logo-inverse.svg" className="footer-logo"/>
+                <Link href="/">
+                  <Image fluid src="/tb-logo-inverse.svg" className="footer-logo pntr"/>
+                </Link>
             </Col>
           </Row>
         </Container>
