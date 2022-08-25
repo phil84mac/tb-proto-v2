@@ -633,7 +633,7 @@ a:hover, .a:hover {
 .link:after {
   content: url("/link.svg");
   position: relative;
-  top: 2px;
+  top: 2.5px;
   margin-left: 5px;
   display: inline-block;
 }
