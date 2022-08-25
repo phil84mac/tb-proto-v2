@@ -282,6 +282,44 @@ hr.op, .hr.op {
 /* utilities and specs */
 
 
+.modal {
+  --bs-modal-zindex: 1055;
+  --bs-modal-width: 500px;
+  --bs-modal-padding: 0rem!important;
+  --bs-modal-margin: 0rem!important;
+  --bs-modal-color: ;
+  --bs-modal-bg: #fff;
+  --bs-modal-border-color: var(--bs-border-color-translucent);
+  --bs-modal-border-width: 1px;
+  --bs-modal-border-radius: 0!important;
+  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-modal-inner-border-radius: 0!important;
+  --bs-modal-header-padding-x: 1rem;
+  --bs-modal-header-padding-y: 1rem;
+  --bs-modal-header-padding: 1rem 1rem 1rem 0rem!important;
+  --bs-modal-header-border-color: var(--bs-border-color);
+  --bs-modal-header-border-width: 1px;
+  --bs-modal-title-line-height: 1.5;
+  --bs-modal-footer-gap: 0rem!important;
+  --bs-modal-footer-bg: ;
+  --bs-modal-footer-border-color: var(--bs-border-color);
+  --bs-modal-footer-border-width: 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--bs-modal-zindex);
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.header-pad {
+  padding: 0px 1px!important;
+}
+
 .pad-rght {
   padding-right: 25%;
 }
@@ -290,10 +328,14 @@ hr.op, .hr.op {
   width: 44px!important;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  mix-blend-mode: multiply!important;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
   display: inline-block;
-  width: 4rem!important;
-  height: 4rem!important;
+  width: 3rem!important;
+  height: 3rem!important;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;

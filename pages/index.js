@@ -7,7 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Typewriter } from 'react-simple-typewriter';
 import Carousel from 'react-bootstrap/Carousel';
-
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 export default function Home() {
 
@@ -18,6 +19,11 @@ export default function Home() {
       setIndex(selectedIndex);
     };
   };
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -166,7 +172,7 @@ export default function Home() {
 
             {/* 123 part large screens */}
             <Col xs={12} className="d-none d-xxl-block brdr-tp">
-            <Carousel variant="dark" slide={false} interval={null} className="vh-75">
+            <Carousel variant="dark" slide={false} interval={null} className="vh-75 multiply">
               <Carousel.Item className="">
                 <Row className="">
                   <Col xs={2} className="vh-40">
