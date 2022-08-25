@@ -29,7 +29,7 @@ export default function Header() {
               </div>
                 
               <div className="d-flex align-items-center">
-                <a href="#contact"  className="mono no-underline medium dark-grey link py-2 nowrap me-3">
+                <a href="#contact"  className="mono no-underline medium dark-grey link py-2 nowrap me-3 small">
                   HELLO@THINKINGBIG.NET
                 </a>
                 <OverlayTrigger 
