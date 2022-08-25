@@ -1,11 +1,19 @@
-import React, { useState, useEffect, MouseEvent, Component} from 'react';
+import React, { useState, useEffect, MouseEvent, Component, useRef} from 'react';
 import Container from 'react-bootstrap/Container';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Link from 'next/link';
+import Button from 'react-bootstrap/Button';
+import Overlay from 'react-bootstrap/Overlay';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 export default function Header() {
+
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
+
 
 
   return (
@@ -32,11 +40,22 @@ export default function Header() {
             <Col xs={2}  className=" brdr-lft">
             </Col>
             <Col xs={2} className="brdr-lft d-flex align-items-center mb-1 justify-content-end px-0 z-999 uppercase fixed">
-              <div className="fixed mt-2">
+              <div className="fixed mt-1">
                 <a href="#contact"  className="mono no-underline medium dark-grey link py-2 nowrap me-3">
                   HELLO@THINKINGBIG.NET
                 </a>
-                <Image fluid src="/circle-copy.svg" className="pntr"/>
+                <OverlayTrigger 
+                  placement='bottom'
+                  overlay={
+                    <Tooltip>
+                      Copy Email
+                    </Tooltip>
+                  }
+                >
+                <Button className="bg-trans p-0" onClick={() =>  navigator.clipboard.writeText('hello@thinkingbig.net')}>
+                    <Image fluid src="/circle-copy.svg" className="pntr copy-btn"/>
+                </Button>
+                </OverlayTrigger>
               </div>
             </Col>
           </Row>
@@ -45,3 +64,4 @@ export default function Header() {
     </>
   )
 }
+
