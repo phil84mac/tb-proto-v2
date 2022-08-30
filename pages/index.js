@@ -7,8 +7,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Typewriter } from 'react-simple-typewriter';
 import Carousel from 'react-bootstrap/Carousel';
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 
 export default function Home() {
 
@@ -19,11 +17,6 @@ export default function Home() {
       setIndex(selectedIndex);
     };
   };
-
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -171,7 +164,7 @@ export default function Home() {
             </Col>
 
             {/* 123 part large screens */}
-            <Col xs={12} className="d-none d-xxl-block brdr-tp">
+            <Col xs={12} className="d-none d-xxl-block brdr-tp z-0">
             <Carousel variant="dark" slide={false} interval={null} className="vh-75 multiply">
               <Carousel.Item className="">
                 <Row className="">
@@ -193,7 +186,7 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft">
-                    <Row className="dark-grey vh-30 d-flex align-items-end">
+                    <Row className="dark-grey vh-35 d-flex align-items-end">
                       <Col sm={4} className="brdr-rght px-0 vh-35">
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>

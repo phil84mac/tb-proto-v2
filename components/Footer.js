@@ -95,7 +95,7 @@ export default function Footer() {
               <Modal
               show={showTerms}
               onHide={handleCloseTerms}
-              size="xl"
+              size="lg"
               animation={false}
               scrollable={true}
               className="py-4"
@@ -180,7 +180,7 @@ export default function Footer() {
               <Modal
               show={showPrivacy}
               onHide={handleClosePrivacy}
-              size="xl"
+              size="lg"
               animation={false}
               scrollable={true}
               className="py-4"

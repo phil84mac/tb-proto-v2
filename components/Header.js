@@ -17,7 +17,7 @@ export default function Header() {
     <div className="px-sm-4 px-lg-5 fixed w-100 multiply" id="home">
       <Container fluid className="py-3 ">
           <Row className="">
-            <Col xs={12} className="z-999 d-flex align-items-center justify-content-between header-pad">
+            <Col xs={12} className=" d-flex align-items-center justify-content-between header-pad">
         
               <div className="pntr d-flex align-items-center">
                 <Link href="/">
@@ -29,7 +29,7 @@ export default function Header() {
               </div>
                 
               <div className="d-flex align-items-center">
-                <a href="#contact"  className="mono no-underline medium dark-grey link py-2 nowrap me-3 small">
+                <a href="mailto:hello@thinkingbig.net"  className="mono no-underline medium dark-grey link py-2 nowrap me-3 small">
                   HELLO@THINKINGBIG.NET
                 </a>
                 <OverlayTrigger 
