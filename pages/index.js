@@ -165,10 +165,10 @@ export default function Home() {
 
             {/* 123 part large screens */}
             <Col xs={12} className="d-none d-xxl-block brdr-tp z-0">
-            <Carousel variant="dark" slide={false} interval={null} className="vh-75 multiply">
+            <Carousel variant="dark" slide={false} interval={null} className="vh-100 multiply z-0">
               <Carousel.Item className="">
                 <Row className="">
-                  <Col xs={2} className="vh-40">
+                  <Col xs={2} className="vh-25">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
                   <hr className="my-0 dark" />
@@ -186,29 +186,46 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft">
-                    <Row className="dark-grey vh-35 d-flex align-items-end">
-                      <Col sm={4} className="brdr-rght px-0 vh-35">
+                    <Row className="dark-grey d-flex align-items-end">
+                    <hr className="px-0 mt-0 mb-0" />
+                      <Col sm={4} className="brdr-rght px-0 vh-75">
+                      <div className="vh-40 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                      </div>
+                      <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
                         To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
                         </p>  
+                      </div>
                       </Col>
-                      <Col sm={4} className="px-0 vh-35">
+                      <Col sm={4} className="px-0 vh-75">
+                      <div className="vh-40 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/magnify.svg" className="h-100 p-5">svg-animation</object>
+                      </div>
+                      <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Research</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.                  </p>  
+                        With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.
+                        </p>
+                      </div>
                       </Col>
-                      <Col sm={4} className="brdr-lft px-0 vh-35">
+                      <Col sm={4} className="brdr-lft px-0 vh-75">
+                      <div className="vh-40 d-flex align-items-center justify-content-center p-2" >
+                        <object type="image/svg+xml" data="/proto.svg" className="h-100 p-5">svg-animation</object>
+                      </div>
+                      <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className=" regular py-3 my-0">Design and prototyping</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
                         Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
-                        </p>  
+                        </p> 
+                      </div>   
                       </Col>
                     </Row>
                   </Col>
@@ -218,7 +235,7 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item>
                 <Row>
-                  <Col xs={2} className="vh-40">
+                  <Col xs={2} className="vh-25">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
                   <hr className="my-0 dark" />
@@ -236,30 +253,46 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft">
-                    <Row className="dark-grey d-flex align-items-end vh-35">
-                      <Col sm={4} className="brdr-rght px-0 vh-35">
+                    <Row className="dark-grey d-flex align-items-end">
+                    <hr className="px-0 mt-0 mb-0" />
+                      <Col sm={4} className="brdr-rght px-0 vh-75">
+                      <div className="vh-40 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                      </div>
+                      <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
                         <h5 className="regular py-3 my-0">Business services</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
                         With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
-                        </p>  
+                        </p> 
+                      </div>   
                       </Col>
-                      <Col sm={4} className="px-0 vh-35">
+                      <Col sm={4} className="px-0 vh-75">
+                      <div className="vh-40 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                      </div>
+                      <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
                         <h5 className="regular py-3 my-0">System architecture design</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
                         By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
                         </p>
+                      </div>
                       </Col>
-                      <Col sm={4} className="brdr-lft px-0 vh-35">
+                      <Col sm={4} className="brdr-lft px-0 vh-75">
+                      <div className="vh-40 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/engineering.svg" className="h-100">svg-animation</object>
+                      </div>
+                      <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
                         <h5 className="regular py-3 my-0">Software engineering</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
                         Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behavior-Driven Development encourages communication and aligns the business and the technical sides of a project.
-                        </p>  
+                        </p>
+                      </div> 
                       </Col>
                     </Row>
                   </Col>
@@ -269,7 +302,7 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item>
                 <Row>
-                  <Col xs={2} className="vh-40">
+                  <Col xs={2} className="vh-25">
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft px-0">
                     <hr className="my-0 dark" />
@@ -287,30 +320,46 @@ export default function Home() {
                     <Col xs={2} className="">
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft">
-                      <Row className="dark-grey d-flex align-items-end vh-35">
-                        <Col sm={4} className="brdr-rght px-0 vh-35">
+                      <Row className="dark-grey d-flex align-items-end">
+                      <hr className="px-0 mt-0 mb-0" />
+                        <Col sm={4} className="brdr-rght px-0 vh-75">
+                        <div className="vh-40 d-flex align-items-center justify-content-center" >
+                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                        </div>
+                        <div className="vh-35">
                           <hr className="px-0 mt-0 mb-0" />
                           <h5 className="regular py-3 my-0">Automated testing</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
                           Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
                           </p>  
+                        </div>
                         </Col>
-                        <Col sm={4} className="px-0 vh-35">
+                        <Col sm={4} className="px-0 vh-75">
+                        <div className="vh-40 d-flex align-items-center justify-content-center" >
+                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                        </div>
+                        <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
                           <h5 className="regular py-3 my-0">Deployment</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
                           Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
                           </p>
-                          </Col>
-                        <Col sm={4} className="brdr-lft px-0 vh-35">
+                        </div>
+                        </Col>
+                        <Col sm={4} className="brdr-lft px-0 vh-75">
+                        <div className="vh-40 d-flex align-items-center justify-content-center" >
+                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                        </div>
+                        <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
                           <h5 className="regular py-3 my-0">Maintenance and features</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
                           After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
-                          </p>  
+                          </p> 
+                        </div>   
                         </Col>
                       </Row>
                     </Col>
@@ -324,7 +373,7 @@ export default function Home() {
         {/* 123 part laptop and below */}
         <Col xs={12} className="d-xxl-none">
           <Row>
-            <Col xs={12} className="px-0 vh-35">
+            <Col xs={12} className="px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
             <span className="red">1. From collaboration to insights</span> /
@@ -337,6 +386,10 @@ export default function Home() {
             <Col xs={12} className="">
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght-lg px-0">
+                <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                </div>       
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Expectation matching</h5>
                   <hr className="px-0 mt-0" />
@@ -346,6 +399,10 @@ export default function Home() {
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
                 <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/magnify.svg" className="h-100">svg-animation</object>
+                </div>  
+                <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Research</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
@@ -353,6 +410,10 @@ export default function Home() {
                   </p>
                 </Col>
                 <Col md={4} className="px-0">
+                <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/proto.svg" className="h-100">svg-animation</object>
+                </div>  
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className=" regular py-3 my-0">Design and prototyping</h5>
                   <hr className="px-0 mt-0" />
@@ -364,7 +425,7 @@ export default function Home() {
             </Col>            
             <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
-            <Col xs={12} className="px-0 vh-35">
+            <Col xs={12} className="px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
             <span className="red">2. From insights to code</span> /
@@ -377,6 +438,10 @@ export default function Home() {
             <Col xs={12} className="">
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght-lg px-0">
+                <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                </div> 
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Business services</h5>
                   <hr className="px-0 mt-0" />
@@ -386,6 +451,10 @@ export default function Home() {
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
                 <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                </div> 
+                <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">System architecture design</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
@@ -393,6 +462,10 @@ export default function Home() {
                   </p>
                 </Col>
                 <Col md={4} className="px-0">
+                <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/engineering.svg" className="h-100">svg-animation</object>
+                </div> 
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Software engineering</h5>
                   <hr className="px-0 mt-0" />
@@ -404,7 +477,7 @@ export default function Home() {
             </Col>
             <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
-            <Col xs={12} className="px-0 vh-35">
+            <Col xs={12} className="px-0">
             <hr className="my-0 dark" />
             <h4 className="regular py-3 mb-0">       
             <span className="red">3. From code to implementation</span> /
@@ -417,6 +490,10 @@ export default function Home() {
             <Col xs={12} className="">
               <Row className="dark-grey">
                 <Col md={4} className="brdr-rght-lg px-0">
+                <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                </div> 
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Automated testing</h5>
                   <hr className="px-0 mt-0" />
@@ -426,6 +503,10 @@ export default function Home() {
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
                 <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                </div> 
+                <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Deployment</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
@@ -433,6 +514,10 @@ export default function Home() {
                   </p>
                   </Col>
                 <Col md={4} className="px-0">
+                <hr className="px-0 mt-0 mb-0" />
+                <div className="vh-25 d-flex align-items-center justify-content-center" >
+                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                </div> 
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Maintenance and features</h5>
                   <hr className="px-0 mt-0" />

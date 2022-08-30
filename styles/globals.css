@@ -328,8 +328,13 @@ hr.op, .hr.op {
   width: 44px!important;
 }
 
+#home {
+  z-index: 1!important;
+}
+
 .carousel-control-next, .carousel-control-prev {
   mix-blend-mode: multiply!important;
+  z-index: 0!important;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -362,6 +367,7 @@ hr.op, .hr.op {
 .hero-specs {
   margin-bottom: -7px!important;
   margin-right: -2px!important;
+  mix-blend-mode: multiply;
 }
 
 .footer-logo {

@@ -23,9 +23,11 @@ export default function Header() {
                 <Link href="/">
                   <Image fluid src="/tb-logo-inverse.svg" className="header-logo multiply" alt="Thinking Big Logo"/>
                 </Link>
-                  <a href="/" className="dark-grey medium mono ms-2 ps-1 uppercase no-underline d-none d-md-block">
+                  <Link href="/" >
+                    <a className="dark-grey medium mono ms-2 ps-1 uppercase no-underline d-none d-md-block">
                     Thinking/Big
-                  </a>
+                    </a>
+                  </Link>
               </div>
                 
               <div className="d-flex align-items-center">
