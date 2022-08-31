@@ -35,7 +35,7 @@ export default function Header() {
                   HELLO@THINKINGBIG.NET
                 </a>
                 <OverlayTrigger 
-                  placement='bottom-end'
+                  placement='auto'
                   overlay={
                     <Tooltip>
                       { tooltipText }
