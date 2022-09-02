@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className=" px-sm-4 px-lg-5 "> 
+      <footer className="px-2 px-sm-4 px-lg-5"> 
       <Container fluid className="cntnr-brdr">
 
           <Row className="">
@@ -48,27 +48,27 @@ export default function Footer() {
                 </h6>
                 <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2">
-                    <a href="https://www.linkedin.com/company/3094117" className="dark-grey mono medium link">
+                    <a href="https://www.linkedin.com/company/3094117" target="_blank" className="dark-grey mono medium link">
                     LinkedIn
                     </a>
                   </li>
                   <li className="mb-2">
-                  <a href="https://twitter.com/ThinkingBigInc" className="dark-grey mono medium link">
+                  <a href="https://twitter.com/ThinkingBigInc" target="_blank" className="dark-grey mono medium link">
                   Twitter
                   </a>
                   </li>
                   <li className="mb-2">
-                    <a href="https://medium.com/thinkingbig" className="dark-grey mono medium link">
+                    <a href="https://medium.com/thinkingbig" target="_blank" className="dark-grey mono medium link">
                     Medium
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="https://www.facebook.com/thinkingbig.net/" className="dark-grey mono medium link">
+                    <a href="https://www.facebook.com/thinkingbig.net/" target="_blank" className="dark-grey mono medium link">
                     Facebook
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="https://www.instagram.com/wearethinkingbig/" className="dark-grey mono medium link">
+                    <a href="https://www.instagram.com/wearethinkingbig/" target="_blank" className="dark-grey mono medium link">
                     Instagram
                     </a>
                   </li>                      
@@ -79,12 +79,12 @@ export default function Footer() {
                 </h6>
                 <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2">
-                    <a onClick={handleShowTerms} className="dark-grey mono medium">
+                    <a onClick={handleShowTerms} className="dark-grey mono medium pntr">
                     Terms of use
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a onClick={handleShowPrivacy} className="dark-grey mono medium">
+                    <a onClick={handleShowPrivacy} className="dark-grey mono medium pntr">
                     Privacy policy
                     </a>
                   </li>

@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="px-sm-4 px-lg-5">
+      <main className="px-2 px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
 
@@ -99,6 +99,10 @@ export default function Home() {
               <div className="w-100 d-lg-none" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
               </div>
+              <hr className="d-lg-none"/>
+              <h3 className="d-lg-none medium my-3">
+                    We support
+                  </h3>
               <hr className="d-lg-none"/>
                 <Row className="w-full">
                   <Col xl={6} className="">
@@ -331,7 +335,7 @@ export default function Home() {
                           <h5 className="regular py-3 my-0">Automated testing</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
-                          Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
+                          We work with our clients to develop thorough, well documented specifications that enable us to create robust automated test suites that provide confidence and safety as we build the solutions you need. And with users involved right from the beginning, user acceptance testing is a breeze.
                           </p>  
                         </div>
                         </Col>
@@ -344,7 +348,7 @@ export default function Home() {
                           <h5 className="regular py-3 my-0">Deployment</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
-                          Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
+                          With a DevOps mindset, we prioritize delivery processes that encourage fast flow and adaptive iteration cycles, empowering development teams to quickly react to user feedback. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
                           </p>
                         </div>
                         </Col>
@@ -498,7 +502,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Automated testing</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  Because we write our automated test scripts before development even begins we streamline development and address any potential issues early in the process. And with users involved right from the beginning, user acceptance testing is a breeze.
+                  We work with our clients to develop thorough, well documented specifications that enable us to create robust automated test suites that provide confidence and safety as we build the solutions you need. And with users involved right from the beginning, user acceptance testing is a breeze.
                   </p>  
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
@@ -510,7 +514,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Deployment</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  Using a DevOps lifecycle, we integrate the efforts of our development and operations teams. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
+                  With a DevOps mindset, we prioritize delivery processes that encourage fast flow and adaptive iteration cycles, empowering development teams to quickly react to user feedback. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
                   </p>
                   </Col>
                 <Col md={4} className="px-0">

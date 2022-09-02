@@ -14,8 +14,8 @@ export default function Header() {
 
   return (
     <>
-    <div className="px-sm-4 px-lg-5 fixed w-100 multiply" id="home">
-      <Container fluid className="py-3 ">
+    <div className="px-2 px-sm-4 px-lg-5 fixed w-100" id="home">
+      <Container fluid className="py-3">
           <Row className="">
             <Col xs={12} className=" d-flex align-items-center justify-content-between header-pad">
         
