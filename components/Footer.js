@@ -1,11 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Link from 'next/link';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 export default function Footer() {
 
@@ -17,6 +19,8 @@ export default function Footer() {
   const handleClosePrivacy = () => setShowPrivacy(false);
   const handleShowPrivacy = () => setShowPrivacy(true);
 
+  const [tooltipText, setTooltipText] = useState('Copy Email');
+
   return (
     <>
       <footer className="px-2 px-sm-4 px-lg-5"> 
@@ -25,6 +29,31 @@ export default function Footer() {
           <Row className="">
             <Col xs={12} className="dark-grey brdr-tp bg-stripes-2 d-flex align-items-end px-0 vh-70">              
               <div className="w-100">
+              <hr className=" mt-0"/>
+                <h6 className="text-muted mb-1 regular">
+                  CONTACT US
+                </h6>
+                <div className="d-flex align-items-center mb-2 pb-1">
+                <a href="mailto:hello@thinkingbig.net"  className="mono no-underline medium dark-grey link py-2 nowrap me-3 small">
+                  HELLO@THINKINGBIG.NET
+                </a>
+                <OverlayTrigger 
+                  placement='auto'
+                  overlay={
+                    <Tooltip>
+                      { tooltipText }
+                    </Tooltip>
+                  }
+                >
+                <Button className="bg-trans p-0 m-0" onClick={() => {
+                        setTooltipText('Email copied!');
+                        navigator.clipboard.writeText('hello@thinkingbig.net');
+                      }}>
+                    <Image fluid src="/circle-copy.svg" className="pntr copy-btn"/>
+                </Button>
+                </OverlayTrigger>
+              </div>
+              
               <hr className=" mt-0"/>
                 <h6 className="text-muted mb-2 regular">
                   ADDRESS
