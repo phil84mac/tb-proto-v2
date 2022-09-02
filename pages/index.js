@@ -538,20 +538,15 @@ export default function Home() {
         <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
         </Col>
         <hr className="my-0 dark"/>
-          <Col xs={12} lg={8} className="vh-100 d-flex align-items-center px-0 bg-stripes">
+          <Col xs={12} className="vh-100 d-flex align-items-center px-0 bg-stripes-2">
 
-              <h2 className="h1 light dark-grey py-5 d-none d-lg-block">
+              <h2 className="h1 light dark-grey py-5 d-none d-lg-block pad-rght">
               It's our business to help your business rethink what's possible
               </h2>
               <h2 className="h1 light dark-grey py-5 d-lg-none">
               It's our business to help your business rethink what's possible
               </h2>
 
-          </Col>
-          <Col xs={12} lg={4} className="px-0 brdr-lft">
-
-              <object type="image/svg+xml" data="/bulb-morph.svg" className="w-100">svg-animation</object>
-          
           </Col>
         </Row>
         </Container>
