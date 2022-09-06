@@ -412,23 +412,19 @@ hr.op, .hr.op {
 }
 
 .card-visual-1 {
-  height: 30vh;
+  height: 20vh;
 }
 
 .card-visual-2 {
-  height: 30vh;
+  height: 20vh;
 }
 
 .card-visual-3 {
-  height: 30vh;
+  height: 20vh;
 }
 
 .video-margin-fix {
   margin-bottom: -6.5px!important;
-}
-
-.svg-404 {
-width: 540px!important;
 }
 
 /* type */

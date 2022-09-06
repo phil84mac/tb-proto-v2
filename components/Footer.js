@@ -45,7 +45,7 @@ export default function Footer() {
                     </Tooltip>
                   }
                 >
-                <Button className="bg-trans p-0 m-0" onClick={() => {
+                <Button className="bg-trans p-0 m-0 multiply" onClick={() => {
                         setTooltipText('Email copied!');
                         navigator.clipboard.writeText('hello@thinkingbig.net');
                       }}>

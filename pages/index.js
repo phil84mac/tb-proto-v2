@@ -169,14 +169,14 @@ export default function Home() {
 
             {/* 123 part large screens */}
             <Col xs={12} className="d-none d-xxl-block brdr-tp z-0">
-            <Carousel variant="dark" slide={false} interval={null} className="vh-100 multiply z-0">
+            <Carousel variant="dark" slide={false} interval={null} className="multiply z-0">
               <Carousel.Item className="">
                 <Row className="">
-                  <Col xs={2} className="vh-25">
+                  <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
                   <hr className="my-0 dark" />
-                  <h4 className="regular py-4 my-2">       
+                  <h4 className="regular py-3 my-2">       
                   <span className="red">1. From collaboration to insights</span> /
                   </h4>
                   <hr className="my-0" />
@@ -190,11 +190,11 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft">
-                    <Row className="dark-grey d-flex align-items-end">
+                    <Row className="dark-grey ">
                     <hr className="px-0 mt-0 mb-0" />
-                      <Col sm={4} className="brdr-rght px-0 vh-75">
-                      <div className="vh-40 d-flex align-items-center justify-content-center" >
-                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                      <Col sm={4} className="brdr-rght px-0">
+                      <div className="vh-35 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -205,9 +205,9 @@ export default function Home() {
                         </p>  
                       </div>
                       </Col>
-                      <Col sm={4} className="px-0 vh-75">
-                      <div className="vh-40 d-flex align-items-center justify-content-center" >
-                        <object type="image/svg+xml" data="/magnify.svg" className="h-100 p-5">svg-animation</object>
+                      <Col sm={4} className="px-0">
+                      <div className="vh-35 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/magnify.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
@@ -218,9 +218,9 @@ export default function Home() {
                         </p>
                       </div>
                       </Col>
-                      <Col sm={4} className="brdr-lft px-0 vh-75">
-                      <div className="vh-40 d-flex align-items-center justify-content-center p-2" >
-                        <object type="image/svg+xml" data="/proto.svg" className="h-100 p-5">svg-animation</object>
+                      <Col sm={4} className="brdr-lft px-0">
+                      <div className="vh-35 d-flex align-items-center justify-content-center p-2" >
+                        <object type="image/svg+xml" data="/proto.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -239,11 +239,11 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item>
                 <Row>
-                  <Col xs={2} className="vh-25">
+                  <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
                   <hr className="my-0 dark" />
-                  <h4 className="regular py-4 my-2">       
+                  <h4 className="regular py-3 my-2">       
                   <span className="red">2. From insights to code</span> /
                   </h4>
                   <hr className="my-0" />
@@ -257,11 +257,11 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft">
-                    <Row className="dark-grey d-flex align-items-end">
+                    <Row className="dark-grey d-flex ">
                     <hr className="px-0 mt-0 mb-0" />
-                      <Col sm={4} className="brdr-rght px-0 vh-75">
-                      <div className="vh-40 d-flex align-items-center justify-content-center" >
-                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                      <Col sm={4} className="brdr-rght px-0">
+                      <div className="vh-35 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -272,9 +272,9 @@ export default function Home() {
                         </p> 
                       </div>   
                       </Col>
-                      <Col sm={4} className="px-0 vh-75">
-                      <div className="vh-40 d-flex align-items-center justify-content-center" >
-                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                      <Col sm={4} className="px-0">
+                      <div className="vh-35 d-flex align-items-center justify-content-center" >
+                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
@@ -285,8 +285,8 @@ export default function Home() {
                         </p>
                       </div>
                       </Col>
-                      <Col sm={4} className="brdr-lft px-0 vh-75">
-                      <div className="vh-40 d-flex align-items-center justify-content-center" >
+                      <Col sm={4} className="brdr-lft px-0">
+                      <div className="vh-35 d-flex align-items-center justify-content-center" >
                         <object type="image/svg+xml" data="/engineering.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
@@ -306,11 +306,11 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item>
                 <Row>
-                  <Col xs={2} className="vh-25">
+                  <Col xs={2} className="">
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft px-0">
                     <hr className="my-0 dark" />
-                    <h4 className="regular py-4 my-2">       
+                    <h4 className="regular py-3 my-2">       
                     <span className="red">3. From code to implementation</span> /
                     </h4>
                     <hr className="my-0" />
@@ -324,11 +324,11 @@ export default function Home() {
                     <Col xs={2} className="">
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft">
-                      <Row className="dark-grey d-flex align-items-end">
+                      <Row className="dark-grey d-flex">
                       <hr className="px-0 mt-0 mb-0" />
-                        <Col sm={4} className="brdr-rght px-0 vh-75">
-                        <div className="vh-40 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                        <Col sm={4} className="brdr-rght px-0">
+                        <div className="vh-35 d-flex align-items-center justify-content-center" >
+                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <div className="vh-35">
                           <hr className="px-0 mt-0 mb-0" />
@@ -339,9 +339,9 @@ export default function Home() {
                           </p>  
                         </div>
                         </Col>
-                        <Col sm={4} className="px-0 vh-75">
-                        <div className="vh-40 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-5">svg-animation</object>
+                        <Col sm={4} className="px-0">
+                        <div className="vh-35 d-flex align-items-center justify-content-center" >
+                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -352,9 +352,9 @@ export default function Home() {
                           </p>
                         </div>
                         </Col>
-                        <Col sm={4} className="brdr-lft px-0 vh-75">
-                        <div className="vh-40 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/maintenance-enhancement.svg" className="h-100 p-5">svg-animation</object>
+                        <Col sm={4} className="brdr-lft px-0">
+                        <div className="vh-35 d-flex align-items-center justify-content-center" >
+                          <object type="image/svg+xml" data="/maintenance-enhancement.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
