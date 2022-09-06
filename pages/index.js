@@ -36,7 +36,7 @@ export default function Home() {
                 </Col>
                 <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4">
                 <div className="py-5 pe-5 mb-4 mt-3">
-                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-5 pe-xl-5">
+                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-4 pe-xl-5">
                     <span className="semi-bold bg-yellow-multiply pe-2"> 
                       <Typewriter
                         loop
@@ -64,7 +64,7 @@ export default function Home() {
             <div  className="d-md-none px-0">
             <Col xs={12} className="px-0 bg-stripes-2 py-4">
             <div className="py-5">
-              <h1 className="dark-grey light my-5 pt-5">
+              <h1 className="dark-grey light my-5 pt-4">
                 <span className="semi-bold bg-yellow-multiply"> 
                   <Typewriter
                     loop
