@@ -53,7 +53,7 @@ export default function Footer() {
                 </Button>
                 </OverlayTrigger>
               </div>
-              
+
               <hr className=" mt-0"/>
                 <h6 className="text-muted mb-2 regular">
                   ADDRESS
@@ -134,7 +134,7 @@ export default function Footer() {
                     Terms of Use
                   </Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="ps-3 pe-lg-5 py-3">
+                <Modal.Body className="px-3 pe-lg-5 py-3">
                 <p className="mb-4 large">
                   Your use of the <span className="semi-bold">Thinking Big Information Technology Inc.</span> (<span className="semi-bold">"Thinking Big"</span>) web site (the "Web Site") means you agree to the following Terms of Use. If you do not agree with these terms please leave this Web Site immediately and do not use the material available therein.
                   </p>
@@ -219,7 +219,7 @@ export default function Footer() {
                     Privacy
                   </Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="ps-3 pe-lg-5 py-3">
+                <Modal.Body className="px-3 pe-lg-5 py-3">
                 <p className="mb-4 large">
                 <span className="semi-bold">Thinking Big</span> respects the privacy of all of its users and is committed to protecting such privacy in accordance with this Privacy Policy.
                 This Privacy Policy explains <span className="semi-bold">Thinking Big</span>'s treatment of your personally identifiable information collected in connection with your activities on the <span className="semi-bold">Thinking Big</span> web site.

@@ -34,9 +34,9 @@ export default function Home() {
               <Row fluid className="">
                 <Col xs={2}>
                 </Col>
-                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes pt-5 pb-4">
+                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4">
                 <div className="py-5 pe-5 mb-4 mt-3">
-                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-5 pe-3 pe-xl-5">
+                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-5 pe-xl-5">
                     <span className="semi-bold bg-yellow-multiply pe-2"> 
                       <Typewriter
                         loop
@@ -64,7 +64,7 @@ export default function Home() {
             <div  className="d-md-none px-0">
             <Col xs={12} className="px-0 bg-stripes-2 py-4">
             <div className="py-5">
-              <h1 className="dark-grey light my-5 pt-5 ">
+              <h1 className="dark-grey light my-5 pt-5">
                 <span className="semi-bold bg-yellow-multiply"> 
                   <Typewriter
                     loop
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <hr className="d-lg-none"/>
               <h3 className="d-lg-none medium my-3">
-                    We support
+                    Client list
                   </h3>
               <hr className="d-lg-none"/>
                 <Row className="w-full">
