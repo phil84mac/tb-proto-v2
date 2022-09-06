@@ -22,12 +22,19 @@ export default function Home() {
           <Row fluid className="">
             <Col xs={12} className="px-0 bg-stripes-2 vh-95 d-flex align-items-center justify-content-center">
 
-            <div className="mb-5 pb-5 w-25">
-            <h1 className="dark-grey medium text-center mono me-2">
-                404
-                </h1>  
-                <object type="image/svg+xml" data="/engineering.svg" className="h-100 mb-0">svg-animation</object>
-
+            <div className=" w-25 pb-5">    
+                <h1 className="dark-grey medium text-center mono me-2">
+                    404
+                </h1>
+                <p className="h4 light dark-grey text-center">
+                    We are renovating...
+                </p>
+                <object type="image/svg+xml" data="/engineering.svg" className="multiply">svg-animation</object>
+                <p className="text-center mb-5 multiply">
+                    <a href="/" className="large dark-grey medium uppercase pntr bg-yellow px-">
+                        Go to home page
+                    </a>
+                </p>        
             </div>
             
             </Col>
