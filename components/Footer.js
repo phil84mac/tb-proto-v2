@@ -27,7 +27,7 @@ export default function Footer() {
       <Container fluid className="cntnr-brdr">
 
           <Row className="">
-            <Col xs={12} className="dark-grey brdr-tp bg-stripes-2 d-flex align-items-end px-0 vh-70">              
+            <Col xs={12} className="dark-grey bg-stripes-2 d-flex align-items-end px-0">              
               <div className="w-100">
               <hr className=" mt-0"/>
                 <h6 className="text-muted mb-1 regular">
