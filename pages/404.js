@@ -20,17 +20,17 @@ export default function Home() {
       <main className="px-2 px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
           <Row fluid className="">
-            <Col xs={12} className="px-0 bg-stripes-2 vh-95 d-flex align-items-center justify-content-center">
+            <Col xs={12} className="bg-stripes-2 py-5 d-flex align-items-center justify-content-center">
 
-            <div className=" w-25 pb-5">    
-                <h1 className="dark-grey medium text-center mono me-2">
+            <div className="py-5 my-5">    
+                <h1 className="error red multiply mono semi-bold text-center me-1">
                     404
                 </h1>
-                <p className="h4 light dark-grey text-center">
+                <p className="h4 light dark-grey text-center mt-4">
                     We are renovating...
                 </p>
-                <object type="image/svg+xml" data="/engineering.svg" className="multiply">svg-animation</object>
-                <p className="text-center mb-5 multiply">
+                <object type="image/svg+xml" data="/engineering.svg" className="multiply svg-404">svg-animation</object>
+                <p className="text-center multiply mb-5 pb-5">
                     <a href="/" className="large dark-grey medium uppercase pntr bg-yellow px-">
                         Go to home page
                     </a>

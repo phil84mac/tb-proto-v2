@@ -427,6 +427,10 @@ hr.op, .hr.op {
   margin-bottom: -6.5px!important;
 }
 
+.svg-404 {
+width: 540px!important;
+}
+
 /* type */
 
 ul {
@@ -559,6 +563,13 @@ h6, .h6 {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
   font-size: .9rem!important;
+}
+
+h1.error, .h1.error {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 8.5em!important;
+  line-height: .7em!important;
+  letter-spacing: -0.045em!important;
 }
 
 /* forms */
