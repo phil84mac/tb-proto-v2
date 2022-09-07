@@ -60,13 +60,18 @@ export default function Footer() {
                 </h6>
                 <ul className="px-0 mb-4 mt-3 no-underline">
                   <li>
-                    <p className="dark-grey">
+                    <p className="dark-grey muted">
                       310-176 Great George St
                     </p>
                   </li>
+                  <li>
+                    <p className="dark-grey muted">
+                    PO Box 2977
+                    </p>
+                  </li>
                   <li >
-                    <p className="dark-grey">
-                      Charlottetown, PE, Canada
+                    <p className="dark-grey muted">
+                      Charlottetown PE C1A 8C5
                     </p>
                   </li>
                 </ul>

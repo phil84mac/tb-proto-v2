@@ -35,8 +35,8 @@ export default function Home() {
                 <Col xs={2}>
                 </Col>
                 <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4">
-                <div className="py-5 pe-5 mb-4 mt-3">
-                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-4 pe-xl-5">
+                <div className="py-5">
+                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-3 pe-5">
                     <span className="semi-bold bg-yellow-multiply pe-2"> 
                       <Typewriter
                         loop
@@ -64,7 +64,7 @@ export default function Home() {
             <div  className="d-md-none px-0">
             <Col xs={12} className="px-0 bg-stripes-2 py-4">
             <div className="py-5">
-              <h1 className="dark-grey light my-5 pt-4">
+              <h1 className="dark-grey light my-5">
                 <span className="semi-bold bg-yellow-multiply"> 
                   <Typewriter
                     loop
@@ -201,7 +201,7 @@ export default function Home() {
                         <h5 className=" regular py-3 my-0">Expectation matching</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
+                        To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding your users to creating the solution.
                         </p>  
                       </div>
                       </Col>
@@ -214,7 +214,7 @@ export default function Home() {
                         <h5 className=" regular py-3 my-0">Research</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.
+                        With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business challenge from all points of view. By analyzing issues with all involved &mdash; from users to customers to your own employees &mdash; we can effect change that has a lasting impact.
                         </p>
                       </div>
                       </Col>
@@ -227,7 +227,7 @@ export default function Home() {
                         <h5 className=" regular py-3 my-0">Design and prototyping</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
+                        Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with users instead of for them.
                         </p> 
                       </div>   
                       </Col>
@@ -268,7 +268,7 @@ export default function Home() {
                         <h5 className="regular py-3 my-0">Business services</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
+                        With Lean and Agile principles, our Project Managers and Business Analysts guide the transformation from idea to product. From the start, we write test scripts &mdash; using Gherkin's plain English syntax &mdash; to drive the development.
                         </p> 
                       </div>   
                       </Col>
@@ -281,7 +281,7 @@ export default function Home() {
                         <h5 className="regular py-3 my-0">System architecture design</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
+                        By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future proof.
                         </p>
                       </div>
                       </Col>
@@ -294,7 +294,7 @@ export default function Home() {
                         <h5 className="regular py-3 my-0">Software engineering</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behavior-Driven Development encourages communication and aligns the business and the technical sides of a project.
+                        Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behaviour-Driven Development encourages communication and aligns the business and technical sides of a project.
                         </p>
                       </div> 
                       </Col>
@@ -335,7 +335,7 @@ export default function Home() {
                           <h5 className="regular py-3 my-0">Automated testing</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
-                          We work with our clients to develop thorough, well documented specifications that enable us to create robust automated test suites that provide confidence and safety as we build the solutions you need. And with users involved right from the beginning, user acceptance testing is a breeze.
+                          We work with our clients to develop thorough, well-documented specifications that enable us to create robust automated test suites that provide confidence and safety as we build the solutions you need. And with users involved right from the beginning, user acceptance testing is a breeze.
                           </p>  
                         </div>
                         </Col>
@@ -348,7 +348,7 @@ export default function Home() {
                           <h5 className="regular py-3 my-0">Deployment</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
-                          With a DevOps mindset, we prioritize delivery processes that encourage fast flow and adaptive iteration cycles, empowering development teams to quickly react to user feedback. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
+                          With a DevOps mindset, we prioritize delivery processes that encourage fast flow and adaptive iteration cycles, empowering development teams to quickly react to user feedback. This way we quickly deliver high quality software with new and innovative features, while maintaining uninterrupted performance.
                           </p>
                         </div>
                         </Col>
@@ -361,7 +361,7 @@ export default function Home() {
                           <h5 className="regular py-3 my-0">Maintenance and features</h5>
                           <hr className="px-0 mt-0" />
                           <p className="mb-5 pe-3 pb-md-3">
-                          After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
+                          After deployment, we are well positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
                           </p> 
                         </div>   
                         </Col>
@@ -398,7 +398,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Expectation matching</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding the user to creating the solution.
+                  To start, we meet with stakeholders to align expectations for the project. By creating a shared understanding of the road ahead, and by using proven and repeatable methodologies, our design and technical experts guide the journey from understanding your users to creating the solution.
                   </p>  
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
@@ -410,7 +410,7 @@ export default function Home() {
                   <h5 className=" regular py-3 my-0">Research</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business problem from all points of view. By analyzing issues with all involved, from users to customers to your own employees, we can effect change that has a lasting impact.
+                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business challenge from all points of view. By analyzing issues with all involved &mdash; from users to customers to your own employees &mdash; we can effect change that has a lasting impact.
                   </p>
                 </Col>
                 <Col md={4} className="px-0">
@@ -422,7 +422,7 @@ export default function Home() {
                   <h5 className=" regular py-3 my-0">Design and prototyping</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with the users instead of for them.
+                  Design is all about reimagining the user experience. By collaborating with those most closely involved with the feature, tool, product or service that we'll be transforming, the team generates lots of new ideas. We guide the process, designing, testing and iterating solutions with users instead of for them.
                   </p>  
                 </Col>
               </Row>
@@ -450,7 +450,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Business services</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  With Lean and Agile principles, our Project Managers and Business Analysists guide the transformation from idea to product. From the start we write test scripts, using Gherkin's plain English syntax, to drive the development.
+                  With Lean and Agile principles, our Project Managers and Business Analysts guide the transformation from idea to product. From the start, we write test scripts &mdash; using Gherkin's plain English syntax &mdash; to drive the development.
                   </p>  
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
@@ -462,7 +462,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">System architecture design</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future-proof.
+                  By structuring applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable, we build software that is scalable and future proof.
                   </p>
                 </Col>
                 <Col md={4} className="px-0">
@@ -474,7 +474,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Software engineering</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behavior-Driven Development encourages communication and aligns the business and the technical sides of a project.
+                  Whether the solution calls for software, web development or a mobile application, our engineers will develop the most effective and innovative tools to best solve your problems. Behaviour-Driven Development encourages communication and aligns the business and technical sides of a project.
                   </p>  
                 </Col>
               </Row>
@@ -502,7 +502,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Automated testing</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  We work with our clients to develop thorough, well documented specifications that enable us to create robust automated test suites that provide confidence and safety as we build the solutions you need. And with users involved right from the beginning, user acceptance testing is a breeze.
+                  We work with our clients to develop thorough, well-documented specifications that enable us to create robust automated test suites that provide confidence and safety as we build the solutions you need. And with users involved right from the beginning, user acceptance testing is a breeze.
                   </p>  
                 </Col>
                 <Col md={4} className="brdr-rght-lg px-0">
@@ -514,7 +514,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Deployment</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  With a DevOps mindset, we prioritize delivery processes that encourage fast flow and adaptive iteration cycles, empowering development teams to quickly react to user feedback. This way we quickly deliver high quality software, with new and innovative features, while maintaining uninterrupted performance.
+                  With a DevOps mindset, we prioritize delivery processes that encourage fast flow and adaptive iteration cycles, empowering development teams to quickly react to user feedback. This way we quickly deliver high quality software with new and innovative features, while maintaining uninterrupted performance.
                   </p>
                   </Col>
                 <Col md={4} className="px-0">
@@ -526,7 +526,7 @@ export default function Home() {
                   <h5 className="regular py-3 my-0">Maintenance and features</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  After deployment, we are well-positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
+                  After deployment, we are well positioned to monitor, maintain and optimize the system, as well as to enhance or fine-tune existing features or add new ones.
                   </p>  
                 </Col>
               </Row>
