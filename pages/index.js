@@ -42,9 +42,9 @@ export default function Home() {
                         loop
                         cursor
                         cursorStyle='_'
-                        typeSpeed={110}
-                        deleteSpeed={80}
-                        delaySpeed={1500}
+                        typeSpeed={120}
+                        deleteSpeed={90}
+                        delaySpeed={1000}
                         words={['We design', 'We develop', 'We deliver']}
                         onLoop={(loopCount) =>
                           console.log(`Just completed loop ${loopCount}`)
@@ -92,7 +92,7 @@ export default function Home() {
             <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>            
             <Col xs={12} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
-                <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-5 mb-xl-5 pb-xl-5">
+                <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-5 pb-xl-3">
                 Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
                 </h2>          
                 <hr className=""/>
@@ -100,10 +100,13 @@ export default function Home() {
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
               </div>
               <hr className="d-lg-none"/>
-              <h3 className="d-lg-none medium my-3">
+              <h3 className="h4 d-none d-lg-block regular my-3">
                     Client list
-                  </h3>
-              <hr className="d-lg-none"/>
+                </h3>
+                <h3 className="d-lg-none regular my-3">
+                  Client list
+                </h3>
+              <hr className=""/>
                 <Row className="w-full">
                   <Col xl={6} className="">
                   <p className="medium mb-3">
