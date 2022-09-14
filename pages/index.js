@@ -85,7 +85,10 @@ export default function Home() {
             </Col>
             </div>
             <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">
-              <div className="w-100" >
+              <div className="w-66 d-none d-xl-block" >
+              <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
+              </div>
+              <div className="w-100 d-xl-none" >
               <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
             </Col>
@@ -100,13 +103,11 @@ export default function Home() {
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
               </div>
               <hr className="d-lg-none"/>
-              <h3 className="h4 d-none d-lg-block regular my-3">
-                    Client list
-                </h3>
+
                 <h3 className="d-lg-none regular my-3">
                   Client list
                 </h3>
-              <hr className=""/>
+              <hr className="d-lg-none"/>
                 <Row className="w-full">
                   <Col xl={6} className="">
                   <p className="medium mb-3">
@@ -217,7 +218,7 @@ export default function Home() {
                         <h5 className=" regular py-3 my-0">Research</h5>
                         <hr className="px-0 mt-0" />
                         <p className="mb-5 pe-3 pb-md-3">
-                        With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business challenge from all points of view. By analyzing issues with all involved &mdash; from users to customers to your own employees &mdash; we can effect change that has a lasting impact.
+                        With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business challenge from all points of view. By analyzing issues with all involved &mdash; from users to customers to your own employees &mdash; we can affect change that has a lasting impact.
                         </p>
                       </div>
                       </Col>
@@ -413,7 +414,7 @@ export default function Home() {
                   <h5 className=" regular py-3 my-0">Research</h5>
                   <hr className="px-0 mt-0" />
                   <p className="mb-5 pe-3 pb-md-3">
-                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business challenge from all points of view. By analyzing issues with all involved &mdash; from users to customers to your own employees &mdash; we can effect change that has a lasting impact.
+                  With shared expectations, our team works with your staff and customers to gain a deep understanding of your unique business challenge from all points of view. By analyzing issues with all involved &mdash; from users to customers to your own employees &mdash; we can affect change that has a lasting impact.
                   </p>
                 </Col>
                 <Col md={4} className="px-0">

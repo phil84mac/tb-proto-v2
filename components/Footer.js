@@ -135,7 +135,7 @@ export default function Footer() {
               className="py-4"
               > 
                 <Modal.Header closeButton>
-                  <Modal.Title className="h3 medium ps-3 py-3">
+                  <Modal.Title className="h3 medium py-3">
                     Terms of Use
                   </Modal.Title>
                 </Modal.Header>
@@ -220,7 +220,7 @@ export default function Footer() {
               className="py-4"
               > 
                 <Modal.Header closeButton>
-                <Modal.Title className="h3 medium ps-3 py-3">
+                <Modal.Title className="h3 medium py-3">
                     Privacy
                   </Modal.Title>
                 </Modal.Header>
