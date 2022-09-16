@@ -17,8 +17,8 @@ body {
 /* borders */
 
 .cntnr-brdr {
-  border-left: 1px solid #f0f0f0!important;
-  border-right: 1px solid #f0f0f0!important;
+  border-left: 1px solid #eee!important;
+  border-right: 1px solid #eee!important;
 }
 
 .cntnr-brdr-op {
@@ -27,27 +27,27 @@ body {
 }
 
 .brdr-lft {
-  border-left: 1px solid #f0f0f0;
+  border-left: 1px solid #eee;
 }
 
 .brdr-lft-mob {
-  border-left: 1px solid #f0f0f0;
+  border-left: 1px solid #eee;
 }
 
 .brdr-rght-lg {
-  border-right: 1px solid #f0f0f0;
+  border-right: 1px solid #eee;
 }
 
 .brdr-rght {
-  border-right: 1px solid #f0f0f0;
+  border-right: 1px solid #eee;
 }
 
 .brdr-tp {
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #eee;
 }
 
 .brdr-bttm {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #eee;
 }
 
 .brdr-tp-dark {
@@ -64,29 +64,29 @@ body {
 
 .bg-stripes {
   background:
-    linear-gradient(#f0f0f0 0 0) calc(1*99.8%/4),
-    linear-gradient(#f0f0f0 0 0) calc(2*100%/4),
-    linear-gradient(#f0f0f0 0 0) calc(3*100.1%/4);
+    linear-gradient(#eee 0 0) calc(1*99.8%/4),
+    linear-gradient(#eee 0 0) calc(2*100%/4),
+    linear-gradient(#eee 0 0) calc(3*100.1%/4);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
 
 .bg-stripes-2 {
   background:
-    linear-gradient(#f0f0f0 0 0) calc(1*100.1%/6),
-    linear-gradient(#f0f0f0 0 0) calc(2*100%/6),
-    linear-gradient(#f0f0f0 0 0) calc(3*100%/6),
-    linear-gradient(#f0f0f0 0 0) calc(4*100.1%/6),
-    linear-gradient(#f0f0f0 0 0) calc(5*100%/6);
+    linear-gradient(#eee 0 0) calc(1*100.1%/6),
+    linear-gradient(#eee 0 0) calc(2*100%/6),
+    linear-gradient(#eee 0 0) calc(3*100%/6),
+    linear-gradient(#eee 0 0) calc(4*100.1%/6),
+    linear-gradient(#eee 0 0) calc(5*100%/6);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
 
 .bg-stripes-3 {
   background:
-    linear-gradient(#f0f0f0 0 0) calc(1*99.8%/4),
-    linear-gradient(#f0f0f0 0 0) calc(2*100%/4),
-    linear-gradient(#f0f0f0 0 0) calc(3*100.1%/4);
+    linear-gradient(#eee 0 0) calc(1*99.8%/4),
+    linear-gradient(#eee 0 0) calc(2*100%/4),
+    linear-gradient(#eee 0 0) calc(3*100.1%/4);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
@@ -255,7 +255,7 @@ body {
  /* HRs */
 
 hr, .hr {
-  border-top: 1px solid #f0f0f0!important;
+  border-top: 1px solid #eee!important;
   opacity: 1!important;
   background-color: transparent!important;
 }
@@ -279,7 +279,7 @@ hr.red, .hr.red {
 }
 
 hr.op, .hr.op {
-  border-top: 1px solid #f0f0f0!important;
+  border-top: 1px solid #eee!important;
   opacity: .2!important;
   background-color: transparent!important;
 }
@@ -658,7 +658,7 @@ h1.error, .h1.error {
 }
 
 .btn-dark-bg {
-  color: #f0f0f0!important;
+  color: #eee!important;
   border: 0px!important;
   border-radius: 0px!important;
 }
@@ -828,18 +828,18 @@ image.modern-illo {
 
 .bg-stripes {
   background:
-    linear-gradient(#f0f0f0 0 0) calc(1*100%/5),
-    linear-gradient(#f0f0f0 0 0) calc(2*100%/5),
-    linear-gradient(#f0f0f0 0 0) calc(3*100%/5),
-    linear-gradient(#f0f0f0 0 0) calc(4*100%/5);
+    linear-gradient(#eee 0 0) calc(1*100%/5),
+    linear-gradient(#eee 0 0) calc(2*100%/5),
+    linear-gradient(#eee 0 0) calc(3*100%/5),
+    linear-gradient(#eee 0 0) calc(4*100%/5);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
 
 .bg-stripes-3 {
   background:
-    linear-gradient(#f0f0f0 0 0) calc(1*100%/3),
-    linear-gradient(#f0f0f0 0 0) calc(2*100%/3);
+    linear-gradient(#eee 0 0) calc(1*100%/3),
+    linear-gradient(#eee 0 0) calc(2*100%/3);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
@@ -881,8 +881,8 @@ image.modern-illo {
 
   .bg-stripes-3 {
     background:
-    linear-gradient(#f0f0f0 0 0) calc(1*100%/3),
-    linear-gradient(#f0f0f0 0 0) calc(2*100%/3);
+    linear-gradient(#eee 0 0) calc(1*100%/3),
+    linear-gradient(#eee 0 0) calc(2*100%/3);
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
@@ -930,11 +930,11 @@ image.modern-illo {
 
   .bg-stripes-3 {
     background:
-      linear-gradient(#f0f0f0 0 0) calc(1*100%/6),
-      linear-gradient(#f0f0f0 0 0) calc(2*100%/6),
-      linear-gradient(#f0f0f0 0 0) calc(3*100%/6),
-      linear-gradient(#f0f0f0 0 0) calc(4*100%/6),
-      linear-gradient(#f0f0f0 0 0) calc(5*100%/6);
+      linear-gradient(#eee 0 0) calc(1*100%/6),
+      linear-gradient(#eee 0 0) calc(2*100%/6),
+      linear-gradient(#eee 0 0) calc(3*100%/6),
+      linear-gradient(#eee 0 0) calc(4*100%/6),
+      linear-gradient(#eee 0 0) calc(5*100%/6);
     background-size:1px 100%; 
     background-repeat:no-repeat;
   }
