@@ -345,7 +345,7 @@ export default function Home() {
                         </Col>
                         <Col sm={4} className="px-0">
                         <div className="vh-35 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/deployment.svg" className="h-100 ">vg-animation</object>
+                          <object type="image/svg+xml" data="/deployment.svg" className="h-100 ">svg-animation</object>
                         </div>
                         <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -358,7 +358,7 @@ export default function Home() {
                         </Col>
                         <Col sm={4} className="brdr-lft px-0">
                         <div className="vh-35 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/maintenance-enhancement.svg" className="h-100 p-3">svg-animation</object>
+                          <object type="image/svg+xml" data="/maintenance-enhancement.svg" className="h-100 p-4">svg-animation</object>
                         </div>
                         <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
