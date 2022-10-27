@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Typewriter } from 'react-simple-typewriter';
 import Carousel from 'react-bootstrap/Carousel';
+import TextLoop from "react-text-loop";
 
 export default function Home() {
 
@@ -35,6 +36,26 @@ export default function Home() {
                 <Col xs={2}>
                 </Col>
                 <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4">
+                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-3 pe-5">
+                  We&nbsp; 
+                  <TextLoop
+                  interval={2000}
+                  className="multiply">
+                  <span className="semi-bold bg-yellow-multiply pe-2">
+                     design
+                  </span>
+                  <span className="semi-bold bg-yellow-multiply pe-2">
+                    develop
+                  </span>
+                  <span className="semi-bold bg-yellow-multiply pe-2">
+                    deliver
+                  </span> 
+                  </TextLoop>
+                  <br />
+                  enterprise digital systems for your entire organization
+                  </h1>
+                </Col>
+                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4 d-none">
                 <div className="py-5">
                   <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-3 pe-5">
                     <span className="semi-bold bg-yellow-multiply pe-2"> 
@@ -85,10 +106,7 @@ export default function Home() {
             </Col>
             </div>
             <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">
-              <div className="w-66 d-none d-xl-block" >
-              <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
-              </div>
-              <div className="w-100 d-xl-none" >
+              <div className="w-100" >
               <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
             </Col>
@@ -185,7 +203,7 @@ export default function Home() {
                   </h4>
                   <hr className="my-0" />
                   <h3 className="lead light dark-grey py-4 pe-xl-5">       
-                  <span className="bg-yellow-multiply semi-bold">We design</span> intuitive enterprise systems for people
+                  We <span className="bg-yellow-multiply semi-bold">design</span> intuitive enterprise systems for people
                   </h3>
                   </Col>
                   <Col xs={2} className="brdr-lft">
@@ -252,7 +270,7 @@ export default function Home() {
                   </h4>
                   <hr className="my-0" />
                   <h3 className="lead light dark-grey py-4 pe-xl-5">       
-                  <span className="bg-yellow-multiply semi-bold">We develop</span> innovative products validated by people
+                  We <span className="bg-yellow-multiply semi-bold">develop</span> innovative products validated by people
                   </h3>
                   </Col>
                   <Col xs={2} className="brdr-lft">
@@ -278,7 +296,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="px-0">
                       <div className="vh-35 d-flex align-items-center justify-content-center" >
-                        <object type="image/svg+xml" data="/system-arch.svg" className="h-100 p-1">svg-animation</object>
+                        <object type="image/svg+xml" data="/system-arch.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
@@ -319,7 +337,7 @@ export default function Home() {
                     </h4>
                     <hr className="my-0" />
                     <h3 className="lead light dark-grey py-4 pe-xl-5">       
-                    <span className="bg-yellow-multiply semi-bold">We deliver</span> and maintain modern, scalable software
+                    We <span className="bg-yellow-multiply semi-bold">deliver</span> and maintain modern, scalable software
                     </h3>
                     </Col>
                     <Col xs={2} className="brdr-lft">
