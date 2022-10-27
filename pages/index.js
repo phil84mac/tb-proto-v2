@@ -35,7 +35,7 @@ export default function Home() {
               <Row fluid className="">
                 <Col xs={2}>
                 </Col>
-                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4">
+                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes pt-4 pb-5">
                   <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-3 pe-5">
                   We&nbsp; 
                   <TextLoop
