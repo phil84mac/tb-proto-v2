@@ -490,7 +490,7 @@ p.lead {
 
 .lead {
   font-size: calc(3.5rem + 1vw)!important;
-  line-height: calc(3.7rem + 1vw)!important;
+  line-height: calc(rem + 1vw)!important;
 }
 
 .light {
@@ -826,6 +826,14 @@ image.modern-illo {
   
 @media screen and (max-width: 1200px){
 
+  h2, .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-size: calc(2.3rem + 1.5vw)!important;
+    line-height: calc(2.6rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
+
 .bg-stripes {
   background:
     linear-gradient(#eee 0 0) calc(1*100%/5),
@@ -866,8 +874,8 @@ image.modern-illo {
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(3.2rem + 1.5vw)!important;
-    line-height: calc(3.3rem + 1.5vw)!important;
+    font-size: calc(2.3rem + 1.5vw)!important;
+    line-height: calc(2.6rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -958,7 +966,7 @@ image.modern-illo {
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(2.8rem + 1.5vw)!important;
+    font-size: calc(2.5rem + 1.5vw)!important;
     line-height: calc(3.1rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
@@ -995,7 +1003,7 @@ image.modern-illo {
 
 }
 
-@media screen and (max-width: 374px){
+@media screen and (max-width: 375px){
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
