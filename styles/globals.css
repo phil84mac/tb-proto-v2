@@ -490,7 +490,7 @@ p.lead {
 
 .lead {
   font-size: calc(3.5rem + 1vw)!important;
-  line-height: calc(rem + 1vw)!important;
+  line-height: calc(3.5rem + 1vw)!important;
 }
 
 .light {
