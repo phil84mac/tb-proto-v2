@@ -108,10 +108,10 @@ export default function Home() {
             </Col>
             </div>
             <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">
-              <div className="w-66 d-none d-lg-block" >
+              <div className="w-66 d-none d-xl-block" >
               <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
-              <div className="w-100 d-lg-none" >
+              <div className="w-100 d-xl-none" >
               <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
             </Col>
@@ -208,7 +208,7 @@ export default function Home() {
                   </h4>
                   <hr className="my-0" />
                   <h3 className="lead light dark-grey py-4 pe-xl-5">       
-                  We <span className="bg-yellow-multiply semi-bold">design</span> intuitive enterprise systems for people
+                  We <span className="bg-yellow-multiply px-1 semi-bold">design</span> intuitive enterprise systems for people
                   </h3>
                   </Col>
                   <Col xs={2} className="brdr-lft">
@@ -275,7 +275,7 @@ export default function Home() {
                   </h4>
                   <hr className="my-0" />
                   <h3 className="lead light dark-grey py-4 pe-xl-5">       
-                  We <span className="bg-yellow-multiply semi-bold">develop</span> innovative products validated by people
+                  We <span className="bg-yellow-multiply px-1 semi-bold">develop</span> innovative products validated by people
                   </h3>
                   </Col>
                   <Col xs={2} className="brdr-lft">
@@ -342,7 +342,7 @@ export default function Home() {
                     </h4>
                     <hr className="my-0" />
                     <h3 className="lead light dark-grey py-4 pe-xl-5">       
-                    We <span className="bg-yellow-multiply semi-bold">deliver</span> and maintain modern, scalable software
+                    We <span className="bg-yellow-multiply px-1 semi-bold">deliver</span> and maintain modern, scalable software
                     </h3>
                     </Col>
                     <Col xs={2} className="brdr-lft">
