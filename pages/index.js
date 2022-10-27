@@ -32,28 +32,30 @@ export default function Home() {
 
             {/* HERO large tablet and above */}
             <div  className="d-none d-md-block">
-              <Row fluid className="">
+              <Row fluid>
                 <Col xs={2}>
                 </Col>
                 <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes pt-4 pb-5">
-                  <h1 className="dark-grey light my-5 pb-xl-5 py-4 pe-5">
-                  We&nbsp; 
-                  <TextLoop
-                  interval={3000}
-                  className="multiply">
-                  <span className="semi-bold bg-yellow-multiply pe-2">
-                     design
-                  </span>
-                  <span className="semi-bold bg-yellow-multiply pe-2">
-                    develop
-                  </span>
-                  <span className="semi-bold bg-yellow-multiply pe-2">
-                    deliver
-                  </span> 
-                  </TextLoop>
-                  <br />
-                  enterprise digital systems for your entire organization
-                  </h1>
+                  <div className="pt-3 pb-5">
+                    <h1 className="dark-grey light my-5 pb-xl-5 py-4 pe-5">
+                    We&nbsp; 
+                    <TextLoop
+                    interval={3000}
+                    className="multiply">
+                    <span className="semi-bold bg-yellow-multiply pe-2">
+                      design
+                    </span>
+                    <span className="semi-bold bg-yellow-multiply pe-2">
+                      develop
+                    </span>
+                    <span className="semi-bold bg-yellow-multiply pe-2">
+                      deliver
+                    </span> 
+                    </TextLoop>
+                    <br />
+                    enterprise digital systems for your entire organization
+                    </h1>
+                  </div>
                 </Col>
                 <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4 d-none">
                 <div className="py-5">
@@ -106,7 +108,10 @@ export default function Home() {
             </Col>
             </div>
             <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">
-              <div className="w-100" >
+              <div className="w-66 d-none d-lg-block" >
+              <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
+              </div>
+              <div className="w-100 d-lg-none" >
               <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
               </div>
             </Col>
