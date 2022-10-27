@@ -36,10 +36,10 @@ export default function Home() {
                 <Col xs={2}>
                 </Col>
                 <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes pt-4 pb-5">
-                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-3 pe-5">
+                  <h1 className="dark-grey light my-5 pb-xl-5 py-4 pe-5">
                   We&nbsp; 
                   <TextLoop
-                  interval={2000}
+                  interval={3000}
                   className="multiply">
                   <span className="semi-bold bg-yellow-multiply pe-2">
                      design
