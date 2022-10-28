@@ -28,170 +28,43 @@ export default function Home() {
       <Header />
       <main className="px-2 px-sm-4 px-lg-5">
         <Container fluid className="cntnr-brdr">
-          <Row fluid className="">
+          <Row fluid>
 
             {/* HERO large tablet and above */}
-            <div  className="d-none d-md-block">
-              <Row fluid>
-                <Col xs={2}>
-                </Col>
-                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes pt-4 pb-5">
-                  <div className="pt-3 pb-5">
-                    <h1 className="dark-grey light my-5 pb-xl-5 py-4 pe-5">
+            <div className="bg-stripes-2">
+              <Row fluid className="">
+                <Col xl={6} className="px-0 py-5">
+                  <div className="">
+                    <h1 className="dark-grey light my-5 py-5 pe-5 pe-md-0 pe-xxl-5">
                     We&nbsp; 
                     <TextLoop
-                    interval={3000}
+                    interval={2500}
                     className="multiply">
-                    <span className="semi-bold bg-yellow-multiply pe-2">
-                      design
-                    </span>
-                    <span className="semi-bold bg-yellow-multiply pe-2">
-                      develop
-                    </span>
-                    <span className="semi-bold bg-yellow-multiply pe-2">
-                      deliver
-                    </span> 
+                      <span className="semi-bold bg-yellow-multiply pe-2">
+                        design
+                      </span>
+                      <span className="semi-bold bg-yellow-multiply pe-2">
+                        develop
+                      </span>
+                      <span className="semi-bold bg-yellow-multiply pe-2">
+                        deliver
+                      </span> 
                     </TextLoop>
                     <br />
-                    enterprise digital systems for your entire organization
+                    digital systems
+                    for your entire organization
                     </h1>
                   </div>
                 </Col>
-                <Col xs={10} xl={8} className="brdr-lft-mob px-0 bg-stripes py-4 d-none">
-                <div className="py-5">
-                  <h1 className="dark-grey light my-5 pb-4 pb-xl-5 pt-3 pe-5">
-                    <span className="semi-bold bg-yellow-multiply pe-2"> 
-                      <Typewriter
-                        loop
-                        cursor
-                        cursorStyle='_'
-                        typeSpeed={120}
-                        deleteSpeed={90}
-                        delaySpeed={1000}
-                        words={['We design', 'We develop', 'We deliver']}
-                        onLoop={(loopCount) =>
-                          console.log(`Just completed loop ${loopCount}`)
-                        }
-                      />
-                    </span><br/>
-                    enterprise digital systems for your entire organization
-                  </h1>  
+                <Col xl={6} className="d-flex align-items-center justify-content-center px-0">
+                <div className="w-100 " >
+                  <object type="image/svg+xml" data="/tb-light-alt.svg" className="">svg-animation</object>
                 </div>
-                </Col>
-                <Col xs={2} md={2} className="brdr-lft d-none d-xl-block">
                 </Col>
               </Row>
             </div>
 
-            {/* HERO MOBILE*/}
-            <div  className="d-md-none px-0">
-            <Col xs={12} className="px-0 bg-stripes-2 py-4">
-            <div className="py-5">
-              <h1 className="dark-grey light my-5">
-                <span className="semi-bold bg-yellow-multiply"> 
-                  <Typewriter
-                    loop
-                    cursor
-                    cursorStyle='_'
-                    typeSpeed={110}
-                    deleteSpeed={80}
-                    delaySpeed={1500}
-                    words={['We design', 'We develop', 'We deliver']}
-                    onLoop={(loopCount) =>
-                      console.log(`Just completed loop ${loopCount}`)
-                    }
-                  />
-                </span><br/>
-                enterprise digital systems for your entire organization
-              </h1>  
-            </div>
-            </Col>
-            </div>
-            <Col xs={12} lg={12} className="brdr-tp bg-stripes-2 m-0 p-0 d-flex align-items-center justify-content-center">
-              <div className="w-66 d-none d-xl-block" >
-              <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
-              </div>
-              <div className="w-100 d-xl-none" >
-              <object type="image/svg+xml" data="/tb-light-2.svg" className="hero-specs">svg-animation</object>
-              </div>
-            </Col>
-            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
-            </Col>            
-            <Col xs={12} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
-                <h2 className="light dark-grey ps-0 pe-3 mt-5 mb-5 pb-xl-3">
-                Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
-                </h2>          
-                <hr className=""/>
-              <div className="w-100 d-lg-none" >
-                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
-              </div>
-              <hr className="d-lg-none"/>
-
-                <h3 className="d-lg-none regular my-3">
-                  Client list
-                </h3>
-              <hr className="d-lg-none"/>
-                <Row className="w-full">
-                  <Col xl={6} className="">
-                  <p className="medium mb-3">
-                    Veterans Affairs Canada
-                  </p>
-                  <p className="medium my-3">
-                    Treasury Board of Canada Secretariat
-                  </p>
-                  <p className="medium my-3">
-                    Department of National Defence
-                  </p>
-                  <p className="medium my-3">
-                    National Defence and Canadian Armed Forces Ombudsman
-                  </p>
-                  <p className="medium my-3">
-                    Office of the Veterans Ombudsman
-                  </p>
-                  <p className="medium my-3">
-                    Canadian Digital Service
-                  </p>
-                  <p className="medium my-3">
-                    Canadian Revenue Agency
-                  </p>
-                  <p className="medium my-3">
-                  Employment and Social Development Canada
-                  </p>
-                  </Col>
-                  <Col xl={6}>
-                  <p className="medium mb-3">
-                  Defense Research Development Canada
-                  </p>
-                  <p className="medium my-3">
-                  Office of the Correctional Investigator
-                  </p>
-                  <p className="medium my-3">
-                  Government of Prince Edward Island
-                  </p>
-                  <p className="medium my-3">
-                  Government of New Brunswick
-                  </p>
-                  <p className="medium my-3">
-                  PEI Fisher's Association
-                  </p>
-                  <p className="medium my-3">
-                  Farm Credit Canada
-                  </p>
-                  <p className="medium my-3">
-                  Maritime Electric
-                  </p>
-                  <p className="medium my-3">
-                  American Laywer Magazine (ALM Media)
-                  </p>   
-                  </Col>
-                </Row>
-            </Col>
-            <Col lg={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-lg-block">
-              <div className="w-100" >
-                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 mt-lg-5 mt-xl-0 pt-lg-5 pt-xl-0">svg-animation</object>
-              </div>
-            </Col>        
-            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
+            <Col xs={12}  className="vh-10 bg-stripes-2">
             </Col>
 
             {/* 123 part large screens */}
@@ -313,7 +186,7 @@ export default function Home() {
                       </div>
                       </Col>
                       <Col sm={4} className="brdr-lft px-0">
-                      <div className="vh-35 d-flex align-items-center justify-content-center" >
+                      <div className="vh-35 d-flex align-items-center justify-content-center p-2" >
                         <object type="image/svg+xml" data="/engineering.svg" className="h-100 p-4">svg-animation</object>
                       </div>
                       <div className="vh-35">
@@ -564,17 +437,84 @@ export default function Home() {
         </Col>
         <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
         </Col>
-        <hr className="my-0 dark"/>
-          <Col xs={12} className="vh-100 d-flex align-items-center px-0 bg-stripes-2">
 
-              <h2 className="h1 light dark-grey py-5 d-none d-lg-block pad-rght">
-              It's our business to help your business rethink what's possible
-              </h2>
-              <h2 className="h1 light dark-grey py-5 d-lg-none">
-              It's our business to help your business rethink what's possible
-              </h2>
+        <Col xs={12} lg={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
+                <h2 className="light dark-grey ps-0 pe-3 my-4 my-xxl-5 pb-xl-3">
+                Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
+                </h2>          
+                <hr className=""/>
+              <div className="w-100 d-lg-none" >
+                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
+              </div>
+              <hr className="d-lg-none"/>
 
-          </Col>
+                <h3 className="d-lg-none regular my-3">
+                  Client list
+                </h3>
+              <hr className="d-lg-none"/>
+                <Row className="w-full">
+                  <Col xl={6} className="">
+                  <p className="medium mb-3">
+                    Veterans Affairs Canada
+                  </p>
+                  <p className="medium my-3">
+                    Treasury Board of Canada Secretariat
+                  </p>
+                  <p className="medium my-3">
+                    Department of National Defence
+                  </p>
+                  <p className="medium my-3">
+                    National Defence and Canadian Armed Forces Ombudsman
+                  </p>
+                  <p className="medium my-3">
+                    Office of the Veterans Ombudsman
+                  </p>
+                  <p className="medium my-3">
+                    Canadian Digital Service
+                  </p>
+                  <p className="medium my-3">
+                    Canadian Revenue Agency
+                  </p>
+                  <p className="medium my-3">
+                  Employment and Social Development Canada
+                  </p>
+                  </Col>
+                  <Col xl={6} className="">
+                  <p className="medium mb-3">
+                  Defense Research Development Canada
+                  </p>
+                  <p className="medium my-3">
+                  Office of the Correctional Investigator
+                  </p>
+                  <p className="medium my-3">
+                  Government of Prince Edward Island
+                  </p>
+                  <p className="medium my-3">
+                  Government of New Brunswick
+                  </p>
+                  <p className="medium my-3">
+                  PEI Fisher's Association
+                  </p>
+                  <p className="medium my-3">
+                  Farm Credit Canada
+                  </p>
+                  <p className="medium my-3">
+                  Maritime Electric
+                  </p>
+                  <p className="medium my-3">
+                  American Laywer Magazine (ALM Media)
+                  </p>   
+                  </Col>
+                </Row>
+            </Col>
+            <Col lg={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-lg-block">
+              <div className="w-100 d-flex align-items-center justify-content-center" >
+                <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
+              </div>
+            </Col>        
+
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
+        </Col>
         </Row>
         </Container>
       </main>
