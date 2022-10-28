@@ -75,7 +75,7 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
-                  <hr className="my-0 dark" />
+                  
                   <h4 className="regular py-3 my-2">       
                   <span className="red">1. From collaboration to insights</span> /
                   </h4>
@@ -142,7 +142,7 @@ export default function Home() {
                   <Col xs={2} className="">
                   </Col>
                   <Col xs={10} lg={8} className="brdr-lft px-0">
-                  <hr className="my-0 dark" />
+                  
                   <h4 className="regular py-3 my-2">       
                   <span className="red">2. From insights to code</span> /
                   </h4>
@@ -209,7 +209,7 @@ export default function Home() {
                   <Col xs={2} className="">
                     </Col>
                     <Col xs={10} lg={8} className="brdr-lft px-0">
-                    <hr className="my-0 dark" />
+                    
                     <h4 className="regular py-3 my-2">       
                     <span className="red">3. From code to implementation</span> /
                     </h4>
@@ -438,7 +438,7 @@ export default function Home() {
         <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
         </Col>
 
-        <Col xs={12} md={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
+        <Col xs={12} md={6} xl={8} className="brdr-tp px-0 bg-stripes-3">
               <h2 className="light dark-grey ps-0 pe-3 my-4 my-lg-5 pb-xl-3">
               Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
               </h2>          
@@ -507,7 +507,7 @@ export default function Home() {
                   </Col>
                 </Row>
             </Col>
-            <Col md={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-md-block">
+            <Col md={6} xl={4} className="brdr-lft brdr-tp p-0 m-0 d-none d-md-block">
               <div className="w-100 d-flex align-items-center justify-content-center" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
               </div>
