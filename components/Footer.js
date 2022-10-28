@@ -54,27 +54,6 @@ export default function Footer() {
                 </OverlayTrigger>
               </div>
 
-              <hr className=" mt-0"/>
-                <h6 className="text-muted mb-2 regular">
-                  ADDRESS
-                </h6>
-                <ul className="px-0 mb-4 mt-3 no-underline">
-                  <li>
-                    <p className="dark-grey my-0">
-                      310-176 Great George St
-                    </p>
-                  </li>
-                  <li>
-                    <p className="dark-grey my-0">
-                    PO Box 2977
-                    </p>
-                  </li>
-                  <li >
-                    <p className="dark-grey my-0">
-                      Charlottetown PE C1A 8C5
-                    </p>
-                  </li>
-                </ul>
                   
               <hr className=" mt-0"/>
                 <h6 className="text-muted regular pb-1">
@@ -82,27 +61,27 @@ export default function Footer() {
                 </h6>
                 <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2">
-                    <a href="https://www.linkedin.com/company/3094117" target="_blank" className="dark-grey mono medium link">
+                    <a href="https://www.linkedin.com/company/3094117" target="_blank" className="dark-grey small mono medium link">
                     LinkedIn
                     </a>
                   </li>
                   <li className="mb-2">
-                  <a href="https://twitter.com/ThinkingBigInc" target="_blank" className="dark-grey mono medium link">
+                  <a href="https://twitter.com/ThinkingBigInc" target="_blank" className="dark-grey small mono medium link">
                   Twitter
                   </a>
                   </li>
                   <li className="mb-2">
-                    <a href="https://medium.com/thinkingbig" target="_blank" className="dark-grey mono medium link">
+                    <a href="https://medium.com/thinkingbig" target="_blank" className="dark-grey small mono medium link">
                     Medium
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="https://www.facebook.com/thinkingbig.net/" target="_blank" className="dark-grey mono medium link">
+                    <a href="https://www.facebook.com/thinkingbig.net/" target="_blank" className="dark-grey small mono medium link">
                     Facebook
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="https://www.instagram.com/wearethinkingbig/" target="_blank" className="dark-grey mono medium link">
+                    <a href="https://www.instagram.com/wearethinkingbig/" target="_blank" className="dark-grey small mono medium link">
                     Instagram
                     </a>
                   </li>                      
@@ -113,14 +92,35 @@ export default function Footer() {
                 </h6>
                 <ul className="px-0 mb-4 uppercase no-underline">
                   <li className="mb-2">
-                    <a onClick={handleShowTerms} className="dark-grey mono medium pntr">
+                    <a onClick={handleShowTerms} className="dark-grey small mono medium pntr">
                     Terms of use
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a onClick={handleShowPrivacy} className="dark-grey mono medium pntr">
+                    <a onClick={handleShowPrivacy} className="dark-grey small mono medium pntr">
                     Privacy policy
                     </a>
+                  </li>
+                </ul>
+                <hr className=" mt-0"/>
+                <h6 className="text-muted mb-2 regular">
+                  ADDRESS
+                </h6>
+                <ul className="px-0 mb-4 mt-3 text-muted no-underline">
+                  <li>
+                    <p className="my-0">
+                      310-176 Great George St
+                    </p>
+                  </li>
+                  <li>
+                    <p className="my-0">
+                    PO Box 2977
+                    </p>
+                  </li>
+                  <li >
+                    <p className="my-0">
+                      Charlottetown PE C1A 8C5
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -269,7 +269,7 @@ export default function Footer() {
               </Modal>
 
             <Col xs={12} className="dark-grey py-4 px-0 brdr-tp bg-stripes-2 d-flex justify-content-between align-items-center">
-                <p className="mono my-0 text-muted medium">
+                <p className="mono my-0 text-muted ">
                 © THINKING/BIG 2022
                 </p>
                 <Link href="/">
