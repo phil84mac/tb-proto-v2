@@ -33,9 +33,11 @@ export default function Home() {
             {/* HERO large tablet and above */}
             <div className="bg-stripes-2">
               <Row fluid className="py-5">
-                <Col xl={6} className="px-0">
-                  <div className="">
-                    <h1 className="dark-grey light my-4 py-4 my-xl-5 py-xl-5 pe-5 pe-xl-0 pe-xxl-5">
+              <Col xl={2} className="d-none d-xl-block">
+              </Col>
+                <Col xs={12} xl={8} className="px-0">
+                  <div className="pb-5">
+                    <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 ">
                     We&nbsp; 
                     <TextLoop
                     interval={2500}
@@ -52,13 +54,17 @@ export default function Home() {
                     </TextLoop>
                     <br />
                     digital systems
-                    for your entire organization
+                    for entire organizations
                     </h1>
                   </div>
                 </Col>
-                <Col xl={6} className="d-flex align-items-center justify-content-center px-0">
+                <Col xl={2} className="d-none d-xl-block">
+                </Col>
+                <Col xl={2} className="d-none d-xl-block">
+                </Col>
+                <Col xs={12} xl={8} className="d-flex align-items-center justify-content-end px-0">
                 <div className="w-100 " >
-                  <object type="image/svg+xml" data="/tb-light-alt.svg" className="">svg-animation</object>
+                  <object type="image/svg+xml" data="/tb-light-alt.svg" className="multiply">svg-animation</object>
                 </div>
                 </Col>
               </Row>
@@ -161,7 +167,7 @@ export default function Home() {
                     <hr className="px-0 mt-0 mb-0" />
                       <Col sm={4} className="brdr-rght px-0">
                       <div className="vh-35 d-flex align-items-center justify-content-center" >
-                        <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
+                        <object type="image/svg+xml" data="/business-services.svg" className="h-100 p-3">svg-animation</object>
                       </div>
                       <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -187,7 +193,7 @@ export default function Home() {
                       </Col>
                       <Col sm={4} className="brdr-lft px-0">
                       <div className="vh-35 d-flex align-items-center justify-content-center p-2" >
-                        <object type="image/svg+xml" data="/engineering.svg" className="h-100 p-4">svg-animation</object>
+                        <object type="image/svg+xml" data="/software-engineering.svg" className="h-100 p-2">svg-animation</object>
                       </div>
                       <div className="vh-35">
                       <hr className="px-0 mt-0 mb-0" />
@@ -228,7 +234,7 @@ export default function Home() {
                       <hr className="px-0 mt-0 mb-0" />
                         <Col sm={4} className="brdr-rght px-0">
                         <div className="vh-35 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100 p-3">svg-animation</object>
+                          <object type="image/svg+xml" data="/automated-testing.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <div className="vh-35">
                           <hr className="px-0 mt-0 mb-0" />
@@ -254,7 +260,7 @@ export default function Home() {
                         </Col>
                         <Col sm={4} className="brdr-lft px-0">
                         <div className="vh-35 d-flex align-items-center justify-content-center" >
-                          <object type="image/svg+xml" data="/maintenance-enhancement.svg" className="h-100 p-4">svg-animation</object>
+                          <object type="image/svg+xml" data="/maintenance-enhancement.svg" className="h-100 p-3">svg-animation</object>
                         </div>
                         <div className="vh-35">
                         <hr className="px-0 mt-0 mb-0" />
@@ -344,7 +350,7 @@ export default function Home() {
                 <Col md={4} className="brdr-rght-lg px-0">
                 <hr className="px-0 mt-0 mb-0" />
                 <div className="vh-25 d-flex align-items-center justify-content-center" >
-                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                  <object type="image/svg+xml" data="/business-services.svg" className="h-100">svg-animation</object>
                 </div> 
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Business services</h5>
@@ -368,7 +374,7 @@ export default function Home() {
                 <Col md={4} className="px-0">
                 <hr className="px-0 mt-0 mb-0" />
                 <div className="vh-25 d-flex align-items-center justify-content-center" >
-                  <object type="image/svg+xml" data="/engineering.svg" className="h-100">svg-animation</object>
+                  <object type="image/svg+xml" data="/software-engineering.svg" className="h-100">svg-animation</object>
                 </div> 
                 <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Software engineering</h5>
@@ -396,7 +402,7 @@ export default function Home() {
                 <Col md={4} className="brdr-rght-lg px-0">
                 <hr className="px-0 mt-0 mb-0" />
                 <div className="vh-25 d-flex align-items-center justify-content-center" >
-                  <object type="image/svg+xml" data="/puzzle-pieces.svg" className="h-100">svg-animation</object>
+                  <object type="image/svg+xml" data="/automated-testing.svg" className="h-100">svg-animation</object>
                 </div> 
                   <hr className="px-0 mt-0 mb-0" />
                   <h5 className="regular py-3 my-0">Automated testing</h5>
@@ -435,10 +441,10 @@ export default function Home() {
             </Col>
           </Row>
         </Col>
-        <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
+        <Col xs={12}  className="vh-30 brdr-tp bg-stripes-2">
         </Col>
 
-        <Col xs={12} md={6} xl={8} className="brdr-tp px-0 bg-stripes-3">
+        <Col xs={12} md={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
               <h2 className="light dark-grey ps-0 pe-3 my-4 my-lg-5 pb-xl-3">
               Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
               </h2>          
@@ -507,13 +513,13 @@ export default function Home() {
                   </Col>
                 </Row>
             </Col>
-            <Col md={6} xl={4} className="brdr-lft brdr-tp p-0 m-0 d-none d-md-block">
+            <Col md={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-md-block">
               <div className="w-100 d-flex align-items-center justify-content-center" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
               </div>
             </Col>        
 
-            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2 d-xl-none">
         </Col>
         </Row>
         </Container>
