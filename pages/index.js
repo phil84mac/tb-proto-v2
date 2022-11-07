@@ -53,8 +53,9 @@ export default function Home() {
                       </span> 
                     </TextLoop>
                     <br />
-                    digital systems
-                    for entire organizations
+                    digital systems for&nbsp; 
+                    <br className="d-none d-md-block"/>
+                    entire organizations
                     </h1>
                   </div>
                 </Col>
