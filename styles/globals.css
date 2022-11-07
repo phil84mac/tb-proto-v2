@@ -821,13 +821,11 @@ image.modern-illo {
 @media screen and (max-width: 1400px){
 
 
-
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(3rem + 1.5vw)!important;
-    line-height: calc(3rem + 1.5vw)!important;
+    font-size: calc(4rem + 1.5vw)!important;
+    line-height: calc(4rem + 1.5vw)!important;
   }
-
 
   .footer-min {
     min-height: 23vh;

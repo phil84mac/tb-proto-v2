@@ -37,7 +37,7 @@ export default function Home() {
               </Col>
                 <Col xs={12} xl={8} className="px-0">
                   <div className="pb-5">
-                    <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 ">
+                    <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 pe-5 pe-lg-0">
                     We&nbsp; 
                     <TextLoop
                     interval={2500}
