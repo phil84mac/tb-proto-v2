@@ -777,8 +777,8 @@ image.modern-illo {
 
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(8rem + 1.5vw)!important;
-    line-height: calc(7.5rem + 1.5vw)!important;
+    font-size: calc(8.25rem + 1.5vw)!important;
+    line-height: calc(7.75rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -795,8 +795,8 @@ image.modern-illo {
 
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(6.75rem + 1.5vw)!important;
-    line-height: calc(7rem + 1.5vw)!important;
+    font-size: calc(7rem + 1.5vw)!important;
+    line-height: calc(6.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -865,7 +865,7 @@ background-repeat:no-repeat;
     font-family: 'IBM Plex Sans', sans-serif;
 
     font-size: calc(6rem + 1.5vw)!important;
-    line-height: calc(6rem + 1.5vw)!important;
+    line-height: calc(5.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -916,7 +916,7 @@ background-repeat:no-repeat;
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(4.75rem + 1.5vw)!important;
+    font-size: calc(5rem + 1.5vw)!important;
     line-height: calc(4.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
@@ -958,8 +958,8 @@ background-repeat:no-repeat;
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(4.5em + 1.5vw)!important;
-    line-height: calc(4.3rem + 1.5vw)!important;
+    font-size: calc(5em + 1.5vw)!important;
+    line-height: calc(4.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 

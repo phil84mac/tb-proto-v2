@@ -57,9 +57,9 @@ export default function Home() {
                         </span> 
                       </TextLoop>
                       <br />
-                      <span className="nowrap">digital systems&nbsp; </span>
+                      <span className="nowrap">digital systems&nbsp;</span>
                       <br />
-                      and strategies
+                      <span className="nowrap">and strategies</span>
                       </h1>
                     </div> 
                 </Col>
@@ -596,9 +596,9 @@ export default function Home() {
               </div>
               <hr className="d-md-none"/>
               <Fade bottom>
-                <h3 className="d-md-none regular my-3">
+                <h4 className="d-md-none regular my-3">
                   Client list
-                </h3>
+                </h4>
               </Fade>
               <hr className="d-md-none"/>
               <Fade bottom>

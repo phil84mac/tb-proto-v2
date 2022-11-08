@@ -53,7 +53,7 @@ export default function Footer() {
                 </OverlayTrigger>
               </div>
             </Col>
-            <Col xs={12} xl={2} className="dark-grey px-0 order-2">     
+            <Col xs={12} xl={2} className="dark-grey px-0 order-2 order-xl-1">     
               <hr className=" mt-0"/>
                 <h6 className="text-muted regular pb-1">
                   SOCIAL MEDIA
@@ -86,7 +86,7 @@ export default function Footer() {
                   </li>                      
                 </ul>
               </Col>
-              <Col xs={12} xl={2} className="dark-grey px-0 order-3">
+              <Col xs={12} xl={2} className="dark-grey px-0 order-3 order-xl-2">
                 <hr className="mt-0" />
                 <h6 className="text-muted regular pb-1">
                   DOCUMENTS
@@ -104,7 +104,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </Col>
-              <Col xs={12} xl={2} className="dark-grey px-0 order-4 order-xl-1">   
+              <Col xs={12} xl={2} className="dark-grey px-0 order-4 order-xl-3">   
                 <hr className=" mt-0"/>
                 <h6 className="text-muted mb-2 regular">
                   ADDRESS
