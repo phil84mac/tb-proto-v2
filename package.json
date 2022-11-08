@@ -8,12 +8,14 @@
     "export": "next export"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.3",
     "react-dom": "^17.0.2",
     "react-fade-in": "^2.0.1",
+    "react-reveal": "^1.2.2",
     "react-simple-typewriter": "^3.0.1",
     "react-text-loop": "^2.3.0",
     "react-typewriter-effect": "^1.1.0"

@@ -26,10 +26,9 @@ export default function Footer() {
       <footer className="px-2 px-sm-4 px-lg-5"> 
       <Container fluid className="cntnr-brdr">
 
-          <Row className="brdr-tp-dark">
-            <Col xs={12} className="dark-grey bg-stripes-2 d-flex align-items-end px-0">              
-              <div className="w-100">
-
+          <Row className="brdr-tp-dark bg-stripes-2">
+            <Col xs={12} xl={2} className="dark-grey px-0 order-1 order-xl-4">              
+              
                 <h6 className="text-muted mb-1 mt-3 regular">
                   CONTACT US
                 </h6>
@@ -49,12 +48,12 @@ export default function Footer() {
                         setTooltipText('Email copied!');
                         navigator.clipboard.writeText('hello@thinkingbig.net');
                       }}>
-                    <Image fluid src="/circle-copy.svg" className="pntr copy-btn"/>
+                    <Image src="/circle-copy.svg" className="pntr copy-btn"/>
                 </Button>
                 </OverlayTrigger>
               </div>
-
-                  
+            </Col>
+            <Col xs={12} xl={2} className="dark-grey px-0 order-2">     
               <hr className=" mt-0"/>
                 <h6 className="text-muted regular pb-1">
                   SOCIAL MEDIA
@@ -86,6 +85,8 @@ export default function Footer() {
                     </a>
                   </li>                      
                 </ul>
+              </Col>
+              <Col xs={12} xl={2} className="dark-grey px-0 order-3">
                 <hr className="mt-0" />
                 <h6 className="text-muted regular pb-1">
                   DOCUMENTS
@@ -102,11 +103,13 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
+              </Col>
+              <Col xs={12} xl={2} className="dark-grey px-0 order-4 order-xl-1">   
                 <hr className=" mt-0"/>
                 <h6 className="text-muted mb-2 regular">
                   ADDRESS
                 </h6>
-                <ul className="px-0 mb-4 mt-3 text-muted no-underline">
+                <ul className="px-0 mb-4 mt-3  no-underline">
                   <li>
                     <p className="my-0">
                       310-176 Great George St
@@ -123,8 +126,10 @@ export default function Footer() {
                     </p>
                   </li>
                 </ul>
-              </div>
-              </Col>
+                </Col>
+
+
+              
 
               <Modal
               show={showTerms}
@@ -268,7 +273,7 @@ export default function Footer() {
                 </Modal.Footer>
               </Modal>
 
-            <Col xs={12} className="dark-grey py-4 px-0 brdr-tp bg-stripes-2 d-flex justify-content-between align-items-center">
+            <Col xs={12} className="dark-grey py-4 px-0 brdr-tp bg-stripes-2 d-flex justify-content-between align-items-center order-5">
                 <p className="mono my-0 text-muted ">
                 © THINKING/BIG 2022
                 </p>
