@@ -573,14 +573,14 @@ export default function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={2} lg={2} className=" brdr-lft d-none d-lg-block">
+            <Col lg={2} className=" brdr-lft d-none d-lg-block">
             </Col>
           </Row>
         </Col>
         <Col xs={12}  className="vh-30 brdr-tp bg-stripes-2">
         </Col>
 
-        <Col xl={2} className="d-none d-xxl-block brdr-tp brdr-rght">
+        <Col xxl={2} className="d-none d-xxl-block brdr-tp brdr-rght">
         </Col>
         <Col xs={12} md={6} xxl={4} className="brdr-tp-dark px-0 bg-stripes-4">
             <Fade bottom>
