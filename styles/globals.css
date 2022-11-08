@@ -93,6 +93,13 @@ body {
   background-repeat:no-repeat;
 }
 
+.bg-stripes-4 {
+  background:
+    linear-gradient(#eee 0 0) calc(1*100.1%/2);
+  background-size:1px 100%; 
+  background-repeat:no-repeat;
+}
+
 .multiply {
   mix-blend-mode: multiply;
 }
@@ -547,8 +554,8 @@ h2, .h2 {
 
 h3, .h3{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: calc(1.5rem + 1.5vw)!important;
-  line-height: calc(1.5rem + 1.5vw)!important;
+  font-size: calc(2.5rem + 1.5vw)!important;
+  line-height: calc(2.5rem + 1.5vw)!important;
   letter-spacing: -0.015em!important;
 }
 
@@ -749,6 +756,19 @@ image.modern-illo {
   white-space: nowrap;
 }
 
+/* animations */
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 
 /* large screens */
 
@@ -757,8 +777,8 @@ image.modern-illo {
 
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(6.5rem + 1.5vw)!important;
-    line-height: calc(6rem + 1.5vw)!important;
+    font-size: calc(8rem + 1.5vw)!important;
+    line-height: calc(7.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -775,8 +795,8 @@ image.modern-illo {
 
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(6rem + 1.5vw)!important;
-    line-height: calc(5.6rem + 1.5vw)!important;
+    font-size: calc(6.75rem + 1.5vw)!important;
+    line-height: calc(7rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -786,18 +806,16 @@ image.modern-illo {
     line-height: calc(4.75rem + 1.5vw)!important;
   }
 
+  h3, .h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: calc(2rem + 1.5vw)!important;
+    line-height: calc(2rem + 1.5vw)!important;
+  }
+
 }
 
 
 @media screen and (max-width: 1600px){
-
-  h1, .h1 {
-    font-family: 'IBM Plex Sans', sans-serif;
-
-    font-size: calc(4.75rem + 1.5vw)!important;
-    line-height: calc(4.5rem + 1.5vw)!important;
-    letter-spacing: -0.045em!important;
-  }
 
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -821,7 +839,6 @@ image.modern-illo {
 @media screen and (max-width: 1400px){
   
 
-
   h2, .h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: calc(4rem + 1.5vw)!important;
@@ -831,6 +848,14 @@ image.modern-illo {
   .footer-min {
     min-height: 23vh;
   }
+
+  .bg-stripes-4 {
+  background:
+  linear-gradient(#eee 0 0) calc(1*100%/3),
+  linear-gradient(#eee 0 0) calc(2*100%/3);
+background-size:1px 100%; 
+background-repeat:no-repeat;
+}
   
 }
   
@@ -839,8 +864,8 @@ image.modern-illo {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(5.5rem + 1.5vw)!important;
-    line-height: calc(5.2rem + 1.5vw)!important;
+    font-size: calc(6rem + 1.5vw)!important;
+    line-height: calc(6rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -874,6 +899,14 @@ image.modern-illo {
   min-height: 23vh;
 }
 
+.bg-stripes-4 {
+  background:
+  linear-gradient(#eee 0 0) calc(1*100%/3),
+  linear-gradient(#eee 0 0) calc(2*100%/3);
+background-size:1px 100%; 
+background-repeat:no-repeat;
+}
+
 }
 
 /* laptop */
@@ -883,8 +916,8 @@ image.modern-illo {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(5rem + 1.5vw)!important;
-    line-height: calc(4.8rem + 1.5vw)!important;
+    font-size: calc(4.75rem + 1.5vw)!important;
+    line-height: calc(4.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -900,8 +933,8 @@ image.modern-illo {
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
 
-    font-size: calc(.8rem + 1.5vw)!important;
-    line-height: calc(1rem + 1.5vw)!important;
+    font-size: calc(2rem + 1.5vw)!important;
+    line-height: calc(2rem + 1.5vw)!important;
     letter-spacing: -0.015em!important;
   }
 
@@ -912,6 +945,9 @@ image.modern-illo {
   background-size:1px 100%; 
   background-repeat:no-repeat;
 }
+
+
+
 
 }
 
@@ -937,8 +973,8 @@ image.modern-illo {
 
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(2rem + 1.5vw)!important;
-    line-height: calc(2rem + 1.5vw)!important;
+    font-size: calc(3rem + 1.5vw)!important;
+    line-height: calc(3rem + 1.5vw)!important;
   }
 
   .lead {
@@ -960,6 +996,17 @@ image.modern-illo {
       linear-gradient(#eee 0 0) calc(2*100%/6),
       linear-gradient(#eee 0 0) calc(3*100%/6),
       linear-gradient(#eee 0 0) calc(4*100%/6),
+      linear-gradient(#eee 0 0) calc(5*100%/6);
+    background-size:1px 100%; 
+    background-repeat:no-repeat;
+  }
+
+  .bg-stripes-4 {
+    background:
+      linear-gradient(#eee 0 0) calc(1*100.1%/6),
+      linear-gradient(#eee 0 0) calc(2*100%/6),
+      linear-gradient(#eee 0 0) calc(3*100%/6),
+      linear-gradient(#eee 0 0) calc(4*100.1%/6),
       linear-gradient(#eee 0 0) calc(5*100%/6);
     background-size:1px 100%; 
     background-repeat:no-repeat;
@@ -991,8 +1038,8 @@ image.modern-illo {
 
   h3, .h3{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(1.5rem + 1.5vw)!important;
-    line-height: calc(1.5rem + 1.5vw)!important;
+    font-size: calc(2rem + 1.5vw)!important;
+    line-height: calc(2.3rem + 1.5vw)!important;
   }
 
   h4, .h4 {

@@ -26,11 +26,11 @@ export default function Footer() {
       <footer className="px-2 px-sm-4 px-lg-5"> 
       <Container fluid className="cntnr-brdr">
 
-          <Row className="">
+          <Row className="brdr-tp-dark">
             <Col xs={12} className="dark-grey bg-stripes-2 d-flex align-items-end px-0">              
               <div className="w-100">
-              <hr className=" mt-0"/>
-                <h6 className="text-muted mb-1 regular">
+
+                <h6 className="text-muted mb-1 mt-3 regular">
                   CONTACT US
                 </h6>
                 <div className="d-flex align-items-center mb-2 pb-1">

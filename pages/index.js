@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import { Typewriter } from 'react-simple-typewriter';
 import Carousel from 'react-bootstrap/Carousel';
 import TextLoop from "react-text-loop";
+import FadeIn from 'react-fade-in';
 
 export default function Home() {
 
@@ -33,11 +34,11 @@ export default function Home() {
             {/* HERO large tablet and above */}
             <div className="bg-stripes-2">
               <Row fluid className="py-5">
-              <Col xl={2} className="d-none d-xl-block">
+              <Col md={2} className="d-none d-md-block">
               </Col>
-                <Col xs={12} xl={8} className="px-0">
+                <Col xs={12} md={8} className="px-0">
                   <div className="pb-5">
-                    <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 pe-5 pe-lg-0">
+                    <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 ">
                     We&nbsp; 
                     <TextLoop
                     interval={2500}
@@ -53,13 +54,13 @@ export default function Home() {
                       </span> 
                     </TextLoop>
                     <br />
-                    digital systems for&nbsp; 
-                    <br className="d-none d-md-block"/>
-                    entire organizations
+                    <span className="nowrap">digital systems&nbsp; </span>
+                    <br />
+                    and strategies
                     </h1>
                   </div>
                 </Col>
-                <Col xl={2} className="d-none d-xl-block">
+                <Col md={2} className="d-none d-md-block">
                 </Col>
                 <Col xl={2} className="d-none d-xl-block">
                 </Col>
@@ -445,10 +446,12 @@ export default function Home() {
         <Col xs={12}  className="vh-30 brdr-tp bg-stripes-2">
         </Col>
 
-        <Col xs={12} md={6} xl={8} className="brdr-tp-dark px-0 bg-stripes-3">
-              <h2 className="light dark-grey ps-0 pe-3 my-4 my-lg-5 pb-xl-3">
+        <Col xl={2} className="d-none d-xxl-block brdr-tp brdr-rght">
+        </Col>
+        <Col xs={12} md={6} xxl={4} className="brdr-tp-dark px-0 bg-stripes-4">
+              <h3 className="light dark-grey ps-0 pe-3 my-4 my-lg-5 pb-xl-3">
               Our <span className="medium">people</span>, <span className="medium">skills</span> and <span className="medium">technology</span> support the <span className="italic">most modern enterprise systems</span> in Canada.
-              </h2>          
+              </h3>          
                 <hr className=""/>
               <div className="w-100 d-md-none" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100 p-md-5 p-xl-0">svg-animation</object>
@@ -459,9 +462,9 @@ export default function Home() {
                   Client list
                 </h3>
               <hr className="d-md-none"/>
-                <Row className="w-full">
-                  <Col xl={6} className="">
-                  <p className=" mb-3">
+                <Row className="w-100 d-flex text-muted">
+                  <Col xxl={6} className="">
+                  <p className="  mb-3">
                     Veterans Affairs Canada
                   </p>
                   <p className="my-3">
@@ -486,7 +489,7 @@ export default function Home() {
                   Employment and Social Development Canada
                   </p>
                   </Col>
-                  <Col xl={6} className="">
+                  <Col xxl={6} className="">
                   <p className="mb-3">
                   Defense Research Development Canada
                   </p>
@@ -513,14 +516,17 @@ export default function Home() {
                   </p>   
                   </Col>
                 </Row>
+              
             </Col>
-            <Col md={6} xl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-md-block">
-              <div className="w-100 d-flex align-items-center justify-content-center" >
+            <Col md={6} xxl={4} className="brdr-lft brdr-tp-dark p-0 m-0 d-none d-md-block">
+              <div className="w-100 h-100 d-flex align-items-center justify-content-center" >
                 <object type="image/svg+xml" data="/modern-enterprise.svg" className="w-100">svg-animation</object>
               </div>
-            </Col>        
+            </Col> 
+            <Col xxl={2} className="d-none d-xxl-block brdr-tp brdr-lft">
+            </Col>      
 
-            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2 d-xl-none">
+            <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2 ">
         </Col>
         </Row>
         </Container>
