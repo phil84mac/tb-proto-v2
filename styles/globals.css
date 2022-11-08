@@ -777,8 +777,8 @@ image.modern-illo {
 
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(8.25rem + 1.5vw)!important;
-    line-height: calc(7.75rem + 1.5vw)!important;
+    font-size: calc(9rem + 1.5vw)!important;
+    line-height: calc(8.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
