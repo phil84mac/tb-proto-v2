@@ -602,7 +602,7 @@ export default function Home() {
               </Fade>
               <hr className="d-md-none"/>
               <Fade bottom>
-                <Row className="w-100 d-flex text-muted">
+                <Row className="w-100 d-flex">
                   <Col xxl={6} className="">
                   <p className="  mb-3">
                     Veterans Affairs Canada
