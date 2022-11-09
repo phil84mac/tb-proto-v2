@@ -31,15 +31,16 @@ export default function Footer() {
             </Col>
           <Col xs={12} xxl={8}>
           <Row className="brdr-tp-dark bg-stripes-footer">
-            <Col xs={12} className="dark-grey px-0 ">              
-              
-                <h6 className="text-muted mb-1 mt-3 regular">
+            <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-4">              
+              <hr className=" mt-0"/>
+                <h6 className="text-muted regular mb-0 mb-xxl-1">
                   CONTACT US
                 </h6>
-                <div className="d-flex align-items-center mb-2 pb-1">
-                <a href="mailto:hello@thinkingbig.net"  className="mono no-underline medium dark-grey link py-2 nowrap me-3 small">
+                <div className="mb-2">
+                <a href="mailto:hello@thinkingbig.net"  className="mono no-underline medium dark-grey link nowrap me-2 small">
                   HELLO@THINKINGBIG.NET
                 </a>
+
                 <OverlayTrigger 
                   placement='auto'
                   overlay={
@@ -52,12 +53,12 @@ export default function Footer() {
                         setTooltipText('Email copied!');
                         navigator.clipboard.writeText('hello@thinkingbig.net');
                       }}>
-                    <Image src="/circle-copy.svg" className="pntr copy-btn"/>
+                    <Image fluid src="/circle-copy.svg" className="pntr copy-btn"/>
                 </Button>
                 </OverlayTrigger>
               </div>
             </Col>
-            <Col xs={12} className="dark-grey px-0 ">     
+            <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-1">     
               <hr className=" mt-0"/>
                 <h6 className="text-muted regular pb-1">
                   SOCIAL MEDIA
@@ -90,7 +91,7 @@ export default function Footer() {
                   </li>                      
                 </ul>
               </Col>
-              <Col xs={12} className="dark-grey px-0">
+              <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-2">
                 <hr className="mt-0" />
                 <h6 className="text-muted regular pb-1">
                   DOCUMENTS
@@ -108,12 +109,12 @@ export default function Footer() {
                   </li>
                 </ul>
               </Col>
-              <Col xs={12} className="dark-grey px-0">   
+              <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-3">   
                 <hr className=" mt-0"/>
-                <h6 className="text-muted mb-2 regular">
+                <h6 className="text-muted mb- regular">
                   ADDRESS
                 </h6>
-                <ul className="px-0 mb-4 mt-3  no-underline">
+                <ul className="px-0 mb-4 mt-2 pt-1  no-underline">
                   <li>
                     <p className="my-0">
                       310-176 Great George St
@@ -144,7 +145,7 @@ export default function Footer() {
               className="py-4"
               > 
                 <Modal.Header closeButton>
-                  <Modal.Title className="h3 medium px-3 py-3">
+                  <Modal.Title className=" medium px-3 py-3">
                     Terms of Use
                   </Modal.Title>
                 </Modal.Header>
@@ -229,7 +230,7 @@ export default function Footer() {
               className="py-4"
               > 
                 <Modal.Header closeButton>
-                <Modal.Title className="h3 medium px-3 py-3">
+                <Modal.Title className=" medium px-3 py-3">
                     Privacy
                   </Modal.Title>
                 </Modal.Header>
@@ -278,7 +279,7 @@ export default function Footer() {
               </Modal>
 
 
-            <Col xs={12} className="dark-grey py-4 px-0 brdr-tp d-flex justify-content-between align-items-center">
+            <Col xs={12} className="dark-grey py-4 px-0 brdr-tp d-flex justify-content-between align-items-center order-xxl-5">
                 <p className="mono my-0 text-muted ">
                 © THINKING/BIG 2022
                 </p>
