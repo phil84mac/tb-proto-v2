@@ -33,10 +33,10 @@ export default function Footer() {
           <Row className="brdr-tp-dark bg-stripes-footer">
             <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-4">              
               <hr className=" mt-0"/>
-                <h6 className="text-muted regular mb-0 mb-xxl-1">
+                <h6 className="text-muted regular mb-0 ">
                   CONTACT US
                 </h6>
-                <div className="mb-2">
+                <div className="mb-2 mt-0">
                 <a href="mailto:hello@thinkingbig.net"  className="mono no-underline medium dark-grey link nowrap me-2 small">
                   HELLO@THINKINGBIG.NET
                 </a>
