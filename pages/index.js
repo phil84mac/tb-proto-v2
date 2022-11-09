@@ -596,9 +596,7 @@ export default function Home() {
               </div>
               <hr className="d-md-none"/>
               <Fade bottom>
-                <h4 className="d-md-none regular my-3">
-                  Client list
-                </h4>
+                <h4 className="regular d-md-none">Client list</h4>
               </Fade>
               <hr className="d-md-none"/>
               <Fade bottom>
