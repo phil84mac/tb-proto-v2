@@ -41,18 +41,18 @@ export default function Home() {
               </Col>
                 <Col xs={12} md={8} className="px-0">
                     <div className="pb-5">
-                      <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 animate__animated animate__fadeInUp">
+                      <h1 className="dark-grey light my-4 py-4 my-xl-5 pb-xl-5 multiply animate__animated animate__fadeInUp">
                       We&nbsp; 
                       <TextLoop
                       interval={2500}
                       className="multiply">
-                        <span className="semi-bold bg-yellow-multiply pe-2">
+                        <span className="semi-bold bg-yellow-multiply multiply pe-2">
                           design
                         </span>
-                        <span className="semi-bold bg-yellow-multiply pe-2">
+                        <span className="semi-bold bg-yellow-multiply multiply pe-2">
                           develop
                         </span>
-                        <span className="semi-bold bg-yellow-multiply pe-2">
+                        <span className="semi-bold bg-yellow-multiply multiply pe-2">
                           deliver
                         </span> 
                       </TextLoop>
