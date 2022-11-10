@@ -354,7 +354,7 @@ export default function Home() {
         {/* 123 part laptop and below */}
         <Col xs={12} className="d-xxl-none">
           <Row>
-            <Col xs={12} className="px-0">
+            <Col xs={12} className="px-0 brdr-tp">
             
             <Fade bottom>
             <h4 className="regular py-3 mb-0">       
@@ -429,7 +429,7 @@ export default function Home() {
             </Col>            
             <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
-            <Col xs={12} className="px-0">
+            <Col xs={12} className="px-0 brdr-tp">
             
             <Fade bottom>
             <h4 className="regular py-3 mb-0">       
@@ -503,7 +503,7 @@ export default function Home() {
             </Col>
             <Col xs={12}  className="vh-20 brdr-tp bg-stripes-2">
             </Col>
-            <Col xs={12} className="px-0">
+            <Col xs={12} className="px-0 brdr-tp">
             
             <Fade bottom>
             <h4 className="regular py-3 mb-0">       
