@@ -26,12 +26,9 @@ export default function Footer() {
       <footer className="px-2 px-sm-4 px-lg-5"> 
       <Container fluid className="cntnr-brdr">
         <Row>
-
-            <Col xxl={2} className="d-none d-xxl-block brdr-tp brdr-rght">
-            </Col>
-          <Col xs={12} xxl={8}>
+          <Col xs={12} >
           <Row className="brdr-tp-dark bg-stripes-footer">
-            <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-4">              
+            <Col xs={12} xl={3} className="dark-grey px-0 order-xl-4">              
               <hr className=" mt-0"/>
                 <h6 className="text-muted regular mb-0 ">
                   CONTACT US
@@ -58,7 +55,7 @@ export default function Footer() {
                 </OverlayTrigger>
               </div>
             </Col>
-            <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-1">     
+            <Col xs={12} xl={3} className="dark-grey px-0 order-xl-1">     
               <hr className=" mt-0"/>
                 <h6 className="text-muted regular pb-1">
                   SOCIAL MEDIA
@@ -91,7 +88,7 @@ export default function Footer() {
                   </li>                      
                 </ul>
               </Col>
-              <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-2">
+              <Col xs={12} xl={3} className="dark-grey px-0 order-xl-3">
                 <hr className="mt-0" />
                 <h6 className="text-muted regular pb-1">
                   DOCUMENTS
@@ -109,7 +106,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </Col>
-              <Col xs={12} xxl={3} className="dark-grey px-0 order-xxl-3">   
+              <Col xs={12} xl={3} className="dark-grey px-0 order-xl-2">   
                 <hr className=" mt-0"/>
                 <h6 className="text-muted mb- regular">
                   ADDRESS
@@ -279,7 +276,7 @@ export default function Footer() {
               </Modal>
 
 
-            <Col xs={12} className="dark-grey py-4 px-0 brdr-tp d-flex justify-content-between align-items-center order-xxl-5">
+            <Col xs={12} className="dark-grey bg-stripes-2 py-4 px-0 brdr-tp d-flex justify-content-between align-items-center order-xl-5">
                 <p className="mono my-0 text-muted ">
                 © THINKING/BIG 2022
                 </p>
@@ -289,8 +286,6 @@ export default function Footer() {
             </Col>
           </Row>   
        
-          </Col>
-          <Col xxl={2} className="d-none d-xxl-block brdr-tp brdr-lft">
           </Col>
         </Row>
         </Container>
